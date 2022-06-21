@@ -1,0 +1,21 @@
+composer:
+  last: Homilius
+  first: Gottfried August
+title: Wir gingen alle in die Irre
+subtitle: Paſſions-Cantate
+id: HoWV I.9
+genre: passion
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 fl, 2 ob, 2 fag, 2 cor, 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-BNu
+    shelfmark: Ec 90.8
+    date: 1751–1780
+    rism: 450063700
+    url: https://nbn-resolving.de/urn:nbn:de:hbz:5:1-263266
+    license: public domain
+    principal: true
+imslp: Wir_gingen_alle_in_der_Irre%2C_HoWV_I.9_(Homilius%2C_Gottfried_August)
+parts:
+  cor12: Corno I, II in

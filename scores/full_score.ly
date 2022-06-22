@@ -40,42 +40,46 @@
             \NunIhrViola
           }
         >>
-        \new ChoirStaff <<
+        \new ChoirStaff \with { \twoStanzaDistance } <<
           \new Staff {
             \incipitSoprano
             \new Voice = "Soprano" { \dynamicUp \NunIhrSoprano }
           }
-          \new Lyrics \lyricsto Soprano \NunIhrSopranoLyrics
+          \new Lyrics \lyricsto Soprano \NunIhrSopranoLyricsA
+          \new Lyrics \lyricsto Soprano \NunIhrSopranoLyricsB
 
           \new Staff {
             \incipitAlto
             \new Voice = "Alto" { \dynamicUp \NunIhrAlto }
           }
-          \new Lyrics \lyricsto Alto \NunIhrAltoLyrics
+          \new Lyrics \lyricsto Alto \NunIhrAltoLyricsA
+          \new Lyrics \lyricsto Alto \NunIhrAltoLyricsB
 
           \new Staff {
             \incipitTenore
             \new Voice = "Tenore" { \dynamicUp \NunIhrTenore }
           }
-          \new Lyrics \lyricsto Tenore \NunIhrTenoreLyrics
+          \new Lyrics \lyricsto Tenore \NunIhrTenoreLyricsA
+          \new Lyrics \lyricsto Tenore \NunIhrTenoreLyricsB
 
           \new Staff {
             \set Staff.instrumentName = "Basso"
             \new Voice = "Basso" { \dynamicUp \NunIhrBasso }
           }
-          \new Lyrics \lyricsto Basso \NunIhrBassoLyrics
+          \new Lyrics \lyricsto Basso \NunIhrBassoLyricsA
+          \new Lyrics \lyricsto Basso \NunIhrBassoLyricsB
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "Fondamento"
-            % \transpose c c,
+            \transpose c c,
             \NunIhrFondamento
           }
         >>
         \new FiguredBass { \NunIhrBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 2 = 90 }
     }
   }
   % \bookpart {

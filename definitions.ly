@@ -6,6 +6,10 @@
 \include "ees.ly"
 
 
+twoStanzaDistance = \setGroupDistance #15 #20
+twoStanzaDistanceCoro = \setGroupDistance #13 #13
+
+
 tempoNunIhr = \tempoMarkup "Choral"
 
 

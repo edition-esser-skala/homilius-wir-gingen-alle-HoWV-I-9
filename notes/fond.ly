@@ -301,3 +301,57 @@ WirGingenBassFigures = \figuremode {
   <7 5 4>2 <\t \t _+>
   r1 %129 finis
 }
+
+BewahreDochFondamento = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoBewahreDoch
+    h1~
+    h2 c
+    gis a~
+    a d~
+    d1 %5
+    r4 e dis2~
+    dis e~
+    e e
+    fis g
+    c,1 %10
+    r4 d g,2
+    g e'
+    cis r16. d32 fis16. a32 d16. d,32 fis16. a32
+    d4 r r2
+    r8 d,16.\trill-\unisono cis32 d4 r8 cis16.\trill h32 cis4 %15
+    r8 d16.\trill cis32 d4 r8 a' fis d
+    r16. a32 cis16. e32 a16. a,32 cis16. e32 a4 r
+    r2 r16. a,32-\unisono cis16. e32 g4
+    r8 fis16.\trill-\unisono e32 fis4 r8 g16.\trill fis32 g4
+    r8 a16.\trill gis32 a4 r8 d,16.\trill e32 fis8 g? %20
+    a a a a r16. d,32-\unisono fis16. a32 d16. cis32 h16. a32
+    g16. fis32 e16. d32 a'8 a, d4 r\fermata \bar "|." %22 finis
+  }
+}
+
+BewahreDochBassFigures = \figuremode {
+  <6>1
+  r
+  <6>
+  r2 <6>
+  r1 %5
+  r4 <_+> \bo <6 [_+]>2
+  <7 \t>4 \bc <6 [\t]>2.
+  r2 <6>
+  <6 5>1
+  r2 <4+ 2> %10
+  r4 <_+>2.
+  r2 <6\\>
+  <6 5> <_+> \bassFigureExtendersOn
+  q4 \bassFigureExtendersOff r2.
+  r1 %15
+  r2 r8 <_+> <6> <_+>
+  <_+>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff r
+  r2. <4+ 2>4
+  r1
+  r2.. <6>8 %20
+  <6+ 4>4 <5 _+>2.
+  r4. <7 _+>8 <_+>2 %22 finis
+}

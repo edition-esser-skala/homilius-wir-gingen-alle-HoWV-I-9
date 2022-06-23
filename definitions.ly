@@ -15,6 +15,7 @@ stark = \markup \remark "st[ark]"
 tempoNunIhr = \tempoMarkup "Choral"
 tempoWirGingen = \tempoMarkup "Betrübt und langſam"
   tempoAberDer = \tempoMarkup "[Alla breve]"
+tempoBewahreDoch = \tempoMarkup "Recitativ"
 
 
 \include "notes/fl1.ly"

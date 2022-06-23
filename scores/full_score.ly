@@ -3,6 +3,12 @@
 \include "../definitions.ly"
 \include "score_settings/full-score.ly"
 
+paperTwoStaves = \paper {
+  system-system-spacing.basic-distance = #21
+  system-system-spacing.minimum-distance = #21
+  systems-per-page = #5
+}
+
 \book {
   % \bookpart {
   %   \section "1" "Choral" "Nun ihr meine Augenlieder"
@@ -82,99 +88,129 @@
   %     \midi { \tempo 2 = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2" "Coro" "Wir gingen alle in die Irre"
+  %   \addTocLabel "wirgingen"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "fl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \WirGingenFlautoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \WirGingenFlautoII
+  %           }
+  %         >>
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \WirGingenOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \WirGingenOboeII
+  %           }
+  %         >>
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "fag"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \WirGingenFagottoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \WirGingenFagottoII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \WirGingenViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \WirGingenViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \WirGingenViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \WirGingenSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \WirGingenSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \WirGingenAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \WirGingenAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \WirGingenTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \WirGingenTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \WirGingenBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \WirGingenBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \WirGingenFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \WirGingenBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 2 = 60 }
+  %   }
+  % }
   \bookpart {
-    \section "2" "Coro" "Wir gingen alle in die Irre"
-    \addTocLabel "wirgingen"
+    \section "3" "Recitativo" "Bewahre doch, Judäa, dieſes Wort"
+    \addTocLabel "bewahredoch"
+    \paper {
+      system-system-spacing.basic-distance = #18
+      system-system-spacing.minimum-distance = #18
+      systems-per-page = #6
+    }
     \score {
       <<
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "fl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \WirGingenFlautoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \WirGingenFlautoII
-            }
-          >>
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "ob"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \WirGingenOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \WirGingenOboeII
-            }
-          >>
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "fag"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \WirGingenFagottoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \WirGingenFagottoII
-            }
-          >>
-        >>
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \WirGingenViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \WirGingenViolinoII
-            }
-          >>
-          \new Staff {
-            \set Staff.instrumentName = "vla"
-            \WirGingenViola
-          }
-        >>
-        \new ChoirStaff <<
+        \new ChoirStaff \with { \smallGroupDistance } <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \WirGingenSoprano }
+            \new Voice = "Soprano" { \dynamicUp \BewahreDochSoprano }
           }
-          \new Lyrics \lyricsto Soprano \WirGingenSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \WirGingenAlto }
-          }
-          \new Lyrics \lyricsto Alto \WirGingenAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \WirGingenTenore }
-          }
-          \new Lyrics \lyricsto Tenore \WirGingenTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \WirGingenBasso }
-          }
-          \new Lyrics \lyricsto Basso \WirGingenBassoLyrics
+          \new Lyrics \lyricsto Soprano \BewahreDochSopranoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \WirGingenFondamento
+            \BewahreDochFondamento
           }
         >>
-        \new FiguredBass { \WirGingenBassFigures }
+        \new FiguredBass { \BewahreDochBassFigures }
       >>
       \layout { }
-      \midi { \tempo 2 = 60 }
+      \midi { \tempo 4 = 65 }
     }
   }
 }

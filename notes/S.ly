@@ -235,3 +235,56 @@ WirGingenSopranoLyrics = \lyricmode {
   auf
   Ihn. %129 finis
 }
+
+BewahreDochSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoBewahreDoch
+    r8 d' d h g4 r8 d'
+    g d f e c4 r16 e e e
+    e8 h d c a a r e
+    a a a c h8. h16 h8 a
+    h h r d f d h c %5
+    a4^\critnote r r h
+    c8 a fis h g4 r8 h
+    h h e d c4 r8 c
+    c c d a h h r h
+    e e e c fis fis fis g %10
+    d d r4 r r8 d
+    h h a g cis4 e~
+    e8 g,16 a h8 a fis4 r
+    r8 d fis a d d, fis a
+    d4 r8 fis e8. a,16 a8 g' %15
+    fis8. e16 d8 a' cis,4 d
+    e r r8 a, cis e
+    a a, cis e a4 r16. a,32 cis16. a32
+    d4 r16. fis32 d16. a32 h4 r8 e
+    \appoggiatura d cis8. h16 a8 g' \appoggiatura g fis8. e16 d8 e %20
+    a,4 e'\trill d r
+    R1\fermata \bar "|." %22 finis
+  }
+}
+
+BewahreDochSopranoLyrics = \lyricmode {
+  Be -- wah -- re doch, Ju --
+  dä -- a, die -- ſes Wort. Nun iſt Meſ --
+  ſi -- as auf -- ge -- tre -- ten, von
+  dem der Mund glaub -- wür -- di -- ger Pro --
+  phe -- ten ſchon längſt ge -- ſpro -- chen %5
+  hat. Merk,
+  was er für dich that, da
+  nach dem ew -- gen Rath der
+  Va -- ter Ihn ver -- ſand -- te, und
+  die -- ſen Sohn zum Hei -- land dir er -- %10
+  nann -- te. Dir
+  macht ſein eig -- ner Mund ſelbſt __
+  die Ge -- ſchich -- te kund.
+  Die Kel -- ter tret ich ganz al --
+  lein, kein Sterb -- li -- cher, kein %15
+  Sterb -- li -- cher ſoll mit mir
+  ſeyn, die Kel -- ter
+  tret ich ganz al -- lein, ich ganz al --
+  lein, ich ganz al -- lein, kein
+  Sterb -- li -- cher, kein Sterb -- li -- cher ſoll %20
+  mit mir ſeyn! %21 finis
+}

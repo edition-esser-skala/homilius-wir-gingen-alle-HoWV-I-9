@@ -48,8 +48,8 @@ WirGingenSoprano = {
     g r r2
     r8 g a b a g a b
     a g a b b4 a8 a %25
-    a4 g8 c^\gelinde c4 h
-    r8 b^\stark b b16 b a8 b16 c d8 d
+    a4 g8 c\p c4 h
+    r8 b\f b b16 b a8 b16 c d8 d
     c4 r8 b a4 g\trill
     f r r2
     R1*3 %32
@@ -287,4 +287,118 @@ BewahreDochSopranoLyrics = \lyricmode {
   lein, ich ganz al -- lein, kein
   Sterb -- li -- cher, kein Sterb -- li -- cher ſoll %20
   mit mir ſeyn! %21 finis
+}
+
+EntzieheDichSoprano = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \autoBeamOff \tempoEntzieheDich
+    R1*11 \bar "S-S" %11
+    r8 \mvTr e'\pE^\soloE a, gis a8. cis16 \tuplet 3/2 8 { h([ cis d)] cis([ d e)] } \noBreak
+    \appoggiatura e d8 cis r e e4( fis8) a,
+    \appoggiatura a gis8. a16 h8. cis16 \tuplet 3/2 8 { h([ cis d)] } cis8 r a'
+    gis32([ fis16.)] e32([ d16.)] cis32([ h16.)] a32([ gis16.)] a8( d4) cis8 %15
+    \appoggiatura d16 cis8([ h)] r e, h'8. d16 cis8. e16
+    \tuplet 3/2 8 { d([ e fis] } e4) d8 cis16([ h)] a8 r h
+    h4( cis8) dis e8. gis16 fis8. e16
+    dis4 cis h a
+    gis8 fis r h e,32([ fis16.)] gis32([ a16.)] h32([ cis16.)] dis32([ e16.)] %20
+    a,8.[ h16] cis[ a gis fis] gis8.[ a16] h[ gis fis e]
+    cis'[ a gis fis] dis'[ h a gis] e'[ cis h a] \tuplet 3/2 8 { fis'[ e dis] cis[ h a] }
+    gis8.([ a32 h)] a8.([ h32 cis)] h8 e4 cis16([ a)]
+    \appoggiatura gis8 fis4 r8 h cis16([ a)] fis([ dis)] e8 h'
+    cis16([ a)] fis([ dis)] e8 h' cis a fis dis' %25
+    e8.([ fis16)] \appoggiatura e8 dis4\trill e r
+    R1*6 %32
+    r8 e cis ais h8. d!16 \tuplet 3/2 8 { cis([ d e)] d([ e fis)] }
+    \appoggiatura fis e8 d r fis fis4( g8) h,
+    \appoggiatura h ais8. h16 cis8. d16 \tuplet 3/2 8 { cis([ d e]) } d8 r fis %35
+    \appoggiatura fis e4. d8 \appoggiatura d4 cis4. a'8
+    gis32([ fis16.)] e32([ d16.)] cis32([ h16.)] a32([ gis16.)] a8( d4) cis8
+    \appoggiatura cis h4 r r8 e a, gis
+    a8. cis16 \tuplet 3/2 8 { h([ cis d)] cis([ d e)] } \appoggiatura e d8 cis r e
+    e4( fis8) a, \appoggiatura a gis8. a16 h8. cis16 %40
+    \tuplet 3/2 8 { h([ cis d)] } cis8 r e g32([ fis16.)] e32([ d16.)] cis32([ h16.)] a32([ g16.)]
+    fis4~ fis16[ a gis h] a[ gis a h] cis[ a gis fis]
+    gis4~ gis16[ h a cis] h[ a h cis] d[ h a gis]
+    a8.([ h32 cis)] h8.([ cis32 d)] cis8.([ d32 e)] d8.([ e32 fis)]
+    e8 a4 fis16([ d)] \appoggiatura cis8 h4 r8 e %45
+    fis16([ d)] h([ gis)] a8 e' fis16([ d)] h([ gis)] a8 e'
+    fis d h gis \tuplet 3/2 8 { a16([ a' gis] fis[ e d)] } \appoggiatura cis8 h4\trill
+    a r r8 fis' e4
+    r8 fis e4 r8 fis d h
+    gis e'16([ cis)] a2.~ %50
+    a1~
+    a2.\fermata h4\trill
+    a4 r r2
+    R1*6 %59
+    r8\fermata e' a, gis a e' a4~ %60
+    a g fis8 e r a,
+    e'4 r8 a, fis'4 r8 a,
+    e' a, a e' fis16([ e)] d8 r fis
+    e8. fis16 g[ e d cis] d8.([ e32 fis)] e8.([ fis32 g)]
+    fis8.[ g16] a[ fis] e([ d)] e,4 cis'\trill %65
+    d r8 fis, e'4 r8 fis,
+    d'4 r8 fis, cis' fis, fis cis'
+    d16([ cis)] h8 r h h e, e h'
+    cis16([ h)] a8 r cis h8. cis16 d[ h a gis]
+    a8.[ h16] cis[ a gis fis] fis'8.([\trill e32 d)] cis8[ h] %70
+    a8.([ h32 cis)] h8.([ cis32 d)] cis16([ fis e d]) cis([ h a)] gis
+    cis,4 gis''\trill\fermata fis r
+    R1*4 \bar "S-S" %76 finis
+  }
+}
+
+EntzieheDichSopranoLyrics = \lyricmode {
+  Ent -- zie -- he dich den eit -- len %12
+  Freu -- den, und ſchau, __ o
+  Menſch, auf Je -- ſu Lei -- den, ſein
+  Blut fließt um dein Wohl -- er -- %15
+  gehn, ent -- zie -- he dich den
+  eit -- len Freu -- den, und
+  ſchau, __ o Menſch, auf Je -- ſu
+  Lei -- _ _ _
+  _ den, ſein Blut fließt um dein %20
+  Wohl -- _ _ _
+  _ _ _ _ _
+  _ _ _ _ er --
+  gehn, ſein Blut fließt um dein
+  Wohl -- er -- gehn, ſein Blut fließt um dein %25
+  Wohl -- er -- gehn.
+
+  Ent -- zie -- he dich den eit -- len %33
+  Freu -- den, und ſchau, __ o
+  Menſch, auf Je -- ſu Lei -- den, ſein %35
+  Blut, o Menſch, ſein
+  Blut fließt um dein Wohl -- er --
+  gehn, ent -- zie -- he
+  dich den eit -- len Freu -- den, und
+  ſchau, __ o Menſch, auf Je -- ſu %40
+  Lei -- den, ſein Blut fließt um dein
+  Wohl -- _ _
+  _ _ _
+  _ _ _ _
+  _ _ er -- gehn, ſein %45
+  Blut fließt um dein Wohl -- er -- gehn, ſein
+  Blut fließt um dein Wohl -- er --
+  gehn, ſein Blut,
+  ſein Blut, ſein Blut fließt
+  um dein Wohl -- %50
+
+  er --
+  gehn.
+
+  Dieß ſind des Lam -- mes har -- %60
+  te Krie -- ge, ge --
+  troſt, ge -- troſt, dem
+  Hei -- land ſind die Sie -- ge, der
+  wird zum Le -- _ _
+  _ _ ben dich er -- %65
+  höhn, ge -- troſt, ge --
+  troſt, dem Hei -- land ſind die
+  Sie -- ge, dem Hei -- land ſind die
+  Sie -- ge, der wird zum Le --
+  _ _ _ _ %70
+  _ _ _ _ ben
+  dich er -- höhn. %72 finis
 }

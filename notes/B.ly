@@ -47,8 +47,8 @@ WirGingenBasso = {
     c r r2
     r8 c'16([ b!)] a!([ g)] f([ e)] f([ a)] c([ b)] a([ g)] f([ e)]
     f([ a)] c([ b)] a([ g)] f([ e)] f4 h,8 h %25
-    c4 c8 c^\gelinde d4 d
-    r8 e^\stark e e16 e f8 g16 a b8 b
+    c4 c8 c\p d4 d
+    r8 e^\f e e16 e f8 g16 a b8 b
     a4 r8 b c4 c,
     f r r2
     R1*3 %32

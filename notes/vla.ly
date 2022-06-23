@@ -147,3 +147,86 @@ WirGingenViola = {
     a\breve*1/2\fermata \bar "|." %129 finis
   }
 }
+
+EntzieheDichViola = {
+  \relative c' {
+    \clef alto
+    \key a \major \time 4/4 \tempoEntzieheDich
+    cis4\fE r8 d e e e e
+    e e a,4 r8 a' d, cis
+    h e e e e e r e
+    e4 r8 cis cis e4 fis8
+    e e, e4 r8 cis' cis cis' %5
+    fis,4 fis r8 h, h h'
+    e,4 e fis r8 h,
+    h e d cis r d e e
+    r d e e fis4 h,
+    r8 d\p e e r d e e \noBreak %10
+    fis4 h, e8\f fis e d \bar "S-S"
+    cis a16[\p h] cis8 h a e' e e \noBreak
+    e e a,4 r8 e' d cis
+    h e e e e e r e
+    e4 r8 cis cis e4 fis8 %15
+    e e, e4 r8 e' e e
+    fis4 r8 e e4 r8 e
+    e4 r8 fis h,4 fis'
+    fis8 h, h h h h h h
+    h4 r8 dis e4 r8 gis %20
+    e cis r h h h r h
+    a a h h cis cis h h
+    h h cis a e'4 cis
+    r8 h a gis r a h h
+    r a h h a4 h %25
+    h8 cis h a gis4 r8 a\f
+    h h' h h h h e,4
+    r8 e' a, gis fis h h h
+    h h e, e cis' e, a cis
+    h h gis e cis h h h %30
+    h4 r r8 a h h
+    r a h h cis4 fis,
+    gis r r8 fis'\p fis fis
+    fis fis h,4 r8 fis' e d
+    cis fis fis fis fis fis h,4 %35
+    r8 e e e r e e e
+    e4 r8 cis cis e4 fis8
+    e e, e' d cis4 cis8 h
+    a e' e e e e a,4
+    r8 e' d cis h e e e %40
+    e e a, a a4 r8 a
+    a a a h a cis r h
+    h h h cis h d r d
+    cis cis h h a a a a
+    e'4 fis r8 e d cis %45
+    r d e e r d e e
+    fis4 r8 h, e fis e d
+    cis e\f a a, r d\p e e
+    r d e e fis4 r
+    r r8 e\f fis fis fis fis %50
+    cis a' a cis, d a' a a,\ff
+    a4 r8 fis' e4 r\fermata
+    r r8 e e4 r8 cis
+    cis e4 fis8 e e, e4
+    r8 cis' cis cis' fis,4 fis %55
+    r8 h, h h' e,4 e
+    fis r8 h, h e d cis
+    r d e e r d e e
+    fis4 h, e8 fis e d
+    cis4\fermata r8 d\pE e cis r d %60
+    d4 a a'8 a, a4
+    r8 e' e e a, a' a4
+    r8 e e e a, a' a a
+    g g r e d4 cis8 e
+    d4 r8 d h4 a %65
+    a r r8 cis cis cis'
+    fis,4 fis r8 cis cis cis'
+    fis,4 fis r8 h, h h'
+    e,4 e r8 d h h
+    r cis a a a4 r8 h %70
+    cis4 h a r8 h
+    cis4\fE r\fermata r fis\ffE
+    r8 fis fis fis h,4 r8 d!
+    cis e4 fis8 e e d cis
+    r d e e r d e e %75
+    fis4 h, e8 fis e d \bar "S-S" %76 finis
+  }
+}

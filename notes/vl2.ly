@@ -140,3 +140,86 @@ WirGingenViolinoII = {
     f\breve*1/2\fermata \bar "|." %129 finis
   }
 }
+
+EntzieheDichViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \tempoEntzieheDich
+    r8 e'\fE a, gis a8. a16 \tuplet 3/2 8 { gis([ a h)] a( h cis) }
+    \appoggiatura cis h8 a r e' e4( fis8) fis,
+    \appoggiatura fis e8.[ fis16 gis8. a16] \tuplet 3/2 8 { gis([ a h)] } a8 r a'
+    gis32( fis16.) e32( d16.) cis32( h16.) a32( gis16.) a8 h4 a8
+    \appoggiatura h16 a8 gis r8. e'16 e fis, fis4 e'8 %5
+    d8.\trill fis16 h8. d,16 d e, e4 d'8
+    cis8.\trill e16 a8. cis,16 cis( h) d( cis) h( d) fis( a,)
+    gis fis e8 r e' fis8.\trill gis16 a( e) d( cis)
+    fis8.\trill gis16 a e d cis \tuplet 3/2 8 { h fis' e d[ cis h] } \appoggiatura a8 gis4\trill
+    fis'8.\trill\p gis16 a e d cis fis8.\trill gis16 a e d cis \noBreak %10
+    \tuplet 3/2 8 { h[( fis' e]) d( cis h) a[( gis a]) h( a gis) a([\f a' e]) d( cis h) } \appoggiatura a8 gis4\trill \bar "S-S"
+    a8 cis,16[\p d] e8 d e8. a16 \tuplet 3/2 8 { gis( a h) a[( h cis]) } \noBreak
+    \appoggiatura cis h8 a r4 r8 a a fis
+    \appoggiatura fis e8. fis16 gis8. a16 \tuplet 3/2 8 { gis([ a h)] } a8 r a'
+    gis32( fis16.) e32( d16.) cis32( h16.) a32( gis16.) a8 h4 a8 %15
+    \appoggiatura h16 a8 gis r e gis8. h16 a8. cis16
+    a4 h a8 cis, e gis
+    r e e a h4 cis~
+    cis8 h4 a gis fis8
+    e dis r h' e,32( fis16.) gis32( a16.) h32( cis16.) dis32( e16.) %20
+    a,8 a r fis e e r e~
+    e fis4 gis a fis8
+    e e e e e4( fis8) a16( fis)
+    \appoggiatura e8 dis4 r8 h' cis8.\trill dis16 e( h) a( gis)
+    cis8.\trill dis16 e( h) a( gis) \tuplet 3/2 8 { fis([ cis' h)] a( gis fis) e([ dis e)] fis( e dis) } %25
+    \tuplet 3/2 8 { e([ e' h)] a( gis fis) } \appoggiatura e8 dis4\trill e8 h''[\f e, dis]
+    e8. e16 \tuplet 3/2 8 { dis([ e fis)] e( fis gis) } \appoggiatura gis fis8 e r h'
+    h4( cis8) cis, \appoggiatura cis h8. cis16 dis8. e16
+    \tuplet 3/2 8 { dis([ e fis)] } e8 r h' h16( cis,) cis4 a'8
+    a16( h,) h4 gis'8 a, a4 gis8 %30
+    fis4 r8 h cis8.\trill dis16 e( h) a( gis)
+    cis8.\trill dis16 e( h) a( gis) \tuplet 3/2 8 { fis([ cis' h]) a( gis fis) } \appoggiatura e8 dis4\trill
+    e4 r8 cis\p fis8. h16 \tuplet 3/2 8 { ais([ h cis)] h( cis d) }
+    \appoggiatura d cis8 h r4 r8 h h gis!
+    \appoggiatura gis fis8. gis16 ais8. h16 \tuplet 3/2 8 { ais([ h cis)] } h8 r4 %35
+    r8 h h gis r e a a'
+    gis32( fis16.) e32( d16.) cis32( h16.) a32 (gis16.) a8 h4 a8
+    \appoggiatura a gis4^\critnote r r8 e' e, e
+    e8. a16 \tuplet 3/2 8 { gis([ a h)] a( h cis) } \appoggiatura cis h8 a r4
+    r8 a a fis \appoggiatura fis e8. fis16 gis8. a16 %40
+    \tuplet 3/2 8 { gis([ a h)] } a8 r cis e32( d16.) cis32( h16.) a32( g16.) fis32( e16.)
+    d8 d d d e e r fis
+    e e e e fis fis r gis
+    fis fis fis e e a a a
+    a4( h8) d16( h) \appoggiatura a8 gis4 r8 e' %45
+    fis8.\trill gis16 a( e) d( cis) fis8.\trill gis16 a( e) d( cis)
+    \tuplet 3/2 8 { h([ fis' e)] d( cis h) a([ gis a)] h( a gis) a([ a' e)] d( cis h) } \appoggiatura a8 gis4\trill
+    a32( gis16.) a32(\f h16.) cis32( d16.) e32( cis16.) fis8.\trill\p gis!16 a( e) d( cis)
+    fis8.\trillE gis16 a( e) d( cis) h4 r
+    r r8 a'\f a16( h,) h4 a'8 %50
+    a16( cis,) cis4 a'8 a16( d,) d4 e8\ff
+    d8.\trill e16 fis d cis h a4 r\fermata
+    r8 e' a, a' gis32( fis16.) e32( d16.) cis32( h16.) a32( gis16.)
+    a8 h4 a8 a gis r8. e'16
+    e fis, fis4 e'8 d8.\trill fis16 h8. d,16 %55
+    d e, e4 d'8 cis8.\trill e16 a8. cis,16
+    cis( h) d( cis) h( d) fis( a,) gis( fis) e8 r e'
+    fis8.\trill gis16 a( e) d( cis) fis8.\trill gis16 a( e) d( cis)
+    \tuplet 3/2 8 { h([ fis' e)] d( cis h) a([ gis a)] h( a gis) a([ a' e)] d( cis h) } \appoggiatura a8 gis4\trill
+    a8\fermata e'[\p a, gis] a4 r8 a %60
+    b h c cis d cis r4
+    g'16 a, a4 g'8 fis8.\trill a16 d8. fis,16
+    g a, a4 g'8 fis8.\trill a16 d8. d,16
+    h8 h r a fis h4 a8
+    a4 r8 a e4 e %65
+    fis r8 fis' e16 fis, fis4 e'8
+    d8.\trill fis16 h8. d,16 e fis, fis4 e'8
+    d8.\trill fis16 h8. d,16 d e, e4 d'8
+    cis8.\trill e16 a4 r8 fis, fis e
+    r e e d cis4 r8 eis %70
+    fis4 fis fis r8 d
+    cis8\f fis' r4\fermata r r8 fis\ff
+    fis16( h,) h4 a'8 gis32( fis16.) e32( d16.) cis32( h16.) a32( gis16.)
+    a8 h4 a8 a gis r e'
+    fis8.\trill gis16 a( e) d( cis) fis8.\trill gis16 a( e) d( cis) %75
+    \tuplet 3/2 8 { h([ fis' e)] d( cis h) a([ gis a)] h( a gis) a([ a' e)] d( cis h) } \appoggiatura a8 gis4\trill \bar "S-S" %76 finis
+  }
+}

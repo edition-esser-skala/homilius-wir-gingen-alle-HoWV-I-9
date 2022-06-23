@@ -49,8 +49,8 @@ WirGingenAlto = {
     e r r2
     r8 e f g f e f g
     f e f g g4 f8 f %25
-    f4 e8 e^\gelinde f4 f
-    r8 g^\stark g g16 g f8 f16 f f8 f
+    f4 e8 e\p f4 f
+    r8 g\f g g16 g f8 f16 f f8 f
     f4 r8 g f4 e\trill
     f r r2
     R1*3 %32

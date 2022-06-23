@@ -183,34 +183,98 @@ paperTwoStaves = \paper {
   %     \midi { \tempo 2 = 60 }
   %   }
   % }
+  % \bookpart {
+  %   \section "3" "Recitativo" "Bewahre doch, Judäa, dieſes Wort"
+  %   \addTocLabel "bewahredoch"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #18
+  %     system-system-spacing.minimum-distance = #18
+  %     systems-per-page = #6
+  %   }
+  %   \score {
+  %     <<
+  %       \new ChoirStaff \with { \smallGroupDistance } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \BewahreDochSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \BewahreDochSopranoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \BewahreDochFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \BewahreDochBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 65 }
+  %   }
+  % }
   \bookpart {
-    \section "3" "Recitativo" "Bewahre doch, Judäa, dieſes Wort"
-    \addTocLabel "bewahredoch"
+    \section "4" "Aria" "Entziehe dich den eitlen Freuden"
+    \addTocLabel "EntzieheDich"
     \paper {
-      system-system-spacing.basic-distance = #18
-      system-system-spacing.minimum-distance = #18
-      systems-per-page = #6
+      top-system-spacing.basic-distance = #12
+      top-system-spacing.minimum-distance = #12
+      top-markup-spacing.basic-distance = #0
+      top-markup-spacing.minimum-distance = #0
+      markup-system-spacing.basic-distance = #12
+      markup-system-spacing.minimum-distance = #12
+      systems-per-page = #2
     }
     \score {
       <<
-        \new ChoirStaff \with { \smallGroupDistance } <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "ob"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \EntzieheDichOboeI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \EntzieheDichOboeII
+            }
+          >>
+        >>
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \EntzieheDichViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \EntzieheDichViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "vla"
+            \EntzieheDichViola
+          }
+        >>
+        \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \BewahreDochSoprano }
+            \new Voice = "Soprano" { \dynamicUp \EntzieheDichSoprano }
           }
-          \new Lyrics \lyricsto Soprano \BewahreDochSopranoLyrics
+          \new Lyrics \lyricsto Soprano \EntzieheDichSopranoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \BewahreDochFondamento
+            \EntzieheDichFondamento
           }
         >>
-        \new FiguredBass { \BewahreDochBassFigures }
+        \new FiguredBass { \EntzieheDichBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 65 }
+      \midi { \tempo 4 = 90 }
     }
   }
 }

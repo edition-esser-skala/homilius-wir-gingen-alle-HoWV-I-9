@@ -48,8 +48,8 @@ WirGingenTenore = {
     c r r2
     r8 c c c c c c c
     c c c c c4 d8 d %25
-    c4 c8 g^\gelinde d'4 d
-    r8 c^\stark c c16 c c8 c16 c b8 b
+    c4 c8 g\p d'4 d
+    r8 c\f c c16 c c8 c16 c b8 b
     c4 r8 d c4 b
     a r r2
     R1*3 %32

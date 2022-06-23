@@ -8,14 +8,13 @@
 
 twoStanzaDistance = \setGroupDistance #15 #20
 twoStanzaDistanceCoro = \setGroupDistance #13 #13
-gelinde = \markup \remark "gel[inde]"
-stark = \markup \remark "st[ark]"
 
 
 tempoNunIhr = \tempoMarkup "Choral"
 tempoWirGingen = \tempoMarkup "Betrübt und langſam"
   tempoAberDer = \tempoMarkup "[Alla breve]"
 tempoBewahreDoch = \tempoMarkup "Recitativ"
+tempoEntzieheDich = \tempoMarkup "Zuverſichtlich und mäßig"
 
 
 \include "notes/fl1.ly"

@@ -277,81 +277,111 @@ paperTwoStaves = \paper {
   %     \midi { \tempo 4 = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \section "5" "Choral" "Mein Heiland iſt gegangen"
+  %   \addTocLabel "meinheiland"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \MeinHeilandOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \MeinHeilandOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \MeinHeilandViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \MeinHeilandViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \MeinHeilandViola
+  %         }
+  %       >>
+  %       \new ChoirStaff \with { \twoStanzaDistance } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \MeinHeilandSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \MeinHeilandSopranoLyricsA
+  %         \new Lyrics \lyricsto Soprano \MeinHeilandSopranoLyricsB
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \MeinHeilandAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \MeinHeilandAltoLyricsA
+  %         \new Lyrics \lyricsto Alto \MeinHeilandAltoLyricsB
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \MeinHeilandTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \MeinHeilandTenoreLyricsA
+  %         \new Lyrics \lyricsto Tenore \MeinHeilandTenoreLyricsB
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \MeinHeilandBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \MeinHeilandBassoLyricsA
+  %         \new Lyrics \lyricsto Basso \MeinHeilandBassoLyricsB
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \MeinHeilandFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \MeinHeilandBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 2 = 90 }
+  %   }
+  % }
   \bookpart {
-    \section "5" "Choral" "Mein Heiland iſt gegangen"
-    \addTocLabel "meinheiland"
+    \section "6" "Recitativo" "Die Feinde rüſten ſich"
+    \addTocLabel "diefeinde"
+    \paper {
+      system-system-spacing.basic-distance = #21
+      system-system-spacing.minimum-distance = #21
+      systems-per-page = #4
+    }
     \score {
       <<
-        \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "ob"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \MeinHeilandOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \MeinHeilandOboeII
-            }
-          >>
-        >>
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \MeinHeilandViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \MeinHeilandViolinoII
-            }
-          >>
-          \new Staff {
-            \set Staff.instrumentName = "vla"
-            \MeinHeilandViola
-          }
-        >>
-        \new ChoirStaff \with { \twoStanzaDistance } <<
-          \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \MeinHeilandSoprano }
-          }
-          \new Lyrics \lyricsto Soprano \MeinHeilandSopranoLyricsA
-          \new Lyrics \lyricsto Soprano \MeinHeilandSopranoLyricsB
-
-          \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \MeinHeilandAlto }
-          }
-          \new Lyrics \lyricsto Alto \MeinHeilandAltoLyricsA
-          \new Lyrics \lyricsto Alto \MeinHeilandAltoLyricsB
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \MeinHeilandTenore }
-          }
-          \new Lyrics \lyricsto Tenore \MeinHeilandTenoreLyricsA
-          \new Lyrics \lyricsto Tenore \MeinHeilandTenoreLyricsB
-
+        \new ChoirStaff \with { \smallGroupDistance } <<
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \MeinHeilandBasso }
+            \new Voice = "Basso" { \dynamicUp \DieFeindeBasso }
           }
-          \new Lyrics \lyricsto Basso \MeinHeilandBassoLyricsA
-          \new Lyrics \lyricsto Basso \MeinHeilandBassoLyricsB
+          \new Lyrics \lyricsto Basso \DieFeindeBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \MeinHeilandFondamento
+            \DieFeindeFondamento
           }
         >>
-        \new FiguredBass { \MeinHeilandBassFigures }
+        \new FiguredBass { \DieFeindeBassFigures }
       >>
       \layout { }
-      \midi { \tempo 2 = 90 }
+      \midi { \tempo 4 = 65 }
     }
   }
 }

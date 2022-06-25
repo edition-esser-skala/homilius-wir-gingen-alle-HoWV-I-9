@@ -326,3 +326,37 @@ MeinHeilandBassoLyricsB = \lyricmode {
   bis aufs
   Blut, %9 finis
 }
+
+DieFeindeBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoDieFeinde
+    r8 h dis fis h8. fis16 fis8 g
+    a a a g e4 r16 g g h
+    gis8 gis fis e a a16 h c8 a
+    b b b a f f r a
+    a d, fis a c!8. c16 c8 h %5
+    c c r16 a a fis d8 d' a c
+    h h r g g d h' g
+    e e fis gis a c c h
+    g4 r r8 fis fis fis
+    h4 r8 a c8. c16 c8 h16 a %10
+    g8 e' cis4. a8 h cis
+    d a r4 r2\fermata \bar "|." %12 finis
+  }
+}
+
+DieFeindeBassoLyrics = \lyricmode {
+  Die Fein -- de rüſ -- ten ſich, mein
+  Hei -- land, wi -- der dich. Ich ſeh dein
+  un -- ſchulds -- vol -- les Le -- ben der Höl -- len
+  Schre -- cken ganz um -- ge -- ben. Schon
+  jauch -- zen bey ſich na -- hen -- de Ge -- %5
+  fah -- ren, ge -- fall -- ne und un -- ſeel -- ge
+  Schaa -- ren, daß mu -- thig, nie ver --
+  zagt, dein heil -- ger Fuß dieß al -- les
+  wagt. Die Höl -- le
+  tobt, und Grau -- ſam -- kei -- ten eilt %10
+  ſie dir, Heil -- ger, zu be --
+  rei -- ten. %12 finis
+}

@@ -581,3 +581,37 @@ MeinHeilandBassFigures = \figuremode {
   <4>2 <3>
   r1 %27 finis
 }
+
+DieFeindeFondamento = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoDieFeinde
+    dis1~
+    dis2 e
+    d c
+    cis d
+    c d %5
+    fis,1
+    g2 h
+    c1
+    r4 d dis2~
+    dis1 %10
+    e2 g
+    r4 a d,2\fermata \bar "|." %12 finis
+  }
+}
+
+DieFeindeBassFigures = \figuremode {
+  <6 [_+]>1
+  r
+  <4+ 2>2 <6>
+  <7-> <[_!]>
+  <4+ 2> <7 _+> %5
+  <6 5>1
+  r2 <6>
+  \bo <[5]> \bc <[6]>
+  r4 <_+> \bo <6 [_+]>2
+  \bc <\t [\t]> <7 5 [_+]> %10
+  r2 <4+ 2>
+  r4 <_+> <_!>2 %12 finis
+}

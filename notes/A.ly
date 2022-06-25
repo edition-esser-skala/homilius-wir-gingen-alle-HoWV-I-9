@@ -252,3 +252,79 @@ WirGingenAltoLyrics = \lyricmode {
   _ auf
   Ihn. %129 finis
 }
+
+MeinHeilandAlto = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 4/4 \autoBeamOff \tempoMeinHeiland
+    r2 \mvTr e\fE^\tuttiE
+    e e
+    fis e
+    e( dis)
+    e1\fermata %5
+    r2 fis
+    gis gis
+    a gis \noBreak
+    gis1\fermata \bar ":|."
+    r2 fis \noBreak %10
+    fis e
+    e fis
+    gis( a)
+    gis1\fermata
+    r2 gis %15
+    a gis
+    gis fis
+    eis1\fermata
+    r2 fis
+    fis a! %20
+    gis fis
+    gis( fis)
+    fis1\fermata
+    r2 e
+    fis e %25
+    e dis
+    e1\fermata \bar "|." %27 finis
+  }
+}
+
+MeinHeilandAltoLyricsA = \lyricmode {
+  Mein
+  Hei -- land
+  iſt ge --
+  gan --
+  gen %5
+  ins
+  E -- lend
+  mir zu
+  gut,
+  ge -- %10
+  ſchla -- gen
+  und ver --
+  höh --
+  net,
+  ver -- %15
+  ſpei -- et
+  und ver --
+  lacht,
+  mit
+  Dor -- nen -- %20
+  kranz ge --
+  krö --
+  net,
+  und
+  gar ans %25
+  Kreuz ge --
+  bracht. %27 finis
+}
+
+MeinHeilandAltoLyricsB = \lyricmode {
+  ver --
+  ra -- then
+  und ge --
+  fan --
+  gen, %5
+  ge --
+  gei -- ßelt
+  bis aufs
+  Blut, %9 finis
+}

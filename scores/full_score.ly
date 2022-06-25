@@ -213,30 +213,85 @@ paperTwoStaves = \paper {
   %     \midi { \tempo 4 = 65 }
   %   }
   % }
+  % \bookpart {
+  %   \section "4" "Aria" "Entziehe dich den eitlen Freuden"
+  %   \addTocLabel "EntzieheDich"
+  %   \paper {
+  %     top-system-spacing.basic-distance = #12
+  %     top-system-spacing.minimum-distance = #12
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #12
+  %     markup-system-spacing.minimum-distance = #12
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \EntzieheDichOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \EntzieheDichOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \EntzieheDichViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \EntzieheDichViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \EntzieheDichViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \EntzieheDichSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \EntzieheDichSopranoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \EntzieheDichFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \EntzieheDichBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 90 }
+  %   }
+  % }
   \bookpart {
-    \section "4" "Aria" "Entziehe dich den eitlen Freuden"
-    \addTocLabel "EntzieheDich"
-    \paper {
-      top-system-spacing.basic-distance = #12
-      top-system-spacing.minimum-distance = #12
-      top-markup-spacing.basic-distance = #0
-      top-markup-spacing.minimum-distance = #0
-      markup-system-spacing.basic-distance = #12
-      markup-system-spacing.minimum-distance = #12
-      systems-per-page = #2
-    }
+    \section "5" "Choral" "Mein Heiland iſt gegangen"
+    \addTocLabel "meinheiland"
     \score {
       <<
         \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
+          \new GrandStaff <<
             \set GrandStaff.instrumentName = "ob"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \EntzieheDichOboeI
+              \MeinHeilandOboeI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \EntzieheDichOboeII
+              \MeinHeilandOboeII
             }
           >>
         >>
@@ -245,36 +300,58 @@ paperTwoStaves = \paper {
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \EntzieheDichViolinoI
+              \MeinHeilandViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \EntzieheDichViolinoII
+              \MeinHeilandViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \EntzieheDichViola
+            \MeinHeilandViola
           }
         >>
-        \new ChoirStaff <<
+        \new ChoirStaff \with { \twoStanzaDistance } <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \EntzieheDichSoprano }
+            \new Voice = "Soprano" { \dynamicUp \MeinHeilandSoprano }
           }
-          \new Lyrics \lyricsto Soprano \EntzieheDichSopranoLyrics
+          \new Lyrics \lyricsto Soprano \MeinHeilandSopranoLyricsA
+          \new Lyrics \lyricsto Soprano \MeinHeilandSopranoLyricsB
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \MeinHeilandAlto }
+          }
+          \new Lyrics \lyricsto Alto \MeinHeilandAltoLyricsA
+          \new Lyrics \lyricsto Alto \MeinHeilandAltoLyricsB
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \MeinHeilandTenore }
+          }
+          \new Lyrics \lyricsto Tenore \MeinHeilandTenoreLyricsA
+          \new Lyrics \lyricsto Tenore \MeinHeilandTenoreLyricsB
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \MeinHeilandBasso }
+          }
+          \new Lyrics \lyricsto Basso \MeinHeilandBassoLyricsA
+          \new Lyrics \lyricsto Basso \MeinHeilandBassoLyricsB
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \EntzieheDichFondamento
+            \MeinHeilandFondamento
           }
         >>
-        \new FiguredBass { \EntzieheDichBassFigures }
+        \new FiguredBass { \MeinHeilandBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 2 = 90 }
     }
   }
 }

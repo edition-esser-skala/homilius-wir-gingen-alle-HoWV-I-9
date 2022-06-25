@@ -517,3 +517,67 @@ EntzieheDichBassFigures = \figuremode {
   r4 <6>2 q4 %75
   q <4>8 <4 2> <6> q <6 4> <7 3> %76 finis
 }
+
+MeinHeilandFondamento = {
+  \relative c {
+    \clef bass
+    \key e \major \time 4/4 \tempoMeinHeiland
+    r2 \mvTr e\fE-\tuttiE
+    a gis
+    dis e
+    h1
+    e\fermata %5
+    r2 dis
+    cis e
+    fis gis \noBreak
+    cis,1\fermata \bar ":|."
+    r2 ais' \noBreak %10
+    h! gis
+    a! fis
+    e1
+    e\fermata
+    r2 e %15
+    a eis
+    fis fis,
+    cis'1\fermata
+    r2 ais'
+    h dis, %20
+    e h'
+    e, fis
+    h,1\fermata
+    r2 e
+    dis e %25
+    h' h,
+    e1\fermata \bar "|." %27 finis
+  }
+}
+
+MeinHeilandBassFigures = \figuremode {
+  r1
+  r2 <6>
+  <6 5>1
+  <4>2 <3>
+  r1 %5
+  r2 <6\\>
+  r <6>
+  <6 5> <7 _+>
+  r1
+  r2 <6 5> %10
+  r <6>
+  r q
+  <[5] 3> <6 4>
+  <5 3>1
+  r %15
+  r2 <7! 5>
+  <9> <8>
+  <_+>1
+  r2 <6 5!>
+  r <6 5!> %20
+  r1
+  <6 5>2 <_+>
+  r1
+  r
+  <6 5> %25
+  <4>2 <3>
+  r1 %27 finis
+}

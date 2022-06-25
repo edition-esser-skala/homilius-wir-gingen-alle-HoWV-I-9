@@ -215,3 +215,37 @@ EntzieheDichViolinoI = {
     \tuplet 3/2 8 { h([ fis' e)] d( cis h) a([ gis a)] h( a gis) a([ a' gis)] fis( e d) } \appoggiatura cis8 h4\trill \bar "S-S" %76 finis
   }
 }
+
+MeinHeilandViolinoI = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 4/4 \tempoMeinHeiland
+    r2 gis'\fE
+    cis h
+    a gis
+    fis1
+    gis\fermata %5
+    r2 dis'
+    e e
+    dis dis \noBreak
+    cis1\fermata \bar ":|."
+    r2 e \noBreak %10
+    dis h
+    cis dis
+    e1
+    h\fermata
+    r2 h %15
+    cis h
+    a a
+    gis1\fermata
+    r2 e'!
+    dis fis %20
+    e dis
+    cis1
+    dis\fermata
+    r2 gis,
+    a gis %25
+    fis h
+    gis1\fermata \bar "|." %27 finis
+  }
+}

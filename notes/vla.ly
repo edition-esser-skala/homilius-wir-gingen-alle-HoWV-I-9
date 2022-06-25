@@ -230,3 +230,37 @@ EntzieheDichViola = {
     fis4 h, e8 fis e d \bar "S-S" %76 finis
   }
 }
+
+MeinHeilandViola = {
+  \relative c' {
+    \clef alto
+    \key e \major \time 4/4 \tempoMeinHeiland
+    r2 h\fE
+    a h
+    h h
+    h1
+    h\fermata %5
+    r2 his
+    cis cis
+    cis( his4) fis' \noBreak
+    e1\fermata \bar ":|."
+    r2 cis \noBreak %10
+    h! h
+    a a
+    h( cis4 dis)
+    e1\fermata
+    r2 e %15
+    e d
+    cis cis
+    cis1\fermata
+    r2 cis
+    h h %20
+    h h
+    h( ais)
+    h1\fermata
+    r2 h
+    h h %25
+    h h
+    h1\fermata \bar "|." %27 finis
+  }
+}

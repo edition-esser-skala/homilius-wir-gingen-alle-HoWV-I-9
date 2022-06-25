@@ -15,6 +15,7 @@ tempoWirGingen = \tempoMarkup "Betrübt und langſam"
   tempoAberDer = \tempoMarkup "[Alla breve]"
 tempoBewahreDoch = \tempoMarkup "Recitativ"
 tempoEntzieheDich = \tempoMarkup "Zuverſichtlich und mäßig"
+tempoMeinHeiland = \tempoMarkup "[Choral]"
 
 
 \include "notes/fl1.ly"

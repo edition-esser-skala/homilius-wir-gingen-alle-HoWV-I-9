@@ -402,3 +402,79 @@ EntzieheDichSopranoLyrics = \lyricmode {
   _ _ _ _ ben
   dich er -- höhn. %72 finis
 }
+
+MeinHeilandSoprano = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 4/4 \autoBeamOff \tempoMeinHeiland
+    r2 \mvTr gis'\fE^\tuttiE
+    cis h
+    a gis
+    fis1
+    gis\fermata %5
+    r2 dis'
+    e e
+    dis dis \noBreak
+    cis1\fermata \bar ":|."
+    r2 e \noBreak %10
+    dis h
+    cis dis
+    e1
+    h\fermata
+    r2 h %15
+    cis h
+    a a
+    gis1\fermata
+    r2 e'!
+    dis fis %20
+    e dis
+    cis1
+    dis\fermata
+    r2 gis,
+    a gis %25
+    fis h
+    gis1\fermata \bar "|." %27 finis
+  }
+}
+
+MeinHeilandSopranoLyricsA = \lyricmode {
+  Mein
+  Hei -- land
+  iſt ge --
+  gan --
+  gen %5
+  ins
+  E -- lend
+  mir zu
+  gut,
+  ge -- %10
+  ſchla -- gen
+  und ver --
+  höh --
+  net,
+  ver -- %15
+  ſpei -- et
+  und ver --
+  lacht,
+  mit
+  Dor -- nen -- %20
+  kranz ge --
+  krö --
+  net,
+  und
+  gar ans %25
+  Kreuz ge --
+  bracht. %27 finis
+}
+
+MeinHeilandSopranoLyricsB = \lyricmode {
+  ver --
+  ra -- then
+  und ge --
+  fan --
+  gen, %5
+  ge --
+  gei -- ßelt
+  bis aufs
+  Blut, %9 finis
+}

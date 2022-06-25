@@ -265,3 +265,79 @@ WirGingenTenoreLyrics = \lyricmode {
   _ auf
   Ihn. %129 finis
 }
+
+MeinHeilandTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key e \major \time 4/4 \autoBeamOff \tempoMeinHeiland
+    r2 \mvTr h\fE^\tuttiE
+    a h
+    h h
+    h1
+    h\fermata %5
+    r2 his
+    cis cis
+    cis( his4) fis' \noBreak
+    e1\fermata \bar ":|."
+    r2 cis \noBreak %10
+    h! h
+    a a
+    h( cis4 dis)
+    e1\fermata
+    r2 e %15
+    e d
+    cis cis
+    cis1\fermata
+    r2 cis
+    h h %20
+    h h
+    h( ais)
+    h1\fermata
+    r2 h
+    h h %25
+    h h
+    h1\fermata \bar "|." %27 finis
+  }
+}
+
+MeinHeilandTenoreLyricsA = \lyricmode {
+  Mein
+  Hei -- land
+  iſt ge --
+  gan --
+  gen %5
+  ins
+  E -- lend
+  mir zu
+  gut,
+  ge -- %10
+  ſchla -- gen
+  und ver --
+  höh --
+  net,
+  ver -- %15
+  ſpei -- et
+  und ver --
+  lacht,
+  mit
+  Dor -- nen -- %20
+  kranz ge --
+  krö --
+  net,
+  und
+  gar ans %25
+  Kreuz ge --
+  bracht. %27 finis
+}
+
+MeinHeilandTenoreLyricsB = \lyricmode {
+  ver --
+  ra -- then
+  und ge --
+  fan --
+  gen, %5
+  ge --
+  gei -- ßelt
+  bis aufs
+  Blut, %9 finis
+}

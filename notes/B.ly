@@ -250,3 +250,79 @@ WirGingenBassoLyrics = \lyricmode {
   auf
   Ihn. %129 finis
 }
+
+MeinHeilandBasso = {
+  \relative c {
+    \clef bass
+    \key e \major \time 4/4 \autoBeamOff \tempoMeinHeiland
+    r2 \mvTr e\fE-\tuttiE
+    a gis
+    dis e
+    h1
+    e\fermata %5
+    r2 dis
+    cis e
+    fis gis \noBreak
+    cis,1\fermata \bar ":|."
+    r2 ais' \noBreak %10
+    h! gis
+    a! fis
+    e1
+    e\fermata
+    r2 e %15
+    a eis
+    fis fis,
+    cis'1\fermata
+    r2 ais'
+    h dis, %20
+    e h'
+    e,( fis)
+    h,1\fermata
+    r2 e
+    dis e %25
+    h' h,
+    e1\fermata \bar "|." %27 finis
+  }
+}
+
+MeinHeilandBassoLyricsA = \lyricmode {
+  Mein
+  Hei -- land
+  iſt ge --
+  gan --
+  gen %5
+  ins
+  E -- lend
+  mir zu
+  gut,
+  ge -- %10
+  ſchla -- gen
+  und ver --
+  höh --
+  net,
+  ver -- %15
+  ſpei -- et
+  und ver --
+  lacht,
+  mit
+  Dor -- nen -- %20
+  kranz ge --
+  krö --
+  net,
+  und
+  gar ans %25
+  Kreuz ge --
+  bracht. %27 finis
+}
+
+MeinHeilandBassoLyricsB = \lyricmode {
+  ver --
+  ra -- then
+  und ge --
+  fan --
+  gen, %5
+  ge --
+  gei -- ßelt
+  bis aufs
+  Blut, %9 finis
+}

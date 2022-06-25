@@ -360,3 +360,195 @@ DieFeindeBassoLyrics = \lyricmode {
   ſie dir, Heil -- ger, zu be --
   rei -- ten. %12 finis
 }
+
+VerachteteBasso = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 4/4 \autoBeamOff \tempoVerachtete
+    \partial 8 r8 R1*23 \noBreak %23
+    r2 r4 r8 \mvTr d\pE^\soloE \bar "S-S"
+    g4. d8 d g b g %25
+    d'4 d, r d
+    c'4. b8 a c es c
+    b4 g b2
+    a4 g fis g
+    c2 b %30
+    a4 r8 d, e fis g a
+    b2 cis,
+    d r
+    R1*2 %35
+    b'4 b,8 d f b d c
+    b4 b, r f'
+    g4. b8 c es c b
+    a16([ g)] f8 r f g a b c
+    d2 e, %40
+    f8.([ e16)] f4 r f
+    c'4. f,8 a f c' f,
+    b4. f8 d[ b d f]
+    as4. f8 d[ b d f]
+    g4 b r8 es,16[ f] g8[ f16 es] %45
+    f4 b r8 d,16[ es] f8[ es16 d]
+    es4 c' d, b'
+    a8.[ g16] f4 r f
+    d'4. b8 a c a f
+    b2 r4 a %50
+    b8 d, es c f4 f
+    b,2 r
+    R1*10 %62
+    r2 r4 r8 f'
+    d'4. c8 b a g fis
+    g4 g, r g %65
+    f'!4. es8 d f as f
+    es4 c c'2
+    h4 c h c
+    d2 c
+    h4 c d f, %70
+    es c' d f,
+    es c' c c
+    c f, g g,
+    c2 r
+    as'4 as,8 c es as c b %75
+    as8.([ g16)] as4 r c8 as
+    es'4 c as g
+    g fis8 d e fis g a
+    b2 cis,
+    d8.([ cis16)] d4 r2 %80
+    R1*2
+    g4 b8 g d g b g
+    d'4 d, r d
+    c'4. b8 a c es c %85
+    b4 g h2
+    c4 es8[ c] a4 f8[ a]
+    b4 d8[ b] g[ a16 b] c8[ a]
+    fis4 d' r8 fis,16[ g] a8[ g16 fis]
+    g4 d' r8 g,16[ a] b8[ a16 g] %90
+    a4 d r8 a16[ b] c8[ b16 a]
+    b4 g r d
+    g b r d,
+    g8 b c a d4 d,
+    g r8 g g g g g %95
+    es'2 fis,
+    g r
+    R1*4 %101
+    R1\fermata
+    g4 g8 a b c d b
+    es4 es, r b'
+    es, es es des %105
+    c( as'2) g4
+    f b,8 b c d es f
+    g2 a,!
+    b r4 as'
+    g es es' g, %110
+    as2 b
+    es,4 r r2
+    r r4 g
+    c g8 a b g d' b
+    a!8.([ g16)] f4 r a %115
+    b4. a8 gis gis gis gis
+    a4 a, r a'8 a
+    cis4 a r8 a a a
+    d4. a8 f4. d8
+    a'4 a, r a' %120
+    d a a a
+    a4. b8 a4 r8 g
+    f d' b g a4 a,
+    d d' b a
+    gis2 a %125
+    d, r
+    R1*6 %132
+    r2 r4 r8 d \bar "S-S" %133 finis
+  }
+}
+
+VerachteteBassoLyrics = \lyricmode {
+  Ver -- %24
+  ach -- te -- te, ver -- damm -- te %25
+  Sün -- der, der
+  Fin -- ſter -- niß ver -- fluch -- te
+  Kin -- der, ſchwört
+  eu -- rem Hei -- land
+  nicht den %30
+  Tod, ſchwört eu -- rem Hei -- land
+  nicht den
+  Tod!
+
+  Bald wer -- den Welt und Him -- mel %36
+  bre -- chen, und
+  er wird ſei -- ne Eh -- re
+  rä -- chen, und er wird ſei -- ne
+  Eh -- re %40
+  rä -- chen, und
+  er wird ſei -- ne Eh -- re
+  rä -- _ _
+  _ _ _
+  _ _ _ _ %45
+  _ _ _ _
+  _ _ _ _
+  _ chen als
+  Rich -- ter und als eu -- er
+  Gott, als %50
+  Rich -- ter und als eu -- er
+  Gott.
+
+  Ver -- %63
+  ach -- te -- te, ver -- damm -- te
+  Sün -- der, der %65
+  Fin -- ſter -- niß ver -- fluch -- te
+  Kin -- der, ſchwört
+  eu -- rem Hei -- land
+  nicht den
+  Tod, ſchwört eu -- rem %70
+  Hei -- land nicht den
+  Tod, ſchwört eu -- rem
+  Hei -- land nicht den
+  Tod!
+  Bald wer -- den Welt und Him -- mel %75
+  bre -- chen, Welt und
+  Him -- mel wer -- den
+  bre -- chen, und er wird ſei -- ne
+  Eh -- re
+  rä -- chen. %80
+
+  Bald wer -- den Welt und Him -- mel %83
+  bre -- chen, und
+  er wird ſei -- ne Eh -- re %85
+  rä -- _ _
+  _ _ _ _
+  _ _ _ _
+  _ _ _ _
+  _ _ _ _ %90
+  _ _ _ _
+  _ chen als
+  Rich -- ter, als
+  Rich -- ter und als eu -- er
+  Gott, als Rich -- ter und als %95
+  eu -- er
+  Gott.
+
+  Dann wird euch vor des Rä -- chers %103
+  Blit -- zen kein
+  tie -- fen -- lo -- ſer %105
+  Ab -- grund
+  ſchüt -- zen, wenn eu -- er Ohr die
+  Don -- ner
+  hört, wenn
+  eu -- er Ohr die %110
+  Don -- ner
+  hört.
+  Dann,
+  dann wird er eu -- ren Tha -- ten
+  loh -- nen und %115
+  kei -- nes Bö -- ſe -- wichts ver --
+  ſcho -- nen, er wird
+  loh -- nen und kei -- nes
+  Bö -- ſe -- wichts ver --
+  ſcho -- nen, der %120
+  noch ſein hei -- lig
+  Blut ent -- ehrt, der
+  noch ſein hei -- lig Blut ent --
+  ehrt, ſein hei -- lig
+  Blut ent -- %125
+  ehrt.
+
+  Ver_- %133
+}

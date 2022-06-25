@@ -257,3 +257,143 @@ MeinHeilandViolinoII = {
     e1\fermata \bar "|." %27 finis
   }
 }
+
+VerachteteViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \tempoVerachtete
+    \partial 8 d8\fE g4. d8 d g b g
+    d'16 d, fis a d fis a fis d d, fis a d fis a fis
+    a,4. g8 fis a c a
+    b16 g b d g d c d h2
+    c16 d es f es d c b a2 %5
+    b16 c d es d c b a g8 g' g g
+    fis8.(\trill e32 fis) g8 d a'8.(\trill g32 a) b8 cis,
+    d16 d, fis a d d d d d4 r
+    g,16 g, h d g h d h g g, h d g h d h
+    g8 d' d d d4~ d16 f es d %10
+    c8 h c4 r8 b! as g
+    as16 as, c es as c es c as as, c es as c es c
+    as4 as'2 g4
+    fis-! g-! cis,,2
+    d16 fis a d c! b a g es'4 fis,\trill %15
+    g g'8.(\trill fis32 g) a4 d,,16 fis a c
+    b4 g'8.(\trillE fis32 g) a4 d,,16 fis a c
+    b8 g' f16 es d c b8 g' a, fis'
+    g,4 g'8.(\trill\p fis32 g) a4 d,,16 fis a c
+    b4 g'8.(\trill fis32 g) a4 d,,16 fis a c %20
+    b8 g'\f f16 es d c b8 g' a, fis'
+    g,16 d' b' d, b' d, b' d, g, d' b' d, b' d, b' d,
+    es2 fis, \noBreak
+    g4 d16 b d b g4 r \bar "S-S"
+    r16 g'\p f es d c b a g8 b d b \noBreak %25
+    a16 d\f fis a d fis a fis d d, fis a d fis a fis
+    a,4.\p g8 fis a c a
+    b16 g\f b d g g g g g4~ g16 b\p a g
+    fis8.(\trill e?32 fis) g8.(\trill fis32 g) a8.(\trill g32 a) b8 b,
+    a d, r a' g d r d %30
+    fis16 d fis a d8 d,\f e fis g a
+    b2 cis,
+    d16 a' fis' a, fis' a, fis' a, d, g b d g d b g
+    d c' a' c, a' c, a' c, b d c b a g fis e
+    d8 d' d, d d4 r %35
+    R1
+    b'16\p f b d f es d c b f b d f es d c
+    b8 b' g b es, g c, es
+    a,16 f a c f8 f,\f g a b c
+    d2 e, %40
+    f16 c' a' c, a' c, a' c, f, c' a' c, a' c, a' c,
+    f,\p c' a' c, a' c, a' c, f, c' a' c, a' c, a' c,
+    f, d' b' d, b' d, b' d, f, d' b' d, b' d, b' d,
+    d, b' as' b, as' b, as' b, d, b' as' b, as' b, as' b,
+    g' es b g es g b es g4 b %45
+    f16 d b f d f b d f4 b
+    c,8 es r c b d r b
+    a16 f\f a c f f f f f f f f f es d c
+    b4 f'8\p d c a c a
+    b4 f'8 d c a c a %50
+    b4 b~ b8 d a c
+    d16 b\f a b c b d b es b f' b, g' b, a' b,
+    b' b, a b c b d b es b f' b, g' b, a' b,
+    b' b, b b b b b b b c d es f g as f
+    g4. b8 es, g c, es %55
+    a,8.(\trill g32 a) b8 f c'4 b
+    a16 f a c f f f f f f f f f f f f
+    f4 b8.(\trill a32 b) c4 f,,16 a c es
+    d4 b'8.(\trill a32 b) c4 f,,16 a c es
+    d8 b' a16 g f es d es f b, a g f es %60
+    d b' f' b, f' b, f' b, d, b' f' b, f' b, f' b,
+    g'2 a,\trill
+    b4 f16 d f d b4 r
+    r16 b\p c d es f g a b8 d, d d
+    d16 g,\f h d g h d h g g, h d g h d h %65
+    d,4.\p c8 h d f d
+    es16 c\f es g c c c c c4~ c16 es\p d c
+    h8.(\trill a32 h) c8.(\trill h32 c) d8.(\trill c32 d) es8 es,
+    d g, r d' c g r c
+    \kneeBeam h g g'' es d h d h %70
+    c4 g'8 es d h d h
+    c c4 c c c8
+    c4 c,~ c8 es h d
+    c c'\f c, c c4 r
+    R1 %75
+    as'16\p as, c es as c es c as as, c es as c es c
+    as4 c2 b4
+    b-! a8-! d,\f e fis g a
+    b2 cis,
+    d16 a'\ff fis' a, fis' a, fis' a, d, g b d g d b g %80
+    d c' a' c, a' c, a' c, b d c b a g fis e
+    d8 d' d, d d4 r
+    r16 g\p f! es d c b a g8 b d b
+    a16 d\f fis a d fis a fis d d, fis a d fis a fis
+    a,4.\p g8 fis a c a %85
+    b16 g b d g d c d h2
+    c16 d es f es d c b a2
+    b16 c d es d c b a g8 a16 b c8 a
+    d,16 a' fis' a, fis' a, fis' a, d, a' fis' a, fis' a, fis' a,
+    d, b' g' b, g' b, g' b, d, b' g' b, g' b, g' b, %90
+    d, c' a' c, a' c, a' c, d, c' a' c, a' c, a' c,
+    b4 d8 b a fis a fis
+    g4 d'8 b a fis a fis
+    g4 g~ g8 b fis a
+    g16\f d' b' d, b' d, b' d, g, d' b' d, b' d, b' d, %95
+    es2 fis,
+    g4 g'8.(\trill\ff fis32 g) a4 d,,16 fis a c
+    b4 g'8.(\trill fis32 g) a4 d,,16 fis a c
+    b8 g' f16 es d c b8 g' a, fis'
+    g,16 d' b' d, b' d, b' d, g, d' b' d, b' d, b' d, %100
+    es2 fis,
+    g4 d16 b d b g4 r\fermata
+    R1
+    es''16\f es, g b es g b g es es, g b es g b g
+    es b,\p b b b b b b b b b b b b b b %105
+    c c c c c c c c c c c c c c c c
+    d b d f b8 b, c d es f
+    g16 g g g g g g g a,! a a a a a a a
+    b\f b b b d d d d f f f f as as as as
+    g8 b\p g es c es c g %110
+    as16 as as as as as as as b b b b b b b b
+    es b'\f g' b, g' b, g' b, es, b' g' b, g' b, g' b,
+    es, es' d c b as g f es4 r
+    e4\p r r2
+    f16 g a! b c b a g fis4 r %115
+    g16\f a b c d c b a gis8 gis gis gis
+    a16 a, cis e a cis e cis a a, cis e a cis e cis
+    a\p e' cis' e, cis' e, cis' e, a, e' cis' e, cis' e, cis' e,
+    a, d f a d a f d a d f a d a f d
+    a e' g e g e g e a, e' g e g e g e %120
+    f8 d, d'8.(\trill cis32 d) e4 a,,16 cis e g
+    f4 d'8.(\trill cis32 d) e4 a,,16 cis e g
+    f4 d~ d8 f cis e
+    d4 d'\f b a
+    gis2 a %125
+    d,16\ff a' f' a, f' a, f' a, d, a' fis' a, fis' a, fis' a,
+    d, b' g' b, g' b, g' b, d, c' a' c, a' c, a' c,
+    b4 g'8.(\trill fis32 g) a4 d,,16 fis a c
+    b4 g'8.(\trill fis32 g) a4 d,,16 fis a c
+    b8 g' f16 es d c b8 g' a, fis' %130
+    g,16 d' b' d, b' d, b' d, g, d' b' d, b' d, b' d,
+    es2 fis,
+    g4 d16 b d b g4 r \bar "S-S" %133 finis
+  }
+}

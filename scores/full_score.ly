@@ -215,7 +215,7 @@ paperTwoStaves = \paper {
   % }
   % \bookpart {
   %   \section "4" "Aria" "Entziehe dich den eitlen Freuden"
-  %   \addTocLabel "EntzieheDich"
+  %   \addTocLabel "entziehedich"
   %   \paper {
   %     top-system-spacing.basic-distance = #12
   %     top-system-spacing.minimum-distance = #12
@@ -354,34 +354,98 @@ paperTwoStaves = \paper {
   %     \midi { \tempo 2 = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \section "6" "Recitativo" "Die Feinde rüſten ſich"
+  %   \addTocLabel "diefeinde"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #21
+  %     system-system-spacing.minimum-distance = #21
+  %     systems-per-page = #4
+  %   }
+  %   \score {
+  %     <<
+  %       \new ChoirStaff \with { \smallGroupDistance } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \DieFeindeBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \DieFeindeBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \DieFeindeFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \DieFeindeBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 65 }
+  %   }
+  % }
   \bookpart {
-    \section "6" "Recitativo" "Die Feinde rüſten ſich"
-    \addTocLabel "diefeinde"
+    \section "7" "Aria" "Verachtete, verdammte Sünder"
+    \addTocLabel "verachtete"
     \paper {
-      system-system-spacing.basic-distance = #21
-      system-system-spacing.minimum-distance = #21
-      systems-per-page = #4
+      top-system-spacing.basic-distance = #12
+      top-system-spacing.minimum-distance = #12
+      top-markup-spacing.basic-distance = #0
+      top-markup-spacing.minimum-distance = #0
+      markup-system-spacing.basic-distance = #12
+      markup-system-spacing.minimum-distance = #12
+      systems-per-page = #2
     }
     \score {
       <<
-        \new ChoirStaff \with { \smallGroupDistance } <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "ob"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \VerachteteOboeI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \VerachteteOboeII
+            }
+          >>
+        >>
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \VerachteteViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \VerachteteViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "vla"
+            \VerachteteViola
+          }
+        >>
+        \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \DieFeindeBasso }
+            \new Voice = "Basso" { \dynamicUp \VerachteteBasso }
           }
-          \new Lyrics \lyricsto Basso \DieFeindeBassoLyrics
+          \new Lyrics \lyricsto Basso \VerachteteBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \DieFeindeFondamento
+            \VerachteteFondamento
           }
         >>
-        \new FiguredBass { \DieFeindeBassFigures }
+        \new FiguredBass { \VerachteteBassFigures }
       >>
-      \layout { }
-      \midi { \tempo 4 = 65 }
+      \layout { \context { \Score \override SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8) } }
+      \midi { \tempo 4 = 120 }
     }
   }
 }

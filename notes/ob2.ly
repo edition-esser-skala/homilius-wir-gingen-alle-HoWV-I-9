@@ -207,3 +207,77 @@ MeinHeilandOboeII = {
     e1\fermata \bar "|." %27 finis
   }
 }
+
+VerachteteOboeII = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \tempoVerachtete
+    \partial 8 d8\fE g4. d8 d g b g
+    a4 d, r d
+    a'4. g8 fis a c a
+    b16 g b d g d c d h2
+    c16 d es f es d c b a2 %5
+    b16 c d es d c b a g8 g' g g
+    fis8.(\trill e32 fis) g8 d a'8.(\trill g32 a) b8 cis,
+    d16 d, fis a d8 d d4 r
+    g, g2 g4~
+    g8 d' d d d4~ d16 f es d %10
+    c8 h c4 r8 b! as g
+    as4 as2 as4~
+    as as'2 g4
+    fis-! g-! r2
+    R1 %15
+    r4 g8.(\trill fis32 g) a4 d,,8. a'16
+    g4 g'8.(\trill fis32 g) a4 d,,8. a'16
+    g8 g' f16 es d c b8 g' a, fis'
+    g,4 r r2
+    R1 %20
+    r8 g'\fE f!16 es d c b8 g' a, fis'
+    g,4 g2 g4
+    es'2 fis,\trill \noBreak
+    g4 r r2 \bar "S-S"
+    R1*3 %27
+    r16 g\fE b d g8 g g4 r
+    R1*4 %32
+    d,4\fE d2 d4~
+    d d~ d16 d' c b a g fis e
+    d8 d' d, d d4 r %35
+    R1*12 %47
+    r16 f\fE a c f8 f f4 r
+    R1*3 %51
+    r16 b,\fE a b c8 d es f g a
+    b16 b, a b c8 d es f g a
+    b4 b,~ b16 c d es f g as f
+    g4. b8 es, g c, es %55
+    a,8.(\trill g32 a) b8 f c'4 b
+    a16 f a c f8 f f f f f
+    f4 b8.(\trill a32 b) c4 f,,8. c'16
+    b4 b'8.(\trill a32 b) c4 f,,8. c'16
+    b8 b' a16 g f es d es f b, a g f es %60
+    d4 b'2 b4
+    g'2 a,\trill
+    b4 r r2
+    R1*3 %66
+    r16 c,\fE es g c8 c c4 r
+    R1*12 %79
+    d,4\ffE d2 d4~ %80
+    d d~ d16 d' c b a g fis e
+    d8 d' d, d d4 r
+    R1*14 %96
+    r4 g'8.(\trill\ffE fis32 g) a4 d,,8. a'16
+    g4 g'8.(\trill fis32 g) a4 d,,8. a'16
+    g8 g' f16 es d c b8 g' a, fis'
+    g4 g,2 g4 %100
+    es'2 fis,\trill
+    g4 r r2\fermata
+    R1*23 %125
+    d4\ffE d2 d4~
+    d d2 d4
+    d g'8.(\trill fis32 g) a4 d,,8. a'16
+    g4 g'8.(\trill fis32 g) a4 d,,8. a'16
+    g8 g' f16 es d c b8 g' a, fis' %130
+    g4 g,2 g4
+    es'2 fis,
+    g4 r r2 \bar "S-S" %133 finis
+  }
+}

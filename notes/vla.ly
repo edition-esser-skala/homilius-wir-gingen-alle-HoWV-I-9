@@ -264,3 +264,143 @@ MeinHeilandViola = {
     h1\fermata \bar "|." %27 finis
   }
 }
+
+VerachteteViola = {
+  \relative c' {
+    \clef alto
+    \key g \minor \time 4/4 \tempoVerachtete
+    \partial 8 r8 r16 g'\fE f es d c b a g8 b d b
+    a d d d d4 r
+    r16 d e fis g a b c d8 d, d d
+    d4 r r16 g, h d g^\critnote as g f
+    g4 r r16 f, a c f g f es %5
+    f2 r8 b, b' b
+    a d b g fis d d g
+    fis4 r r8 d16 es d8 c
+    d8 d d d d d d d
+    d g, h d g d h g %10
+    g' f es es es es es es
+    es es es es es es es es
+    es es es es es es es es
+    es4-! d-! r8 g, g g
+    fis d' d d c4 a\trill %15
+    d8 d' b g fis d' fis, d
+    g d' b g fis d' fis, d
+    g b, c a d4 r16 es d c
+    b8 d'\p b g fis d' fis, d
+    g d' b g fis d' fis, d %20
+    g b\f c a d4 r16 es d c
+    b8 d g, b es, g b, d
+    c c c b a c c c \noBreak
+    b4 d16 b d b g4 r \bar "S-S"
+    r16 g'\p f es d c b a g8 d' d d\noBreak %25
+    d d\f d d d4 r
+    r16 d\p e fis g a b c d8 d, d d
+    d4 b'\f r8 g\p es cis
+    d d' b g d d' b g
+    fis d e fis g d b g %30
+    d'4 r8 d\f e fis g a
+    b2 cis,
+    d4 r8 c' b d b g
+    fis e fis d g16 d' c b a g fis e
+    d8 d' d, d d4 r %35
+    R1
+    f!8\p f f f f f f f
+    g4 b8 g c g es c
+    c4 r8 f\f g a b c
+    d2 e, %40
+    f8 f f f f f f f
+    f\p f f f f f f f
+    f f f f f f f f
+    f f f f f f f f
+    es g g g es b b b %45
+    b f' f f b f f f
+    g g f f f f f f
+    f4\f r8 a, c es c a
+    f f'4\pE f f f8~
+    f f4 f f f8~ %50
+    f f es g f4 f
+    f\f r8 b, c d es f
+    g4 r8 b, c d es f
+    g d d es f b b, b'
+    b, b' b g g es es c %55
+    c f f f f f f f
+    f4 r r8 f es f
+    d f d b a f' a, f
+    b f' d b a f' a, f
+    b d es c b d c a %60
+    b b' d b b, b' d, b'
+    es, es es d c es es es
+    d b' f d b4 r
+    r16 b\p c d es f g a b8 b, b b
+    h d\f h g g4 r %65
+    r16 g\p a h c d es f g8 g, g g
+    g4 r r8 es' es es
+    d g4 g g g,8
+    g4 r8 g g4 r8 g
+    g g'4 g g g8~ %70
+    g g4 g g g8~
+    g es f d es4 f8 d
+    es4 f g g,
+    c8 c'\f c, c c4 r
+    R1 %75
+    es8\p es es es es es es es
+    es es es es es es es es
+    d d d d\f e fis g a
+    b2 cis,
+    d4 r8 c'\ffE b d b g %80
+    fis e fis d g16 d' c b a g fis e
+    d8 d' d, d d4 r
+    r16 g\p f! es d c b a g8 d' d d
+    d d\f d d d4 r
+    r16 d\p e fis g a b c d8 d, d d %85
+    d4 r r16 g, h d g as g f
+    g2 r16 f, a c f g f es
+    f2 r8 es es es
+    d d d d d d d d
+    d g, b d g b d g, %90
+    d d d d d d d d
+    d d4 d d d8~
+    d d4 d d d8~
+    d b c a d4 d,
+    g8 b'\f g b es, g b, d %95
+    c c c b a c c c
+    b d'\ff b g fis d' fis, d
+    g d' b g fis d' fis, d
+    g b c a d4 r16 es d c
+    b8 d g, b es, g b, d %100
+    c c c b a c c c
+    b g' d16 b d b g4 r\fermata
+    R1
+    b8\f b b b b b b b
+    b16 g\p g g g g g g g g g g g g g g %105
+    as as as as as as as as as as as as g g g g
+    f8 b b b c d es f
+    g16 g g g g g g g a,! a a a a a a a
+    b\fE b b b d d d d f f f f as as as as
+    g8 b\p g es c es c g %110
+    as16 as as as as as as as b b b b b b b b
+    es8 es\f es es es es es es
+    es16 es' d c b as g f es4 r
+    e\p r r2
+    f16 g a! b c b a g fis4 r %115
+    g16\fE a b c d c b a gis8 gis gis gis
+    a a a a a a a a
+    a\p a a a a a a a
+    a a a a a a a a
+    a a a a a a a a %120
+    a4 f8 d cis a' cis, a
+    d a' f d cis a' cis, a
+    d f g e a4 a,
+    d d'\f b a
+    gis2 a %125
+    d,8\ffE d d d c! c c c
+    b d b g fis' e fis d
+    g d' b g fis d' fis, d
+    g d' b g fis d' fis, d
+    g b c a d4 r16 es d c %130
+    b8 d g, b es, g b, d
+    c c c b a c c c
+    b4 d16 b d b g4 r \bar "S-S" %133 finis
+  }
+}

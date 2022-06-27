@@ -273,3 +273,89 @@ VerachteteOboeI = {
     g4 r r2 \bar "S-S" %133 finis
   }
 }
+
+DieKoenigeOboeI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \tempoDieKoenige
+    \partial 8 r8 R2.*5 %5
+    r4 r r8 a'\fE
+    d d d cis d e
+    fis e d e fis gis
+    a4 cis,8 d e fis
+    g!4 g8 g g g %10
+    g4 fis r
+    h, h h
+    cis2 cis4
+    d e fis
+    fis e r8 a, %15
+    e' e e e e e
+    e4 d8 cis d4
+    cis cis8 d e cis
+    d4 h8 cis d h
+    cis4 h r %20
+    R2.*3
+    fis'4 fis2
+    e4 e2 %25
+    d4 d2
+    cis4 cis d
+    e a, h
+    cis r r8 h
+    cis16 e a e e8 e e e %30
+    e2.
+    e16 a cis a e8 e e e
+    e2~ e16 h' d h
+    e, a cis a e8 e e e
+    e2~ e16 h' d h %35
+    cis8 a a2~
+    a8 a a2~
+    a8 a a2~
+    a16 gis h a gis fis e dis e h cis d
+    cis e a a, h fis' e d cis8 h %40
+    a4 r r
+    R2.*4 %45
+    r4 r r8 a
+    e' e e e e e
+    e cis d e fis gis
+    a4 a,8 h cis d
+    e4 e8 e e e %50
+    e4 d r
+    r c8 d e fis
+    g g g g g g
+    g4 fis fis
+    fis e a~ %55
+    a gis8 fis gis4
+    a2 cis,4
+    d e fis
+    fis e r
+    R2.*3 %62
+    r4 r r8 d,
+    a' a a fis g a
+    h a g a h cis %65
+    d4 r r
+    R2.
+    r4 fis8 d e fis
+    g4 g8 g g g
+    g4 fis r %70
+    e e2
+    d4 d2
+    cis4 e8 fis g!4
+    fis fis g
+    a d, e %75
+    fis r r8 e
+    d a a a a a
+    a2.~
+    a16 d fis d a8 a a a
+    a2~ a16 e' g e %80
+    a, d fis d a8 a a a
+    a2~ a16 e' g e
+    fis8 d' d2~
+    d8 d d2~
+    d8 d d2~ %85
+    d16 e, fis gis a h cis h a e fis g
+    fis a d d, e h' a g fis8 e
+    d4 r r
+    R2.*4 %92
+    R2.\fermata \bar "|." %93 finis
+  }
+}

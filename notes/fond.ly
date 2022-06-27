@@ -891,3 +891,195 @@ VerachteteBassFigures = \figuremode {
   r2 <7 _+>
   r1 %133 finis
 }
+
+DieKoenigeFondamento = {
+  \relative c {
+    \clef bass
+    \key d \major \time 3/4 \tempoDieKoenige
+    \partial 8 r8 R2.
+    r4 r r8 \mvTr a\fE-\soloE-\unisono
+    d fis d4 r8 a
+    e' g e4 r8 a,
+    fis' d fis a d16 a fis d %5
+    a'4 a, r
+    r32 d(-\tuttiE e fis g a h cis d8) a d cis
+    d4 r8 d, d' d,
+    cis' h a h cis d
+    h a g a h cis %10
+    d4 r8 d, fis d
+    g4 r8 h e e,
+    a4 r8 a, g'! a,
+    fis' fis e e d d
+    a'32 a,( h cis d e fis gis a4) r8 a, %15
+    gis' fis e fis gis a
+    h h gis gis e e
+    a4 r r
+    R2.*2 %20
+    r32 a,( h cis d e fis gis a4) a,
+    r32 \once \slurDashed e'( fis gis a h cis d e4) e,
+    R2.
+    ais8 ais h h a a
+    gis gis a a g g %25
+    fis fis gis gis e e
+    a4 r8 a, fis' d
+    cis32 a_( h cis d e fis gis a4) r8 d,
+    e4 r r8 e
+    a cis a4 r8 e-\soloE %30
+    h' d h4 r8 e,
+    cis' h cis e cis a
+    gis e gis h gis e
+    cis' a cis e cis a
+    gis e gis h gis e %35
+    a4 r8 cis a eis
+    fis4 r8 a fis cis
+    d a' gis fis e dis
+    e4 r8 fis gis e
+    a fis d4 e %40
+    a, r r
+    r r r8 a'-\unisono
+    gis e gis h e16 h gis e
+    fis8 a cis4 r8 cis,
+    d fis h, h' e,16 fis gis e %45
+    a4 a, r8 a'-\tuttiE
+    gis fis gis e fis gis
+    a a a a a a
+    a32 a,( h cis d e fis gis a4) a,
+    r r8 a cis a %50
+    d4 d, r
+    r32 d'( e fis g a h cis d4) d,
+    g g8 a h cis!
+    d4 d8 a fis d
+    a'4 a, r %55
+    b b b
+    r32 a( h cis d e fis gis a4) r8 g
+    fis! fis e e d d
+    a'4 a, r8 a-\unisono-\soloE
+    d fis d4 r8 a %60
+    e' g e4 r8 a,
+    fis' d fis a d16 a fis d
+    a'4 a, r8 d-\tuttiE
+    a' a a fis g a
+    h a g a h cis %65
+    d4 r r
+    r32 a,( h cis d e fis g a4) a,
+    r32 d( e fis g a h cis d4) r8 d,
+    g32 g,_( a h c d e fis g8) a h cis?
+    d4 d, r %70
+    gis8 gis ais ais fis fis
+    h h gis gis e e
+    a!4 cis8 h a4
+    d8 d d d h h
+    fis fis fis fis g g %75
+    a4 r r8 a,
+    d fis d4 r8 a-\soloE
+    e' g e4 r8 a,
+    fis' d fis a fis d
+    cis a cis e cis a %80
+    fis' d fis a fis d
+    cis a cis e cis a
+    d4 r8 fis' d ais
+    h4 r8 d h fis
+    g d' cis h a gis %85
+    a4 r8 a cis a
+    d h g4 a
+    d,8 a'-\unisono d fis d ais
+    h d h4 r8 fis
+    g h g dis e d %90
+    cis a cis e a16 g fis e
+    fis d g e a4 a,
+    d r r\fermata \bar "|." %93 finis
+  }
+}
+
+DieKoenigeBassFigures = \figuremode {
+  r8 r2.
+  r
+  r
+  r
+  r %5
+  r
+  r4. <5>4 <6>8
+  r2 r8 <4+ 2>
+  <6> <\t>4 <7>8 <6>4
+  <6!>2 <6>8 <7 5> %10
+  <6 4>4 <5 3> <6>
+  <9> <8>8 <5> <_+>4
+  r2 <2>4
+  <6> q2
+  <6 4>8.. \bassFigureExtendersOn q32 \bassFigureExtendersOff <5 3>2 %15
+  <6>8 <7> <_+> <7> <6>4
+  <4> <6 5> <7 _+>
+  r2.*4 %21
+  <7 _+>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff
+  r2.
+  <6 5>2 <2>4
+  <6 5>2 <2>4 %25
+  <6 5> q <7 _+>
+  r2 <6>4
+  <6>2 r8 <6 5>
+  <6 4>4 <5 \t>4. <7 _+>8
+  r2. %30
+  <6\\>2 \bassFigureExtendersOn q8 q
+  <6>2 q8 q
+  <6\! 5>2 <6 5>8 q
+  <6\!>2 <6>8 q
+  <6\! 5>2 <6 5>8 q %35
+  r4. <\l>4 q8
+  r4. <\l>4 q8
+  <6 5>2 q8 q \bassFigureExtendersOff
+  <4>4 <_+>8 <6\\> <6> <7! _+>
+  r4 <6 5> <6 4>8 <5 _+> %40
+  r2.
+  r
+  r
+  r
+  r %45
+  r2 r8 <5>
+  <6> <7> <6> <_+> <7> <6>
+  r4 <6 4>8 <5 3> <6 4> <7+ \t>
+  <8 3>2.
+  r4. <7!>8 <6 5>4 %50
+  <9 4>4 <8 3>2
+  <7!>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff
+  r2 <6>8 <\t>
+  <6 4>4 <5 3>2
+  <6 4>4 <5 3>2 %55
+  <7 5!>4 <6\\ \t>2
+  r2 r8 <4 2>
+  <6>4 q2
+  <6 4>4 <5 3>2
+  r2. %60
+  r
+  r
+  r
+  r
+  r %65
+  r
+  <7>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff
+  r2.
+  r4. <\t>8 <6> <7 5>
+  <6 4>4 <5 3>2 %70
+  <6 5>4 q <7 _+>
+  r <6 5> <7 _+>
+  r <6> <7!>
+  r2 <6>4
+  q2 <6 5>4 %75
+  <6 4> <5 \t> <7 3>
+  r2.
+  <6>2 \bassFigureExtendersOn q8 q
+  <6\!>2 <6>8 q
+  <6\! 5>2 <6 5>8 q %80
+  <6\!>2 <6>8 q
+  <6\! 5>2 <6 5>8 q
+  r4. <\l>4 q8
+  r4. <\l>4 q8
+  <6 5>2 q8 q \bassFigureExtendersOff %85
+  <4>4 <3> <6 5!>
+  r <6 5> <6 4>8 <5 3>
+  r2.
+  r
+  r %90
+  r
+  r
+  r %93 finis
+}

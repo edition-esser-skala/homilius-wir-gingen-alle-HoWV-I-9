@@ -384,67 +384,147 @@ paperTwoStaves = \paper {
   %     \midi { \tempo 4 = 65 }
   %   }
   % }
+  % \bookpart {
+  %   \section "7" "Aria" "Verachtete, verdammte Sünder"
+  %   \addTocLabel "verachtete"
+  %   \paper {
+  %     top-system-spacing.basic-distance = #12
+  %     top-system-spacing.minimum-distance = #12
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #12
+  %     markup-system-spacing.minimum-distance = #12
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \VerachteteOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \VerachteteOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \VerachteteViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \VerachteteViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \VerachteteViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \VerachteteBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \VerachteteBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \VerachteteFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \VerachteteBassFigures }
+  %     >>
+  %     \layout { \context { \Score \override SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8) } }
+  %     \midi { \tempo 4 = 120 }
+  %   }
+  % }
   \bookpart {
-    \section "7" "Aria" "Verachtete, verdammte Sünder"
-    \addTocLabel "verachtete"
-    \paper {
-      top-system-spacing.basic-distance = #12
-      top-system-spacing.minimum-distance = #12
-      top-markup-spacing.basic-distance = #0
-      top-markup-spacing.minimum-distance = #0
-      markup-system-spacing.basic-distance = #12
-      markup-system-spacing.minimum-distance = #12
-      systems-per-page = #2
-    }
+    \section "8" "Coro" "Doe Könige im Lande lehnen ſich auf"
+    \addTocLabel "diekoenige"
     \score {
       <<
         \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
+          \new GrandStaff <<
             \set GrandStaff.instrumentName = "ob"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \VerachteteOboeI
+              \DieKoenigeOboeI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \VerachteteOboeII
+              \DieKoenigeOboeII
             }
           >>
+        >>
+        \new StaffGroup <<
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "D" "" "1, 2" }
+            % \transpose c d
+            \partCombine \DieKoenigeCornoI \DieKoenigeCornoII
+          }
         >>
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \VerachteteViolinoI
+              \DieKoenigeViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \VerachteteViolinoII
+              \DieKoenigeViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \VerachteteViola
+            \DieKoenigeViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \VerachteteBasso }
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \DieKoenigeSoprano }
           }
-          \new Lyrics \lyricsto Basso \VerachteteBassoLyrics
+          \new Lyrics \lyricsto Soprano \DieKoenigeSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \DieKoenigeAlto }
+          }
+          \new Lyrics \lyricsto Alto \DieKoenigeAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \DieKoenigeTenore }
+          }
+          \new Lyrics \lyricsto Tenore \DieKoenigeTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \DieKoenigeBasso }
+          }
+          \new Lyrics \lyricsto Basso \DieKoenigeBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \VerachteteFondamento
+            \DieKoenigeFondamento
           }
         >>
-        \new FiguredBass { \VerachteteBassFigures }
+        \new FiguredBass { \DieKoenigeBassFigures }
       >>
-      \layout { \context { \Score \override SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8) } }
+      \layout { }
       \midi { \tempo 4 = 120 }
     }
   }

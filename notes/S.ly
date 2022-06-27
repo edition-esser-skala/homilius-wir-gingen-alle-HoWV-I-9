@@ -478,3 +478,141 @@ MeinHeilandSopranoLyricsB = \lyricmode {
   bis aufs
   Blut, %9 finis
 }
+
+DieKoenigeSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \autoBeamOff \tempoDieKoenige
+    \partial 8 \mvTr d8\fE^\tutti a' a a fis g a
+    h([ a)] g([ a)] h([ cis)]
+    d4 r r
+    R2.*2 %5
+    r4 r r8 a
+    d d d cis d e
+    fis([ e)] d([ e)] fis([ gis)]
+    a4 cis,8 d e fis
+    g!4 g8 g g g %10
+    g4 fis r
+    h, h h
+    cis2 cis4
+    d e fis
+    fis e r8 a, %15
+    e' e e e e e
+    e4 d8([ cis)] d4
+    cis cis8 d e cis
+    d4 h8 cis d h
+    cis4 h r %20
+    R2.*3
+    fis'4 fis fis
+    e8 e4 e e8 %25
+    d d4 d d8
+    cis2 d4
+    e a, h
+    \tuplet 3/2 4 { cis8([ h a] } h2)\trill
+    a r4 %30
+    R2.*9 %39
+    r4 r r8 e %40
+    a a a gis a h
+    cis([ h)] a([ h)] cis([ d)]
+    e4 r r
+    R2.*2 %45
+    r4 r r8 a,
+    e' e e e e e
+    e([ cis)] d([ e)] fis([ gis)]
+    a4 a,8 h cis d
+    e4 e8 e e e %50
+    e4 d r
+    r c8 d e fis
+    g g g g g g
+    g4 fis8 fis fis fis
+    fis4 e a~ %55
+    a gis8([ fis)] gis4
+    a2 cis,4
+    d e fis
+    fis e r
+    R2.*3 %62
+    r4 r r8 d,
+    a' a a fis g a
+    h([ a)] g([ a)] h([ cis)] %65
+    d4 r r
+    R2.
+    r4 fis8 d e fis
+    g4 g8 g g g
+    g4 fis r %70
+    e e e
+    d d8 d d4
+    cis e8 fis g!4
+    fis2 g4
+    a d, e %75
+    \tuplet 3/2 4 { fis8([ e d] } e2)\trill
+    d r4
+    R2.*15 %92
+    R2.\fermata \bar "|." %93 finis
+  }
+}
+
+DieKoenigeSopranoLyrics = \lyricmode {
+  Die Kö -- ni -- ge im Lan -- de
+  leh -- nen ſich
+  auf,
+
+  die %6
+  Kö -- ni -- ge im Lan -- de
+  leh -- nen ſich
+  auf, und die Her -- ren
+  rath -- ſchla -- gen mit -- ei -- %10
+  nan -- der
+  wi -- der den
+  Herrn und
+  ſei -- nen Ge --
+  ſalb -- ten, die %15
+  Kö -- ni -- ge im Lan -- de
+  leh -- nen ſich
+  auf, und die Her -- ren
+  rath -- ſchla -- gen mit -- ei --
+  nan -- der %20
+
+  wi -- der den %24
+  Herrn, wi -- der den %25
+  Herrn, wi -- der den
+  Herrn und
+  ſei -- nen Ge --
+  ſalb --
+  ten. %30
+
+  Die %40
+  Kö -- ni -- ge im Lan -- de
+  leh -- nen ſich
+  auf,
+
+  die %46
+  Kö -- ni -- ge im Lan -- de
+  leh -- nen ſich
+  auf, und die Her -- ren
+  rath -- ſchla -- gen mit -- ei -- %50
+  nan -- der,
+  und die Her -- ren
+  rath -- ſchla -- gen, die Her -- ren
+  rath -- ſchla -- gen mit -- ei --
+  nan -- der wi -- %55
+  der den
+  Herrn und
+  ſei -- nen Ge --
+  ſalb -- ten.
+
+  Die %63
+  Kö -- ni -- ge im Lan -- de
+  leh -- nen ſich %65
+  auf,
+
+  und die Her -- ren
+  rath -- ſchla -- gen mit -- ei --
+  nan -- der %70
+  wi -- der den
+  Herrn, wi -- der den
+  Herrn, wi -- der den
+  Herrn und
+  ſei -- nen Ge -- %75
+  ſalb --
+  ten. %77 finis
+}

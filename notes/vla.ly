@@ -404,3 +404,99 @@ VerachteteViola = {
     b4 d16 b d b g4 r \bar "S-S" %133 finis
   }
 }
+
+DieKoenigeViola = {
+  \relative c' {
+    \clef alto
+    \key d \major \time 3/4 \tempoDieKoenige
+    \partial 8 r8 R2.
+    r4 r r8 a\fE
+    d fis d4 r8 a
+    e' g e4 r8 a,
+    fis' d fis a d16 a fis d %5
+    a'4 a, r
+    r r8 e' fis e
+    d4 d d
+    e r r8 d
+    d4 r16 d d d d8 e %10
+    d4 d' r
+    d, d r8 e
+    e4 r8 e e e
+    fis16 fis fis fis g g g g a a a a
+    a32 a,( h cis d e fis gis a4) r8 cis, %15
+    h4 h r8 cis'
+    h4 e, e
+    e r r
+    R2.*5 %23
+    cis'16 cis cis cis h h h h h h h h
+    h h h h a a a a a a a a %25
+    a a a a gis gis gis gis gis gis gis gis
+    a4 r8 a, fis' d
+    cis32 a( h cis d e fis gis a4) r8 fis
+    e4 r r8 e
+    a cis a4 r8 e %30
+    gis h gis4 r8 e
+    a e a cis a cis
+    h gis h d h gis
+    a e a cis a cis
+    h gis h d h gis %35
+    a4 r8 cis a eis
+    fis4 r8 a fis cis
+    d a' gis fis e dis
+    e4 r8 a h gis
+    e fis fis4 e %40
+    <e a,> r r
+    r r r8 a
+    gis e gis h e16 h gis e
+    fis8 a cis4 r8 cis,
+    d fis h, h' e,16 fis gis e %45
+    a4 a, r
+    r r8 e' e e
+    e4 fis8 e d4
+    e r r
+    r r8 a, cis a %50
+    d4 d, r
+    R2.
+    r4 g'8 a h cis!
+    d4 d8 a fis d
+    a'4 a, r %55
+    b b b
+    r32 a( h cis d e fis gis a4) r8 e
+    fis!16 fis fis fis g g g g a a a a
+    a4 a r8 a,
+    d fis d4 r8 a %60
+    e' g e4 r8 a,
+    fis' d fis a d16 a fis d
+    a'4 a, r8 d
+    a' a a fis g a
+    h a g a h cis %65
+    d4 r r
+    R2.
+    r32 d,( e fis g a h cis d4) r8 d,
+    g32 g,( a h c d e fis g8) a h cis?
+    d4 d, r %70
+    h16 h h h fis' fis fis fis fis fis fis fis
+    fis fis fis fis e e e e e e e e
+    e e e e e e d d cis cis a' a
+    a8 a a a g g
+    fis fis fis fis h h %75
+    a4 r r8 a,
+    d fis d4 r8 a
+    cis e cis4 r8 a
+    d a d fis d fis
+    e cis e g e cis %80
+    d a d fis d fis
+    e cis e g e cis
+    d4 r8 fis d ais
+    h4 r8 d' h fis
+    h d cis h a gis %85
+    a4 r8 a a a
+    a h h4 a
+    fis8 a d fis d ais
+    h d h4 r8 fis
+    g h g dis e d %90
+    cis a cis e a16 g fis e
+    fis d g e a4 a,
+    d r r\fermata \bar "|." %93 finis
+  }
+}

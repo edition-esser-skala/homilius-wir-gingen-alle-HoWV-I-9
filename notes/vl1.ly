@@ -389,3 +389,103 @@ VerachteteViolinoI = {
     g4 d16 b d b g4 r \bar "S-S" %133 finis
   }
 }
+
+DieKoenigeViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \tempoDieKoenige
+    \partial 8 r8 R2.
+    r4 r r8 a\fE
+    d fis d4 r8 a
+    e' g e4 r8 a,
+    fis' d fis a d16 a fis d %5
+    a'4 a, r
+    R2.
+    r32 d'( e fis g a h cis d4) d,
+    r32 a( h cis d e fis gis a4) a,
+    r16 h d g h h h h h h h h %10
+    h4 a r
+    r8 h, g h e,4
+    r32 a( h cis d e fis g! a4) cis,
+    d16 d d d e e e e fis fis fis fis
+    fis4 e8 a, a'4 %15
+    r32 e,( fis gis a h cis dis e4) r8 e
+    e16 fis, gis ais h cis d cis d e, h' d
+    cis32 a( h cis d e fis gis a4) a,
+    r32 e_( fis gis a h cis dis e4) e,
+    a8 a, e'4 r %20
+    r r32 a( h cis d e fis gis a8) a,
+    gis4 r32 e( fis gis a h cis d e8) e,
+    a a, e'4 r
+    fis'16 fis fis fis fis fis fis fis fis fis fis fis
+    e e e e e e e e e e e e %25
+    d d d d d d d d d d d d
+    cis32 a( h cis d e fis gis a8) a a a
+    a32 a,( h cis d e fis gis a8) a a h,
+    cis4 r r8 h
+    cis16 e a e e e e e e e e e %30
+    e e e e e e e e e e e e
+    e a cis a e e e e e e e e
+    e e e e e e e e e h' d h
+    e, a cis a e e e e e e e e
+    e e e e e e e e e h' d h %35
+    cis a a a a a a a a a a a
+    a a a a a a a a a a a a
+    a a a a a a a a a a a a
+    a gis h a gis fis e dis e h cis d
+    cis e a a, h fis' e d cis a' h, gis' %40
+    <a cis,>4 r r
+    r r r8 a,
+    gis e gis h e16 h gis e
+    fis8 a cis4 r8 cis,
+    d fis h, h' e,16 fis gis e %45
+    a4 a, r
+    r32 e'_( fis gis a h cis dis e4) e,
+    r16 a cis a d a e' a, fis' a, gis' a,
+    a'4 r r
+    r32 a,,( h cis d e fis g! a4) a, %50
+    r32 d_( e fis g a h cis d4) d,
+    R2.
+    r32 h'( c d e fis g a h8) h h h
+    h16 h h h a a a a d d d d
+    d4 cis r %55
+    r32 d,( e f g a b c d4) d,
+    r32 a,_( h cis d e fis gis a8) a' a a
+    a16 a a a g g g g fis fis fis fis
+    fis4 e r8 a,,
+    d fis d4 r8 a %60
+    e' g e4 r8 a,
+    fis' d fis a d16 a fis d
+    a'4 a, r8 d
+    a' a a fis g a
+    h a g a h cis %65
+    d32 d,_( e fis g a h cis d4) d,
+    R2.
+    r32 d_( e fis g a h cis d4) r8 d,
+    g32 g,( a h c d e fis g8) a h cis
+    d4 d, r %70
+    d''16 d d d cis cis cis cis cis cis cis cis
+    h h h h h h h h h h h h
+    a a a a a a a a g! g g g
+    fis32 d( e fis g a h cis d8) d d d
+    d32 \once \slurDashed d,( e fis g a h cis d8) d d e, %75
+    fis4 r r8 e,
+    fis16 a d a a a a a a a a a
+    a a a a a a a a a a a a
+    a d fis d a a a a a a a a
+    a a a a a a a a a e' g e %80
+    a, d fis d a a a a a a a a
+    a a a a a a a a a e' g e
+    fis d' d d d d d d d d d d
+    d d d d d d d d d d d d
+    d d d d d d d d d d d d %85
+    d e, fis gis a h cis h a e fis g
+    fis a d d, e h' a g fis d' e, cis'
+    d8 a, d fis d ais
+    h d h4 r8 fis
+    g h g dis e d %90
+    cis a cis e a16 g fis e
+    fis d g e a4 a,
+    d r r\fermata \bar "|." %93 finis
+  }
+}

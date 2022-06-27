@@ -448,84 +448,114 @@ paperTwoStaves = \paper {
   %     \midi { \tempo 4 = 120 }
   %   }
   % }
+  % \bookpart {
+  %   \section "8" "Coro" "Doe Könige im Lande lehnen ſich auf"
+  %   \addTocLabel "diekoenige"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \DieKoenigeOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \DieKoenigeOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "D" "" "1, 2" }
+  %           % \transpose c d
+  %           \partCombine \DieKoenigeCornoI \DieKoenigeCornoII
+  %         }
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \DieKoenigeViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \DieKoenigeViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \DieKoenigeViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \DieKoenigeSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \DieKoenigeSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \DieKoenigeAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \DieKoenigeAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \DieKoenigeTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \DieKoenigeTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \DieKoenigeBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \DieKoenigeBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \DieKoenigeFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \DieKoenigeBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 120 }
+  %   }
+  % }
   \bookpart {
-    \section "8" "Coro" "Doe Könige im Lande lehnen ſich auf"
-    \addTocLabel "diekoenige"
-    \score {
-      <<
-        \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "ob"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \DieKoenigeOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \DieKoenigeOboeII
-            }
-          >>
-        >>
-        \new StaffGroup <<
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "D" "" "1, 2" }
-            % \transpose c d
-            \partCombine \DieKoenigeCornoI \DieKoenigeCornoII
-          }
-        >>
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \DieKoenigeViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \DieKoenigeViolinoII
-            }
-          >>
-          \new Staff {
-            \set Staff.instrumentName = "vla"
-            \DieKoenigeViola
-          }
-        >>
-        \new ChoirStaff <<
-          \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \DieKoenigeSoprano }
-          }
-          \new Lyrics \lyricsto Soprano \DieKoenigeSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \DieKoenigeAlto }
-          }
-          \new Lyrics \lyricsto Alto \DieKoenigeAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \DieKoenigeTenore }
-          }
-          \new Lyrics \lyricsto Tenore \DieKoenigeTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \DieKoenigeBasso }
-          }
-          \new Lyrics \lyricsto Basso \DieKoenigeBassoLyrics
-        >>
-        \new StaffGroup <<
-          \new Staff {
-            \set Staff.instrumentName = "fond"
-            % \transpose c c,
-            \DieKoenigeFondamento
-          }
-        >>
-        \new FiguredBass { \DieKoenigeBassFigures }
-      >>
-      \layout { }
-      \midi { \tempo 4 = 120 }
-    }
-  }
+   \section "9" "Recitativo" "Sieh, ſie beſchließen einen Rath"
+   \addTocLabel "siebeschliessen"
+   \paper {
+     system-system-spacing.basic-distance = #21
+     system-system-spacing.minimum-distance = #21
+     systems-per-page = #4
+   }
+   \score {
+     <<
+       \new ChoirStaff \with { \smallGroupDistance } <<
+         \new Staff {
+           \set Staff.instrumentName = "B"
+           \new Voice = "Alto" { \dynamicUp \SieBeschliessenAlto }
+         }
+         \new Lyrics \lyricsto Alto \SieBeschliessenAltoLyrics
+       >>
+       \new StaffGroup <<
+         \new Staff {
+           \set Staff.instrumentName = "fond"
+           % \transpose c c,
+           \SieBeschliessenFondamento
+         }
+       >>
+       \new FiguredBass { \SieBeschliessenBassFigures }
+     >>
+     \layout { }
+     \midi { \tempo 4 = 65 }
+   }
+ }
 }

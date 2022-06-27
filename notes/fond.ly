@@ -1083,3 +1083,35 @@ DieKoenigeBassFigures = \figuremode {
   r
   r %93 finis
 }
+
+SieBeschliessenFondamento = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoSieBeschliessen
+    c!1
+    h~
+    h2 fis'~
+    fis r4 h,
+    gis1~ %5
+    gis2 d'!
+    cis d
+    r4 e eis2~
+    eis h~
+    h gis %10
+    r4 cis fis,2\fermata \bar "|." %11 finis
+  }
+}
+
+SieBeschliessenBassFigures = \figuremode {
+  <4+ 2>1
+  <6>
+  r2 <6\\ 5>
+  r2. <[5+] _+>4
+  <6>1 %5
+  r2 <4+ 2>
+  <6> <7+ _+>4 <4+ 2>
+  r <_+> <6 5 [_+]>2
+  r <[6+] 4+ 2+>
+  r <6\\> %10
+  r4 <[5+] _+> <[5+ _!]>2 %11 finis
+}

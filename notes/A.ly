@@ -466,3 +466,35 @@ DieKoenigeAltoLyrics = \lyricmode {
   ſalb --
   ten. %77 finis
 }
+
+SieBeschliessenAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoSieBeschliessen
+    r8 a' a a fis d e fis
+    g4 r8 d g g g a
+    h8. h16 h8 c a a r fis
+    dis8. dis16 dis8 e \appoggiatura e16 h8 h r4
+    r8 h' h h h8. e,16 e4 %5
+    r8 e e fis gis gis fis e
+    a a r16 a h cis cis8 fis, gis8. a16
+    e8 e r4 r8 h' d cis
+    h4 r8 gis eis eis eis fis
+    gis gis r cis, h' h h16 a gis a %10
+    fis8 fis r4 r2\fermata \bar "|." %11 finis
+  }
+}
+
+SieBeschliessenAltoLyrics = \lyricmode {
+  Sie[h], ſie be -- ſchlie -- ßen ei -- nen
+  Rath, ſie ſu -- chen dich mit
+  freund -- li -- chem Ver -- ſtel -- len, mein
+  Theu -- re -- ſter, zu fäl -- len.
+  Was dei -- ne All -- macht that, %5
+  ſucht ih -- re Bos -- heit zu ver --
+  ſtöh -- ren, und dei -- nen Na -- men zu ent --
+  eh -- ren. Dein gött -- lich
+  Wort, um das die Heil -- gen
+  bit -- ten, wird friſch und ſtolz durch ſie be -- %10
+  ſtrit -- ten. %11 finis
+}

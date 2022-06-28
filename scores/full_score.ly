@@ -528,34 +528,98 @@ paperTwoStaves = \paper {
   %     \midi { \tempo 4 = 120 }
   %   }
   % }
+  % \bookpart {
+  %   \section "9" "Recitativo" "Sieh, ſie beſchließen einen Rath"
+  %   \addTocLabel "siebeschliessen"
+  %   \paper {
+  %    system-system-spacing.basic-distance = #21
+  %    system-system-spacing.minimum-distance = #21
+  %    systems-per-page = #4
+  %   }
+  %   \score {
+  %    <<
+  %      \new ChoirStaff \with { \smallGroupDistance } <<
+  %        \new Staff {
+  %          \set Staff.instrumentName = "B"
+  %          \new Voice = "Alto" { \dynamicUp \SieBeschliessenAlto }
+  %        }
+  %        \new Lyrics \lyricsto Alto \SieBeschliessenAltoLyrics
+  %      >>
+  %      \new StaffGroup <<
+  %        \new Staff {
+  %          \set Staff.instrumentName = "fond"
+  %          % \transpose c c,
+  %          \SieBeschliessenFondamento
+  %        }
+  %      >>
+  %      \new FiguredBass { \SieBeschliessenBassFigures }
+  %    >>
+  %    \layout { }
+  %    \midi { \tempo 4 = 65 }
+  %   }
+  % }
   \bookpart {
-   \section "9" "Recitativo" "Sieh, ſie beſchließen einen Rath"
-   \addTocLabel "siebeschliessen"
-   \paper {
-     system-system-spacing.basic-distance = #21
-     system-system-spacing.minimum-distance = #21
-     systems-per-page = #4
-   }
-   \score {
-     <<
-       \new ChoirStaff \with { \smallGroupDistance } <<
-         \new Staff {
-           \set Staff.instrumentName = "B"
-           \new Voice = "Alto" { \dynamicUp \SieBeschliessenAlto }
-         }
-         \new Lyrics \lyricsto Alto \SieBeschliessenAltoLyrics
-       >>
-       \new StaffGroup <<
-         \new Staff {
-           \set Staff.instrumentName = "fond"
-           % \transpose c c,
-           \SieBeschliessenFondamento
-         }
-       >>
-       \new FiguredBass { \SieBeschliessenBassFigures }
-     >>
-     \layout { }
-     \midi { \tempo 4 = 65 }
-   }
- }
+    \section "10" "Aria" "Jeſu, deine heilgen Lehren"
+    \addTocLabel "jesudeine"
+    \paper {
+      top-system-spacing.basic-distance = #12
+      top-system-spacing.minimum-distance = #12
+      top-markup-spacing.basic-distance = #0
+      top-markup-spacing.minimum-distance = #0
+      markup-system-spacing.basic-distance = #12
+      markup-system-spacing.minimum-distance = #12
+      systems-per-page = #2
+    }
+    \score {
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "fl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \JesuDeineFlautoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \JesuDeineFlautoII
+            }
+          >>
+        >>
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \JesuDeineViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \JesuDeineViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "vla"
+            \JesuDeineViola
+          }
+        >>
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \JesuDeineAlto }
+          }
+          \new Lyrics \lyricsto Alto \JesuDeineAltoLyrics
+        >>
+        \new StaffGroup <<
+          \new Staff {
+            \set Staff.instrumentName = "fond"
+            % \transpose c c,
+            \JesuDeineFondamento
+          }
+        >>
+        \new FiguredBass { \JesuDeineBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 120 }
+    }
+  }
 }

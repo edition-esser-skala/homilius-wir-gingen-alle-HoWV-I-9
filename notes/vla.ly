@@ -500,3 +500,159 @@ DieKoenigeViola = {
     d r r\fermata \bar "|." %93 finis
   }
 }
+
+JesuDeineViola = {
+  \relative c' {
+    \clef alto
+    \key d \major \time 3/4 \tempoJesuDeine
+    r4 a\fE a
+    r a h
+    r d d
+    r a a
+    a2 gis4 %5
+    a2 gis4
+    a a a
+    a a8( gis a) cis-!
+    d2.(
+    e2) cis4 %10
+    a h e
+    a, a'8 g! fis e
+    d2 r4
+    a2 r4
+    a2 a4 %15
+    h a a
+    d,2 r4
+    a'2 r4
+    a2 a4
+    h h h %20
+    a2 r4
+    a a4. g8 \noBreak
+    fis2 r4 \bar "S-S"
+    r a\p a \noBreak
+    r g fis %25
+    r g a
+    r a a
+    g2.
+    a
+    h2 h4 %30
+    a g fis
+    a2 gis4
+    a a a
+    a a8 g fis e
+    d4 a' h %35
+    a cis r
+    r fis, fis
+    e2 r4
+    fis2.(
+    gis2) r4 %40
+    gis e gis
+    a2 r4
+    a2 r4
+    a2 r4
+    a2 r4 %45
+    a a a
+    h2 h4
+    cis fis, fis
+    fis r r
+    r e e %50
+    e r r
+    r a a
+    e2 r4
+    e cis' a
+    a e e %55
+    a8 cis[\f cis( a) a( fis)]
+    h2 gis4
+    a8( cis) cis( a) a( fis)
+    \appoggiatura fis4 gis2.
+    a2 r4 %60
+    e2 r4
+    e2 e'4
+    a, fis fis'
+    h,2 r4
+    a e' e, %65
+    a2 r4
+    r a\p a
+    r g fis
+    r g a
+    r a a %70
+    h2 h4
+    r a g
+    r a h
+    r h h
+    h2 ais4 %75
+    h h h
+    h2 r4
+    e,2 r4
+    h'2 r4
+    h h4. a8 %80
+    g4 e h'
+    e2 cis4
+    a2 r4
+    r a d
+    d2 d4 %85
+    d2 h4
+    a2 r4
+    a2 r4
+    a2 r4
+    a2 r4 %90
+    fis h h
+    h2 a4
+    a h h
+    h r r
+    r a a %95
+    a r r
+    r d d
+    a2 r4
+    a2 a4
+    h a g %100
+    fis a2\f
+    a4 a4. g8
+    fis2 a4\ff
+    h h h
+    a2 r4 %105
+    a a a
+    a a8( gis a) cis-!
+    d2.(
+    e2) cis4
+    d8( fis) fis( d) d( h) %110
+    \appoggiatura h4 cis2.
+    d2 r4
+    a2 r4
+    a2 a4
+    h a a %115
+    fis a2
+    a4 a4. g8
+    fis2\fermata r4
+    h2\p r4
+    fis2 r4 %120
+    h2 r4
+    r h h
+    h2 gis4
+    a2 r4
+    r a a %125
+    a h\pocoF h
+    gis gis r8. cis16
+    cis8. fis,16 \appoggiatura a4 gis2
+    a4 r8. h16[ a8. fis'16]
+    eis4 cis\p his %130
+    cis cis-! cis-!
+    cis cis r8. cis16
+    d8.[ d16 d8. d16 d8. d16]
+    cis4 cis'8.(\trill\f h!32 cis d8) cis-\parenthesize-!
+    eis,4 r8. cis16[\p cis8. cis16] %135
+    cis4 cis4.( h8)
+    a4 gis-! a-!
+    R2.
+    r4 h\f h
+    h r r %140
+    r a a
+    a r r
+    r d d
+    a2 r4
+    a2 a4 %145
+    h h h
+    a2 r4
+    a a4.( g8)
+    fis2 r4 \bar "S-S" %149 finis
+  }
+}

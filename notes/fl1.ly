@@ -110,3 +110,109 @@ WirGingenFlautoI = {
     d\breve*1/2\fermata \bar "|." %129 finis
   }
 }
+
+JesuDeineFlautoI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \tempoJesuDeine
+    \once \slurDashed d'4.(\fE e8) fis4
+    \appoggiatura fis e2 d4
+    h'2 a4
+    \appoggiatura a g2 fis4
+    r e8.(\trill d32 e fis8) e-! %5
+    e a e8.(\trill d32 e fis8) e-\parenthesize-!
+    e8. a16 g!4 fis
+    fis e r
+    d8( d') d( h) h( gis)
+    gis( a) a4. g8 %10
+    fis( d') d( h) h( gis)
+    \appoggiatura gis4 a2.
+    r4 a8.(\trill g32 a h8) a-!
+    a( g) g8.(\trill fis32 g a8) g-!
+    g fis d'4. cis8 %15
+    \tuplet 3/2 4 { h( a g) } \appoggiatura fis4 e2
+    d4 a'8.(\trill g32 a h8) a-!
+    a( g) g8.(\trill fis32 g a8) g-!
+    \once \slurDashed g( fis) d'4. cis8
+    \tuplet 3/2 4 { h( cis d) g,( a h) e,( e' d) } %20
+    \tuplet 3/2 4 { cis( d e) g,( a h) e,( fis g) }
+    \tuplet 3/2 4 { fis( g a) } \appoggiatura d,4 cis2 \noBreak
+    d4 a r \bar "S-S"
+    R2.*8 %31
+    r4 \once \slurDashed e'8.(\trillE\pE d32 e fis8) e-\parenthesize-!
+    e8. a16 g!4 fis
+    \appoggiatura fis e2 r4
+    R2.*14 %48
+    r4 fis8.(\trill e32 fis g8) fis-\parenthesize-!
+    \once \slurDashed ais( h) r4 r %50
+    r e,8.(\trill d32 e fis8) e-!
+    \once \slurDashed gis( a) \slurDashed e8.(\trill d32 e fis8) e-\parenthesize-!
+    e( d) d8.(\trill cis32 d e8) d-\parenthesize-!
+    d( cis) \slurSolid r4 r
+    R2. %55
+    r8 a'[\f a( fis) fis( dis)]
+    \once \slurDashed dis( e) e4. d8
+    cis( a') a( fis) fis( dis)
+    \appoggiatura dis4 e2.
+    r4 e8.(\trill dis32 e fis8) e-! %60
+    e( d) d8.(\trill cis32 d e8) d-!
+    d( cis) a'4. gis8
+    \tuplet 3/2 4 { fis( gis a) d,( e fis) h,( h' a) }
+    \tuplet 3/2 4 { gis( a h) d,( e fis) h,( cis d) }
+    \tuplet 3/2 4 { cis( d e) } \appoggiatura a,4 gis2 %65
+    a2 r4
+    R2.*8 %74
+    r4 \once \slurDashed fis'8.(\trill\pE e32 fis g8) fis-\parenthesize-! %75
+    fis8. h16 a!4 g
+    \appoggiatura g fis2 r4
+    r h8.(\trill a32 h c8) h-!
+    h( a) a8.(\trill g32 a h8) a-!
+    \tuplet 3/2 4 { g( a h) } \appoggiatura e,4 dis2 %80
+    e8( g) g( h) h( gis)
+    \appoggiatura gis4 a2 r4
+    R2.*11 %93
+    r4 \slurDashed h8.(\trillE a32 h c8) h-\parenthesize-!
+    dis( e) r4 r %95
+    r a,8.(\trillE g32 a h8) a-\parenthesize-!
+    cis( d) a8.(\trillE g32 a h8) a-\parenthesize-! \slurSolid
+    a( g) g8.(\trill fis32 g a8) g-!
+    g( fis) d'4. cis8
+    \tuplet 3/2 4 { h( a g) } \appoggiatura fis4 e2\trill %100
+    d4 g2\f
+    \tuplet 3/2 4 { fis8( g a) } \appoggiatura d,4 cis2
+    d4 d'4.\ff cis8
+    \tuplet 3/2 4 { h( cis d) g,( a h) e,( e' d) }
+    \tuplet 3/2 4 { cis( d e) g,( a h) e,( fis g) } %105
+    \tuplet 3/2 4 { fis( g a) } g4 fis
+    fis\trill e r
+    d8 d' d( h) h( gis)
+    gis( a) a4. g8
+    fis d' d( h) h( gis) %110
+    \appoggiatura gis4 a2.
+    r4 a8.(\trill g32 a h8) a-!
+    a( g) g8.(\trill fis32 g a8) g-!
+    \once \slurDashed g( fis) d'4. cis8
+    \tuplet 3/2 4 { h( a g) } \appoggiatura fis4 e2 %115
+    d4 g2
+    \tuplet 3/2 4 { fis8( g a) } \appoggiatura d,4 cis2
+    d2\fermata r4
+    R2.*2 %120
+    r4 fis8.(\pE\trill e32 fis g8) fis-\parenthesize-!
+    \once \slurDashed ais( h) r4 r
+    R2.
+    r4 e,8.(\trill d32 e fis8) e-!
+    \once \slurDashed gis( a) r4 r %125
+    R2.*13 %138
+    r4 a8.(\f\trill gis32 a h8) a-!
+    a( g) h8.(\trill a32 h c8) h-! %140
+    \once \slurDashed dis( e) g,8.(\trill fis32 g a8) g-!
+    \once \slurDashed g( fis) a8.(\trill g32 a h8) a-!
+    \once \slurDashed cis( d) a8.(\trill g32 a h8) a-!
+    \once \slurDashed a( g) g8.(\trill fis32 g a8) g-!
+    \once \slurDashed g( fis) d'4. cis8 %145
+    \tuplet 3/2 4 { h( cis d) g,( a h) e,( e' d) }
+    \tuplet 3/2 4 { cis( d e) g,( a h) e,( fis g) }
+    \tuplet 3/2 4 { fis( g a) } \appoggiatura d,4 cis2
+    d2 r4 \bar "S-S" %149 finis
+  }
+}

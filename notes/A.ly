@@ -498,3 +498,202 @@ SieBeschliessenAltoLyrics = \lyricmode {
   bit -- ten, wird friſch und ſtolz durch ſie be -- %10
   ſtrit -- ten. %11 finis
 }
+
+JesuDeineAlto = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \autoBeamOff \tempoJesuDeine
+    R2.*23 \bar "S-S" %23
+    \mvTr d4.(\pE^\soloE e8) fis4 \noBreak
+    \appoggiatura fis e2 d4 %25
+    h'2 a4
+    \appoggiatura a g2 fis4
+    r g8([ a)] h([ cis)]
+    d2 a4
+    r g8([ fis)] e([ d)] %30
+    \appoggiatura d4 cis2 d4
+    r e8.([\trillE d32 e] fis8) e
+    e8. a16 g!4 fis
+    \appoggiatura fis e2 r4
+    r fis gis %35
+    a4.( h8) cis4
+    \appoggiatura cis h2 a4
+    gis8([ fis)] e4 r
+    r a8([ fis)] fis([ dis)]
+    e[ gis fis e] h'4~ %40
+    h8[ a gis fis e d!]
+    cis4 fis e~
+    e8[ a gis h] a4
+    cis, fis e~
+    e8[ a gis h] a4~ %45
+    a8 cis h([ a)] gis([ fis)]
+    \appoggiatura e4 dis2 e4
+    r e8.([\trill dis32 e] fis8) e
+    e([ d)] r4 r
+    r d8.([\trill cis32 d] e8) d %50
+    d([ cis)] r4 r
+    r e8.([\trill d32 e] fis8) e
+    e d d8.([\trill cis32 d] e8) d
+    d([ cis)] e4. a8
+    fis8. h16 \appoggiatura a4 gis4. a8 %55
+    a2 r4
+    R2.*10 %66
+    d,4.( e8) fis4
+    \appoggiatura fis e2 d4
+    h'2 a4
+    \appoggiatura a g2 fis4 %70
+    r e8([ fis)] fis([ g)]
+    \appoggiatura g4 fis2 e4
+    c'2 h4
+    \appoggiatura h a2 g4
+    r fis8.([\trill e32 fis] g8) fis %75
+    fis8. h16 a!4 g
+    \appoggiatura g fis2 r4
+    r h8.([\trill a32 h] c8) h
+    h([ a)] a8.([\trill g32 a] h8) a
+    \tuplet 3/2 4 { g([ a)] h } \appoggiatura e,4 dis4. e8 %80
+    e2 r4
+    r a g!
+    fis4.( g8) a4
+    d,( d') c
+    \appoggiatura c h2 a4 %85
+    r g8([ fis)] e([ d)]
+    cis!4 fis e~
+    e8[ a gis h] a4
+    cis, fis e~
+    e8[ a gis h] a4~ %90
+    a8 d, d'([ cis)] h([ a)]
+    \appoggiatura a4 gis2 a4
+    r a8.([\trill g32 a] h8) a
+    a([ g)] r4 r
+    r g8.([\trill fis32 g] a8) g %95
+    g([ fis)] r4 r
+    r a8.([\trill g32 a] h8) a
+    a g g8.([\trill fis32 g] a8) g
+    g([ fis)] d'4. cis8
+    \tuplet 3/2 4 { h([ a)] g } \appoggiatura fis4 e4. d8 %100
+    d4 g2
+    \tuplet 3/2 4 { fis8([ g)] a } \appoggiatura d,4 cis4. d8
+    d2 r4
+    R2.*14 %117
+    R2.\fermata
+    r4 fis8.([\trill e32 fis] g8) fis
+    fis e cis'4. e,8 %120
+    e4 d r
+    r h'4. a!8
+    \tuplet 3/2 4 { gis([ h a] gis[ fis]) e d!([ cis)] d }
+    d4 cis r
+    r a'4. g!8 %125
+    \tuplet 3/2 4 { fis([ e)] d d'([ cis)] h a([ gis)] fis }
+    eis4 cis'4. h8
+    \tuplet 3/2 4 { a([ h)] cis } \appoggiatura fis,4 eis4. fis8
+    fis2 r4
+    r gis8.([\trill fis32 gis] a8) gis %130
+    gis8. cis16 h!4 a
+    a gis r
+    fis8. gis16 \tuplet 3/2 4 { a8([ gis)] fis a([ gis)] fis }
+    cis'4 cis, r
+    r cis'4. h8 %135
+    \tuplet 3/2 4 { a([ h)] cis } \appoggiatura fis,4 eis4. fis8
+    fis4 d'-! cis-!
+    \tuplet 3/2 4 { h8([ a)] gis } \appoggiatura fis4 eis4. fis8
+    fis2 r4
+    R2.*10 \bar "S-S" %149 finis
+  }
+}
+
+JesuDeineAltoLyrics = \lyricmode {
+  Je -- ſu, %24
+  dei -- ne %25
+  heil -- gen
+  Leh -- ren
+  zu be --
+  wah -- ren,
+  zu ver -- %30
+  meh -- ren,
+  ſey __ mein
+  Glück und mei -- ne
+  Pflicht.
+  Je -- ſu, %35
+  dei -- ne
+  heil -- gen
+  Leh -- ren
+  zu be --
+  wah -- _ %40
+
+  _ _ _
+  _
+  _ _ _
+  _ %45
+  ren, zu \xE ver --
+  meh -- ren, \x
+  ſey __ mein
+  Glück,
+  ſey __ mein %50
+  Glück,
+  ſey __ mein
+  Glück und mei -- ne
+  Pflicht, ſey mein
+  Glück und mei -- ne %55
+  Pflicht.
+
+  Je -- ſu, %67
+  dei -- ne
+  heil -- gen
+  Leh -- ren %70
+  zu be --
+  wah -- ren,
+  zu ver --
+  meh -- ren,
+  ſey __ mein %75
+  Glück und mei -- ne
+  Pflicht,
+  ſey __ mein
+  Glück, ſey __ mein
+  Glück und mei -- ne %80
+  Pflicht.
+  Je -- ſu,
+  dei -- ne
+  heil -- gen
+  Leh -- ren %85
+  zu be --
+  wah -- _ _
+  _
+  _ _ _
+  _ %90
+  ren, zu ver --
+  meh -- ren,
+  ſey __ mein
+  Glück,
+  ſey __ mein %95
+  Glück,
+  ſey __ mein
+  Glück und mei -- ne
+  Pflicht, ſey mein
+  Glück und mei -- ne %100
+  Pflicht, mein
+  Glück und mei -- ne
+  Pflicht.
+
+  Spot -- tet %119
+  im -- mer, fre -- che %120
+  Sün -- der,
+  faßt mich,
+  welt -- ge -- ſinn -- te
+  Kin -- der,
+  ihr müßt %125
+  al -- le, al -- le fürs Ge --
+  richt, ihr müßt
+  al -- le fürs Ge --
+  richt!
+  Spot -- tet %130
+  im -- mer, fre -- che
+  Sün -- der,
+  faßt mich, welt -- ge -- ſinn -- te
+  Kin -- der,
+  ihr müßt %135
+  al -- le fürs Ge --
+  richt, al -- le,
+  al -- le fürs Ge --
+  richt! %139 finis
+}

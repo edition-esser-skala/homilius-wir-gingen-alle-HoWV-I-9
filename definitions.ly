@@ -20,6 +20,7 @@ tempoDieFeinde = \tempoMarkup "[Recitativ]"
 tempoVerachtete = \tempoMarkup "Drohend und ſehr geſchwind"
 tempoDieKoenige = \tempoMarkup "Stolz und wild"
 tempoSieBeschliessen = \tempoMarkup "[Recitativ]"
+tempoJesuDeine = \tempoMarkup "Getroſt und liebkoſend"
 
 
 \include "notes/fl1.ly"

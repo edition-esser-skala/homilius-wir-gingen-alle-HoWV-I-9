@@ -616,3 +616,81 @@ DieKoenigeSopranoLyrics = \lyricmode {
   ſalb --
   ten. %77 finis
 }
+
+LassMichSoprano = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \autoBeamOff \tempoLassMich
+    r2 \mvTr a'\fE^\tuttiE
+    a a
+    a h
+    gis( fis)
+    e1\fermata %5
+    r2 h'
+    cis h
+    a fis \noBreak
+    e1\fermata \bar ":|."
+    r2 e' \noBreak %10
+    d cis
+    h cis
+    d( cis)
+    h1\fermata
+    r2 cis %15
+    d cis
+    h ais
+    h1\fermata
+    r2 e,
+    a h %20
+    cis d
+    e( d4 cis)
+    h1\fermata
+    r2 d
+    cis h %25
+    e a,4 h
+    cis2 h
+    a\breve*1/2\fermata \bar "|." %28 finis
+  }
+}
+
+LassMichSopranoLyricsA = \lyricmode {
+  Laß
+  mich dein
+  ſeyn und
+  blei --
+  ben, %5
+  du
+  treu -- er
+  Gott und
+  Herr.
+  Ach %10
+  Herr, laß
+  mich nicht
+  wan --
+  ken,
+  gieb %15
+  mir Be --
+  ſtän -- dig --
+  keit,
+  da --
+  für will %20
+  ich dir
+  dan --
+  ken
+  in
+  al -- le %25
+  E -- _ _
+  _ wig --
+  keit. %28 finis
+}
+
+LassMichSopranoLyricsB = \lyricmode {
+  Von
+  dir laß
+  mich nicht
+  trei --
+  ben, %5
+  halt
+  mich bey
+  rei -- ner
+  Lehr. %9 finis
+}

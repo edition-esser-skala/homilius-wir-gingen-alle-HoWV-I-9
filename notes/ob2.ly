@@ -367,3 +367,38 @@ DieKoenigeOboeII = {
     R2.\fermata \bar "|." %93 finis
   }
 }
+
+LassMichOboeII = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \tempoLassMich
+    r2 e\fE
+    fis fis
+    e fis
+    e dis
+    e1\fermata %5
+    r2 e
+    e e
+    e dis \noBreak
+    e1\fermata \bar ":|."
+    r2 e \noBreak %10
+    e e
+    e e
+    e1
+    e\fermata
+    r2 e %15
+    fis fis
+    fis4 eis fis2
+    fis1\fermata
+    r2 e!
+    fis gis %20
+    a a
+    a4 gis fis2
+    gis1\fermata
+    r2 fis
+    e e %25
+    e fis
+    e e
+    e\breve*1/2\fermata \bar "|." %28 finis
+  }
+}

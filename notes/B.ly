@@ -694,3 +694,81 @@ DieKoenigeBassoLyrics = \lyricmode {
   ſalb --
   ten. %77 finis
 }
+
+LassMichBasso = {
+  \relative c {
+    \clef bass
+    \key a \major \time 4/4 \autoBeamOff \tempoLassMich
+    r2 \mvTr a\fE^\tuttiE
+    fis' d
+    cis dis
+    e( h)
+    e1\fermata %5
+    r2 gis
+    a e
+    a, h \noBreak
+    e1\fermata \bar ":|."
+    r2 cis \noBreak %10
+    h a
+    e' a
+    gis( a)
+    e1\fermata
+    r2 cis %15
+    h fis'
+    g fis
+    h,1\fermata
+    r2 gis'
+    fis e %20
+    a fis
+    cis( d)
+    e1\fermata
+    r2 d
+    a' e %25
+    cis d
+    a e'
+    a,\breve*1/2\fermata \bar "|." %28 finis
+  }
+}
+
+LassMichBassoLyricsA = \lyricmode {
+  Laß
+  mich dein
+  ſeyn und
+  blei --
+  ben, %5
+  du
+  treu -- er
+  Gott und
+  Herr.
+  Ach %10
+  Herr, laß
+  mich nicht
+  wan --
+  ken,
+  gieb %15
+  mir Be --
+  ſtän -- dig --
+  keit,
+  da --
+  für will %20
+  ich dir
+  dan --
+  ken
+  in
+  al -- le %25
+  E -- _
+  _ wig --
+  keit. %28 finis
+}
+
+LassMichBassoLyricsB = \lyricmode {
+  Von
+  dir laß
+  mich nicht
+  trei --
+  ben, %5
+  halt
+  mich bey
+  rei -- ner
+  Lehr. %9 finis
+}

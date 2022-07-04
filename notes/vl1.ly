@@ -645,3 +645,38 @@ JesuDeineViolinoI = {
     d4 a r \bar "S-S" %149 finis
   }
 }
+
+LassMichViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \tempoLassMich
+    r2 a'\fE
+    a a
+    a h
+    gis fis
+    e1\fermata %5
+    r2 h'
+    cis h
+    a fis \noBreak
+    e1\fermata \bar ":|."
+    r2 e' \noBreak %10
+    d cis
+    h cis
+    d cis
+    h1\fermata
+    r2 cis %15
+    d cis
+    h ais
+    h1\fermata
+    r2 e,
+    a h %20
+    cis d
+    e d4 cis
+    h1\fermata
+    r2 d
+    cis h %25
+    e a,4 h
+    cis2 h
+    a\breve*1/2\fermata \bar "|." %28 finis
+  }
+}

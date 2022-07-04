@@ -558,30 +558,85 @@ paperTwoStaves = \paper {
   %    \midi { \tempo 4 = 65 }
   %   }
   % }
+  % \bookpart {
+  %   \section "10" "Aria" "Jeſu, deine heilgen Lehren"
+  %   \addTocLabel "jesudeine"
+  %   \paper {
+  %     top-system-spacing.basic-distance = #12
+  %     top-system-spacing.minimum-distance = #12
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #12
+  %     markup-system-spacing.minimum-distance = #12
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "fl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \JesuDeineFlautoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \JesuDeineFlautoII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \JesuDeineViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \JesuDeineViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \JesuDeineViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \JesuDeineAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \JesuDeineAltoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \JesuDeineFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \JesuDeineBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 120 }
+  %   }
+  % }
   \bookpart {
-    \section "10" "Aria" "Jeſu, deine heilgen Lehren"
-    \addTocLabel "jesudeine"
-    \paper {
-      top-system-spacing.basic-distance = #12
-      top-system-spacing.minimum-distance = #12
-      top-markup-spacing.basic-distance = #0
-      top-markup-spacing.minimum-distance = #0
-      markup-system-spacing.basic-distance = #12
-      markup-system-spacing.minimum-distance = #12
-      systems-per-page = #2
-    }
+    \section "11" "Choral" "Laß mich dein ſeyn und bleiben"
+    \addTocLabel "lassmich"
     \score {
       <<
         \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "fl"
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "ob"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \JesuDeineFlautoI
+              \LassMichOboeI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \JesuDeineFlautoII
+              \LassMichOboeII
             }
           >>
         >>
@@ -590,36 +645,58 @@ paperTwoStaves = \paper {
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \JesuDeineViolinoI
+              \LassMichViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \JesuDeineViolinoII
+              \LassMichViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \JesuDeineViola
+            \LassMichViola
           }
         >>
-        \new ChoirStaff <<
+        \new ChoirStaff \with { \twoStanzaDistance } <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \LassMichSoprano }
+          }
+          \new Lyrics \lyricsto Soprano \LassMichSopranoLyricsA
+          \new Lyrics \lyricsto Soprano \LassMichSopranoLyricsB
+
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \JesuDeineAlto }
+            \new Voice = "Alto" { \dynamicUp \LassMichAlto }
           }
-          \new Lyrics \lyricsto Alto \JesuDeineAltoLyrics
+          \new Lyrics \lyricsto Alto \LassMichAltoLyricsA
+          \new Lyrics \lyricsto Alto \LassMichAltoLyricsB
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \LassMichTenore }
+          }
+          \new Lyrics \lyricsto Tenore \LassMichTenoreLyricsA
+          \new Lyrics \lyricsto Tenore \LassMichTenoreLyricsB
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \LassMichBasso }
+          }
+          \new Lyrics \lyricsto Basso \LassMichBassoLyricsA
+          \new Lyrics \lyricsto Basso \LassMichBassoLyricsB
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \JesuDeineFondamento
+            \LassMichFondamento
           }
         >>
-        \new FiguredBass { \JesuDeineBassFigures }
+        \new FiguredBass { \LassMichBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 120 }
+      \midi { \tempo 2 = 90 }
     }
   }
 }

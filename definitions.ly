@@ -10,6 +10,7 @@ twoStanzaDistance = \setGroupDistance #15 #20
 twoStanzaDistanceCoro = \setGroupDistance #13 #13
 
 
+% 1
 tempoNunIhr = \tempoMarkup "Choral"
 tempoWirGingen = \tempoMarkup "Betrübt und langſam"
   tempoAberDer = \tempoMarkup "[Alla breve]"
@@ -21,6 +22,9 @@ tempoVerachtete = \tempoMarkup "Drohend und ſehr geſchwind"
 tempoDieKoenige = \tempoMarkup "Stolz und wild"
 tempoSieBeschliessen = \tempoMarkup "[Recitativ]"
 tempoJesuDeine = \tempoMarkup "Getroſt und liebkoſend"
+
+% 11
+tempoLassMich = \tempoMarkup "[Choral]"
 
 
 \include "notes/fl1.ly"

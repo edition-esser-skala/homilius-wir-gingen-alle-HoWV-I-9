@@ -697,3 +697,81 @@ JesuDeineAltoLyrics = \lyricmode {
   al -- le fürs Ge --
   richt! %139 finis
 }
+
+LassMichAlto = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \autoBeamOff \tempoLassMich
+    r2 \mvTr e\fE^\tuttiE
+    fis fis
+    e fis
+    e( dis)
+    e1\fermata %5
+    r2 e
+    e e
+    e dis \noBreak
+    e1\fermata \bar ":|."
+    r2 e \noBreak %10
+    e e
+    e e
+    e1
+    e\fermata
+    r2 e %15
+    fis fis
+    fis4( eis) fis2
+    fis1\fermata
+    r2 e!
+    fis gis %20
+    a a
+    a4( gis fis2)
+    gis1\fermata
+    r2 fis
+    e e %25
+    e fis
+    e e
+    e\breve*1/2\fermata \bar "|." %28 finis
+  }
+}
+
+LassMichAltoLyricsA = \lyricmode {
+  Laß
+  mich dein
+  ſeyn und
+  blei --
+  ben, %5
+  du
+  treu -- er
+  Gott und
+  Herr.
+  Ach %10
+  Herr, laß
+  mich nicht
+  wan --
+  ken,
+  gieb %15
+  mir Be --
+  ſtän -- dig --
+  keit,
+  da --
+  für will %20
+  ich dir
+  dan --
+  ken
+  in
+  al -- le %25
+  E -- _
+  _ wig --
+  keit. %28 finis
+}
+
+LassMichAltoLyricsB = \lyricmode {
+  Von
+  dir laß
+  mich nicht
+  trei --
+  ben, %5
+  halt
+  mich bey
+  rei -- ner
+  Lehr. %9 finis
+}

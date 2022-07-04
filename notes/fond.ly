@@ -1423,3 +1423,69 @@ JesuDeineBassFigures = \figuremode {
   r4 <6 4> <5 3>
   r2. %149 finis
 }
+
+LassMichFondamento = {
+  \relative c {
+    \clef bass
+    \key a \major \time 4/4 \tempoLassMich
+    r2 \mvTr a\fE-\tuttiE
+    fis' d
+    cis dis
+    e h
+    e1\fermata %5
+    r2 gis
+    a e
+    a, h \noBreak
+    e1\fermata \bar ":|."
+    r2 cis \noBreak %10
+    h a
+    e' a
+    gis a
+    e1\fermata
+    r2 cis %15
+    h fis'
+    g fis
+    h,1\fermata
+    r2 gis'
+    fis e %20
+    a fis
+    cis d
+    e1\fermata
+    r2 d
+    a' e %25
+    cis d
+    a e'
+    a,\breve*1/2\fermata \bar "|." %28 finis
+  }
+}
+
+LassMichBassFigures = \figuremode {
+  r1
+  r
+  <6>2 q
+  r <7 _+>
+  r1 %5
+  r2 <6>
+  r1
+  r2 <_+>
+  r1
+  r2 <6> %10
+  q1
+  r
+  <6 5>
+  r
+  r2 <6\\> %15
+  r <_+>
+  <7>4 <6\\> <_+>2
+  r1
+  r2 <6!>
+  r1 %20
+  r2 <6>
+  q1
+  r
+  r
+  r %25
+  <6>
+  r2 <7>
+  r1 %28 finis
+}

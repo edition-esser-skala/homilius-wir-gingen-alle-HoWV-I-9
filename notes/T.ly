@@ -481,3 +481,81 @@ DieKoenigeTenoreLyrics = \lyricmode {
   ſalb --
   ten. %77 finis
 }
+
+LassMichTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key a \major \time 4/4 \autoBeamOff \tempoLassMich
+    r2 \mvTr cis\fE^\tuttiE
+    cis d
+    e h
+    h2.( a4)
+    gis1\fermata %5
+    r2 h
+    a gis
+    cis h4( a) \noBreak
+    gis1\fermata \bar ":|."
+    r2 a \noBreak %10
+    gis a
+    gis a
+    h( a)
+    gis1\fermata
+    r2 ais %15
+    h ais
+    h cis
+    d1\fermata
+    r2 h
+    cis e %20
+    e fis
+    e( a,)
+    e'1\fermata
+    r2 a,
+    a gis %25
+    a1~
+    a2 gis4( d')
+    cis\breve*1/2\fermata \bar "|." %28 finis
+  }
+}
+
+LassMichTenoreLyricsA = \lyricmode {
+  Laß
+  mich dein
+  ſeyn und
+  blei --
+  ben, %5
+  du
+  treu -- er
+  Gott und
+  Herr.
+  Ach %10
+  Herr, laß
+  mich nicht
+  wan --
+  ken,
+  gieb %15
+  mir Be --
+  ſtän -- dig --
+  keit,
+  da --
+  für will %20
+  ich dir
+  dan --
+  ken
+  in
+  al -- le %25
+  E --
+  wig --
+  keit. %28 finis
+}
+
+LassMichTenoreLyricsB = \lyricmode {
+  Von
+  dir laß
+  mich nicht
+  trei --
+  ben, %5
+  halt
+  mich bey
+  rei -- ner
+  Lehr. %9 finis
+}

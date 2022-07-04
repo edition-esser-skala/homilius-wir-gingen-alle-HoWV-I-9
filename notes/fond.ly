@@ -1489,3 +1489,53 @@ LassMichBassFigures = \figuremode {
   r2 <7>
   r1 %28 finis
 }
+
+WasHatMessiasFondamento = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoWasHatMessias
+    g'!1
+    fis2 g
+    r16 fis fis fis fis ais cis e, dis2~
+    dis1
+    r16 e e e e gis h d, c!2~ %5
+    c r16 h h' h h h, a' a
+    gis1
+    g
+    r16 a a a a cis e g,! fis2~
+    fis f %10
+    r16 es es es es a c es, \once \tieDashed d2~
+    d dis~
+    dis e~
+    e f~
+    f r16 g g g g h d h %15
+    gis1~
+    gis2 r16 a32 h c16 h a c e gis,
+    a1
+    b
+    r4 c f,2\fermata \bar "|." %20
+  }
+}
+
+WasHatMessiasBassFigures = \figuremode {
+  <4+ 2>1
+  <6>2 <7+>4 <6>
+  <[5+] _+>2 \bo <6 [_+]>
+  r \bc <5 [\t]>
+  <_+> <6> %5
+  <[4+] 2+> <6 4>4 <5+ _+>
+  <6>1
+  <4+ 2>
+  <6+ 4>4 <5 _+> <6>2
+  r <7-> %10
+  <4 2> <_+>
+  r <6 [_+]>
+  r1
+  <6>
+  <6> %15
+  <6>
+  <6 5>
+  <5>2 <6>
+  r <4! 2>
+  r1 %20 finis
+}

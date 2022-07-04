@@ -622,81 +622,111 @@ paperTwoStaves = \paper {
   %     \midi { \tempo 4 = 120 }
   %   }
   % }
+  % \bookpart {
+  %   \section "11" "Choral" "Laß mich dein ſeyn und bleiben"
+  %   \addTocLabel "lassmich"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \LassMichOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \LassMichOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \LassMichViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \LassMichViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \LassMichViola
+  %         }
+  %       >>
+  %       \new ChoirStaff \with { \twoStanzaDistance } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \LassMichSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \LassMichSopranoLyricsA
+  %         \new Lyrics \lyricsto Soprano \LassMichSopranoLyricsB
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \LassMichAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \LassMichAltoLyricsA
+  %         \new Lyrics \lyricsto Alto \LassMichAltoLyricsB
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \LassMichTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \LassMichTenoreLyricsA
+  %         \new Lyrics \lyricsto Tenore \LassMichTenoreLyricsB
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \LassMichBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \LassMichBassoLyricsA
+  %         \new Lyrics \lyricsto Basso \LassMichBassoLyricsB
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \LassMichFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \LassMichBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 2 = 90 }
+  %   }
+  % }
   \bookpart {
-    \section "11" "Choral" "Laß mich dein ſeyn und bleiben"
-    \addTocLabel "lassmich"
+    \section "12" "Recitativo" "Was hat Meſſias denn gethan?"
+    \addTocLabel "washatmessias"
+    \paper {
+     system-system-spacing.basic-distance = #18
+     system-system-spacing.minimum-distance = #18
+     systems-per-page = #6
+    }
     \score {
-      <<
-        \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "ob"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \LassMichOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \LassMichOboeII
-            }
-          >>
-        >>
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \LassMichViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \LassMichViolinoII
-            }
-          >>
-          \new Staff {
-            \set Staff.instrumentName = "vla"
-            \LassMichViola
-          }
-        >>
-        \new ChoirStaff \with { \twoStanzaDistance } <<
-          \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \LassMichSoprano }
-          }
-          \new Lyrics \lyricsto Soprano \LassMichSopranoLyricsA
-          \new Lyrics \lyricsto Soprano \LassMichSopranoLyricsB
-
-          \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \LassMichAlto }
-          }
-          \new Lyrics \lyricsto Alto \LassMichAltoLyricsA
-          \new Lyrics \lyricsto Alto \LassMichAltoLyricsB
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \LassMichTenore }
-          }
-          \new Lyrics \lyricsto Tenore \LassMichTenoreLyricsA
-          \new Lyrics \lyricsto Tenore \LassMichTenoreLyricsB
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \LassMichBasso }
-          }
-          \new Lyrics \lyricsto Basso \LassMichBassoLyricsA
-          \new Lyrics \lyricsto Basso \LassMichBassoLyricsB
-        >>
-        \new StaffGroup <<
-          \new Staff {
-            \set Staff.instrumentName = "fond"
-            % \transpose c c,
-            \LassMichFondamento
-          }
-        >>
-        \new FiguredBass { \LassMichBassFigures }
-      >>
-      \layout { }
-      \midi { \tempo 2 = 90 }
+     <<
+       \new ChoirStaff \with { \smallGroupDistance } <<
+         \new Staff {
+           \set Staff.instrumentName = "T"
+           \new Voice = "Tenore" { \dynamicUp \WasHatMessiasTenore }
+         }
+         \new Lyrics \lyricsto Tenore \WasHatMessiasTenoreLyrics
+       >>
+       \new StaffGroup <<
+         \new Staff {
+           \set Staff.instrumentName = "fond"
+           % \transpose c c,
+           \WasHatMessiasFondamento
+         }
+       >>
+       \new FiguredBass { \WasHatMessiasBassFigures }
+     >>
+     \layout { }
+     \midi { \tempo 4 = 65 }
     }
   }
 }

@@ -559,3 +559,53 @@ LassMichTenoreLyricsB = \lyricmode {
   rei -- ner
   Lehr. %9 finis
 }
+
+WasHatMessiasTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoWasHatMessias
+    r8 cis cis d e cis h a
+    d4 r16 d e fis fis8 h, e d
+    h4 r r r8 fis
+    h8. h16 h8 dis fis8. a,!16 a8 h
+    gis gis r4 r8 a a a %5
+    dis8. dis16 dis8. e16 h8 h r4
+    r8 h h h h h cis d
+    cis cis r a e' e e16 fis g! fis
+    d8 d r4 r r8 a
+    d4 r8 a a c! es c %10
+    a4 r r r8 a
+    c8. c16 c8 d h h h ais
+    h fis g a g4 r16 g g g
+    c8. h16 c g a b a8 a r16 a a a
+    d8. c16 h h h c g8 g r4 %15
+    r r8 e' e8. h16 h8 r16 h
+    h8 c d c a4 r
+    r r8 c f8. f16 f c d es
+    d8 d r16 d g f e4 r16 e e f
+    c8 c r4 r2\fermata \bar "|." %20 finis
+  }
+}
+
+WasHatMessiasTenoreLyrics = \lyricmode {
+  Was hat Meſ -- ſi -- as denn ge --
+  than? Sie kla -- gen Ihn er -- bit -- tert
+  an. Ich
+  hö -- re ſie, die Un -- ge -- rech -- ten,
+  ſpre -- chen: Re -- bel -- li -- %5
+  on ſey dein Ver -- bre -- chen.
+  Sie nen -- nen dich und dei -- ne
+  Freun -- de der Ju -- den und der Rö -- mer
+  Fein -- de. Er
+  ſucht, ſagt der Ver -- weg -- nen %10
+  Mund, durch
+  li -- ſti -- ge Be -- mühn die Gunſt des
+  Volks an ſich zu ziehn, das Re -- gi --
+  ment von Ju -- da zu ver -- nich -- ten, und dann ein
+  welt -- lich Reich ſich auf -- zu -- rich -- ten. %15
+  Hin -- weg mit Ihm, er
+  ſtört Ju -- dä -- ens Ruh.
+  Sein Tod muß uns vor den Ge --
+  fah -- ren, die uns ſchon drohn, al -- lein be --
+  wah -- ren. %20 finis
+}

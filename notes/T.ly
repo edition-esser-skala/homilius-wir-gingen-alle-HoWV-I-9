@@ -844,3 +844,231 @@ ErIstDerTenoreLyricsB = \lyricmode {
   ge --
   ben %10 finis
 }
+
+DieIhrDenTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key es \major \time 3/4 \autoBeamOff \tempoDieIhrDen
+    R2.*4
+    \mvTr es4\fE^\tuttiE es f %5
+    es es es
+    es d es
+    f es r
+    es d8. c16 d4~
+    d c r8. g'16 %10
+    f4 f r8. f16
+    g4( es) c
+    c c r
+    e f r
+    des c r %15
+    d c c
+    c d d~
+    d8 c16 es d4( c)
+    d2 r4
+    R2.*3 %22
+    es4 es f
+    es es es
+    es d es %25
+    f es r
+    es es r8. es16
+    es4 d r
+    c c r8. c16
+    b4 b es~ %30
+    es es es
+    es d r8. d16
+    c2.
+    d4 r r
+    R2.*2 %36
+    \tempoDieIhrDenB R2.*6 %42
+    b4 es es
+    d8[ es d c d b]
+    c[ b] c4. d8 %45
+    es2.^\tenutoE
+    d4 g f
+    es( d) c
+    b d f
+    b,8 c b4 r %50
+    r es8 d es4~
+    es des8 c des4~
+    des c8 b c d
+    es[ d es f g es]
+    c[ d es b c d] %55
+    es4 b g'
+    f b, d
+    f2 b,4
+    es c f
+    b,( es) d %60
+    es( f) es
+    d8[ es d b c d]
+    es4 d8[ c] d4
+    es b b
+    f' f4. es8 %65
+    es4 es4. f8
+    b,4 es es~
+    es b f'
+    b, es8 d es4~
+    es d8 c d4~ %70
+    d c8 h c d
+    es[ f es c d h]
+    c[ d es c d h]
+    c4 r r
+    f f4. g8 %75
+    f2 c4
+    g' es8 f g es
+    c4 g' r
+    g, c c
+    b!8[ c b a b g] %80
+    a[ g] a4. b8
+    c2.^\tenutoE
+    b4 es d
+    c( b) a?
+    g r r %85
+    es'8 es f!4. es8
+    d4 es d
+    c d2~
+    d4 c8([ b)] c([ d)]
+    es4 es es %90
+    d b r
+    b f' es
+    d8[ es d c d b]
+    c[ b] c4. d8
+    es2.^\tenutoE %95
+    d4 g f
+    es( d) c
+    b f' f
+    es es4. f8
+    es4 g4. g8 %100
+    f4 d8([ es)] f([ d)]
+    g4( f es)
+    d d b
+    c c d
+    es d8([ c)] d4 %105
+    es b b
+    f' f4. f8
+    es4 es4. f8
+    b,4 es es
+    es( b f') %110
+    b, es8 d es4~
+    es d8 c d4~
+    d c8 h c4~
+    c b8 as! b4~
+    b as8 b as f' %115
+    b,2 c4
+    d d r
+    d2.
+    es4. f8 es4~
+    es8 c b2 %120
+    b4 r r\fermata \bar "|." %121 finis
+  }
+}
+
+DieIhrDenTenoreLyrics = \lyricmode {
+  Die ihr den %5
+  Herrn \markup \center-column { "lie" "fürch" } -- \markup \center-column { "bet," "tet," }
+  haſ -- ſet das
+  Ar -- ge,
+  haſ -- ſet das Ar --
+  ge, das %10
+  Ar -- ge, das
+  Ar -- ge,
+  haſ -- ſet,
+  haſ -- ſet,
+  haſ -- ſet, %15
+  haſ -- ſet das
+  Ar -- ge, haſ --
+  ſet das Ar --
+  ge.
+
+  Die ihr den %23
+  Herrn \markup \center-column { "lie" "fürch" } -- \markup \center-column { "bet," "tet," }
+  haſ -- ſet das %25
+  Ar -- ge,
+  haſ -- ſet das
+  Ar -- ge,
+  haſ -- ſet das
+  Ar -- ge, haſ -- %30
+  ſet das
+  Ar -- ge, das
+  Ar --
+  ge;
+
+  der Herr be -- %43
+  wah --
+  _ ret die %45
+  See --
+  len ſei -- ner
+  Hei -- li --
+  gen, ſei -- ner
+  Hei -- li -- gen, %50
+  von der Gott --
+  lo -- ſen Hand __
+  wird er ſie er --
+  ret --
+  _ %55
+  _ _ _
+  _ ten, der
+  Herr be --
+  wah -- ret die
+  See -- len %60
+  ſei -- ner
+  Hei --
+  _ _ li --
+  gen, von der
+  Gott -- lo -- ſen %65
+  Hand wird er
+  ſie er -- ret --
+  _ _
+  ten, von der Gott --
+  lo -- ſen Hand __ %70
+  wird er ſie er --
+  ret --
+  _
+  ten,
+  von der Gott -- %75
+  lo -- ſen
+  Hand wird er ſie er --
+  ret -- ten,
+  der Herr be --
+  wah -- %80
+  _ ret die
+  See --
+  len ſei -- ner
+  Hei -- li --
+  gen, %85
+  von der Hand der
+  Gott -- lo -- ſen
+  wird er __
+  ſie er --
+  ret -- ten, er -- %90
+  ret -- ten,
+  der Herr be --
+  wah --
+  _ ret die
+  See -- %95
+  len ſei -- ner
+  Hei -- li --
+  gen, von der
+  Gott -- lo -- ſen
+  Hand wird er %100
+  ſie, ſie er --
+  ret --
+  ten, von der
+  Gott -- lo -- ſen
+  Hand, von der %105
+  Gott -- lo -- ſen
+  Hand wird er
+  ſie, ſie er --
+  ret -- ten, er --
+  ret -- %110
+  ten, von der Gott --
+  lo -- ſen Hand, __
+  von der Gott --
+  lo -- ſen Hand __
+  wird er ſie er -- %115
+  ret -- _
+  _ ten,
+  er,
+  er wird ſie __
+  er -- ret -- %120
+  ten. %121 finis
+}

@@ -492,3 +492,119 @@ ErIstDerOboeII = {
     f\breve*1/2\fermata \bar "|." %30 finis
   }
 }
+
+DieIhrDenOboeII = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 3/4 \tempoDieIhrDen
+    g'4\fE g f
+    g es'2~
+    es4 d d
+    es8. f16 g4 r
+    g, g f %5
+    g g g
+    c d es
+    f es r
+    es d r8. d16
+    d4 c r8. c16 %10
+    c4 b r8. f16
+    g2.~
+    g4 f r
+    b a r
+    b a r %15
+    b b g
+    f f r8. f16
+    es8 g16( es) d4( c)
+    d d c
+    d b'2~ %20
+    b4 a a
+    b r r
+    g g f
+    g g g
+    c d es %25
+    f es r
+    b c r8. b16
+    a4 h r
+    g f r8. f16
+    f4 es r %30
+    es' es es
+    es d r8. d,16
+    c2.
+    d8.[ d'16 d8. d16] d8.( es32 f
+    es8.) f16 ges2 %35
+    es4-! d-! r
+    \tempoDieIhrDenB R2.*13 %49
+    es,4 b' as %50
+    g8 as g f g es
+    f es f4. g8
+    as2.^\tenutoE
+    g4 c b
+    as g f %55
+    es r r
+    r b'8 a b4~
+    b as8 g as4~
+    as g8 f g a
+    b a b c d b %60
+    g a b f g a
+    b c b g as f
+    g4 f4. f8
+    b c b as b g
+    as g as4. b8 %65
+    as4 as4. b8
+    b4 g g
+    as b as
+    g g8 f g4~
+    g f8 es f4~ %70
+    f es8 d es f
+    g as g es f d
+    es f g2
+    g4 g g
+    as b4. g8 %75
+    c4 c, c'~
+    c c2~
+    c4 c h
+    c r r
+    r g8 fis g4~ %80
+    g f8 e f4~
+    f e8 d e fis
+    g fis g a b g
+    e fis g d e fis
+    g4 r r %85
+    as!8 as as4. as8
+    g4 g g
+    f4. es8 f g
+    f4 f r
+    r g8 f g a %90
+    g4 g g
+    f2 r4
+    f b b
+    as!8 b as g as f
+    g f g4. a8 %95
+    b c b g as f
+    g4 f8 g a f
+    b4 b b
+    g as!4. f8
+    b4 b8 a b c %100
+    b2.~
+    b4 f2
+    f4 b8 a b4~
+    b as8 g as4
+    g f2 %105
+    b8 c b as b g
+    as g as4. b8
+    as8 g as4. b8
+    b4 g g
+    as b as %110
+    g b b
+    b d h
+    g g g
+    g b! g
+    es as8 es es as %115
+    g as b g as g
+    f4 f r
+    b2.
+    b4. as8 g4~
+    g8 as g4 f %120
+    g r r\fermata \bar "|." %121 finis
+  }
+}

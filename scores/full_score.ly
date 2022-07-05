@@ -793,9 +793,86 @@ paperTwoStaves = \paper {
   %     \midi { \tempo 4 = 100 }
   %   }
   % }
+  % \bookpart {
+  %   \section "14" "Choral" "Er iſt der Weg, das Licht, die Pfort"
+  %   \addTocLabel "eristder"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \ErIstDerOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \ErIstDerOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \ErIstDerViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \ErIstDerViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \ErIstDerViola
+  %         }
+  %       >>
+  %       \new ChoirStaff \with { \twoStanzaDistance } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \ErIstDerSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \ErIstDerSopranoLyricsA
+  %         \new Lyrics \lyricsto Soprano \ErIstDerSopranoLyricsB
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \ErIstDerAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \ErIstDerAltoLyricsA
+  %         \new Lyrics \lyricsto Alto \ErIstDerAltoLyricsB
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \ErIstDerTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \ErIstDerTenoreLyricsA
+  %         \new Lyrics \lyricsto Tenore \ErIstDerTenoreLyricsB
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \ErIstDerBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \ErIstDerBassoLyricsA
+  %         \new Lyrics \lyricsto Basso \ErIstDerBassoLyricsB
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \ErIstDerFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \ErIstDerBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 2 = 90 }
+  %   }
+  % }
   \bookpart {
-    \section "14" "Choral" "Er iſt der Weg, das Licht, die Pfort"
-    % \addTocLabel "eristder"
+    \section "15" "Coro" "Die ihr den Herrn liebet"
+    \addTocLabel "dieihrden"
     \score {
       <<
         \new StaffGroup <<
@@ -803,11 +880,11 @@ paperTwoStaves = \paper {
             \set GrandStaff.instrumentName = "ob"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \ErIstDerOboeI
+              \DieIhrDenOboeI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \ErIstDerOboeII
+              \DieIhrDenOboeII
             }
           >>
         >>
@@ -816,58 +893,54 @@ paperTwoStaves = \paper {
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \ErIstDerViolinoI
+              \DieIhrDenViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \ErIstDerViolinoII
+              \DieIhrDenViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \ErIstDerViola
+            \DieIhrDenViola
           }
         >>
-        \new ChoirStaff \with { \twoStanzaDistance } <<
+        \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \ErIstDerSoprano }
+            \new Voice = "Soprano" { \dynamicUp \DieIhrDenSoprano }
           }
-          \new Lyrics \lyricsto Soprano \ErIstDerSopranoLyricsA
-          \new Lyrics \lyricsto Soprano \ErIstDerSopranoLyricsB
+          \new Lyrics \lyricsto Soprano \DieIhrDenSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \ErIstDerAlto }
+            \new Voice = "Alto" { \dynamicUp \DieIhrDenAlto }
           }
-          \new Lyrics \lyricsto Alto \ErIstDerAltoLyricsA
-          \new Lyrics \lyricsto Alto \ErIstDerAltoLyricsB
+          \new Lyrics \lyricsto Alto \DieIhrDenAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \ErIstDerTenore }
+            \new Voice = "Tenore" { \dynamicUp \DieIhrDenTenore }
           }
-          \new Lyrics \lyricsto Tenore \ErIstDerTenoreLyricsA
-          \new Lyrics \lyricsto Tenore \ErIstDerTenoreLyricsB
+          \new Lyrics \lyricsto Tenore \DieIhrDenTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \ErIstDerBasso }
+            \new Voice = "Basso" { \dynamicUp \DieIhrDenBasso }
           }
-          \new Lyrics \lyricsto Basso \ErIstDerBassoLyricsA
-          \new Lyrics \lyricsto Basso \ErIstDerBassoLyricsB
+          \new Lyrics \lyricsto Basso \DieIhrDenBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
-            \transpose c c,
-            \ErIstDerFondamento
+            % \transpose c c,
+            \DieIhrDenFondamento
           }
         >>
-        \new FiguredBass { \ErIstDerBassFigures }
+        \new FiguredBass { \DieIhrDenBassFigures }
       >>
-      % \layout { }
-      \midi { \tempo 2 = 90 }
+      \layout { }
+      \midi { \tempo 4 = 90 }
     }
   }
 }

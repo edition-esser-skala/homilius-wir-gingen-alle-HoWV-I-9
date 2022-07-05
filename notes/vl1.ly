@@ -831,3 +831,108 @@ ErIstDerViolinoI = {
     b\breve*1/2\fermata \bar "|." %30 finis
   }
 }
+
+DieIhrDenViolinoI = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 3/4 \tempoDieIhrDen
+    b'8.[\fE b16 b8. b16] b8.( c32 d
+    es8.) f16 g es es es g es es es
+    f8. g16 as f f f as f f f
+    g8. as16 b b, b b as' b, b b
+    g'8.[ b,16 b8. b16] b8.( c32 d %5
+    es8.) f16 g es es es g es es es
+    f8. g16 as f f f b g g g
+    as4 g8. as16 b g g g
+    g4 f8. es16 f4~
+    f es8. d16 es4~ %10
+    es d8. c16 d4~
+    d8. c32 d es16 c c c g' b, b b
+    \once \slurDashed b4( a8.) c16 f c c c
+    des4( c8.) f16 g f f f
+    \once \slurDashed e4( f8.) g16 a f f f %15
+    b8.[ b,16 b8. b16 b8. b16]
+    a4 b r8. b16
+    g'( es) es( c) b4 a
+    b8.[ f16 f8. f16] f8.( g32 a
+    b8.) c16 d b b b d b b b %20
+    c8. d16 es c c c es c c c
+    d8. f16 b b, b b as'! b, b b
+    g'8.[ b,16 b8. b16] b8.( c32 d
+    es8.) f16 g es es es g es es es
+    f8. g16 as f f f b g g g %25
+    as4 g r
+    g as r8. g16
+    fis4 g r
+    e f r8. es16
+    d4 es r8. b16 %30
+    f'8.[ f16 f8. f16 f8. f16]
+    ges4( f8.)[ b,16 b8. b16]
+    es8.[ a,16 a8. a16 a8. a16]
+    b8.[ f'16 f8. f16] f8.( ges32 as!
+    ges8.) as16 b ges ges ges b ges ges ges %35
+    ges4-! f-! r
+    \tempoDieIhrDenB R2.*19 %55
+    b,4 es es
+    d8 es d c d b
+    c b c4. d8
+    es2.^\tenutoE
+    d4 g f %60
+    es d c
+    b r r
+    R2.
+    r4 es8 d es4~
+    es des8 c des4~ %65
+    des c8 b c d
+    es d es f g es
+    c d es b c d
+    es4 b r
+    R2.*3 %72
+    c4 g' f
+    es8 f es d es c
+    d c d4. es8 %75
+    f2.^\tenutoE
+    es4 as g
+    f es d
+    c es8 d es c
+    d es d c d b %80
+    c b c4. d8
+    g,4 c a
+    d g, g'~
+    g g, c
+    b r r %85
+    c8 c d4. c8
+    h4 c b
+    a b2~
+    b4 a8 g a h
+    c4 c c %90
+    b! es es
+    es d8 b c a
+    b4 r r
+    R2.*3 %96
+    b4 f' es
+    d8 es d c d b
+    c b c4. d8
+    es2.^\tenutoE %100
+    d4 g f
+    es d c
+    b r r
+    R2.*2 %105
+    r4 es8 d es4~
+    es des8 c des4~
+    des c8 b c d
+    es8 d es f g es
+    c d es b c d %110
+    es4 g8 f g4~
+    g f8 es f4~
+    f es8 d es4~
+    es des8 c des4~
+    des c8 b c d %115
+    es d es g f es
+    d c b4 r
+    as'2.
+    g4. d8 es4~
+    es8 f es4 d %120
+    es r r\fermata \bar "|." %121 finis
+  }
+}

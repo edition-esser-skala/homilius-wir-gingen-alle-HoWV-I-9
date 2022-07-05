@@ -777,3 +777,195 @@ ErIstDerSopranoLyricsB = \lyricmode {
   ge --
   ben %10 finis
 }
+
+DieIhrDenSoprano = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 3/4 \autoBeamOff \tempoDieIhrDen
+    R2.*4
+    \mvTr b'4\fE^\tuttiE b b %5
+    es es es
+    f f g
+    as g r
+    g f8. es16 f4~
+    f es8. d16 es4~ %10
+    es d8. c16 d4~
+    d c b
+    b a r
+    des c r
+    e f r %15
+    g g b,
+    a b r
+    g'8 es16 c b4( a)
+    b2 r4
+    R2.*3 %22
+    b4 b b
+    es es es
+    f f g %25
+    as g r
+    g as r8. g16
+    fis4 g r
+    e f r8. es16
+    d4 es r %30
+    f f f
+    ges f r8. b,16
+    a2.
+    b4 r r
+    R2.*2 %36
+    \tempoDieIhrDenB R2.*19 %55
+    b4 es es
+    d8[ es d c d b]
+    c[ b] c4. d8
+    es2.^\tenutoE
+    d4 g f %60
+    es( d) c
+    b r r
+    R2.
+    r4 es8 d es4~
+    es des8 c des4~ %65
+    des c8 b c d
+    es[ d es f g es]
+    c[ d es b c d]
+    es4 b r
+    R2.*3 %72
+    c4 g' f
+    es8[ f es d es c]
+    d[ c] d4. es8 %75
+    f2.^\tenutoE
+    es4 as g
+    f( es) d
+    c es8 d es c
+    d[ es d c d b] %80
+    c[ b] c4. d8
+    g,4 c a
+    d g, g'~
+    g g, c
+    b r r %85
+    c8 c d4. c8
+    h4 c b
+    a b2~
+    b4 a8([ g)] a([ h)]
+    c4 c c %90
+    b! es es
+    es( d8[ b c a])
+    b4 r r
+    R2.*3 %96
+    b4 f' es
+    d8[ es d c d b]
+    c[ b] c4. d8
+    es2.^\tenutoE %100
+    d4 g f
+    es( d) c
+    b r r
+    R2.*2 %105
+    r4 es8 d es4~
+    es des8 c des4~
+    des c8 b c d
+    es8[ d es f g es]
+    c[ d es b c d] %110
+    es4 g8 f g4~
+    g f8 es f4~
+    f es8 d es4~
+    es des8 c des4~
+    des c8 b c d %115
+    es[ d es g f es]
+    d[ c] b4 r
+    as'2.
+    g4. d8 es4~
+    es8 f es4( d) %120
+    es r r\fermata \bar "|." %121 finis
+  }
+}
+
+DieIhrDenSopranoLyrics = \lyricmode {
+  Die ihr den %5
+  Herrn \markup \center-column { "lie" "fürch" } -- \markup \center-column { "bet," "tet," }
+  haſ -- ſet das
+  Ar -- ge,
+  haſ -- ſet das Ar --
+  ge, das Ar -- %10
+  ge, das Ar --
+  _ ge,
+  haſ -- ſet,
+  haſ -- ſet,
+  haſ -- ſet, %15
+  haſ -- ſet das
+  Ar -- ge,
+  haſ -- ſet das Ar --
+  ge.
+
+  Die ihr den %23
+  Herrn \markup \center-column { "lie" "fürch" } -- \markup \center-column { "bet," "tet," }
+  haſ -- ſet das %25
+  Ar -- ge,
+  haſ -- ſet das
+  Ar -- ge,
+  haſ -- ſet das
+  Ar -- ge, %30
+  haſ -- ſet das
+  Ar -- ge, das
+  Ar --
+  ge;
+
+  der Herr be -- %56
+  wah --
+  _ ret die
+  See --
+  len ſei -- ner %60
+  Hei -- li --
+  gen,
+
+  von der Gott --
+  lo -- ſen Hand __ %65
+  wird er ſie er --
+  ret --
+  _
+  _ ten,
+
+  der Herr be -- %73
+  wah --
+  _ ret die %75
+  See --
+  len ſei -- ner
+  Hei -- li --
+  gen, er wird ſie er --
+  ret -- %80
+  _ ten, er --
+  ret -- _ _
+  _ _ _
+  _ _
+  ten, %85
+  von der Hand der
+  Gott -- lo -- ſen
+  wird er __
+  ſie er --
+  ret -- ten, er %90
+  wird ſie er --
+  ret --
+  ten,
+
+  der Herr be -- %97
+  wah --
+  _ ret die
+  See -- %100
+  len ſei -- ner
+  Hei -- li --
+  gen,
+
+  von der Gott -- %106
+  lo -- ſen Hand __
+  wird er ſie er --
+  ret --
+  _ %110
+  ten, von der Gott --
+  lo -- ſen Hand, __
+  von der Gott --
+  lo -- ſen Hand __
+  wird er ſie er -- %115
+  ret --
+  _ ten,
+  er,
+  er wird ſie __
+  er -- ret -- %120
+  ten. %121 finis
+}

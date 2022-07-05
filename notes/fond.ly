@@ -1833,3 +1833,255 @@ ErIstDerBassFigures = \figuremode {
   <_!>
   q %30 finis
 }
+
+DieIhrDenFondamento = {
+  \relative c {
+    \clef bass
+    \key es \major \time 3/4 \tempoDieIhrDen
+    \mvTr es4\fE-\soloE es' d
+    c c b
+    as b b,
+    es es, r8. d'16
+    es4-\tuttiE es' d %5
+    c c b
+    as as g
+    d es r16 es g es
+    b' b, b b b b b b b b' a h
+    c c, c c c c c c c c' h c %10
+    d d, d d d d d d d d' c d
+    es es, es es es es es es e e e e
+    f f, f f f4 r
+    f'16 f, f f f4 r
+    f'16 f, f f f4 r %15
+    f' es!8. d16 es4~
+    es d r8. d16
+    es4 f f,
+    b b'-\soloE a
+    g g f %20
+    es f f,
+    b r r8. d16
+    es4-\tuttiE es' d
+    c c b
+    as as g %25
+    d es r
+    r16 des' des des c8. h16 c c, c c
+    c c' c c h8. a16 b b, b b
+    b b' b b a8. g16 as as, as as
+    as as' as as g8. f16 g8. g,16 %30
+    as8.[ as'16 as8. as16 a8. a16]
+    b4 b, r8. b'16
+    b4 b, b
+    b b'-\soloE b
+    b b b \noBreak %35
+    b-! b,-! r
+    \tempoDieIhrDenB es4-\tuttiE-\tasto b' as \noBreak
+    g8 as g f g es
+    f es f4. g8
+    as2.^\tenuto %40
+    g4 c b
+    as g f
+    es r r
+    r b'8 a b4~
+    b as8 g as4~ %45
+    as g8 f g a
+    b a b c d b
+    g a b f g a
+    b c b g as f
+    g as g es f d %50
+    es4 g es
+    b'2 es,4
+    as f b
+    es, as g
+    as b as %55
+    g2 es4
+    b'2 \clef "treble_8" d4
+    f2 b,4
+    es c f
+    b, es d %60
+    es f es
+    d8 es d b c d
+    \clef bass es,4 b' as
+    g8 as g f g es
+    f es f4. g8 %65
+    as2.^\tenutoE
+    g4 c b
+    as g f
+    es \clef "treble_8" << { g'8^\critnote f g4 } \\ { es8 d es4 } >>
+    \clef bass f,2 g4 %70
+    as as as
+    g g g
+    c c, g'
+    c c8 h c4~
+    c b8 as b4~ %75
+    b as8 g as b
+    c h c d es c
+    as f g4. f8
+    es d c4 \clef "treble_8" c'
+    b!8 c b a b g %80
+    a g a4. b8
+    c2.^\tenutoE
+    b4 es d
+    c b a?
+    g \clef bass g8 fis g4~ %85
+    g f8 e f4~
+    f es8 d es4~
+    es d8 c d es
+    f4 f \clef "treble_8" << { a'8^\critnote h c4 } \\ { c,8 d es4 } >>
+    \clef bass es,8 d es f %90
+    g4 g8 f g a
+    b4 b, \clef "treble_8" es'
+    d8 es d c d b
+    c b c4. d8
+    es2.^\tenuto %95
+    d4 g f
+    es d c
+    b \clef bass b8 a b4~
+    b as8 g as4~
+    as g8 f g a %100
+    b a b c d b
+    g a b f g a
+    b4 b, \clef "treble_8" b'
+    c c d
+    \clef bass es, b' as %105
+    g8 as g f g es
+    f es f4. g8
+    as2.^\tenutoE
+    g4 c b
+    as g f %110
+    es es' es,
+    b' h g
+    c c, es
+    g g es
+    as f8 g as f %115
+    g f g es as f
+    b4 b, r
+    b'2.
+    es4. b8 c4~
+    c8 as b4 b, %120
+    es, r r\fermata \bar "|." %121 finis
+  }
+}
+
+DieIhrDenBassFigures = \figuremode {
+  r2 <6>4
+  r2 <6 4>4
+  <6 5> <7>2
+  r r8. <6 5>16
+  r2 <6>4 %5
+  r2 <6 4>4
+  <6 5> <4 2> <6>
+  <6 5>2 r8 <\t>
+  <6 4>4 <5 3> \bassFigureExtendersOn q8 q16 \bassFigureExtendersOff <7- 5>
+  <9 4>4 <8 3>2 %10
+  <9 7>4 <8 6>2
+  <7>4 <6> <6 5>
+  <9 4> <8 _!>2
+  <7! 6- 4>4 <[8] _!>2
+  <7! 6- 4>4 <8 _!>2 %15
+  <[6!] 4 2>4 <6 5>2
+  <4! 2>4 <6>4 r8. q16
+  <7>8 <6> <6 4>4 <5 _!>
+  r2 <6>4
+  r2 <6 4>4 %20
+  <6 5> <7 _!>2
+  r r8. <6 5->16
+  r2 <6>4
+  r2 <6 4>4
+  <6 5> <4 2> <6> %25
+  <6 5>2.
+  r16 <4 2>8. <6>2
+  <[6!] 4+ 3>4 <6>2
+  <4 2!>4 <6> <6 5->
+  <4 2> <6> <\t> %30
+  <6 5 _->2 <\t \t _!>4
+  <6- 4>4 <5 3>2
+  <7! 4>2.
+  <8 3>
+  <6 4-> %35
+  <\t \t>4 <5 3>2
+  r2.
+  r
+  r
+  r %40
+  r
+  r
+  r
+  r4. <6>
+  <2>4 <6> <\t>8 <4 2> %45
+  <5 2>4 <6>4. <6 5>8
+  r <\t> <6> <\t> <6>4
+  <6>8 <\t>4. <\tllur \tllur>8 <6 5>
+  r <\t>4 q8 <4 2>4
+  <6>4 <\t> <6> %50
+  r q2
+  <4>4 <_-> <7->
+  <4-> <[5]> <_!>
+  r2 <6>4
+  r <6 4> <4 2> %55
+  <6>2.
+  r2 <6>4
+  <4> <_-> <7->
+  <4> <[5]> <7 _!>
+  r2 <6>4 %60
+  r <6 4> <4 2>
+  <6>8 q q q <6-> <6>
+  r2 <4 2>4
+  <6>4 q8 q q4
+  <7>8 <\t> <6->4. <6 5->8 %65
+  <4->4 <3>4. <4! 2>8
+  <6>2 <4 2>4
+  r <6> <5>8 <6>
+  r2.
+  <9 7>4 <8 6> <7 5> %70
+  <6 4> <5 3> <\t \t>8 <6 4>
+  <8 6>2 <7 _!>4
+  r2 <7 _!>4
+  r4. <6>
+  <4 2>4 <\t \t> <3>8 <4 2> %75
+  <5 2>4 <6>4. <\t>8
+  r8 <\t> <6>4 q
+  q <6 4> <5 _!>8 <\t \t>
+  <6>2.
+  <6>4 q8 <6\\> <6>4 %80
+  <7> <6!>4. <\t>8
+  <\l 4>4 <\l _!> <6! \t>8 <\t 4+ 2>
+  <6>4 q <6 4>
+  <5 _!> <6> <5!>8 <6\\>
+  r2. %85
+  <4 2->4 <6> <\t>8 <7 5>
+  <4! 2>4 <6> <7 5->
+  <4! 2> <6>2
+  <6 4>4 <5 _!>2
+  r4 <6>2 %90
+  <[_-]>4 <6>2
+  <4>4 <3> <4! 2>
+  <6> q2
+  <6->4 <\t>4. <6 5>8
+  \bo <[3]>2 r8 \bc <[4!]> %95
+  <6>2 <6 _->4
+  r <6> <6!>
+  r4. <\t>
+  <4 2>2 <3>8 <4 2>
+  <5 2>4 <6>4. <7 5>8 %100
+  r <\t> <6>4 q
+  q2 <\tllur \tllur>8 <6 5>
+  r2.
+  <7>4 <6-> <6 5>
+  r2 <4 2>4 %105
+  <6>8 <\t> <6> <[6]> <6>4
+  <7> <6->4. <7 5->8
+  <4->4 <3>4. <4! 2>8
+  <6>2 <6 4>4
+  r <6> <5>8 <6> %110
+  r2.
+  <6 4>4 <6 5> <7 _!>
+  <9 4> <8 3> <6>
+  <6 4> <6 5-> <7->
+  <9 4-> <[5]>8 <6>4 <6!>8 %115
+  <6> q q4 q
+  r2.
+  <7>
+  r4. <7>8 <5>4
+  r8 <6> <6 4>4 <5 3> %120
+  r2. %121 finis
+}

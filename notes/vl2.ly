@@ -802,3 +802,40 @@ SieMoegenViolinoII = {
     \appoggiatura c b( a b) c-! \appoggiatura b8 a4\trill b8 f16 d b8 f'16 d \bar "S-S" %107 finis
   }
 }
+
+ErIstDerViolinoII = {
+  \relative c' {
+    \clef treble
+    \key es \minor \time 4/4 \tempoErIstDer
+    r2 ges'\fE
+    f ges
+    f f
+    es d
+    es1\fermata %5
+    r2 ges
+    ges ges
+    ges ges
+    as f \noBreak
+    ges1\fermata \bar ":|." %10
+    r2 ges \noBreak
+    as f
+    des es
+    ges f
+    des1\fermata %15
+    r2 ges
+    ges ges
+    ges f
+    es d
+    es1\fermata %20
+    r2 ges
+    ges f
+    ges ges
+    as g
+    es1\fermata %25
+    r2 as
+    as as
+    f f
+    f1
+    f\breve*1/2\fermata \bar "|." %30 finis
+  }
+}

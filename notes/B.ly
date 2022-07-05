@@ -772,3 +772,86 @@ LassMichBassoLyricsB = \lyricmode {
   rei -- ner
   Lehr. %9 finis
 }
+
+ErIstDerBasso = {
+  \relative c {
+    \clef bass
+    \key es \minor \time 4/4 \autoBeamOff \tempoErIstDer
+    r2 \mvTr es\fE^\tuttiE
+    b es
+    es d
+    es b
+    es1\fermata %5
+    r2 es
+    b ces
+    ges' es
+    f( des) \noBreak
+    ges1\fermata \bar ":|." %10
+    r2 ges \noBreak
+    f des
+    ges es
+    b4( ces) des2
+    ges,1\fermata %15
+    r2 ges'
+    es b
+    c d
+    es( b)
+    es1\fermata %20
+    r2 es
+    b des
+    ges es
+    des es
+    as,1\fermata %25
+    r2 as'
+    des, as'
+    b b,
+    f'1
+    b,\breve*1/2\fermata \bar "|." %30 finis
+  }
+}
+
+ErIstDerBassoLyricsA = \lyricmode {
+  Er
+  iſt der
+  Weg, das
+  Licht, die
+  Pfort, %5
+  die
+  Wahr -- heit
+  und das
+  Le --
+  ben, %10
+  zu
+  ei -- nem
+  Schutz, daß
+  wir mit
+  Trutz %15
+  an
+  Ihn feſt
+  sol -- len
+  glau --
+  ben. %20
+  Da --
+  rum uns
+  bald kein
+  Macht noch
+  Gwalt %25
+  aus
+  ſei -- ner
+  Hand wird
+  rau --
+  ben. %30 finis
+}
+
+ErIstDerBassoLyricsB = \lyricmode {
+  des
+  Va -- ters
+  Rath und
+  e -- wigs
+  Wort, %5
+  den
+  Er uns
+  hat ge --
+  ge --
+  ben %10 finis
+}

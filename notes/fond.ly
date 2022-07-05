@@ -1763,3 +1763,73 @@ SieMoegenBassFigures = \figuremode {
   <4> <3>4 <6 5>4. <7 5>4
   r8 <6> <6 4> <7 3> r2 %107 finis
 }
+
+ErIstDerFondamento = {
+  \relative c {
+    \clef bass
+    \key es \minor \time 4/4 \tempoErIstDer
+    r2 \mvTr es\fE-\tuttiE
+    b es
+    es d
+    es b
+    es1\fermata %5
+    r2 es
+    b ces
+    ges' es
+    f des \noBreak
+    ges1\fermata \bar ":|." %10
+    r2 ges \noBreak
+    f des
+    ges es
+    b4 ces des2
+    ges,1\fermata %15
+    r2 ges'
+    es b
+    c d
+    es b
+    es1\fermata %20
+    r2 es
+    b des
+    ges es
+    des es
+    as,1\fermata %25
+    r2 as'
+    des, as'
+    b b,
+    f'1
+    b,\breve*1/2\fermata \bar "|." %30 finis
+  }
+}
+
+ErIstDerBassFigures = \figuremode {
+  r1
+  <_!>
+  <2>2 <6>
+  r <7 _!>
+  r1 %5
+  r
+  <6>
+  r2 <6!>
+  <6>1
+  r1 %10
+  r
+  <6>
+  r
+  <6>
+  r %15
+  r
+  r2 <6>
+  <6 5> q
+  r <_!>
+  r1 %20
+  r
+  <6>
+  r2 <6!>
+  r <_!>
+  q1 %25
+  r2 q
+  r q
+  r1
+  <_!>
+  q %30 finis
+}

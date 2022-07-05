@@ -694,3 +694,86 @@ LassMichSopranoLyricsB = \lyricmode {
   rei -- ner
   Lehr. %9 finis
 }
+
+ErIstDerSoprano = {
+  \relative c' {
+    \clef treble
+    \key es \minor \time 4/4 \autoBeamOff \tempoErIstDer
+    r2 \mvTr b'\fE^\tuttiE
+    b b
+    as b
+    ges f
+    es1\fermata %5
+    r2 b'
+    des es
+    b c
+    des2.( ces4) \noBreak
+    b1\fermata \bar ":|." %10
+    r2 des \noBreak
+    des des
+    b ges
+    b as
+    ges1\fermata %15
+    r2 b
+    b b
+    as b
+    ges( f)
+    es1\fermata %20
+    r2 b'
+    b as
+    b c
+    des b
+    as1\fermata %25
+    r2 es'
+    f es
+    b des
+    c4( b c2)
+    b\breve*1/2\fermata \bar "|." %30 finis
+  }
+}
+
+ErIstDerSopranoLyricsA = \lyricmode {
+  Er
+  iſt der
+  Weg, das
+  Licht, die
+  Pfort, %5
+  die
+  Wahr -- heit
+  und das
+  Le --
+  ben, %10
+  zu
+  ei -- nem
+  Schutz, daß
+  wir mit
+  Trutz %15
+  an
+  Ihn feſt
+  sol -- len
+  glau --
+  ben. %20
+  Da --
+  rum uns
+  bald kein
+  Macht noch
+  Gwalt %25
+  aus
+  ſei -- ner
+  Hand wird
+  rau --
+  ben. %30 finis
+}
+
+ErIstDerSopranoLyricsB = \lyricmode {
+  des
+  Va -- ters
+  Rath und
+  e -- wigs
+  Wort, %5
+  den
+  Er uns
+  hat ge --
+  ge --
+  ben %10 finis
+}

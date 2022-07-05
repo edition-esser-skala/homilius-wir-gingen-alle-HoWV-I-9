@@ -805,3 +805,40 @@ SieMoegenViola = {
     d8 g f es d4 r \bar "S-S" %107 finis
   }
 }
+
+ErIstDerViola = {
+  \relative c' {
+    \clef alto
+    \key es \minor \time 4/4 \tempoErIstDer
+    r2 es\fE
+    d es
+    ces b
+    b2. as4
+    ges1\fermata %5
+    r2 es'
+    des! ces
+    des es
+    des1 \noBreak
+    des\fermata \bar ":|." %10
+    r2 b \noBreak
+    as as
+    b b
+    des2. ces4
+    b1\fermata %15
+    r2 des
+    es des
+    es b
+    b2. as4
+    ges1\fermata %20
+    r2 es'
+    des! des
+    des es
+    f es4 des
+    c1\fermata %25
+    r2 c
+    des c
+    des b
+    a4 g a es'
+    d\breve*1/2\fermata \bar "|." %30 finis
+  }
+}

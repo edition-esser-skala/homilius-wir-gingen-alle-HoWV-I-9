@@ -447,3 +447,40 @@ SieMoegenOboeI = {
     \appoggiatura es d( c d) es-! \appoggiatura d8 c4\trill b r \bar "S-S" %107 finis
   }
 }
+
+ErIstDerOboeI = {
+  \relative c' {
+    \clef treble
+    \key es \minor \time 4/4 \tempoErIstDer
+    r2 b'\fE
+    b b
+    as b
+    ges f
+    es1\fermata %5
+    r2 b'
+    des es
+    b c
+    des2. ces4 \noBreak
+    b1\fermata \bar ":|." %10
+    r2 des \noBreak
+    des des
+    b ges
+    b as
+    ges1\fermata %15
+    r2 b
+    b b
+    as b
+    ges f
+    es1\fermata %20
+    r2 b'
+    b as
+    b c
+    des b
+    as1\fermata %25
+    r2 es'
+    f es
+    b des
+    c4 b c2
+    b\breve*1/2\fermata \bar "|." %30 finis
+  }
+}

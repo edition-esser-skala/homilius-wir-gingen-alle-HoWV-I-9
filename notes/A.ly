@@ -775,3 +775,86 @@ LassMichAltoLyricsB = \lyricmode {
   rei -- ner
   Lehr. %9 finis
 }
+
+ErIstDerAlto = {
+  \relative c' {
+    \clef treble
+    \key es \minor \time 4/4 \autoBeamOff \tempoErIstDer
+    r2 \mvTr ges'\fE^\tuttiE
+    f ges
+    f f
+    es d
+    es1\fermata %5
+    r2 ges
+    ges ges
+    ges ges
+    as( f) \noBreak
+    ges1\fermata \bar ":|." %10
+    r2 ges \noBreak
+    as f
+    des es
+    ges f
+    des1\fermata %15
+    r2 ges
+    ges ges
+    ges f
+    es( d)
+    es1\fermata %20
+    r2 ges
+    ges f
+    ges ges
+    as g
+    es1\fermata %25
+    r2 as
+    as as
+    f f
+    f1
+    f\breve*1/2\fermata \bar "|." %30 finis
+  }
+}
+
+ErIstDerAltoLyricsA = \lyricmode {
+  Er
+  iſt der
+  Weg, das
+  Licht, die
+  Pfort, %5
+  die
+  Wahr -- heit
+  und das
+  Le --
+  ben, %10
+  zu
+  ei -- nem
+  Schutz, daß
+  wir mit
+  Trutz %15
+  an
+  Ihn feſt
+  sol -- len
+  glau --
+  ben. %20
+  Da --
+  rum uns
+  bald kein
+  Macht noch
+  Gwalt %25
+  aus
+  ſei -- ner
+  Hand wird
+  rau --
+  ben. %30 finis
+}
+
+ErIstDerAltoLyricsB = \lyricmode {
+  des
+  Va -- ters
+  Rath und
+  e -- wigs
+  Wort, %5
+  den
+  Er uns
+  hat ge --
+  ge --
+  ben %10 finis
+}

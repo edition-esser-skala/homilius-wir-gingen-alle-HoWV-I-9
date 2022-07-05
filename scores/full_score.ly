@@ -729,30 +729,85 @@ paperTwoStaves = \paper {
   %    \midi { \tempo 4 = 65 }
   %   }
   % }
+  % \bookpart {
+  %   \section "13" "Aria" "Sie mögen dich, mein Heiland, immer haſſen"
+  %   \addTocLabel "siemoegen"
+  %   \paper {
+  %     top-system-spacing.basic-distance = #12
+  %     top-system-spacing.minimum-distance = #12
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #12
+  %     markup-system-spacing.minimum-distance = #12
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \SieMoegenOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \SieMoegenOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \SieMoegenViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \SieMoegenViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \SieMoegenViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \SieMoegenTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \SieMoegenTenoreLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \SieMoegenFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \SieMoegenBassFigures }
+  %     >>
+  %     \layout { \context { \Score \override SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8) } }
+  %     \midi { \tempo 4 = 100 }
+  %   }
+  % }
   \bookpart {
-    \section "13" "Aria" "Sie mögen dich, mein Heiland, immer haſſen"
-    \addTocLabel "siemoegen"
-    \paper {
-      top-system-spacing.basic-distance = #12
-      top-system-spacing.minimum-distance = #12
-      top-markup-spacing.basic-distance = #0
-      top-markup-spacing.minimum-distance = #0
-      markup-system-spacing.basic-distance = #12
-      markup-system-spacing.minimum-distance = #12
-      systems-per-page = #2
-    }
+    \section "14" "Choral" "Er iſt der Weg, das Licht, die Pfort"
+    % \addTocLabel "eristder"
     \score {
       <<
         \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
+          \new GrandStaff <<
             \set GrandStaff.instrumentName = "ob"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \SieMoegenOboeI
+              \ErIstDerOboeI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \SieMoegenOboeII
+              \ErIstDerOboeII
             }
           >>
         >>
@@ -761,36 +816,58 @@ paperTwoStaves = \paper {
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \SieMoegenViolinoI
+              \ErIstDerViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \SieMoegenViolinoII
+              \ErIstDerViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \SieMoegenViola
+            \ErIstDerViola
           }
         >>
-        \new ChoirStaff <<
+        \new ChoirStaff \with { \twoStanzaDistance } <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \ErIstDerSoprano }
+          }
+          \new Lyrics \lyricsto Soprano \ErIstDerSopranoLyricsA
+          \new Lyrics \lyricsto Soprano \ErIstDerSopranoLyricsB
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \ErIstDerAlto }
+          }
+          \new Lyrics \lyricsto Alto \ErIstDerAltoLyricsA
+          \new Lyrics \lyricsto Alto \ErIstDerAltoLyricsB
+
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \SieMoegenTenore }
+            \new Voice = "Tenore" { \dynamicUp \ErIstDerTenore }
           }
-          \new Lyrics \lyricsto Tenore \SieMoegenTenoreLyrics
+          \new Lyrics \lyricsto Tenore \ErIstDerTenoreLyricsA
+          \new Lyrics \lyricsto Tenore \ErIstDerTenoreLyricsB
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \ErIstDerBasso }
+          }
+          \new Lyrics \lyricsto Basso \ErIstDerBassoLyricsA
+          \new Lyrics \lyricsto Basso \ErIstDerBassoLyricsB
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
-            % \transpose c c,
-            \SieMoegenFondamento
+            \transpose c c,
+            \ErIstDerFondamento
           }
         >>
-        \new FiguredBass { \SieMoegenBassFigures }
+        \new FiguredBass { \ErIstDerBassFigures }
       >>
-      \layout { \context { \Score \override SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8) } }
-      \midi { \tempo 4 = 100 }
+      % \layout { }
+      \midi { \tempo 2 = 90 }
     }
   }
 }

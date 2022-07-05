@@ -28,6 +28,7 @@ tempoJesuDeine = \tempoMarkup "Getroſt und liebkoſend"
 tempoLassMich = \tempoMarkup "[Choral]"
 tempoWasHatMessias = \tempoMarkup "[Recitativ]"
 tempoSieMoegen = \tempoMarkup "Mit Vertrauen und etwas lebhaft"
+tempoErIstDer = \tempoMarkup "[Choral]"
 
 
 \include "notes/fl1.ly"

@@ -761,3 +761,86 @@ SieMoegenTenoreLyrics = \lyricmode {
   ben wie -- der
   ſu -- chen. %102 finis
 }
+
+ErIstDerTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key es \minor \time 4/4 \autoBeamOff \tempoErIstDer
+    r2 \mvTr es\fE^\tuttiE
+    d es
+    ces b
+    b2. as4
+    ges1\fermata %5
+    r2 es'
+    des! ces
+    des es
+    des1 \noBreak
+    des\fermata \bar ":|." %10
+    r2 b \noBreak
+    as as
+    b b
+    des2. ces4
+    b1\fermata %15
+    r2 des
+    es des
+    es b
+    b2.( as4)
+    ges1\fermata %20
+    r2 es'
+    des! des
+    des es
+    f es4( des)
+    c1\fermata %25
+    r2 c
+    des c
+    des b
+    a4( g a es')
+    d\breve*1/2\fermata \bar "|." %30 finis
+  }
+}
+
+ErIstDerTenoreLyricsA = \lyricmode {
+  Er
+  iſt der
+  Weg, das
+  Licht, die
+  Pfort, %5
+  die
+  Wahr -- heit
+  und das
+  Le --
+  ben, %10
+  zu
+  ei -- nem
+  Schutz, daß
+  wir mit
+  Trutz %15
+  an
+  Ihn feſt
+  sol -- len
+  glau --
+  ben. %20
+  Da --
+  rum uns
+  bald kein
+  Macht noch
+  Gwalt %25
+  aus
+  ſei -- ner
+  Hand wird
+  rau --
+  ben. %30 finis
+}
+
+ErIstDerTenoreLyricsB = \lyricmode {
+  des
+  Va -- ters
+  Rath und
+  e -- wigs
+  Wort, %5
+  den
+  Er uns
+  hat ge --
+  ge --
+  ben %10 finis
+}

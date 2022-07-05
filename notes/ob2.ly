@@ -402,3 +402,56 @@ LassMichOboeII = {
     e\breve*1/2\fermata \bar "|." %28 finis
   }
 }
+
+SieMoegenOboeII = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \tempoSieMoegen
+    r8 b'\fE b b b f'16 d b4~
+    b8 a16 b c8 b b a r d
+    \appoggiatura { d16[ f] } es4. g8 \appoggiatura g4 f4. es8
+    \appoggiatura es16 d8 c16( b) a( g) f( es) es8\trill d r b'
+    a4. g8 f4. b8 %5
+    a4. d8 a b4 a8~
+    a g4 f16 e f8 b4 a8~
+    a g4 f16 e f8 f' f f
+    f as16( f) d( h) f'( d) es8 es es es
+    es g16( es) c( a) es'( c) d8 b'! b4~ %10
+    b8 a16( g) f( es) d( c) b8 b' b4~
+    b8 a16( g) f( es) d( c) b8 es4 d16( c)
+    \appoggiatura c16 b( a b) c-! \appoggiatura b8 a4\trill b8 b'\p b4~
+    b8 a16( g) f( es) d( c) b8 b' b4~
+    b8 a16( g) f( es) d( c) b8 es4\f d16( c) \noBreak %15
+    \appoggiatura c b( a b) c-! \appoggiatura b8 a4\trill b r \bar "S-S"
+    R1*18 %34
+    r2 r8 f'\fE f f %35
+    f c'16 a f4~ f8 e16 f g8 f
+    f e r a \appoggiatura { a16[ c] } b4. d8
+    \appoggiatura d4 c4. b8 \appoggiatura b16 a8 g16( f) e( d) c( b)
+    b8\trillE a r a g4. f8
+    e4. d8 e b'!4 a8~ %40
+    a g4 f16 e f8 f' f4~
+    f8 e16( d) c( b) a( g) f8 f' f4~
+    f8 e16( d) c( b) a( g) f8 \once \stemUp b4( a16 g)
+    \appoggiatura g f( e f) g-! \appoggiatura f e4\trill f r
+    R1*30 %74
+    R1\fermata %75
+    r8 f'\ffE f f f as16( f) d( h) f'( d)
+    es8 es es es es g16( es) c( a) es'( c)
+    d8 f f4~ f8 es16 d c b a g
+    f4. d'8 c4. b8
+    a4. g8 f b4 a8~ %80
+    a g4 f16( e) f8 f'16( c) a( f) c'( a)
+    b8 f'16( d) b( f) es'( c) d8 b' b4~
+    b8 a16( g) f( es) d( c) b8 b' b4~
+    b8 a16( g) f( es) d( c) b8 es4 d16( c)
+    \appoggiatura c b( a b) c-! \appoggiatura b8 a4\trill b\fermata r %85
+    R1*16 %101
+    r2\fermata r8 f'\ffE f f
+    f as16( f) d( h) f'( d) es8 es es es
+    es g16( es) c( a) es'( c) d8 b' b4~
+    b8 a16( g) f( es) d( c) b8 b' b4~ %105
+    b8 a16( g) f( es) d( c) b8 \once \slurDashed es4( d16 c)
+    \appoggiatura c b( a b) c-! \appoggiatura b8 a4\trill b r \bar "S-S" %107 finis
+  }
+}

@@ -691,3 +691,117 @@ LassMichViola = {
     cis\breve*1/2\fermata \bar "|." %28 finis
   }
 }
+
+SieMoegenViola = {
+  \relative c' {
+    \clef alto
+    \key b \major \time 4/4 \tempoSieMoegen
+    r8 d\fE es g f4 r16 d es f
+    g8 g g g f f f a,
+    b c16 d es8 d c a' b c
+    f, g f a, b b16 a b8 f'
+    f f f4~ f8 f f4~ %5
+    f8 f f4~ f8 f f f
+    f c c c f, f' f f
+    f c c c c4 r8 f
+    d h r g' g c, r g'
+    c a r f f4 r8 d %10
+    es es es es f4 r8 g
+    c, f a a, b4 c
+    d8 g f es d4 r8 d\p
+    es es es es f4 r8 g
+    c, f a a, b4 c\f \noBreak %15
+    d8 g f es d4 r \bar "S-S"
+    r8 b\p b b b4 r16 b c d \noBreak
+    es8 es es e f f, f d'
+    g4. g8 c4. c8
+    f, es f f, f b16 a b8 f' %20
+    f f f4~ f8 f f4~
+    f8 f f4~ f8 f f4~
+    f8 f f c c4 r
+    r8 c\pocoFE c c c c c c
+    c c c c c c c c %25
+    c4 r8 b c4 r8 f\p
+    f f f f g g g g
+    c, c c c c c c c
+    d d d d d d d d
+    c4 r8 d\f c4 r8 c %30
+    c4. c'8\p b4. g8
+    f4. f8 f4 r16 b a g
+    f4 r8 c c4 r8 c
+    c c c e d4 e
+    f8 b, c c, f4 r8 d'\f %35
+    c4 r16 a b c d8 d' d d
+    c c c e, f g16 a b8 a
+    g e f g c, d c e
+    c f16 e f8 c c c c4~
+    c8 c c4~ c8 c c c %40
+    c c c c c4 r8 a
+    b b b b c4 r8 d'
+    g, g e e a,4 g
+    a8 d c b a4 r
+    r r8 g\p d'4 r8 d %45
+    d4 r8 d d4 r16 b\f c d
+    es4 r16 c' b a b8 a c fis,
+    g4 r16 b,\p c d e4 r8 c
+    c4 r8 c c4 r16 a\f b c
+    d4 r16 b' a g a8 a b e, %50
+    f4 r8 f\p g4 r8 g
+    g4 r8 g f4 r8 f
+    f4 r8 b, b4 r8 g'
+    f f f4~ f8 f f4~
+    f8 f f4~ f8 f f c %55
+    c4 r8 c b b\pocoF b b
+    b b b b b b b b
+    b b b b b4 r8 f'\p
+    g4 r16 c, d e f8 f f f
+    f f16 e f8 g16 fis g4 r8 g %60
+    g4 r16 c, d e f8 f f f
+    f f16 es f8 d d4 r8 c
+    b4 r8 d c4 \appoggiatura b8 a4
+    d8 f f f f f f f
+    c c c c c c c c %65
+    d d d d es es es es
+    es es es es f f f f
+    d d d d c c c c
+    c4 r8 c g'4. g8
+    f4 r8 d es es es es %70
+    f4 r8 g c, f a a,
+    b4 c d8 g f es
+    d4 d\f es as,
+    g es' d c
+    d-! r\fermata r2 %75
+    r4 r8 f\ff d h r g'
+    g c, r g' c a r f
+    f4 r8 b, g' g, g g
+    a f' f4~ f8 f f4~
+    f8 f f c f, f' f f %80
+    f c c c c4 r8 f
+    f4 r8 f f4 r8 d
+    es es es es f4 r8 g
+    c, f a a, b4 c
+    d8 g f es d4\fermata r %85
+    r8 d\p d d c4 r16 c d e
+    f4 r16 a,\f b c d4 r16 b' a g
+    a8 g b e, f4 r8 g\pE
+    fis4 r16 d e fis g4 r16 b,\f c d
+    es4 r16 c' b a b8 a c fis, %90
+    g16 d d d d d d d d4 r
+    r8 b'\p r b r b r b
+    r b b b b4 r
+    r8 d, d d e e e e
+    f f f f e e e e %95
+    d d d d c c c c
+    b b b b a a a a
+    b b' b b e, a a a
+    a4 r8 f g g g g
+    a4 r8 a b b b b %100
+    a a\pocoF a a gis gis gis gis
+    a4\fermata r r r8 f\ff
+    d h r g' g c, r g'
+    c a r f f4 r8 d
+    es es es es f4 r8 g %105
+    c, f a a, b4 c
+    d8 g f es d4 r \bar "S-S" %107 finis
+  }
+}

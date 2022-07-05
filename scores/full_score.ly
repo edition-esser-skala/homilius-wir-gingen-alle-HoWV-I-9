@@ -699,34 +699,98 @@ paperTwoStaves = \paper {
   %     \midi { \tempo 2 = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \section "12" "Recitativo" "Was hat Meſſias denn gethan?"
+  %   \addTocLabel "washatmessias"
+  %   \paper {
+  %    system-system-spacing.basic-distance = #18
+  %    system-system-spacing.minimum-distance = #18
+  %    systems-per-page = #6
+  %   }
+  %   \score {
+  %    <<
+  %      \new ChoirStaff \with { \smallGroupDistance } <<
+  %        \new Staff {
+  %          \set Staff.instrumentName = "T"
+  %          \new Voice = "Tenore" { \dynamicUp \WasHatMessiasTenore }
+  %        }
+  %        \new Lyrics \lyricsto Tenore \WasHatMessiasTenoreLyrics
+  %      >>
+  %      \new StaffGroup <<
+  %        \new Staff {
+  %          \set Staff.instrumentName = "fond"
+  %          % \transpose c c,
+  %          \WasHatMessiasFondamento
+  %        }
+  %      >>
+  %      \new FiguredBass { \WasHatMessiasBassFigures }
+  %    >>
+  %    \layout { }
+  %    \midi { \tempo 4 = 65 }
+  %   }
+  % }
   \bookpart {
-    \section "12" "Recitativo" "Was hat Meſſias denn gethan?"
-    \addTocLabel "washatmessias"
+    \section "13" "Aria" "Sie mögen dich, mein Heiland, immer haſſen"
+    \addTocLabel "siemoegen"
     \paper {
-     system-system-spacing.basic-distance = #18
-     system-system-spacing.minimum-distance = #18
-     systems-per-page = #6
+      top-system-spacing.basic-distance = #12
+      top-system-spacing.minimum-distance = #12
+      top-markup-spacing.basic-distance = #0
+      top-markup-spacing.minimum-distance = #0
+      markup-system-spacing.basic-distance = #12
+      markup-system-spacing.minimum-distance = #12
+      systems-per-page = #2
     }
     \score {
-     <<
-       \new ChoirStaff \with { \smallGroupDistance } <<
-         \new Staff {
-           \set Staff.instrumentName = "T"
-           \new Voice = "Tenore" { \dynamicUp \WasHatMessiasTenore }
-         }
-         \new Lyrics \lyricsto Tenore \WasHatMessiasTenoreLyrics
-       >>
-       \new StaffGroup <<
-         \new Staff {
-           \set Staff.instrumentName = "fond"
-           % \transpose c c,
-           \WasHatMessiasFondamento
-         }
-       >>
-       \new FiguredBass { \WasHatMessiasBassFigures }
-     >>
-     \layout { }
-     \midi { \tempo 4 = 65 }
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "ob"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \SieMoegenOboeI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \SieMoegenOboeII
+            }
+          >>
+        >>
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \SieMoegenViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \SieMoegenViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "vla"
+            \SieMoegenViola
+          }
+        >>
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \SieMoegenTenore }
+          }
+          \new Lyrics \lyricsto Tenore \SieMoegenTenoreLyrics
+        >>
+        \new StaffGroup <<
+          \new Staff {
+            \set Staff.instrumentName = "fond"
+            % \transpose c c,
+            \SieMoegenFondamento
+          }
+        >>
+        \new FiguredBass { \SieMoegenBassFigures }
+      >>
+      \layout { \context { \Score \override SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8) } }
+      \midi { \tempo 4 = 100 }
     }
   }
 }

@@ -8,6 +8,7 @@
 
 twoStanzaDistance = \setGroupDistance #15 #20
 twoStanzaDistanceCoro = \setGroupDistance #13 #13
+obf = \once \bassFigureExtendersOn
 
 
 % 1
@@ -26,6 +27,7 @@ tempoJesuDeine = \tempoMarkup "Getroſt und liebkoſend"
 % 11
 tempoLassMich = \tempoMarkup "[Choral]"
 tempoWasHatMessias = \tempoMarkup "[Recitativ]"
+tempoSieMoegen = \tempoMarkup "Mit Vertrauen und etwas lebhaft"
 
 
 \include "notes/fl1.ly"

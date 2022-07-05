@@ -609,3 +609,155 @@ WasHatMessiasTenoreLyrics = \lyricmode {
   fah -- ren, die uns ſchon drohn, al -- lein be --
   wah -- ren. %20 finis
 }
+
+SieMoegenTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key b \major \time 4/4 \autoBeamOff \tempoSieMoegen
+    R1*16 \bar "S-S" %16
+    r8 \mvTr b\pE^\soloE b b b f'16([ d)] b4~
+    b8 c16([ d]) es8 d d c r d
+    \appoggiatura { d16[ f] } es4. g8 \appoggiatura g f4. es8
+    \appoggiatura es16 d8 c16([ b)] a([ g)] f([ es)] es8 d r d' %20
+    c4. b8 a4. d8
+    c4. f8 e4. d8
+    c4. b8 a c a f
+    c'1~
+    c~ %25
+    c4 f r8 f c es!
+    d4. e16[ f] g8[ f e d]
+    c4. d16[ e] f8[ e d c]
+    b4 g'2 b,4
+    b r r r8 b %30
+    a4. f'8 b,4. d8
+    c4 r8 es! d f f4~
+    f8 e16([ f)] g8 b, a f' f4~
+    f8 e16([ d)] c([ b)] a([ g)] f8 d'4 c16[ b]
+    \appoggiatura b a16([ g a) b]-! \appoggiatura a8 g4\trill f r %35
+    R1*9 %44
+    r8 c' c c c es!16([ c)] a4~ %45
+    a8 b16([ c)] d8 c c b r4
+    R1
+    r8 b b b b d16([ b)] g4~
+    g8 a16([ b)] c8 b b a r4
+    R1 %50
+    r8 f' f4~ f8 es!16([ f)] g8 f
+    es g, es'4~ es8 d16([ es)] f8 es
+    d4 r8 f es d c b
+    a!4. d8 c4. f8
+    es4. d8 c4. b8 %55
+    \appoggiatura b a8([ g16 f] g8) a b2~
+    b1~
+    b2 r8 b c d
+    es g16([ es)] c4~ c8 d16([ es)] f8 es!
+    d c r4 r8 b c d %60
+    es g16([ es)] c4~ c8 d16([ es)] f8 es!
+    d c r f b, es es4~
+    es8[ d16 c] d8[ b] c4 \appoggiatura b8 a4\trill
+    b d r8 f d b
+    c4. d16[ es] f8[ es d c] %65
+    b4. c16[ d] es8[ d c b]
+    a4. b16[ c] d8[ c b a]
+    b4 g'2 b,4
+    a f' r es!8 c
+    d4. b8 es es es es %70
+    f4 r8 g c,[ d16 es] f[ es d c]
+    b8 g'4 f16[ es] \appoggiatura es d[ c d es] \appoggiatura d8 c4\trill
+    b r r2
+    r4 b b b
+    b2\fermata c %75
+    b4 r r2
+    R1*9 %85
+    r8\fermata b b b b d b g
+    a f r4 r2
+    r r8 c' c c
+    c es! c a b g r4
+    R1 %90
+    r2 r4 r8 b
+    es4 es es d
+    cis2 r8 a h cis
+    d4. a8 e'4. a,8
+    f'4. e16[ d] e[ c a8]~ a16[ c b a] %95
+    d4. c16[ b] c[ a f8]~ f16[ a g f]
+    b4. a16[ g] a4. h16[ cis]
+    d8 e16([ f)] g([ f)] e([ d)] cis([ h)] a8 r e'
+    f4. d8 g4. cis,8
+    d1~ %100
+    d4 d d d
+    d4\fermata e\trill d r
+    R1*5 \bar "S-S" %107 finis
+  }
+}
+
+SieMoegenTenoreLyrics = \lyricmode {
+  Sie mö -- gen dich, mein Hei -- %17
+  land, im -- mer haſ -- ſen, die
+  Welt und Freun -- de
+  mö -- gen dich ver -- laſ -- ſen, mein %20
+  Glau -- be hält dich
+  feſt, dich, dich, mein
+  Hei -- land hält mein Glau -- be
+  feſt, __
+  %25
+  dich, dich hält mein
+  Glau -- _ _
+  _ _ _
+  _ _ be
+  feſt, dich %30
+  hält mein Glau -- be
+  feſt, dich hält mein Glau --
+  be feſt, dich, dich, mein Hei --
+  land hält mein Glau -- _ _
+  _ be feſt. %35
+
+  Sie mö -- gen dich, mein Hei -- %45
+  land, im -- mer haſ -- ſen,
+
+  die Welt und Freun -- de mö --
+  gen dich ver -- laſ -- ſen,
+  %50
+  mein Glau -- be hält dich
+  feſt, dich hält __ mein Glau -- be
+  feſt, dich hält mein Glau -- be
+  feſt, dich, dich, mein
+  Hei -- land, hält mein %55
+  Glau -- be feſt. __
+
+  Sie mö -- gen
+  dich, mein Hei -- land, im -- mer
+  haſ -- ſen, die Welt und %60
+  Freun -- de mö -- gen dich ver --
+  laſ -- ſen, mein Glau -- be hält __
+  _ _ dich
+  feſt, dich, dich hält mein
+  Glau -- _ _ %65
+  _ _ _
+  _ _ _
+  _ _ be
+  feſt, dich, dich, mein
+  Hei -- land, hält mein Glau -- be %70
+  feſt, mein Glau -- _
+  _ _ _ _ be
+  feſt,
+  mein Glau -- be
+  hält dich %75
+  feſt.
+
+  Sie mö -- gen ſchmähn, ſie mö -- gen %86
+  flu -- chen,
+  ſie mö -- gen
+  ſchmähn, ſie mö -- gen flu -- chen,
+  %90
+  wenn
+  al -- les mich ver --
+  läßt, werd ich in
+  dir, in dir mein
+  Le -- _ _ %95
+  _ _ _
+  _ _ _ _
+  _ ben wie -- der ſu -- chen, in
+  dir werd ich mein
+  Le -- %100
+  ben wie -- der
+  ſu -- chen. %102 finis
+}

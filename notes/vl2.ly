@@ -688,3 +688,117 @@ LassMichViolinoII = {
     e\breve*1/2\fermata \bar "|." %28 finis
   }
 }
+
+SieMoegenViolinoII = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \tempoSieMoegen
+    r8 b'\fE b b b f'16 d b4~
+    b8 a16 b c8 b b a r d
+    \appoggiatura { d16[ f] } es4. g8 \appoggiatura g4 f4. es8
+    \appoggiatura es16 d8 c16( b) a( g) f( es) es8\trill d r b'
+    a4. g8 f4. b8 %5
+    a4. d8 a b4 a8~
+    a g4 f16 e f8 b4 a8~
+    a g4 f16 e f8 f' f f
+    f as16( f) d( h) f'( d) es8 es es es
+    es g16( es) c( a) es'( c) d8 b'! b4~ %10
+    b8 a16( g) f( es) d( c) b8 b' b4~
+    b8 a16( g) f( es) d( c) b8 es4 d16( c)
+    \appoggiatura c16 b( a b) c-! \appoggiatura b8 a4\trill b8 b'\p b4~
+    b8 a16( g) f( es) d( c) b8 b' b4~
+    b8 a16( g) f( es) d( c) b8 es4\f d16( c) \noBreak %15
+    \appoggiatura c b( a b) c-! \appoggiatura b8 a4\trill b8 f16 d b8 f'16 d \bar "S-S"
+    b8 d[\p es g] f4 r16 d es f \noBreak
+    g8 a16 b c8 b b a r a,
+    b c16 d es8 d c a' b c
+    \appoggiatura c16 b8 a16( g) f( es) d( c) c8\trill b r b' %20
+    a4. g8 f4. b8
+    a4. d8 c4. b8
+    a4. g8 f4 r
+    r8 e4\pocoF f g f16 e
+    f8 e4 f g f16 e %25
+    f8 f' f f f4 r8 c\p
+    b b b b b b b b
+    g g g g f f f f
+    g g g g g g g g
+    g4 r8 f\f g e r g %30
+    f4. a8\p b4. b,8
+    c4. c'8 d4. d,8
+    c g'16 a b8 g f a a4~
+    a8 g16( f) e( d) c( b) a8 b'4 a16( g)
+    \appoggiatura g f( e f) g-! \appoggiatura f8 e4\trill f8 f'[\f f f] %35
+    f c'16 a f4~ f8 e16 f g8 f
+    f e r a \appoggiatura { a16[ c] } b4. d8
+    \appoggiatura d4 c4. b8 \appoggiatura b16 a8 g16( f) e( d) c( b)
+    b8\trillE a r a g4. f8
+    e4. d8 e b'!4 a8~ %40
+    a g4 f16 e f8 f' f4~
+    f8 e16( d) c( b) a( g) f8 f' f4~
+    f8 e16( d) c( b) a( g) f8 \once \stemUp b4( a16 g)
+    \appoggiatura g f( e f) g-! \appoggiatura f e4\trill f8 c'16( a) f8 c'16( a)
+    f4 r8 g\p fis4 r8 fis16 d %45
+    d'8 g,16 a b8 a a g g'4\f
+    r8 g a, g' r16 g fis g a fis c a
+    b4 r8 g\p g4 r8 e16 c
+    c'8 f,16 g a8 g g f f'4\f
+    r8 f g, f' r16 f e f g e b g %50
+    a4 r8 a\p d c16 d es8 d
+    c g c4~ c8 b16 c d8 c
+    b f b as g f es d
+    c4. b'8 a4. d8
+    c4. b8 a4. g8 %55
+    f4 r8 f f d4\pocoF es8~
+    es f4 es16( d) es8 d4 es8~
+    es f4 es16( d) es8 g\p a h
+    c4 r16 e, f g a8 b16 c d8 c
+    b a r4 r8 g a h %60
+    c4 r16 e, f g a8 b16 c d8 c
+    b a r a b g g4~
+    g8 f16 es f8 g g4 f\trill
+    f8 b b b b b b b
+    g g g g f f f f %65
+    g g g g g g g g
+    a a a a a a a a
+    g g g g g g g g
+    f4 r8 a b4. c8
+    b b' b4~ b8 a16 g f es d c %70
+    b8 b' b4~ b8 a16 g f es d c
+    b8 es4( d16 c) \appoggiatura c b( a b) c-! \appoggiatura b8 a4\trill
+    b8 b'4\f b b b8~
+    b b4 b b b8
+    <d, f,>4-! r\fermata r2 %75
+    r8 f\ff f f f as16( f) d( h) f'( d)
+    es8 es es es es g16( es) c( a) es'( c)
+    d8 f f4~ f8 es16 d c b a g
+    f4. d'8 c4. b8
+    a4. g8 f b4 a8~ %80
+    a g4 f16( e) f8 f'16( c) a( f) c'( a)
+    b8 f'16( d) b( f) es'( c) d8 b' b4~
+    b8 a16( g) f( es) d( c) b8 b' b4~
+    b8 a16( g) f( es) d( c) b8 es4 d16( c)
+    \appoggiatura c b( a b) c-! \appoggiatura b8 a4\trill b8 f16 d b8 f'16 d %85
+    b8\fermata b'[\p b f] g b g16 e f g
+    c,8 f\f f'4 r8 f g, f'
+    r16 f e f g e b g a8 a[\p a a]
+    a c a16 fis g a d,8 g g'4\f
+    r8 g a, g' r16 g fis g a fis c a %90
+    b d c b a fis g a b g b d g4
+    r8 es\p r es r es r d
+    r cis cis cis cis4 r
+    r8 a'16( f) d( a) r8 r a'16( e) cis( a) r8
+    r a'16( f) d( a) r8 r a'16( e) c( a) r8 %95
+    r f'16( d) \once \slurDashed b( f) r8 r f'16( c) a( f) r8
+    r d'16( b) g( d) r8 r \slurDashed d'16( a) f( d) r8 \slurSolid
+    r8 d' d d cis cis cis cis
+    d d' d4~ d8 c!16( b) \slurDashed a( g) f( e) \slurSolid
+    d8 d' d4~ d8 c!16( b) a( g) f( e) %100
+    \parOn d-\parenthesize-! f-! f-!\pocoF \parOff d-\parenthesize-! d f f d d f f d d f f d
+    d4\fermata r r8 f\ff f f
+    f as16( f) d( h) f'( d) es8 es es es
+    es g16( es) c( a) es'( c) d8 b' b4~
+    b8 a16( g) f( es) d( c) b8 b' b4~ %105
+    b8 a16( g) f( es) d( c) b8 \once \slurDashed es4( d16 c)
+    \appoggiatura c b( a b) c-! \appoggiatura b8 a4\trill b8 f16 d b8 f'16 d \bar "S-S" %107 finis
+  }
+}

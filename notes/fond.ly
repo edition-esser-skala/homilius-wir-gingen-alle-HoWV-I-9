@@ -2355,3 +2355,63 @@ VerlasstIhnBassFigures = \figuremode {
   <6>2 <6 4>8 <5 3>
   r2. %97 finis
 }
+
+DesSollstFondamento = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 4/4 \tempoDesSollst
+    r2 \mvTr g'\fE-\tuttiE
+    c, g'
+    as g
+    f c
+    g'1\fermata %5
+    r2 f
+    c' h
+    c f,
+    e f
+    c1\fermata %10
+    r2 as'
+    g f
+    d b
+    es! c
+    b1\fermata %15
+    r2 b'
+    g b
+    es, g
+    e f
+    c1\fermata %20
+    r2 f
+    es! c
+    as as'
+    e f
+    g\breve*1/2\fermata \bar "|." %25 finis
+  }
+}
+
+DesSollstBassFigures = \figuremode {
+  r2 <_!>
+  r q
+  r <_->
+  r1
+  <_!> %5
+  r
+  r2 <6>
+  r1
+  <6>
+  <_!> %10
+  r2 <6>
+  <6!> <_!>
+  <6>1
+  <9>2 <6!>
+  r1 %15
+  r
+  <6>
+  q
+  q
+  <_!> %20
+  r2 <6>
+  r1
+  r2 <6>
+  <6 5>1
+  <_!> %25 finis
+}

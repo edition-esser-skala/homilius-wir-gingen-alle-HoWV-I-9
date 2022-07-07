@@ -1164,3 +1164,63 @@ VerlasstIhnSopranoLyrics = \lyricmode {
   lig --
   keit. %88 finis
 }
+
+DesSollstSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \autoBeamOff \tempoDesSollst
+    r2 \mvTr d'\fE^\tuttiE
+    es d
+    c d
+    f es
+    d1\fermata %5
+    r2 f
+    es d
+    es c
+    c as
+    g1\fermata %10
+    r2 f
+    g a
+    b b
+    g( a)
+    b1\fermata %15
+    r2 d
+    es d
+    c b
+    c as
+    g1\fermata %20
+    r2 f
+    g g
+    c c
+    b( as)
+    g\breve*1/2\fermata \bar "|." %25 finis
+  }
+}
+
+DesSollstSopranoLyrics = \lyricmode {
+  Des
+  ſollſt du
+  herz -- lich
+  trö -- ſten
+  dich %5
+  in
+  al -- ler
+  Noth be --
+  ſtän -- dig --
+  lich, %10
+  mein
+  Tod giebt
+  dir das
+  Le --
+  ben, %15
+  daß
+  du vor
+  mir kannſt
+  e -- wig --
+  lich %20
+  in
+  Him -- mels
+  Freu -- den
+  ſchwe --
+  ben. %25 finis
+}

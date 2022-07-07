@@ -1070,3 +1070,63 @@ DieIhrDenBassoLyrics = \lyricmode {
   er -- ret -- %120
   ten. %121 finis
 }
+
+DesSollstBasso = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 4/4 \autoBeamOff \tempoDesSollst
+    r2 \mvTr g'\fE^\tuttiE
+    c, g'
+    as g
+    f c
+    g'1\fermata %5
+    r2 f
+    c' h
+    c f,
+    e f
+    c1\fermata %10
+    r2 as'
+    g f
+    d b
+    es!( c)
+    b1\fermata %15
+    r2 b'
+    g b
+    es, g
+    e f
+    c1\fermata %20
+    r2 f
+    es! c
+    as as'
+    e( f)
+    g\breve*1/2\fermata \bar "|." %25 finis
+  }
+}
+
+DesSollstBassoLyrics = \lyricmode {
+  Des
+  ſollſt du
+  herz -- lich
+  trö -- ſten
+  dich %5
+  in
+  al -- ler
+  Noth be --
+  ſtän -- dig --
+  lich, %10
+  mein
+  Tod giebt
+  dir das
+  Le --
+  ben, %15
+  daß
+  du vor
+  mir kannſt
+  e -- wig --
+  lich %20
+  in
+  Him -- mels
+  Freu -- den
+  ſchwe --
+  ben. %25 finis
+}

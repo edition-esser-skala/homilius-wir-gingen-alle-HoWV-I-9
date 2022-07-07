@@ -608,3 +608,35 @@ DieIhrDenOboeII = {
     g r r\fermata \bar "|." %121 finis
   }
 }
+
+DesSollstOboeII = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \tempoDesSollst
+    r2 g'\fE
+    g g
+    es g
+    as g
+    g1\fermata %5
+    r2 as
+    g g
+    g as
+    g f
+    e1\fermata %10
+    r2 f
+    e f
+    f f
+    f es!
+    f1\fermata %15
+    r2 f
+    g f
+    g g
+    g f
+    e1\fermata %20
+    r2 d
+    es! es
+    es f
+    g f
+    d\breve*1/2\fermata \bar "|." %25 finis
+  }
+}

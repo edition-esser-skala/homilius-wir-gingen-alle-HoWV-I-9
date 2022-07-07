@@ -1085,3 +1085,35 @@ VerlasstIhnViola = {
     g4 r8 r4 r8 \bar "S-S" %97 finis
   }
 }
+
+DesSollstViola = {
+  \relative c' {
+    \clef alto
+    \key c \minor \time 4/4 \tempoDesSollst
+    r2 h\fE
+    c h
+    c b
+    c c
+    h1\fermata %5
+    r2 c
+    c d
+    c c
+    c c
+    c1\fermata %10
+    r2 c
+    b! c
+    b d
+    b c
+    d1\fermata %15
+    r2 b
+    b d
+    es d
+    c c
+    c1\fermata %20
+    r2 as
+    b c
+    c c
+    c1
+    h\breve*1/2\fermata \bar "|." %25 finis
+  }
+}

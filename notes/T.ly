@@ -1072,3 +1072,63 @@ DieIhrDenTenoreLyrics = \lyricmode {
   er -- ret -- %120
   ten. %121 finis
 }
+
+DesSollstTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \minor \time 4/4 \autoBeamOff \tempoDesSollst
+    r2 \mvTr h\fE^\tuttiE
+    c h
+    c b
+    c c
+    h1\fermata %5
+    r2 c
+    c d
+    c c
+    c c
+    c1\fermata %10
+    r2 c
+    b! c
+    b d
+    b( c)
+    d1\fermata %15
+    r2 b
+    b d
+    es d
+    c c
+    c1\fermata %20
+    r2 as
+    b c
+    c c
+    c1
+    h\breve*1/2\fermata \bar "|." %25 finis
+  }
+}
+
+DesSollstTenoreLyrics = \lyricmode {
+  Des
+  ſollſt du
+  herz -- lich
+  trö -- ſten
+  dich %5
+  in
+  al -- ler
+  Noth be --
+  ſtän -- dig --
+  lich, %10
+  mein
+  Tod giebt
+  dir das
+  Le --
+  ben, %15
+  daß
+  du vor
+  mir kannſt
+  e -- wig --
+  lich %20
+  in
+  Him -- mels
+  Freu -- den
+  ſchwe --
+  ben. %25 finis
+}

@@ -1072,3 +1072,63 @@ DieIhrDenAltoLyrics = \lyricmode {
   er -- ret -- %120
   ten. %121 finis
 }
+
+DesSollstAlto = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \autoBeamOff \tempoDesSollst
+    r2 \mvTr g'\fE^\tuttiE
+    g g
+    es g
+    as g
+    g1\fermata %5
+    r2 as
+    g g
+    g as
+    g f
+    e1\fermata %10
+    r2 f
+    e f
+    f f
+    f( es!)
+    f1\fermata %15
+    r2 f
+    g f
+    g g
+    g f
+    e1\fermata %20
+    r2 d
+    es! es
+    es f
+    g( f)
+    d\breve*1/2\fermata \bar "|." %25 finis
+  }
+}
+
+DesSollstAltoLyrics = \lyricmode {
+  Des
+  ſollſt du
+  herz -- lich
+  trö -- ſten
+  dich %5
+  in
+  al -- ler
+  Noth be --
+  ſtän -- dig --
+  lich, %10
+  mein
+  Tod giebt
+  dir das
+  Le --
+  ben, %15
+  daß
+  du vor
+  mir kannſt
+  e -- wig --
+  lich %20
+  in
+  Him -- mels
+  Freu -- den
+  ſchwe --
+  ben. %25 finis
+}

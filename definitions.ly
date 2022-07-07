@@ -35,6 +35,8 @@ tempoIschariot = \tempoMarkup "[Recitativ]"
   tempoIschariotB = \tempoMarkup "Raſend"
   tempoIschariotC = \tempoMarkup "Noch raſender"
 tempoVerlasstIhn = \tempoMarkup "Sehnlich und angenehm"
+tempoDesSollst = \tempoMarkup "[Choral]"
+
 
 
 \include "notes/fl1.ly"

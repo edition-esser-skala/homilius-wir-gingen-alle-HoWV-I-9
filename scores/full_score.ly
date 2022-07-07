@@ -990,32 +990,87 @@ paperTwoStaves = \paper {
   %     \midi { \tempo 4 = 65 }
   %   }
   % }
+  % \bookpart {
+  %   \section "17" "Aria" "Verlaßt Ihn nicht, ihr vielgeliebten Freunde"
+  %   \addTocLabel "verlasstihn"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "fl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \VerlasstIhnFlautoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \VerlasstIhnFlautoII
+  %           }
+  %         >>
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "fag"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \VerlasstIhnFagottoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \VerlasstIhnFagottoII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \VerlasstIhnViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \VerlasstIhnViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \VerlasstIhnViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \VerlasstIhnSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \VerlasstIhnSopranoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \VerlasstIhnFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \VerlasstIhnBassFigures }
+  %     >>
+  %     \layout { \context { \Score \override SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) } }
+  %     \midi { \tempo 4. = 45 }
+  %   }
+  % }
   \bookpart {
-    \section "17" "Aria" "Verlaßt Ihn nicht, ihr vielgeliebten Freunde"
-    \addTocLabel "verlasstihn"
+    \section "18" "Choral" "Des ſollſt du herzlich tröſten dich"
+    \addTocLabel "dessollst"
     \score {
       <<
         \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "fl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \VerlasstIhnFlautoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \VerlasstIhnFlautoII
-            }
-          >>
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = "fag"
+            \set GrandStaff.instrumentName = "ob"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \VerlasstIhnFagottoI
+              \DesSollstOboeI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \VerlasstIhnFagottoII
+              \DesSollstOboeII
             }
           >>
         >>
@@ -1024,36 +1079,54 @@ paperTwoStaves = \paper {
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \VerlasstIhnViolinoI
+              \DesSollstViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \VerlasstIhnViolinoII
+              \DesSollstViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \VerlasstIhnViola
+            \DesSollstViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \VerlasstIhnSoprano }
+            \new Voice = "Soprano" { \dynamicUp \DesSollstSoprano }
           }
-          \new Lyrics \lyricsto Soprano \VerlasstIhnSopranoLyrics
+          \new Lyrics \lyricsto Soprano \DesSollstSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \DesSollstAlto }
+          }
+          \new Lyrics \lyricsto Alto \DesSollstAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \DesSollstTenore }
+          }
+          \new Lyrics \lyricsto Tenore \DesSollstTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \DesSollstBasso }
+          }
+          \new Lyrics \lyricsto Basso \DesSollstBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \VerlasstIhnFondamento
+            \DesSollstFondamento
           }
         >>
-        \new FiguredBass { \VerlasstIhnBassFigures }
+        \new FiguredBass { \DesSollstBassFigures }
       >>
-      \layout { \context { \Score \override SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) } }
-      \midi { \tempo 4. = 45 }
+      \layout { }
+      \midi { \tempo 2 = 90 }
     }
   }
 }

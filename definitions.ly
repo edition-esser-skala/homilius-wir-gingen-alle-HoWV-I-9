@@ -34,6 +34,7 @@ tempoDieIhrDen = \tempoMarkup "Ernſthaft"
 tempoIschariot = \tempoMarkup "[Recitativ]"
   tempoIschariotB = \tempoMarkup "Raſend"
   tempoIschariotC = \tempoMarkup "Noch raſender"
+tempoVerlasstIhn = \tempoMarkup "Sehnlich und angenehm"
 
 
 \include "notes/fl1.ly"

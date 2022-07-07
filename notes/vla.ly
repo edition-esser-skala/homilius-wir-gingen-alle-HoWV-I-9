@@ -981,3 +981,107 @@ IschariotViola = {
     d16 c d e d c h a g4 r\fermata \bar "|." %28 finis
   }
 }
+
+VerlasstIhnViola = {
+  \relative c' {
+    \clef alto
+    \key g \major \time 6/8 \tempoVerlasstIhn
+    \partial 8 r8 g'4\fE g8 g4 g8
+    g4 d8 d4 d8
+    d16( h) h( d) d( g) g4 d8
+    e4 d8 d4 e8
+    d4 d8 d4 d8 %5
+    d4 d8 d4 d8
+    d4 r8 fis4 d8
+    d4 r8 fis4 d8
+    d4 r8 c4 a'8
+    g4 g8 c, d d, %10
+    e4 r8 c'4 c8
+    d4 d8 c4 c8
+    d4 g8 c, d d, \noBreak
+    g4 r8 r4 r8 \bar "S-S"
+    g'4\p g8 g4 g8 \noBreak %15
+    g4 g8 d4 d8
+    d16( h) h( d) d( g) g4 d8
+    e4 d8 d4 e8
+    d4 d8 d4 d8
+    h'4 h8 a4 a8 %20
+    a4 d,8 d4 d8
+    d4 g8 g4 e8
+    e4 a8 fis4 d8
+    e4 e8 fis4 gis8
+    a4 r8 a4\pocoF a8 %25
+    d,4 r8 a4 a8
+    d4 r8 d4\p d8
+    d4 e8 cis4 a'8
+    fis4 a8\f d, a' a,
+    d4 d8 d4 d8 %30
+    d4 a8 a4 a8
+    a16( fis) fis( a) a( d) d4 a8
+    h4 a8 a4 h8
+    a4 a8 a4 a8
+    a4 r8 a4 a8 %35
+    a4 r8 g4 a8
+    a4 d8 g, a a
+    d,4 r8 r4 r8
+    d'4\p d8 d4 d8
+    d4 a8 a4 a8 %40
+    a16 fis[\f fis( a) a( d)] cis8 d r
+    g,4\p g'8 g4 g8
+    g4 d8 d4 d8
+    d16( h) h( d) d( g) g4 d8
+    e4 d8 d4 e8 %45
+    d4 d8 d4 h8
+    g4 g'8 g4 g8
+    g4\f e8 e4 a,8\p
+    a4 a'8 a4 a8
+    a4\f a8 fis4 fis8\p %50
+    e4 e8 e4 e8
+    e4 e8 e4 gis8
+    e4 e8 e4 e8
+    d4 d8 d4 d8
+    d4 d8 d4 d8 %55
+    e4 e8 es4 es8
+    a,4 r8 d4\pocoF d8
+    d4 r8 fis4 d8
+    d4 r8 c4\p d8
+    d4 g8 c, d d, %60
+    e4 r8 c'4 d8
+    d4 g8 c,\f d d,
+    g16 h[ h( d) d( g)] g4 g8
+    g4 g8 e4 e8
+    d4 d8 d4 d8 %65
+    d4 d8 d4 d8
+    d4 r8 fis4 d8
+    d4 r8 fis4 d8
+    d4 r8 c4 a'8
+    d,4 g8 c, d d, %70
+    e4 r8 c'4 c8
+    d4 r8 c4 c8
+    d4 g8 c, d d,
+    g4 r8 r4\fermata r8
+    g'4\p g8 g4 g8 %75
+    g4 d8 d4 dis8
+    e4 r8 e4 e8
+    c4 c8 h4 h8
+    h4 g8 fis4 fis'8
+    fis4 fis8 g4 g8 %80
+    cis,4 cis8 ais4 fis8
+    fis4 r8 fis'4 fis8
+    fis4 r8 e4 cis8
+    fis4 h,8 e \appoggiatura d8 cis4
+    h8 h' a! g4\pocoF g8 %85
+    fis4 fis8 g4 g8
+    fis4\fermata r8 r4 r8
+    r fis\f fis gis4 e8
+    e4 r8 gis4 e8
+    e d d d e e %90
+    d4 d8 d4 d8
+    d4 d8 d4 d8
+    d4 r8 fis4 d8
+    d4 r8 fis4 d8
+    d4 r8 c4 a'8 %95
+    d,4 g8 c, d d,
+    g4 r8 r4 r8 \bar "S-S" %97 finis
+  }
+}

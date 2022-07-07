@@ -943,51 +943,117 @@ paperTwoStaves = \paper {
   %     \midi { \tempo 4 = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \section "16" "Recitativo" "Iſcharioth, der von der Jünger Schaar"
+  %   \addTocLabel "ischarioth"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #30
+  %     system-system-spacing.minimum-distance = #30
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \IschariotViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \IschariotViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \IschariotViola
+  %         }
+  %       >>
+  %       \new ChoirStaff \with { \smallGroupDistance } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \IschariotSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \IschariotSopranoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \IschariotFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \IschariotBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 65 }
+  %   }
+  % }
   \bookpart {
-    \section "16" "Recitativo" "Iſcharioth, der von der Jünger Schaar"
-    \addTocLabel "ischarioth"
-    \paper {
-      system-system-spacing.basic-distance = #30
-      system-system-spacing.minimum-distance = #30
-      systems-per-page = #2
-    }
+    \section "17" "Aria" "Verlaßt Ihn nicht, ihr vielgeliebten Freunde"
+    \addTocLabel "verlasstihn"
     \score {
       <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "fl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \VerlasstIhnFlautoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \VerlasstIhnFlautoII
+            }
+          >>
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "fag"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \VerlasstIhnFagottoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \VerlasstIhnFagottoII
+            }
+          >>
+        >>
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \IschariotViolinoI
+              \VerlasstIhnViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \IschariotViolinoII
+              \VerlasstIhnViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \IschariotViola
+            \VerlasstIhnViola
           }
         >>
-        \new ChoirStaff \with { \smallGroupDistance } <<
+        \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \IschariotSoprano }
+            \new Voice = "Soprano" { \dynamicUp \VerlasstIhnSoprano }
           }
-          \new Lyrics \lyricsto Soprano \IschariotSopranoLyrics
+          \new Lyrics \lyricsto Soprano \VerlasstIhnSopranoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \IschariotFondamento
+            \VerlasstIhnFondamento
           }
         >>
-        \new FiguredBass { \IschariotBassFigures }
+        \new FiguredBass { \VerlasstIhnBassFigures }
       >>
-      \layout { }
-      \midi { \tempo 4 = 65 }
+      \layout { \context { \Score \override SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) } }
+      \midi { \tempo 4. = 45 }
     }
   }
 }

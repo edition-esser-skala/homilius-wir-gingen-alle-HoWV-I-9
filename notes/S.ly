@@ -1031,3 +1031,136 @@ IschariotSopranoLyrics = \lyricmode {
   tet Ihn, ſein Le -- ben muß Er
   laſ -- ſen. %25 finis
 }
+
+VerlasstIhnSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 6/8 \autoBeamOff \tempoVerlasstIhn
+    \partial 8 r8 R2.*13 \noBreak %13
+    r4 r8 r r \mvTr g'\pE^\soloE \bar "S-S"
+    d'8. e16 d8 r16 d e[( d)] g([ e)] %15
+    d16.([ c32 h8)] d \appoggiatura d4 c4.
+    h4 r8 d g8. h,16
+    c16. a'32 a8. c,16 h8([ g'8.)] h,16
+    h8\trill a r a d fis
+    \appoggiatura fis e4 r8 a, e' g %20
+    \appoggiatura g fis4 r8 a g16([ fis)] e([ d)]
+    \appoggiatura c!8 h4 d8~ d e d
+    cis16[ d] e4 d16([ fis) e( d) cis( h)]
+    cis([ e) d( cis) h( a)] h([ d) cis( h) a( gis)]
+    a([ h) cis( d) e( fis)] g!8[ e8.(\trill d32 e]) %25
+    fis8[( g\trill a]) g[ e8.(\trill d32 e])
+    \once \slurDashed fis8[( g\trill a]) a, d fis
+    h,4 g'8~ g fis16([ e)] d([ cis)]
+    d4 r8 h a16([ g)] fis([ e)]
+    d4 r8 r4 r8 %30
+    R2.*7 %37
+    r4 r8 r r d
+    a'8. h16 a8 r16 a h([ a)] d([ h)]
+    a16.([ g32 fis8)] a \appoggiatura a4 g4. %40
+    fis4 r8 r r g
+    d'8. e16 d8 r16 d e([ d)] g([ e)]
+    d16.([ c32 h8)] d \appoggiatura d4 c4.
+    h4 r8 d g8. h,16
+    c16. a'32 a8. c,16 h8([ g'8.)] h,16 %45
+    \appoggiatura c h8 a r g d' f
+    e c4~ c8 h16([ a)] g([ f)]
+    e4 r8 a e' g
+    fis! d4~ d8 cis16([ h)] a([ g)]
+    fis4 r8 d' d d %50
+    d16.[ c!32 h8 d] f[ e d]
+    c16[ d] e4 d8[ c h]
+    c16[ e d c h a] cis[ e d cis h a]
+    d8[ fis a]~ a[ g16( fis) e( d)]
+    \appoggiatura c4 h4.~ h16[ d c( h) a( g)] %55
+    c8[ e g]~ g[ f16( es) d( cis)]
+    \appoggiatura cis8 d4 r8 d, a' c?
+    h[( c\trill d]) c[ a8.(\trill g32 a])
+    h8[( c\trill d]) e a, fis'
+    g4 r8 e d16([ c)] h([ a)] %60
+    g4 r8 e' a, fis'
+    g4 r8 e d16([ c)] h([ a)]
+    g4 r8 r4 r8
+    R2.*10 %73
+    r4 r8 r4\fermata g8
+    d'8. e16 d8~ d16 fis fis([ g)] g([ e)] %75
+    d16.[( c32 h8]) d \appoggiatura d4 c4.
+    h4 r8 h c16([ h)] e([ h)]
+    a16. fis'32 fis4~ fis16 a, a([ c)] h([ a)]
+    g([ fis)] e8 e'~ e d! cis
+    d e fis~ fis e16([ d cis h)] %80
+    ais4 r8 r fis cis'
+    d[( e\trill fis]) e[ cis8.(\trill h32 cis])
+    d8([ e\trill fis)] g4.
+    fis e16[ cis] \appoggiatura h8 ais4
+    h8 h h h4.~ %85
+    h2.~
+    h4.\fermata cis\trill
+    h4 r8 r4 r8
+    R2.*8 %96
+    r4 r8 r4 g8 \bar "S-S" %97 finis
+  }
+}
+
+VerlasstIhnSopranoLyrics = \lyricmode {
+  Ver -- %14
+  laßt Ihn nicht, ihr viel -- ge -- %15
+  lieb -- ten Freun --
+  de, bleibt Ihm ge --
+  treu, ver -- lacht den Stolz der
+  Fein -- de, es kämpft kein
+  Menſch, es kämpft kein %20
+  Menſch, Gott führt den
+  Streit, bleibt Ihm ge --
+  treu, __ _ _
+  _ _
+  _ _ %25
+  _ _
+  _ es kämpft kein
+  Menſch, Gott führt den
+  Streit, Gott führt den
+  Streit. %30
+
+  Ver -- %38
+  laßt Ihn nicht, ihr viel -- ge --
+  lieb -- ten Freun -- %40
+  de, ver --
+  laßt Ihn nicht, ihr viel -- ge --
+  lieb -- ten Freun --
+  de, bleibt Ihm ge --
+  treu, ver -- lacht den Stolz der %45
+  Fein -- de, es kämpft kein
+  Menſch, Gott __ führt den
+  Streit, es kämpft kein
+  Menſch, Gott __ führt den
+  Streit, bleibt Ihm ge -- %50
+  treu, __ _
+  _ _ _
+  _ _
+  _
+  _ %55
+  _
+  _ bleibt Ihm ge --
+  treu, __ _
+  _ es kämpft kein
+  Menſch, Gott führt den %60
+  Streit, es kämpft kein
+  Menſch, Gott führt den
+  Streit.
+
+  Und %74
+  wer -- det ihr den Hei -- land %75
+  nicht ver -- laſ --
+  ſen, wird ſei -- ne
+  Hand die Eu -- re lieb -- reich
+  faſ -- ſen, euch lei -- ten
+  zu der See -- lig -- %80
+  keit, zu der
+  See -- _
+  _ _
+  _ _ lig --
+  keit, zu der See -- %85
+
+  lig --
+  keit. %88 finis
+}

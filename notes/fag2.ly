@@ -114,3 +114,88 @@ WirGingenFagottoII = {
     d\breve*1/2\fermata \bar "|." %129 finis
   }
 }
+
+VerlasstIhnFagottoII = {
+  \relative c {
+    \clef bass
+    \key g \major \time 6/8 \tempoVerlasstIhn
+    \partial 8 g'8\fE h8.( c16 h8) r16 h( c h e c)
+    h16.( a32 g8) h \appoggiatura h4 a4.\trill
+    g4 r8 h( g8. h16)
+    a4. g
+    g8\trill fis r g e8.( fis32 g) %5
+    fis16( a) a4 g8 e8.( fis32 g)
+    fis4 r8 a32([ g a c!)] a8. fis16
+    g8( a16\trill g32 a h8) a32([ g a c)] a8. fis16
+    g8( a\trill h) c a8.(\trill g32 a)
+    h8.( c16 h8) g16( a) \appoggiatura g8 fis4\trill %10
+    g4 r8 c c8. a16
+    g h d4 c8 c8. a16
+    g h d4 \once \slurDashed e32( c h a) \appoggiatura g8 fis4\trill \noBreak
+    g16( h) h( g) g( a) \appoggiatura a8 g4 r8 \bar "S-S"
+    R2.*2 %16
+    r4 r8 h\pE g8. h16
+    a4. g
+    g8\trill fis r r4 r8
+    R2.*5 %24
+    r4 r8 a4.~\pocoFE %25
+    a2.~
+    a4. r4 r8
+    R2.*2
+    r8 \once \slurDashed fis16.([\fE g32 fis8)] r16 fis( g fis h g) %30
+    fis16.( e32 d8) fis \appoggiatura fis4 e4.
+    d4 r8 fis fis8. d16
+    e16. g32 g8. e16 d16. fis32 fis8. d16
+    \appoggiatura e16 d8 cis r e32([ d e g)] e8. cis16
+    d8( e\trill fis) e32([ d e g)] e8. cis16 %35
+    d8( e\trill fis) \once \slurDashed g16.( e32) e8.([\trill d32 e)]
+    d8 a'4 \once \slurDashed g16( e) \appoggiatura d8 cis4\trill
+    d4 r8 r r d\p
+    fis8.( g16 fis8) r16 fis( g fis h g)
+    fis16.( e32 d8) fis \appoggiatura fis4 e4. %40
+    d4 r8 r r g
+    h8.( c16 h8) r16 h( c h e c)
+    \once \slurDashed h16.( a32 g8) h \appoggiatura h4 a4.
+    g4 r8 h( g8.) h16
+    a4. g %45
+    \appoggiatura a16 g8 fis r r4 r8
+    R2.*10 %56
+    r16 d\pocoFE \slurDashed d( fis) fis( a) \slurSolid d4.~
+    d2.~
+    d4. r4 r8
+    r4 r8 c\pE h16( a) g( fis) %60
+    g4 r8 r4 r8
+    r4 r8 c\fE h16( a) g( fis)
+    g4 h8 \once \slurDashed c16( e) e8.([\trillE d32 c)]
+    \once \slurDashed h16.( a32 g8) h8~ h a g
+    \appoggiatura a16 g8 fis r g e8.( fis32 g) %65
+    \once \slurDashed fis16( a) a4 g8 e8.( fis32 g)
+    fis4 r8 a32([ g a c!)] a8. fis16
+    g8( a\trill h) a32([ g a c)] a8. fis16
+    g8( a\trill h) c a8.(\trill g32 a)
+    h8.( c16 h8) g16( a) \appoggiatura g8 fis4 %70
+    g4 r8 c c8. a16
+    g h d4 c8 c8. a16
+    g h d4 e32( c h a) \appoggiatura g8 fis4
+    g16( h) h( g) g( a) \appoggiatura a8 g4\fermata g8\p
+    h8.( c16 \once \tieDashed h8)~ h16 a a( h) h( c) %75
+    \once \slurDashed h16.( a32 g8) h \appoggiatura h4 a4.
+    g4 r8 r4 r8
+    R2.*3 %80
+    r4 r8 cis cis8. ais16
+    h8( cis\trillE d) cis cis8. ais16
+    h8( cis\trill d) r4 r8
+    R2.*3 %86
+    R2.\fermata
+    r8 h\fE h h32([ a! h d)] h8. gis16
+    a8( h\trill c) h32([ a h d)] h8. gis16
+    a4. g %90
+    \appoggiatura a16 g8\trill fis r g e8.( fis32 g)
+    fis16( a) a4 g8 e8.( fis32 g)
+    fis4 r8 a32([ g a c!)] a8. fis16
+    g8( a\trill h) a32([ g a c)] a8. fis16
+    g8( a\trill h) c a8.(\trill g32 a)
+    h8.( c16 h8) g32( c h a) \appoggiatura g8 fis4
+    \once \slurDashed g16( h) h( g) g( a) \appoggiatura a8 g4 r8 \bar "S-S" %97 finis
+  }
+}

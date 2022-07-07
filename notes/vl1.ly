@@ -952,3 +952,107 @@ IschariotViolinoI = {
     d16 c d e d c h a g4 r\fermata \bar "|." %28 finis
   }
 }
+
+VerlasstIhnViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 6/8 \tempoVerlasstIhn
+    \partial 8 g'8\fE d'8.( e16 d8) r16 d( e d g e)
+    d16.( c32 h8) d \appoggiatura d4 c4.\trill
+    h16( g) g( h) h( d) d8( g8.) h,16
+    c16. a'32 a8. c,16 h16. g'32 g8. h,16
+    h8\trill a r h cis8.( d32 e) %5
+    d16( c) c4 h8 cis8.( d32 e)
+    d16-! a'( g fis e d) c32([ h c e)] c8. a16
+    h8( c16\trill h32 c d8) c32([ h c e)] c8. a16
+    h8( c\trill d) e16.( fis32) fis8.([\trill e32 fis)]
+    g( fis g h) d,4 e16 c \appoggiatura h8 a4\trill %10
+    r16 g( a h c d) e-! c( h a) r fis'
+    g32( fis g h) d,4 e16-! c( h a) r fis'
+    g32( fis g h) d,4 \once \slurDashed e32( c h a) \appoggiatura g8 fis4\trill \noBreak
+    g16( d) d( h) h( c) \appoggiatura c8 h4 g'8\p \bar "S-S"
+    d'8.( e16 d8) r16 d( e d g e) \noBreak %15
+    d16.( c32 h8) d \appoggiatura d4 c4.
+    h16( g) g( h) h( d) d8 g8. h,16
+    c16. a'32 a8. c,16 h16. g'32 g8. h,16
+    h8\trill a r a-! d-! fis-!
+    \appoggiatura fis e8.\f fis16 g8 a,\p e' g %20
+    \appoggiatura g fis8.\f g16 a8 a,16-!\p a'( g fis e d)
+    \appoggiatura c!8 h4 h'8 h4 h8
+    e,4 e8 fis4 gis8
+    a4 a8 d,4 d8
+    cis4 r8 g'!32([\pocoF fis g h)] g8. e16 %25
+    fis8( g\trill a) g32([ fis g h)] g8. e16
+    \once \slurDashed fis8( g\trill a) a,-!\p d-! fis-!
+    h, g'4~ g8 fis16( e) d( cis)
+    d16. d'32\f d8.[ d,16] h'8 a16( g) fis( e)
+    d8 a16.([ h32 a8)] r16 a( h a d h) %30
+    a16.( g32 fis8) a \appoggiatura a4 g4.
+    fis16( d) d( fis) fis( a) a8 d8. fis,16
+    g16. e'32 e8. g,16 fis16. d'32 d8. fis,16
+    \appoggiatura g fis8 e r g32([ fis g h)] g8. e16
+    fis8( g\trill a) g32([ fis g h)] g8. e16 %35
+    fis8( g\trill a) h16.( cis32) cis8.([\trill h32 cis)]
+    d( cis d fis) a,4 h16( g) \appoggiatura fis8 e4\trill
+    d16( a') a( fis) fis( g) \appoggiatura g8 fis4 d8\p
+    a'8.( h16 a8) r16 a( h a d h)
+    a16.( g32 fis8) a \appoggiatura a4 g4. %40
+    fis16 d[\f d( fis) fis( a)] h8[ a] g\p
+    d'8.( e16 d8) r16 d( e d g e)
+    d16.( c32 h8) d \appoggiatura d4 c4.
+    h16( g) g( h) h( d) d8 g8. h,16
+    c16. a'32 a8. c,16 h16. g'32 g8. h,16 %45
+    \appoggiatura c h8 a r g d' f
+    e4 e8\f d4 d8\p
+    \once \slurDashed e32([\f d e g]) c,8. e16 a,8 e'\p g
+    fis!4 fis8\f e4 e8\p
+    fis16(\f a) a( fis) fis( d) d4 d8\p %50
+    d4 h8 h4 d8
+    c4 c8 d4 d8
+    c4 c8 cis4 cis8
+    d4 d8 d4 c8
+    c4 h8 h4 h8 %55
+    c4 c8 cis4 cis8
+    \appoggiatura cis d4 r8 c32([\pocoF h c e)] c8. a16
+    h8( c\trill d) c32([ h c e)] c8. a16
+    h8( c\trill d) e16\p c( h a) r fis'
+    g32([ fis g h)] d,4 e8 d16( c) h( a) %60
+    g-! g( a h c d) e-\parenthesize-! c( h a) r fis'
+    g32([ fis g h)] d,4 e8\f d16( c) h( a)
+    g g[ g( h) h( d)] e( g) g8.([\trillE fis32 e)]
+    d16.( c32 h8) d~ d c h
+    \appoggiatura c16 h8 a r h cis8.( d32 e) %65
+    d16( c) c4 h8 cis8.( d32 e)
+    d16-! a'( g fis e d) c32([ h c e)] c8. a16
+    h8( c\trill d) c32([ h c e)] c8. a16
+    h8( c\trill d) e16.( fis32) fis8.([\trill e32 fis)]
+    g32( fis g h) d,4 e16( c) \appoggiatura h8 a4 %70
+    r16 g( a h c d) e c( h a) r fis'
+    g32( fis g h) d,4 e16 c( h a) r fis'
+    g32( fis g h) d,4 e32( c h a) \appoggiatura g8 fis4
+    g16( d) d( h) h( c) \appoggiatura c8 h4\fermata g'8\p
+    d'8.( e16 d8)~ d16 fis fis( g) g( e) %75
+    d16.( c32 h8) d \appoggiatura d4 c4.
+    h4 r8 h c16( h) e( h)
+    a8 fis'4~ fis8 \slurDashed a,16( c) h( a) \slurSolid
+    g( fis e8) e'~ e d! cis
+    d( e fis)~ fis e16 d cis h %80
+    \appoggiatura h8 ais8.( h16 cis d) e32([ d e g)] e8. cis16
+    d8( e\trill fis) e32([ d e g)] e8. cis16
+    d8( e\trill fis) g16-! e( d cis) r ais'
+    h32( ais h d) fis,4 g32( e d cis) \appoggiatura h8 ais4
+    h r8 r16 e(\pocoF fis e h' e,) %85
+    r d( e d h' d,) r g( fis e d cis)
+    d4\fermata r8 r4 r8
+    r d\f d d32([ c! d f)] d8. h16
+    c8( d\trill e) d32([ c d f)] d8. h16
+    c16. a'32 a8. c,16 h16. g'!32 g8. h,16 %90
+    \appoggiatura c h8\trill a r h cis8.( d32 e)
+    d16( c) c4 h8 cis8.( d32 e)
+    d16-! a'( g fis e d) c32([ h c e)] c8. a16
+    h8( c\trill d) c32([ h c e)] c8. a16
+    h8( c\trill d) e16.( fis32) fis8.([\trill e32 fis)] %95
+    g( fis g h) d,4 e32([ c h a)] \appoggiatura g8 fis4
+    g16( d) d( h) h( c) \appoggiatura c8 h4 g'8\p \bar "S-S" %97 finis
+  }
+}

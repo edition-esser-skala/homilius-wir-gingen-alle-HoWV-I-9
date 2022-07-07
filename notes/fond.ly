@@ -2085,3 +2085,69 @@ DieIhrDenBassFigures = \figuremode {
   r8 <6> <6 4>4 <5 3> %120
   r2. %121 finis
 }
+
+IschariotFondamento = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoIschariot
+    as1~
+    as~
+    as
+    a2 b
+    f'1 %5
+    es2 e
+    f1
+    fis2 g
+    c, r4 d
+    g,1 %10
+    a2 cis~
+    cis d
+    g r4 a
+    gis1
+    a %15
+    h2 c
+    b a~
+    a r4 h
+    e,1
+    fis2 e %20
+    \tempoIschariotB r16 \mvTr d\fE-\unisono e fis g a h cis d a h g d' a h g
+    d'4 r r16 c! c c c c c c
+    c4 r r16 cis cis cis cis cis cis cis
+    cis4 r r2
+    r4 r8 \tempoIschariotC cis-\unisono d h g h %25
+    c a fis dis' e c a cis
+    d h g h e, g c, e
+    d16 c d e d c h a g4 r\fermata \bar "|." %28 finis
+  }
+}
+
+IschariotBassFigures = \figuremode {
+  <[5-]>1
+  r2 <7 4->
+  <\t \t> <8 [5-] 3>
+  <7- 5> <[_!]>
+  <4! 2>1 %5
+  <6>2 <6 5->
+  r1
+  <6>2 <_->
+  q2. <_+>4
+  <_->1 %10
+  <6!>2 <6>
+  <6 5>1
+  <_->2. <_+>4
+  <6>1
+  r2 <[6]> %15
+  <6>1
+  <4 2>2 <6>
+  <[6+] 4+ 2>2. <[5+] _+>4
+  <5>2 <6\\>
+  <6!> <7>4 <6\\> %20
+  r1
+  r2 r16 <4+ 2>4..
+  r2 r16 <7- 5>4..
+  r1
+  r %25
+  r
+  r
+  r %28 finis
+}

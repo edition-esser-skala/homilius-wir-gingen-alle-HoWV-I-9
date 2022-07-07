@@ -969,3 +969,65 @@ DieIhrDenSopranoLyrics = \lyricmode {
   er -- ret -- %120
   ten. %121 finis
 }
+
+IschariotSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoIschariot
+    r4 r8 es as8. as16 as8 r16 es'
+    c8 as b c b b b as
+    b c des c c4 r16 as c es
+    ges8 ges4 f16 es d4 r16 d f d
+    h!4 r8 g d' d d8. es16 %5
+    c8 c r16 g' g g g8 b, des c
+    a4 r8 c f c d es
+    d d r16 a b c b4 b
+    es8. c16 a8. b16 g8 g r4
+    r r8 d g a b a %10
+    f! f r16 a a a a8. e16 e8 r16 e
+    g8 f e f d d r a'
+    b4 r8 d a4 r
+    r e'8 h16 c d8 d c h
+    c c r c f f f e %15
+    d d e f e e r g,
+    c e g e f4 r8 e
+    dis8. dis16 dis8 e h4 r
+    r8 g' g e cis cis cis d
+    d d r d d g, g([ fis16)] g %20
+    \tempoIschariotB a8 a r4 r2
+    r4 d~ d8. a16 a4
+    fis'8. d16 d4 g2~
+    g8. g,16 g8 r16 b a8 g fis g
+    g d r4 r2 %25
+    R1*2
+    R1\fermata \bar "|." %28 finis
+  }
+}
+
+IschariotSopranoLyrics = \lyricmode {
+  I -- ſcha -- ri -- oth, der
+  von der Jün -- ger Schaar auch ei -- ner
+  un -- ter Zwöl -- fen war, be -- geht die
+  un -- ſee -- lig -- ſte That, um we -- nig
+  Geld den Hei -- land zu ver -- %5
+  ra -- then, den Herrn der Him -- mel und der
+  Welt, der ihn ſo lieb -- reich
+  lehr -- te, und als ein Va -- ter
+  vä -- ter -- lich er -- nähr -- te.
+  Ich werd Ihn Mei -- ſter %10
+  nen -- nen, dieß ſoll das Zei -- chen ſeyn, da --
+  ran ſollt ihr ihn ken -- nen, der
+  iſts, den greift.
+  Kaum hat er auf -- ge -- hört zu
+  be -- ten, als Ju -- das und die %15
+  Krie -- ger zu ihm tre -- ten, und
+  die ver -- fluch -- te Hand Ihn
+  feſ -- ſel -- te und band.
+  Schon hat die Rot -- te ſich ver --
+  ſam -- melt, das Ur -- theil ab -- zu -- %20
+  faſ -- ſen:
+  Töd -- tet Ihn,
+  töd -- tet Ihn, töd --
+  tet Ihn, ſein Le -- ben muß Er
+  laſ -- ſen. %25 finis
+}

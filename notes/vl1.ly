@@ -936,3 +936,19 @@ DieIhrDenViolinoI = {
     es r r\fermata \bar "|." %121 finis
   }
 }
+
+IschariotViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoIschariot
+    R1*20 %20
+    \tempoIschariotB r16 d\fE e fis g a h cis d a h g d' a h g
+    d'4 r r16 fis fis fis fis fis fis fis
+    fis4 r r16 g g g g g g g
+    g4 r r2
+    r4 r8 \tempoIschariotC cis, d h g h %25
+    c a fis dis' e c a cis
+    d h g h e, g c, e
+    d16 c d e d c h a g4 r\fermata \bar "|." %28 finis
+  }
+}

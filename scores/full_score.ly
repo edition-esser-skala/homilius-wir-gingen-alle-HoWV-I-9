@@ -870,77 +870,124 @@ paperTwoStaves = \paper {
   %     \midi { \tempo 2 = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \section "15" "Coro" "Die ihr den Herrn liebet"
+  %   \addTocLabel "dieihrden"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \DieIhrDenOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \DieIhrDenOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \DieIhrDenViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \DieIhrDenViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \DieIhrDenViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \DieIhrDenSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \DieIhrDenSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \DieIhrDenAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \DieIhrDenAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \DieIhrDenTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \DieIhrDenTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \DieIhrDenBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \DieIhrDenBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \DieIhrDenFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \DieIhrDenBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 90 }
+  %   }
+  % }
   \bookpart {
-    \section "15" "Coro" "Die ihr den Herrn liebet"
-    \addTocLabel "dieihrden"
+    \section "16" "Recitativo" "Iſcharioth, der von der Jünger Schaar"
+    \addTocLabel "ischarioth"
+    \paper {
+      system-system-spacing.basic-distance = #30
+      system-system-spacing.minimum-distance = #30
+      systems-per-page = #2
+    }
     \score {
       <<
-        \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "ob"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \DieIhrDenOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \DieIhrDenOboeII
-            }
-          >>
-        >>
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \DieIhrDenViolinoI
+              \IschariotViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \DieIhrDenViolinoII
+              \IschariotViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \DieIhrDenViola
+            \IschariotViola
           }
         >>
-        \new ChoirStaff <<
+        \new ChoirStaff \with { \smallGroupDistance } <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \DieIhrDenSoprano }
+            \new Voice = "Soprano" { \dynamicUp \IschariotSoprano }
           }
-          \new Lyrics \lyricsto Soprano \DieIhrDenSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \DieIhrDenAlto }
-          }
-          \new Lyrics \lyricsto Alto \DieIhrDenAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \DieIhrDenTenore }
-          }
-          \new Lyrics \lyricsto Tenore \DieIhrDenTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \DieIhrDenBasso }
-          }
-          \new Lyrics \lyricsto Basso \DieIhrDenBassoLyrics
+          \new Lyrics \lyricsto Soprano \IschariotSopranoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \DieIhrDenFondamento
+            \IschariotFondamento
           }
         >>
-        \new FiguredBass { \DieIhrDenBassFigures }
+        \new FiguredBass { \IschariotBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 65 }
     }
   }
 }

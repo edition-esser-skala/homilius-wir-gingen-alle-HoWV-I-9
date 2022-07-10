@@ -43,6 +43,7 @@ tempoDesSollst = \tempoMarkup "[Choral]"
 
 % 2.1
 tempoWeilDer = \tempoMarkup "Trotzig"
+tempoVerschonet = \tempoMarkup "[Accompagnato]"
 
 
 

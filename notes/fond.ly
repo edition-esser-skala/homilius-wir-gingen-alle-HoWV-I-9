@@ -2517,3 +2517,49 @@ WeilDerBassFigures = \figuremode {
   r <6\\> <6> <6 5>4 <6\\>8 <6> q %45
   <6 4>4 <7 _+>2. %46 finis
 }
+
+VerschonetFondamento = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoVerschonet
+    c1\p
+    b~
+    b
+    r8. a16 a4 r8. b16 b4
+    r2 r8. c16[ c8. c16] %5
+    f2 dis~
+    dis e
+    fis r4 gis
+    cis,1~
+    cis2 dis %10
+    e a,~
+    a r4 h
+    e8.[ e16 e8. e16] e4 r
+    r8. d!16[ d8. d16] d4 r
+    R1 %15
+    cis4 r r8. d16[ d8. dis16]
+    dis4 r r2
+    r4 e a, r\fermata \bar "|." %18 finis
+  }
+}
+
+VerschonetBassFigures = \figuremode {
+  <4+ _->1
+  <6>2 <6 4! _->
+  <\t \t \t>1
+  r8. <6>16 r2.
+  r <6 4>8. <7- 5>16 %5
+  r2 <6\\ 5 [_+]>
+  r <6+ _+>
+  \bo <[6+] 4+ 3>2. \bc <[5+] _+>4
+  <[5+]>1
+  <6>2 <6! 5 [_+]> %10
+  <_+> q
+  <[6+] 4+ 2>2. <7 [5+] _+>4
+  <_+>1
+  r8. <4+ 2>16 r2.
+  r1 %15
+  <6>2 r8. <_+>4 <7! [_+]>16
+  <\t \t>1
+  r4 <_+> q2 %18 finis
+}

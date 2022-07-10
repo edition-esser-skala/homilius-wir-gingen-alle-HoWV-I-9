@@ -1289,3 +1289,49 @@ WeilDerSopranoLyrics = \lyricmode {
   nan -- der und er -- den -- ken bö -- ſe %40
   Tü -- cke. %41 finis
 }
+
+VerschonetSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoVerschonet
+    r8 es' es c a b c b
+    g4 r8 d' g g g f!
+    e! e r g e e e f
+    f4 r8 f, d'! d r f,
+    b b b a f4 r %5
+    r8 c' c a fis4 r8 fis'
+    fis dis his8. e16 cis8 cis r cis
+    a'8. gis16 fis e dis e cis8 cis r4
+    r8 gis gis gis cis cis cis h!
+    a a r16 a cis a fis8 fis gis a %10
+    gis h e h cis8. cis16 cis8 r16 a
+    dis8 dis dis e h h r4
+    r2 r8 h e h
+    e,4 r r r8 e
+    h' h h a h cis d cis %15
+    a8. e'16 g! g fis e fis8 fis r4
+    r a,8 a dis dis16 e d8 cis
+    a a r4 r2\fermata \bar "|." %18 finis
+  }
+}
+
+VerschonetSopranoLyrics = \lyricmode {
+  Ver -- ſcho -- net des Ge -- rech -- ten
+  Blut, ihr un -- barm -- herz -- gen
+  Rich -- ter, dämpft eu -- res Grim -- mes
+  Glut, be -- den -- ket, be --
+  den -- ket was ihr thut. %5
+  Be -- ſchwert euch nicht mit
+  Un -- ge -- rech -- tig -- kei -- ten und
+  nie er -- hör -- ten Grau -- ſam -- kei -- ten.
+  Der Mund des Hei -- lands leh -- ret
+  Frie -- den, durch ihn wird uns und euch zu -- %10
+  gleich des Va -- ters Him -- mel -- reich durch
+  ſei -- nen Sohn be -- ſchie -- den.
+  Em -- pört euch
+  nicht, der
+  Sohn wird einſt auf ſei -- nes Va -- ters %15
+  Thron den Un -- ge -- hor -- ſam rä -- chen
+  und ein un -- ſee -- lig Ur -- theil
+  spre -- chen. %18 finis
+}

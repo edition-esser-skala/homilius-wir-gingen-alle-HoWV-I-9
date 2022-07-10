@@ -1170,3 +1170,28 @@ WeilDerViola = {
     a4 a a r\fermata \bar "|." %46 finis
   }
 }
+
+VerschonetViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoVerschonet
+    fis1\p
+    g2 e~
+    e1
+    r8. f16 f4 r8. b,16 b4
+    r2 r8. c16[ c8. c16] %5
+    c2 his~
+    his cis
+    his r4 his
+    gis1
+    cis2 h!~ %10
+    h a
+    h r4 h
+    h8.[ e16 e8. gis16] gis4 r
+    r8. gis16[ gis8. h16] h4 r
+    R1 %15
+    a4 r r8. a16[ a8. c!16]
+    c4 r r2
+    r4 e, e r\fermata \bar "|." %18 finis
+  }
+}

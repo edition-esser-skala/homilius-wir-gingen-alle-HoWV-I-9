@@ -1141,3 +1141,28 @@ WeilDerViolinoI = {
     f d' a, cis' d4 r\fermata \bar "|." %46 finis
   }
 }
+
+VerschonetViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoVerschonet
+    es'1\p
+    d2 des~
+    des1
+    r8. c16 c4 r8. d16 d4
+    r2 r8. g,16[ a8. b16] %5
+    \appoggiatura b8 a1~
+    a2 gis
+    a r4 gis
+    \appoggiatura fis8 e1
+    a %10
+    gis2 a
+    fis r4 a
+    gis8.[ h16 h8. e16] e4 r
+    r8. e16[ e8. gis16] gis4 r
+    R1 %15
+    a4 r r8. fis16[ fis8. a16]
+    a4 r r2
+    r4 gis a r\fermata \bar "|." %18 finis
+  }
+}

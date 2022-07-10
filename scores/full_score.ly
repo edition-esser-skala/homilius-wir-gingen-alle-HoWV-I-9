@@ -1126,88 +1126,135 @@
   % }
   % \insertEmptyPage
   % \part "zweytertheil" "2" "Zweyter Theil"
+  % \bookpart {
+  %   \section "2.1" "Coro" "Weil der Gottloſe Uebermuth treibet"
+  %   \addTocLabel "weilder"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \WeilDerOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \WeilDerOboeII
+  %           }
+  %         >>
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "fag"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \WeilDerFagottoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \WeilDerFagottoII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \WeilDerViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \WeilDerViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \WeilDerViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \WeilDerSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \WeilDerSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \WeilDerAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \WeilDerAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \WeilDerTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \WeilDerTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \WeilDerBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \WeilDerBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \WeilDerFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \WeilDerBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \section "2.1" "Coro" "Weil der Gottloſe Uebermuth treibet"
-    \addTocLabel "weilder"
+    \section "2.2" "Accompagnato" "Iſcharioth, der von der Jünger Schaar"
+    \addTocLabel "verschonet"
+    \paper {
+      system-system-spacing.basic-distance = #30
+      system-system-spacing.minimum-distance = #30
+      systems-per-page = #2
+    }
     \score {
       <<
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "ob"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \WeilDerOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \WeilDerOboeII
-            }
-          >>
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "fag"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \WeilDerFagottoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \WeilDerFagottoII
-            }
-          >>
-        >>
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \WeilDerViolinoI
+              \VerschonetViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \WeilDerViolinoII
+              \VerschonetViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \WeilDerViola
+            \VerschonetViola
           }
         >>
-        \new ChoirStaff <<
+        \new ChoirStaff \with { \smallGroupDistance } <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \WeilDerSoprano }
+            \new Voice = "Soprano" { \dynamicUp \VerschonetSoprano }
           }
-          \new Lyrics \lyricsto Soprano \WeilDerSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \WeilDerAlto }
-          }
-          \new Lyrics \lyricsto Alto \WeilDerAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \WeilDerTenore }
-          }
-          \new Lyrics \lyricsto Tenore \WeilDerTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \WeilDerBasso }
-          }
-          \new Lyrics \lyricsto Basso \WeilDerBassoLyrics
+          \new Lyrics \lyricsto Soprano \VerschonetSopranoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \WeilDerFondamento
+            \VerschonetFondamento
           }
         >>
-        \new FiguredBass { \WeilDerBassFigures }
+        \new FiguredBass { \VerschonetBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 4 = 65 }
     }
   }
 }

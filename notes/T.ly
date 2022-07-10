@@ -1237,3 +1237,45 @@ JesuDerDuTenoreLyrics = \lyricmode {
   mehr ich nicht be -- %15
   geh -- re. %16 finis
 }
+
+JesusSeinTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key a \major \time 4/4 \autoBeamOff \tempoJesuDerDu
+    \mvTr e4\fE^\tuttiE e8([ d)] cis4 e
+    e fis h,2
+    d4 cis d e
+    fis( e8[ d)] cis2\fermata
+    e4 e fis e %5
+    d cis cis2
+    a4 gis a ais
+    h2 ais\fermata
+    a4 a a a
+    a gis! a2 %10
+    cis4 h h h
+    h2 h\fermata
+    cis4 e d! e
+    e e e2
+    e4 e fis e %15
+    e4.( d8) cis2\fermata \bar "|." %16 finis
+  }
+}
+
+JesusSeinTenoreLyrics = \lyricmode {
+  Je -- ſus ſein Kreuz
+  ſel -- ber trägt,
+  dran man ihn will
+  hef -- ten;
+  Si -- mon, dems auch %5
+  auf -- er -- legt,
+  trägt mit al -- len
+  Kräf -- ten;
+  doch ge -- zwun -- gen
+  ſolchs er faßt. %10
+  Gieb, Herr, Kraft und
+  Ga -- ben,
+  ſo will ich ein
+  Theil der Laſt
+  un -- ge -- zwun -- gen %15
+  tra -- gen. %16 finis
+}

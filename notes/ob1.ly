@@ -794,3 +794,26 @@ JetztGehtOboeIeII = {
     R2.*12 \bar "S-S" %151 finis
   }
 }
+
+JesusSeinOboeI = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \tempoJesuDerDu
+    cis'4\fE h a h
+    cis dis e2
+    fis4 e d cis
+    h2 a\fermata
+    cis4 e d cis %5
+    h a gis2
+    a4 h cis cis
+    d2 cis\fermata
+    cis4 d e d
+    cis h cis2 %10
+    e4 e fis e
+    e dis e2\fermata
+    e4 e fis e
+    d cis h2
+    cis4 e d cis %15
+    h2 a\fermata \bar "|." %16 finis
+  }
+}

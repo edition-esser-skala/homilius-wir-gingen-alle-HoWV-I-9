@@ -1480,3 +1480,45 @@ JesuDerDuSopranoLyrics = \lyricmode {
   mehr ich nicht be -- %15
   geh -- re. %16 finis
 }
+
+JesusSeinSoprano = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \autoBeamOff \tempoJesuDerDu
+    \mvTr cis'4\fE^\tuttiE h a h
+    cis dis e2
+    fis4 e d cis
+    h2 a\fermata
+    cis4 e d cis %5
+    h a gis2
+    a4 h cis cis
+    d2 cis\fermata
+    cis4 d e d
+    cis h cis2 %10
+    e4 e fis e
+    e( dis) e2\fermata
+    e4 e fis e
+    d cis h2
+    cis4 e d cis %15
+    h2 a\fermata \bar "|." %16 finis
+  }
+}
+
+JesusSeinSopranoLyrics = \lyricmode {
+  Je -- ſus ſein Kreuz
+  ſel -- ber trägt,
+  dran man ihn will
+  hef -- ten;
+  Si -- mon, dems auch %5
+  auf -- er -- legt,
+  trägt mit al -- len
+  Kräf -- ten;
+  doch ge -- zwun -- gen
+  ſolchs er faßt. %10
+  Gieb, Herr, Kraft und
+  Ga -- ben,
+  ſo will ich ein
+  Theil der Laſt
+  un -- ge -- zwun -- gen %15
+  tra -- gen. %16 finis
+}

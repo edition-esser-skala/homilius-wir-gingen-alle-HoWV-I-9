@@ -1407,53 +1407,126 @@
   %     \midi { \tempo 4 = 65 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.6" "Aria" "Jetzt geht auf ungebahnten Wegen"
+  %   \addTocLabel "jetztgeht"
+  %   \paper { systems-per-page = #2 }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+  %           \JetztGehtOboeIeII
+  %         }
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \JetztGehtViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \JetztGehtViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \JetztGehtViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \JetztGehtAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \JetztGehtAltoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \JetztGehtFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \JetztGehtBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 100 }
+  %   }
+  % }
   \bookpart {
-    \section "2.6" "Aria" "Jetzt geht auf ungebahnten Wegen"
-    \addTocLabel "jetztgeht"
-    \paper { systems-per-page = #2 }
+    \section "2.7" "Choral" "Jeſus ſein Kreuz ſelber trägt"
+    \addTocLabel "jesussein"
     \score {
       <<
         \new StaffGroup <<
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
-            \JetztGehtOboeIeII
-          }
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "ob"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \JesusSeinOboeI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \JesusSeinOboeII
+            }
+          >>
         >>
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \JetztGehtViolinoI
+              \JesusSeinViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \JetztGehtViolinoII
+              \JesusSeinViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \JetztGehtViola
+            \JesusSeinViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \JetztGehtAlto }
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \JesusSeinSoprano }
           }
-          \new Lyrics \lyricsto Alto \JetztGehtAltoLyrics
+          \new Lyrics \lyricsto Soprano \JesusSeinSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \JesusSeinAlto }
+          }
+          \new Lyrics \lyricsto Alto \JesusSeinAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \JesusSeinTenore }
+          }
+          \new Lyrics \lyricsto Tenore \JesusSeinTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \JesusSeinBasso }
+          }
+          \new Lyrics \lyricsto Basso \JesusSeinBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \JetztGehtFondamento
+            \JesusSeinFondamento
           }
         >>
-        \new FiguredBass { \JetztGehtBassFigures }
+        \new FiguredBass { \JesusSeinBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 100 }
+      \midi { \tempo 4 = 90 }
     }
   }
 }

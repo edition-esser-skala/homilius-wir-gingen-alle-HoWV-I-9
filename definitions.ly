@@ -52,7 +52,7 @@ tempoNunRettet = \tempoMarkup "[Recitativ]"
 
 %2.6
 tempoJetztGeht = \tempoMarkup "Mitleidig"
-
+tempoJesusSein = \tempoMarkup "[Choral]"
 
 
 \include "notes/fl1.ly"

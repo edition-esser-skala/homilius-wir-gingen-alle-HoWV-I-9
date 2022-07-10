@@ -1235,3 +1235,45 @@ JesuDerDuBassoLyrics = \lyricmode {
   mehr ich nicht be -- %15
   geh -- re. %16 finis
 }
+
+JesusSeinBasso = {
+  \relative c {
+    \clef bass
+    \key a \major \time 4/4 \autoBeamOff \tempoJesuDerDu
+    \mvTr a'4\fE^\tuttiE e fis e
+    a fis e2
+    d4 a h cis
+    d( e) a,2\fermata
+    a'4 gis fis8([ gis)] a4 %5
+    eis fis cis2
+    fis4 e a fis
+    h( h,) fis'2\fermata
+    g4 fis cis d
+    e e a,2 %10
+    a'4 gis dis e
+    h'( h,) e2\fermata
+    a4 cis d! cis
+    gis a e2
+    a4 cis, d a %15
+    e'2 a,\fermata \bar "|." %16 finis
+  }
+}
+
+JesusSeinBassoLyrics = \lyricmode {
+  Je -- ſus ſein Kreuz
+  ſel -- ber trägt,
+  dran man ihn will
+  hef -- ten;
+  Si -- mon, dems auch %5
+  auf -- er -- legt,
+  trägt mit al -- len
+  Kräf -- ten;
+  doch ge -- zwun -- gen
+  ſolchs er faßt. %10
+  Gieb, Herr, Kraft und
+  Ga -- ben,
+  ſo will ich ein
+  Theil der Laſt
+  un -- ge -- zwun -- gen %15
+  tra -- gen. %16 finis
+}

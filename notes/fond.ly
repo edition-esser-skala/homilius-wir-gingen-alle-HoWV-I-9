@@ -3081,3 +3081,45 @@ JetztGehtBassFigures = \figuremode {
   q <6 4> <5 _+> %150
   r2. %151 finis
 }
+
+JesusSeinFondamento = {
+  \relative c {
+    \clef bass
+    \key a \major \time 4/4 \tempoJesuDerDu
+    \mvTr a'4\fE-\tuttiE e fis e
+    a fis e2
+    d4 a h cis
+    d e a,2\fermata
+    a'4 gis fis8 gis a4 %5
+    eis fis cis2
+    fis4 e a fis
+    h h, fis'2\fermata
+    g4 fis cis d
+    e e a,2 %10
+    a'4 gis dis e
+    h' h, e2\fermata
+    a4 cis d! cis
+    gis a e2
+    a4 cis, d a %15
+    e'2 a,\fermata \bar "|." %16 finis
+  }
+}
+
+JesusSeinBassFigures = \figuremode {
+  r4 <7>2.
+  r4 <6\\>2.
+  r2 <6>4 q
+  <6 5>1
+  r4 <6> q2 %5
+  <7 5> <_+>
+  r2. <_+>4
+  r2 q
+  <4 2!>4 <6> <6 5!>2
+  <6 4>4 <5 _+>2. %10
+  r4 <6> <6 5>2
+  <4>4 <_+>2.
+  r4 <6>2 q4
+  <6 5>1
+  r4 <6>2. %15
+  <4>4 <3>2. %16 finis
+}

@@ -1480,3 +1480,45 @@ JetztGehtAltoLyrics = \lyricmode {
   würg -- tes
   Lamm. %142 finis
 }
+
+JesusSeinAlto = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \autoBeamOff \tempoJesuDerDu
+    \mvTr a'4\fE^\tuttiE gis fis gis
+    a a gis2
+    a4 a gis a
+    a( gis) a2\fermata
+    a4 h a a %5
+    gis fis eis2
+    cis4 e e fis
+    fis2 fis\fermata
+    e4 fis g fis
+    e e e2 %10
+    e4 h' a gis
+    fis2 gis\fermata
+    a4 a a a
+    h a gis2
+    a4 a a a %15
+    a( gis) e2\fermata \bar "|." %16 finis
+  }
+}
+
+JesusSeinAltoLyrics = \lyricmode {
+  Je -- ſus ſein Kreuz
+  ſel -- ber trägt,
+  dran man ihn will
+  hef -- ten;
+  Si -- mon, dems auch %5
+  auf -- er -- legt,
+  trägt mit al -- len
+  Kräf -- ten;
+  doch ge -- zwun -- gen
+  ſolchs er faßt. %10
+  Gieb, Herr, Kraft und
+  Ga -- ben,
+  ſo will ich ein
+  Theil der Laſt
+  un -- ge -- zwun -- gen %15
+  tra -- gen. %16 finis
+}

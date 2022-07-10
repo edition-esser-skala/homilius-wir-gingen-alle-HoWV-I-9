@@ -1257,51 +1257,124 @@
   %     \midi { \tempo 4 = 65 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.3" "Aria" "Mein Heiland, bald wirſt du dein Blut vergießen"
+  %   \addTocLabel "baldwirst"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #30
+  %     system-system-spacing.minimum-distance = #30
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \BaldWirstViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \BaldWirstViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \BaldWirstViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \BaldWirstSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \BaldWirstSopranoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \BaldWirstFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \BaldWirstBassFigures }
+  %     >>
+  %     \layout { \context { \Score \override SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) } }
+  %     \midi { \tempo 4 = 50 }
+  %   }
+  % }
   \bookpart {
-    \section "2.3" "Aria" "Mein Heiland, bald wirſt du dein Blut vergießen"
-    \addTocLabel "baldwirst"
-    \paper {
-      system-system-spacing.basic-distance = #30
-      system-system-spacing.minimum-distance = #30
-      systems-per-page = #2
-    }
+    \section "2.4" "Choral" "Jeſu, der du wareſt tod"
+    \addTocLabel "jesuderdu"
     \score {
       <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "ob"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \JesuDerDuOboeI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \JesuDerDuOboeII
+            }
+          >>
+        >>
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \BaldWirstViolinoI
+              \JesuDerDuViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \BaldWirstViolinoII
+              \JesuDerDuViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \BaldWirstViola
+            \JesuDerDuViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \BaldWirstSoprano }
+            \new Voice = "Soprano" { \dynamicUp \JesuDerDuSoprano }
           }
-          \new Lyrics \lyricsto Soprano \BaldWirstSopranoLyrics
+          \new Lyrics \lyricsto Soprano \JesuDerDuSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \JesuDerDuAlto }
+          }
+          \new Lyrics \lyricsto Alto \JesuDerDuAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \JesuDerDuTenore }
+          }
+          \new Lyrics \lyricsto Tenore \JesuDerDuTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \JesuDerDuBasso }
+          }
+          \new Lyrics \lyricsto Basso \JesuDerDuBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \BaldWirstFondamento
+            \JesuDerDuFondamento
           }
         >>
-        \new FiguredBass { \BaldWirstBassFigures }
+        \new FiguredBass { \JesuDerDuBassFigures }
       >>
-      \layout { \context { \Score \override SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) } }
-      \midi { \tempo 4 = 50 }
+      \layout { }
+      \midi { \tempo 4 = 90 }
     }
   }
 }

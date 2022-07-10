@@ -1438,3 +1438,45 @@ BaldWirstSopranoLyrics = \lyricmode {
 
   Mein %55 finis
 }
+
+JesuDerDuSoprano = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \autoBeamOff \tempoJesuDerDu
+    \mvTr cis'4\fE^\tuttiE h a h
+    cis dis e2
+    fis4 e d cis
+    h2 a\fermata
+    cis4 e d cis %5
+    h a gis2
+    a4 h cis cis
+    d2 cis\fermata
+    cis4 d e d
+    cis h cis2 %10
+    e4 e fis e
+    e( dis) e2\fermata
+    e4 e fis e
+    d cis h2
+    cis4 e d cis %15
+    h2 a\fermata \bar "|." %16 finis
+  }
+}
+
+JesuDerDuSopranoLyrics = \lyricmode {
+  Je -- ſu, der du
+  wa -- reſt tod,
+  le -- beſt nun ohn
+  En -- de:
+  in der letz -- ten %5
+  To -- des -- noth
+  nir -- gends hin mich
+  wen -- de
+  als zu dir, der
+  mich ver -- ſühnt. %10
+  O mein trau -- ter
+  Her -- re,
+  gieb mir nur, was
+  du ver -- dient,
+  mehr ich nicht be -- %15
+  geh -- re. %16 finis
+}

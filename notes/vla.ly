@@ -1257,3 +1257,26 @@ BaldWirstViola = {
     h4~ h16 gis( a fis) gis4 r \bar "S-S" %55 finis
   }
 }
+
+JesuDerDuViola = {
+  \relative c' {
+    \clef alto
+    \key a \major \time 4/4 \tempoJesuDerDu
+    e4\fE e8 d cis4 e
+    e fis h,2
+    d4 cis d e
+    fis e8 d cis2\fermata
+    e4 e fis e %5
+    d cis cis2
+    a4 gis a ais
+    h2 ais\fermata
+    a4 a a a
+    a gis! a2 %10
+    cis4 h h h
+    h2 h\fermata
+    cis4 e d! e
+    e e e2
+    e4 e fis e %15
+    e4. d8 cis2\fermata \bar "|." %16 finis
+  }
+}

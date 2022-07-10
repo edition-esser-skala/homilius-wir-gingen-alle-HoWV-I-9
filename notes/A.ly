@@ -1197,3 +1197,45 @@ WeilDerAltoLyrics = \lyricmode {
   nan -- der und er -- den -- ken bö -- ſe %40
   Tü -- cke. %41 finis
 }
+
+JesuDerDuAlto = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \autoBeamOff \tempoJesuDerDu
+    \mvTr a'4\fE^\tuttiE gis fis gis
+    a a gis2
+    a4 a gis a
+    a( gis) a2\fermata
+    a4 h a a %5
+    gis fis eis2
+    cis4 e e fis
+    fis2 fis\fermata
+    e4 fis g fis
+    e e e2 %10
+    e4 h' a gis
+    fis2 gis\fermata
+    a4 a a a
+    h a gis2
+    a4 a a a %15
+    a( gis) e2\fermata \bar "|." %16 finis
+  }
+}
+
+JesuDerDuAltoLyrics = \lyricmode {
+  Je -- ſu, der du
+  wa -- reſt tod,
+  le -- beſt nun ohn
+  En -- de:
+  in der letz -- ten %5
+  To -- des -- noth
+  nir -- gends hin mich
+  wen -- de
+  als zu dir, der
+  mich ver -- ſühnt. %10
+  O mein trau -- ter
+  Her -- re,
+  gieb mir nur, was
+  du ver -- dient,
+  mehr ich nicht be -- %15
+  geh -- re. %16 finis
+}

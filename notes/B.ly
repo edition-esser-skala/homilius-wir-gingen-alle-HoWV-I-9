@@ -1193,3 +1193,45 @@ WeilDerBassoLyrics = \lyricmode {
   nan -- der und er -- den -- ken bö -- ſe %40
   Tü -- cke. %41 finis
 }
+
+JesuDerDuBasso = {
+  \relative c {
+    \clef bass
+    \key a \major \time 4/4 \autoBeamOff \tempoJesuDerDu
+    \mvTr a'4\fE^\tuttiE e fis e
+    a fis e2
+    d4 a h cis
+    d( e) a,2\fermata
+    a'4 gis fis8([ gis)] a4 %5
+    eis fis cis2
+    fis4 e a fis
+    h( h,) fis'2\fermata
+    g4 fis cis d
+    e e a,2 %10
+    a'4 gis dis e
+    h'( h,) e2\fermata
+    a4 cis d! cis
+    gis a e2
+    a4 cis, d a %15
+    e'2 a,\fermata \bar "|." %16 finis
+  }
+}
+
+JesuDerDuBassoLyrics = \lyricmode {
+  Je -- ſu, der du
+  wa -- reſt tod,
+  le -- beſt nun ohn
+  En -- de:
+  in der letz -- ten %5
+  To -- des -- noth
+  nir -- gends hin mich
+  wen -- de
+  als zu dir, der
+  mich ver -- ſühnt. %10
+  O mein trau -- ter
+  Her -- re,
+  gieb mir nur, was
+  du ver -- dient,
+  mehr ich nicht be -- %15
+  geh -- re. %16 finis
+}

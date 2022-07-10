@@ -1195,3 +1195,45 @@ WeilDerTenoreLyrics = \lyricmode {
   nan -- der und er -- den -- ken bö -- ſe %40
   Tü -- cke. %41 finis
 }
+
+JesuDerDuTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key a \major \time 4/4 \autoBeamOff \tempoJesuDerDu
+    \mvTr e4\fE^\tuttiE e8([ d)] cis4 e
+    e fis h,2
+    d4 cis d e
+    fis( e8[ d)] cis2\fermata
+    e4 e fis e %5
+    d cis cis2
+    a4 gis a ais
+    h2 ais\fermata
+    a4 a a a
+    a gis! a2 %10
+    cis4 h h h
+    h2 h\fermata
+    cis4 e d! e
+    e e e2
+    e4 e fis e %15
+    e4.( d8) cis2\fermata \bar "|." %16 finis
+  }
+}
+
+JesuDerDuTenoreLyrics = \lyricmode {
+  Je -- ſu, der du
+  wa -- reſt tod,
+  le -- beſt nun ohn
+  En -- de:
+  in der letz -- ten %5
+  To -- des -- noth
+  nir -- gends hin mich
+  wen -- de
+  als zu dir, der
+  mich ver -- ſühnt. %10
+  O mein trau -- ter
+  Her -- re,
+  gieb mir nur, was
+  du ver -- dient,
+  mehr ich nicht be -- %15
+  geh -- re. %16 finis
+}

@@ -693,3 +693,26 @@ WeilDerOboeII = {
     d f r e f4 r\fermata \bar "|." %46 finis
   }
 }
+
+JesuDerDuOboeII = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \tempoJesuDerDu
+    a'4\fE gis fis gis
+    a a gis2
+    a4 a gis a
+    a gis a2\fermata
+    a4 h a a %5
+    gis fis eis2
+    fis4 e e fis
+    fis2 fis\fermata
+    e4 fis g fis
+    e e e2 %10
+    e4 h' a gis
+    fis2 gis\fermata
+    a4 a a a
+    h a gis2
+    a4 a a a %15
+    a gis e2\fermata \bar "|." %16 finis
+  }
+}

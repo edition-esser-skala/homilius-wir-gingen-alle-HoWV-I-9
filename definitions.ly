@@ -47,6 +47,7 @@ tempoVerschonet = \tempoMarkup "[Accompagnato]"
 tempoBaldWirst = \tempoMarkup "Sehnlich und langſam"
   tempoBaldWirstB = \tempoMarkup "Lebhaft"
   tempoBaldWirstC = \tempoMarkup "Wie anfangs"
+tempoJesuDerDu = \tempoMarkup "[Choral]"
 
 
 

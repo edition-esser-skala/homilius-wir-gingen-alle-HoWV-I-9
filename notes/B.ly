@@ -1130,3 +1130,66 @@ DesSollstBassoLyrics = \lyricmode {
   ſchwe --
   ben. %25 finis
 }
+
+WeilDerBasso = {
+  \relative c {
+    \clef bass
+    \key d \minor \time 4/4 \autoBeamOff \tempoWeilDer
+    R1*11 %11
+    r2 r4 \mvTr f8\fE^\tuttiE d
+    g a16 a b8 g16 g a8 a, r4
+    R1
+    r4 b'8 a gis gis16 gis a4 %15
+    d, f8 d g a16 a b8 g16 g
+    a8 a f f g g16 g e8 e16 e
+    f8 f f f16 f c'8. c,16 c4
+    R1*2 %20
+    r4 d8 f g4 a8[ g]
+    fis4 gis a dis,8 dis
+    e2 a,4 r
+    R1*5 %28
+    r2 r4 r8 a
+    d e16 e f8 d e e e e %30
+    a e gis e a g fis e
+    d d d d g g g f
+    e e e e f f16([ g)] a8 a16([ b)]
+    c8 c,16 c' c4~ c8 c16 c b8 b
+    b b a a a g a f %35
+    f e r cis16 cis d8 e f g
+    a a, r4 r2
+    R1
+    r4 r8 a' d, e16 e f8 cis
+    d e f cis d e f g %40
+    a4( a,) d r
+    R1*4 %45
+    R1\fermata \bar "|." %46 finis
+  }
+}
+
+WeilDerBassoLyrics = \lyricmode {
+  Weil der %12
+  Gott -- lo -- ſe Ue -- ber -- muth trei -- bet
+
+  muß der E -- len -- de lei -- %15
+  den, weil der Gott -- lo -- ſe Ue -- ber -- muth
+  trei -- bet, weil der Gott -- lo -- ſe Ue -- ber -- muth
+  trei -- bet, Ue -- ber -- muth, Ue -- ber -- muth,
+
+  muß der E -- _ %21
+  _ _ _ len -- de
+  lei -- den.
+
+  Sie %29
+  hän -- gen ſich an -- ei -- nan -- der, an -- %30
+  ei -- nan -- der und er -- den -- ken bö -- ſe
+  Tü -- cke, bö -- ſe Tü -- cke, und er --
+  den -- ken bö -- ſe Tü -- cke, bö -- ſe
+  Tü -- cke, ſie hän -- gen ſich an -- ei --
+  nan -- der und er -- den -- ken bö -- ſe %35
+  Tü -- cke, ſie er -- den -- ken bö -- ſe
+  Tü -- cke,
+
+  ſie hän -- gen ſich an -- ei --
+  nan -- der und er -- den -- ken bö -- ſe %40
+  Tü -- cke. %41 finis
+}

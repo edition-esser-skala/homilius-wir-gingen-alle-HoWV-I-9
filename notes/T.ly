@@ -1132,3 +1132,66 @@ DesSollstTenoreLyrics = \lyricmode {
   ſchwe --
   ben. %25 finis
 }
+
+WeilDerTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \minor \time 4/4 \autoBeamOff \tempoWeilDer
+    R1*11 %11
+    r2 r4 \mvTr d8\fE^\tutti d
+    d d16 d d8 g16 f e8 cis r4
+    R1
+    r4 d8 c! h h16 h a4 %15
+    a a8 d d d16 d d8 g16 f
+    e8 cis d d d d16 d c?8 c16 c
+    c8 a c c16 c c8. c16 c4
+    R1*2 %20
+    r4 d8 d d4 c8[ d16 e]
+    d2 c4 c8 c
+    c4( h) c r
+    R1*5 %28
+    r2 r4 r8 e
+    f e16 e d8 f h, h e e %30
+    e e e e e e d e
+    fis d d d d d d d
+    c c c c c c c c
+    c c r c d d16 d d8 d
+    c c c c b e f a, %35
+    a g r a16 a a8 g a b
+    a a r4 r2
+    R1
+    r4 r8 a a a16 a a8 a
+    a a a a a e' d b %40
+    a2 a4 r
+    R1*4 %45
+    R1\fermata \bar "|." %46 finis
+  }
+}
+
+WeilDerTenoreLyrics = \lyricmode {
+  Weil der %12
+  Gott -- lo -- ſe Ue -- ber -- muth trei -- bet
+
+  muß der E -- len -- de lei -- %15
+  den, weil der Gott -- lo -- ſe Ue -- ber -- muth
+  trei -- bet, weil der Gott -- lo -- ſe Ue -- ber -- muth
+  trei -- bet, Ue -- ber -- muth, Ue -- ber -- muth,
+
+  muß der E -- _ %21
+  _ _ len -- de
+  lei -- den.
+
+  Sie %29
+  hän -- gen ſich an -- ei -- nan -- der, an -- %30
+  ei -- nan -- der und er -- den -- ken bö -- ſe
+  Tü -- cke, bö -- ſe Tü -- cke, und er --
+  den -- ken bö -- ſe Tü -- cke, bö -- ſe
+  Tü -- cke, ſie hän -- gen ſich an -- ei --
+  nan -- der und er -- den -- ken bö -- ſe %35
+  Tü -- cke, ſie er -- den -- ken bö -- ſe
+  Tü -- cke,
+
+  ſie hän -- gen ſich an -- ei --
+  nan -- der und er -- den -- ken bö -- ſe %40
+  Tü -- cke. %41 finis
+}

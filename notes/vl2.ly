@@ -1107,3 +1107,56 @@ DesSollstViolinoII = {
     d\breve*1/2\fermata \bar "|." %25 finis
   }
 }
+
+WeilDerViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \tempoWeilDer
+    d'16.\fE d,32 d16. d'32 d16. d,32 d16. d'32 d16. e,32 e16. d'32 d16. e,32 e16. d'32
+    cis8 r32 a h cis d8 r32 f e d cis8 r32 a h cis d8 r32 f e d
+    cis4 r16. a32 b!16. c32 b2
+    a g~
+    g8 f-! f-! f-! e16. cis'32 cis16. e,32 e16. g'32 f16. e32 %5
+    d16. f32 f16. d32 d16. f32 f16. d32 d16. f32 f16. d32 d16. f32 f16. d32
+    d16. g32 f16. e32 d8 cis\trill d r32 cis d e f8 r32 e f g
+    a8 a, a'4~ a8 g4 f8~
+    f e f d g,4( f)
+    e16. cis'32 cis16. e,32 e16. g'32 f16. e32 d8 r32 e d cis d16. a32 e'16. a,32 %10
+    d8 r32 e d cis d16. a32 e'16. a,32 d8 g, f e
+    d f a, cis' d16. d,32 d16. d'32 d16. d,32 d16. d'32
+    d16. e,32 e16. d'32 d16. e,32 e16. d'32 cis8 r32 a h cis d8 r32 f, e d
+    a'8 a, r f''\p f4 e~
+    e d~ d16. f32\f f16. d32 d16. f32 cis16. e32 %15
+    f16. d,32 d16. d'32 d16. d,32 d16. d'32 d16. e,32 e16. d'32 d16. e,32 e16. d'32
+    cis8 r32 a h cis d8 r32 f e d g16. d32 d16. g32 g16. c,32 c16. g'32
+    f16. c32 c16. f32 f16. c32 c16. f32 f16. c32 c16. e32 e16. c32 e16. g32
+    e4 r16. c32\p d16. es32 d2
+    c b %20
+    a h8 h\f c c
+    c16 c8 c16 h h8 h16~ h h8 h16 a a8 a16
+    a8 c gis h c16. a32 a16. a'32 a16. a,32 a16. a'32
+    a16. h,32 h16. a'32 a16. h,32 h16. a'32 gis8 r32 e fis gis a8 r32 c, h a
+    gis8 e e'4~ e8 d4 c8~ %25
+    c h c a d,4( c)
+    h16. d'32 d16. e,32 e16. d'32 c16. h32 a8 r32 h a gis a16. e32 h'16. e,32
+    a8 r32 h a gis a16. e32 h'16. e,32 a8 d c h
+    a c e, d' c16. a32 a16. a'32 a16. a,32 a16. a'32
+    a16. h,32 h16. a'32 a16. h,32 h16. a'32 gis16. h,32 h16. gis'32 gis16. h,32 h16. d32 %30
+    c8 h r4 r8 r32 e fis g? a8 r32 a,, h cis
+    d8 r32 a' b? c? d8 r32 d, e fis g8 r32 d' e fis g8 r32 g,, a h
+    c8 r32 g' a h c8 r32 c, d e f8 a a a
+    a g r4 r2
+    R1 %35
+    r4 r16. cis,32\fE h16. a32 d16. d'32 e,16. d'32 f,16. d'32 b16. g32
+    a8 a, r4 r2
+    R1
+    r16. a32\fE cis16. e32 a16. a32 cis16. e32 d8 r32 e d cis d16. a32 e'16. a,32
+    d8 r32 e d cis d16. a32 e'16. a,32 d8 g f e %40
+    d4 cis d r16. a32 b!16. c?32
+    b2 a
+    g~ g8 f f f
+    e16. g'32 g16. a,32 a16. g'32 f16. e32 d8 r32 e d cis d16. a32 e'16. a,32
+    d8 r32 e d cis d16. a32 e'16. a,32 d8 g, f e %45
+    d f a, g' f4 r\fermata \bar "|." %46 finis
+  }
+}

@@ -621,3 +621,56 @@ DesSollstOboeI = {
     g\breve*1/2\fermata \bar "|." %25 finis
   }
 }
+
+WeilDerOboeI = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \tempoWeilDer
+    d'1\fE
+    cis8 r32 a h cis d8 r32 f e d cis8 r32 a h cis d8 r32 f e d
+    cis16. a32 cis16. e32 a2 \once \tieDashed g4~
+    g f2 e4~
+    e8 d-! d-! d-! cis16. b'32 b16. cis,32 cis16. b'32 a16. g32 %5
+    \once \tieDashed f1~
+    f16. b32 a16. g32 f8 e\trill d r32 cis d e f8 r32 e f g
+    a8 a, r a' b4( a)
+    g8 cis d f, e4( d)
+    cis16. b'32 b16. cis,32 cis16. b'32 a16. g32 f8 r32 e d cis d16. a32 g'16. a,32 %10
+    f'8 r32 e d cis d16. a32 g'16. a,32 f'8 cis d g,
+    f d' r cis d d, r d'
+    e e16( f) g( f) e( d) cis8 a r4
+    r f'8\p f f4 e~
+    e d~ d8 d16\f d d8 cis %15
+    d4 d8 d e e16( f) g( f) e( d)
+    cis8 a d a b b16 b g'8 b,
+    a g16 f f'8 f16 f f8. e16 e4
+    r c8\p c d2
+    c b %20
+    a h4\f c~
+    c h2 a8 a
+    a4 gis a a'~
+    a2 gis8 r32 e fis gis a8 r32 c, h a
+    gis8 e r e' f4( e) %25
+    d8 gis a c, h4( a)
+    gis16. f'32 f16. gis,32 gis16. f'32 e16. d32 c8 r32 h a gis a16. e32 d'16. e,32
+    c'8 r32 h a gis a16. e32 d'16. e,32 c'8 gis' a d,
+    c a' r gis a a, r c
+    h h16 c d4~ d8 d d d %30
+    c h e d c c c c
+    c c c c c b b b
+    b g' g b, a f' f a,
+    a g r4 r2
+    R1 %35
+    r4 e'2\fE d4
+    d8 cis r a\pocoP b!2
+    a g8 cis d f,
+    f e r cis'\f d cis d e
+    d cis d e d cis d e %40
+    d4 cis d16. a32 d16. f32 a4~
+    a g2 f4~
+    f e~ e8 d d d
+    cis16. b'32 b16. cis,32 cis16. b'32 a16. g32 f8 r32 e d cis d16. a32 g'16. a,32
+    f'8 r32 e d cis d16. a32 g'16. a,32 f'8 cis d g, %45
+    f d' r cis d4 r\fermata \bar "|." %46 finis
+  }
+}

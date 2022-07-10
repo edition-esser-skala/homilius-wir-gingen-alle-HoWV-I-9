@@ -2415,3 +2415,105 @@ DesSollstBassFigures = \figuremode {
   <6 5>1
   <_!> %25 finis
 }
+
+WeilDerFondamento = {
+  \relative c {
+    \clef bass
+    \key d \minor \time 4/4 \tempoWeilDer
+    \mvTr d8\fE-\soloE e f d g a b g
+    a g f g a g f g
+    a4 r16. fis32 e16. d32 g16. g32 a16. b32 cis,16. cis32 d16. e32
+    f16. f32 g16. a32 h,16. h32 cis16. d32 e16. e32 f16. g32 a,16. a32 h16. cis32
+    d8 r32 cis d e f8 r32 e f g a8 a, a a' %5
+    d4 r8 r32 c! b! a b4 r8 f
+    g4 r8 a b b b b
+    a16. a32 a16. a32 a16. a32 a16. a32 a16. a32 a16. a32 a16. a32 a16. a32
+    a16. a32 a16. a32 a16. a32 a16. a32 a16. a32 a16. a32 a16. a32 a16. a32
+    a8 a, r16. a32 h16. cis32 d8 e f cis %10
+    d e f cis d e f g
+    a4 a, d8 e f-\tuttiE d
+    g a b g a r32 a-\unisono h cis d8 r32 f, e d
+    a'8 a, r a'\p h4( cis)
+    d8 c b\f a gis gis a a %15
+    d, e f d g a b g
+    a a f f g g e e
+    f f f f c' c, c c
+    c4 r16. a'32\p g16. f32 b16. b32 c16. d32 e,!16. e32 f16. g32
+    a16. a32 b16. c32 d,16. d32 e16. fis32 g16. g32 a16. b32 c,16. c32 d16. e32 %20
+    f16. f32 g16. a32 d,16.\f d32 e16. f32 g4 a8 g
+    fis fis gis gis a a dis, dis
+    e4 e, a8 h c-\soloE a
+    d e f d e d c d
+    e16. e32 e16. e32 e16. e32 e16. e32 e16. e32 e16. e32 e16. e32 e16. e32 %25
+    e16. e32 e16. e32 e16. e32 e16. e32 e16. e32 e16. e32 e16. e32 e16. e32
+    e8 e, r16. e'32 fis16. gis32 a8 h c gis
+    a h c gis a h c d
+    e4 e, a,8 h c a-\tuttiE
+    d e f d e e, e e' %30
+    a e gis e a g fis e
+    d8 r32 a' b? c? d8 r32 d, e fis g8 g, g' f
+    e8 r32 g a h c8 r32 c, d e f?8 r32 e f? g a8 r32 g a h
+    c16. c,32 c16. c32 c16.\p c32 c16. c32 c16. c32 c16. c32 c16. c32 c16. c32
+    c16. c32 c16. c32 c16. c32 c16. c32 c16. c32 c16. c32 c16. c32 c16. c32 %35
+    c8 c, r16. cis'32\f h16. a32 d8 e f g
+    a16. a32 a16. a32 a16.\pocoP a32 a16. a32 a16. a32 a16. a32 a16. a32 a16. a32
+    a16. a32 a16. a32 a16. a32 a16. a32 a16. a32 a16. a32 a16. a32 a16. a32
+    a8 a, r a'\f d, e f cis
+    d e f cis d e f g %40
+    a4 a, d r16. fis32-\soloE e16. d32
+    g16. g32 a16. b32 cis,16. cis32 d16. e32 f16. f32 g16. a32 h,16. h32 cis16. d32
+    e16. e32 f16. g32 a,16. a32 h16. cis32 d8 r32 cis d e f8 r32 e f g
+    a8 a, r16. a32 h16. cis32 d8 e f cis
+    d e f cis d e f g %45
+    a4 a, d r\fermata \bar "|." %46 finis
+  }
+}
+
+WeilDerBassFigures = \figuremode {
+  r8 <7> <6>4 <6 5>4. \once \bassFigureExtendersOn q8
+  <_+> <4+ 2> <6>4 <_+>8 <4+ 2> <6>4
+  <_+>4 <6 5!>8.. \bassFigureExtendersOn q32 <9>8.. q32 <7 5>8.. q32
+  <9 7\!>8.. <9 7>32 <7\! 5>8.. <7 5>32 <9 7\!>8.. <9 7>32 <7\! _+>8.. <7 _+>32 \bassFigureExtendersOff
+  <9 4>8 <8 3> <6>4 <_+>2 %5
+  \bo <[8 3]>2 \once \bassFigureExtendersOn \bc q4. <6>8
+  <7> <6> <6 4> <7 _+>2 <6>8
+  <_+>2 <9 8>8 <\t 7> <8 \t> <\t 6>
+  <7 \t> <\t _+> <6 4>4 <7 _+> <6 4>
+  <5 _+> <7 _+>8.. \once \bassFigureExtendersOn q32 r8 <6\\> <6> <6 5> %10
+  r <6\\> <6> <6 5>4 <6\\>8 <6> q
+  <6 4>4 <5 _+>4. <7>8 <6>4
+  <6 5>4. \once \bassFigureExtendersOn q8 <_+>2
+  r4. <6 _+>8 <6 5>4 q
+  <9>8 <\t> <[5]> <\t> <7 5 [_!]>4 <6 4>8 <5 _+> %15
+  r <7> <6>4 <6 5>4. \once \bassFigureExtendersOn q8
+  <_+>4 <6>2 <6! 5>4
+  r2 <6 4>4 <5 3>
+  r <6 5->8.. \bassFigureExtendersOn q32 <9>8.. q32 <7 5>8.. q32
+  <9 7\!>8.. <9 7>32 <7\! _+>8.. <7 _+>32 <9 7\!>8.. <9 7>32 <7\!>8.. <7>32 %20
+  <9>8.. q32 \bo <[5]>8.. \bc q32 \bassFigureExtendersOff <7 _!>4. <\t>8
+  <6 5>4 <6 5 [_!]> <9!> <7 5 [_+]>
+  <6 4> <5! _+>4. <7>8 <6>4
+  <6! 5>4. \once \bassFigureExtendersOn q8 \bo <[5!] _+> \bc <[6!] 4+ 2> <6> <6! 5>
+  <[5!] _+>2 <9 8>8 <\t 7> <8 \t> <\t 6> %25
+  <7 \t> <5! _+> <6 4>4 <7 [5!] _+> <6 4>
+  <5! _+> \bo <7 [5!] _+>8.. \once \bassFigureExtendersOn \bc q32 r8 <6\\> <6> <6 5 [_!]>
+  r <6\\> <6> <6 5 [_!]>4 <6\\>8 <6> <6!>
+  <6 4>4 <7 [5!] _+>4. <7>8 <6>4
+  <6! 5>4. \once \bassFigureExtendersOn q8 <7 [5!] _+>2 %30
+  r8 <[5!] _+> <6 [_!]> <7 [5!] _+>4 <2>8 <6 5> <4 3>
+  <7 _+>4... \once \bassFigureExtendersOn q32 <9 4>8 <8 _->4 <2>8
+  <6 5>4 <7>2 <6>4
+  <6 4>8 <5 3>4. <9 8>4 <\t 7>
+  <8 \t> <\t 6> <7 \t>8 <\t 5> <6 4>4 %35
+  <\t \t>8 <5 3> <6 5>8.. \once \bassFigureExtendersOn q32 <9 4>8 <\t \t> <6> <7 5>
+  <6 4> <5 _+>4. <9- 8>4 <\t 7>
+  <8 \t> <\t 6> <7 \t>8 <5 _+> <6 4>4
+  <\t \t>8 <5 _+>4 <_+> <6\\>8 <6> <6 5>
+  r <6\\> <6> <6 5>4 <6\\>8 <6> q %40
+  <6 4>4 <5 _+>2 <6 5!>8.. \bassFigureExtendersOn q32
+  <9>8.. q32 <7 5>8.. q32 <9 7\!>8.. <9 7>32 <7\! 5>8.. <7 5>32
+  <9 7\!>8.. <9 7>32 <7\! _+>8.. <7 _+>32 \bassFigureExtendersOff <9 4>8 <8 3> <6>4
+  <_+> <7 _+>8.. \once \bassFigureExtendersOn q32 r8 <6\\> <6> <6 5>
+  r <6\\> <6> <6 5>4 <6\\>8 <6> q %45
+  <6 4>4 <7 _+>2. %46 finis
+}

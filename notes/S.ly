@@ -1224,3 +1224,68 @@ DesSollstSopranoLyrics = \lyricmode {
   ſchwe --
   ben. %25 finis
 }
+
+WeilDerSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \autoBeamOff \tempoWeilDer
+    R1*11 %11
+    r2 r4 \mvTr d'8\fE^\tuttiE d
+    e e16 f g([ f)] e d cis8 a r4
+    r f'8 f f4 e~
+    e d~ d8 d16 d d8([ cis)] %15
+    d4 d8 d e e16 f g([ f)] e d
+    cis8 a d a b b16 b g'8 b,16 b
+    a8 g16([ f)] f'8 f16 f f8. e16 e4
+    r c8 c d2
+    c b %20
+    a h4 c~
+    c h2 a8 a
+    a4( gis) a r
+    R1*5 %28
+    r2 r4 r8 c
+    h h16 c d8 d d d d d %30
+    c h e d c c c c
+    c c c c c b b b
+    b g' g b, a f' f a,
+    a g r4 r2
+    R1 %35
+    r4 e'2 d4
+    d8 cis r a b! b16 b b8 b
+    a a a a g cis d f,
+    f e r cis' d cis16 cis d8 e
+    d cis d e d cis d e %40
+    d4( cis) d r
+    R1*4 %45
+    R1\fermata \bar "|." %46 finis
+  }
+}
+
+WeilDerSopranoLyrics = \lyricmode {
+  Weil der %12
+  Gott -- lo -- ſe Ue -- ber -- muth trei -- bet
+  muß der E -- _
+  _ len -- de lei -- %15
+  den, weil der Gott -- lo -- ſe Ue -- ber -- muth
+  trei -- bet, weil der Gott -- lo -- ſe Ue -- ber -- muth
+  trei -- bet, Ue -- ber -- muth, Ue -- ber -- muth,
+  muß der E --
+  _ _ %20
+  _ _ _
+  _ len -- de
+  lei -- den.
+
+  Sie %29
+  hän -- gen ſich an -- ei -- nan -- der, an -- %30
+  ei -- nan -- der und er -- den -- ken bö -- ſe
+  Tü -- cke, bö -- ſe Tü -- cke, und er --
+  den -- ken bö -- ſe Tü -- cke, bö -- ſe
+  Tü -- cke,
+  %35
+  bö -- ſe
+  Tü -- cke, ſie hän -- gen ſich an -- ei --
+  nan -- der und er -- den -- ken bö -- ſe
+  Tü -- cke, ſie hän -- gen ſich an -- ei --
+  nan -- der und er -- den -- ken bö -- ſe %40
+  Tü -- cke. %41 finis
+}

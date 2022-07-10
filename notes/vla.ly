@@ -1117,3 +1117,56 @@ DesSollstViola = {
     h\breve*1/2\fermata \bar "|." %25 finis
   }
 }
+
+WeilDerViola = {
+  \relative c' {
+    \clef alto
+    \key d \minor \time 4/4 \tempoWeilDer
+    f8\fE g a f b a g b
+    e,e a8 b e,4 a8 b
+    e,4 r16. d32 d16. d32 d8[ r16. d32] e8[ r16. e32]
+    e8[ r16. e32] d8[ r16. d32] d8[ r16. d32] cis8[ r16. cis32]
+    d8 r32 cis d e f8 r32 e f g a8 e e cis' %5
+    a4 r8 r32 c b! a b4 r8 a
+    b4 a8 g f d d d
+    cis16. a'32 a16. a32  a16. a32 a16. a32 a16. a32 a16. a32 a16. a32 a16. a32
+    a16. a32 a16. a32 a16. a32 a16. a32 a16. a32 a16. a32 a16. a32 a16. a32
+    a8 e e16. cis32 d16. e32 a,8 g a a' %10
+    a, g a a' a, a a b
+    a4 a8 a' f g a f
+    b a g b e, r32 a h cis d8 r32 f, e d
+    a'8 a, r cis\p d4 a'
+    a b8 a gis gis\f a a %15
+    a g a f b a g b
+    e,4 d8 d d d c! c
+    c4 c8 c c c c c
+    c4 r16. f32\p f16. f32 f8[ r16. f32] g8[ r16. g32]
+    e8[ r16. e32] fis8[ r16. fis32] d8[ r16. d32] e8[ r16. e32] %20
+    c8[ r16. c32] d8[ r16. d32] d8 d\f c h
+    a a e' e e e fis fis
+    e4 e e8 d e c
+    f e d f h,4 e8 f
+    h,16. e32 e16. e32 e16. e32 e16. e32 e16. e32 e16. e32 e16. e32 e16. e32 %25
+    e16. e32 e16. e32 e16. e32 e16. e32 e16. e32 e16. e32 e16. e32 e16. e32
+    e8 gis r16. gis32 a16. h32 e,8 d e e
+    e d e e e e e f
+    e4 e e8 d e c
+    f e d f e e e e %30
+    e e e e e4 d8 e
+    a, a' fis d d d d d
+    c c c c c c c c
+    c c, r4 r2
+    R1 %35
+    r4 r16. cis'32\fE h16. a32 d8 e f g
+    a a, r4 r2
+    R1
+    r4 r8 a\fE a a a a
+    a a a a a g d' b' %40
+    a4 a, a r16. d32 d16. d32
+    d8[ r16. d32] e8[ r16. e32] c8[ r16. c32] d8[ r16. d32]
+    d8[ r16. d32] cis8[ r16. cis32] d8 r32 cis d e f8 r32 e f g
+    a8 cis, r16. cis32 d16. e32 a,8 g a a'
+    a, g a a' a, a a b %45
+    a4 a a r\fermata \bar "|." %46 finis
+  }
+}

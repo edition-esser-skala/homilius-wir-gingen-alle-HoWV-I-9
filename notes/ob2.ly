@@ -640,3 +640,56 @@ DesSollstOboeII = {
     d\breve*1/2\fermata \bar "|." %25 finis
   }
 }
+
+WeilDerOboeII = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \tempoWeilDer
+    r2 e~\fE
+    e8 r32 a h cis d8 r32 f e d cis8 r32 a h cis d8 r32 f e d
+    cis4 r16. a32 b!16. c32 b2
+    a g~
+    g8 f-! f-! f-! e16. cis'32 cis16. e,32 e16. g'32 f16. e32 %5
+    \once \tieDashed d1~
+    d16. g32 f16. e32 d8 cis\trill d r32 cis d e f8 r32 e f g
+    a8 a, a'4~ a8 g4 f8~
+    f e f d g,4( f)
+    e16. cis'32 cis16. e,32 e16. g'32 f16. e32 d8 r32 e d cis d16. a32 e'16. a,32 %10
+    d8 r32 e d cis d16. a32 e'16. a,32 d8 g, f e
+    d f r g f d r d'
+    d d4 b8 a4 r
+    r a8\p a g2
+    f~ f8 f16\f f f8 e %15
+    f4 r8 d' d d4 b8
+    a4 a8 a g g16 g b8 g
+    f4 a8 a16 a a8. g16 g4
+    r c8\p c c4 b~
+    b a2 g4~ %20
+    g f2 e8\f f16 g
+    a4 e8 d c4 c8 c
+    c4 d c r
+    h'2 h8 r32 e fis gis a8 r32 c, h a
+    gis8 e e'4~ e8 d4 c8~ %25
+    c h c a d,4( c8) d
+    e16. d'32 d16. e,32 e16. d'32 c16. h32 a8 r32 h a gis a16. e32 h'16. e,32
+    a8 r32 h a gis a16. e32 h'16. e,32 a8 d c h
+    a c r h c a r a
+    a4. h16 a gis8 h h h %30
+    a gis h gis e e a g?
+    fis a a a a g g g
+    g b b g f a a f
+    f e r4 r2
+    R1 %35
+    r4 g2\fE f4
+    f8 e a2\pocoP g4~
+    g f~ f8 e f d
+    d e r e\f f g f g
+    f g f g f g a g %40
+    f4 e f r16. a32 b!16. c!32
+    b2 a
+    g~ g8 f f f
+    e16. g'32 g16. a,32 a16. g'32 f16. e32 d8 r32 e d cis d16. a32 e'16. a,32
+    d8 r32 e d cis d16. a32 e'16. a,32 d8 g, f e %45
+    d f r e f4 r\fermata \bar "|." %46 finis
+  }
+}

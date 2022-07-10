@@ -1132,3 +1132,68 @@ DesSollstAltoLyrics = \lyricmode {
   ſchwe --
   ben. %25 finis
 }
+
+WeilDerAlto = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \autoBeamOff \tempoWeilDer
+    R1*11 %11
+    r2 r4 \mvTr a'8\fE^\tuttiE f
+    b a16 a g8 b16 b a8 a r4
+    r a8 a g2
+    f~ f8 f16 f f8([ e)] %15
+    f4 a8 f b a16 a g8 b16 b
+    a8 a a a g g16 g b8 g16 g
+    f8 c a' a16 a a8. g16 g4
+    r c8 c c4 b~
+    b a2 g4~ %20
+    g f2 e8[ f16 g]
+    a4 e2 fis8 fis
+    e2 e4 r
+    R1*5 %28
+    r2 r4 r8 a
+    a a16 a a8 a gis gis gis gis %30
+    a gis h gis a a a a
+    a fis fis a a g g g
+    g b b g f a a f
+    f e r4 r2
+    R1 %35
+    r4 g2 f4
+    f8 e16 a a4~ a8 a16 a g8 g
+    g g f f f e f d
+    d cis r e f g16 g f8 g
+    f g f g f g a g %40
+    f4( e) f r
+    R1*4 %45
+    R1\fermata \bar "|." %46 finis
+  }
+}
+
+WeilDerAltoLyrics = \lyricmode {
+  Weil der %12
+  Gott -- lo -- ſe Ue -- ber -- muth trei -- bet
+  muß der E --
+  _ len -- de lei -- %15
+  den, weil der Gott -- lo -- ſe Ue -- ber -- muth
+  trei -- bet, weil der Gott -- lo -- ſe Ue -- ber -- muth
+  trei -- bet, Ue -- ber -- muth, Ue -- ber -- muth,
+  muß der E -- _
+  _ _ %20
+  _ _
+  _ _ len -- de
+  lei -- den.
+
+  Sie %29
+  hän -- gen ſich an -- ei -- nan -- der, an -- %30
+  ei -- nan -- der und er -- den -- ken bö -- ſe
+  Tü -- cke, bö -- ſe Tü -- cke, und er --
+  den -- ken bö -- ſe Tü -- cke, bö -- ſe
+  Tü -- cke,
+  %35
+  bö -- ſe
+  Tü -- cke, ſie hän -- gen ſich an -- ei --
+  nan -- der und er -- den -- ken bö -- ſe
+  Tü -- cke, ſie hän -- gen ſich an -- ei --
+  nan -- der und er -- den -- ken bö -- ſe %40
+  Tü -- cke. %41 finis
+}

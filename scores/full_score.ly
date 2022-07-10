@@ -359,7 +359,7 @@
   %   }
   %   \score {
   %     <<
-  %       \new ChoirStaff \with { \smallGroupDistance } <<
+  %       \new ChoirStaff <<
   %         \new Staff {
   %           \set Staff.instrumentName = "B"
   %           \new Voice = "Basso" { \dynamicUp \DieFeindeBasso }
@@ -533,7 +533,7 @@
   %   }
   %   \score {
   %    <<
-  %      \new ChoirStaff \with { \smallGroupDistance } <<
+  %      \new ChoirStaff <<
   %        \new Staff {
   %          \set Staff.instrumentName = "B"
   %          \new Voice = "Alto" { \dynamicUp \SieBeschliessenAlto }
@@ -965,7 +965,7 @@
   %           \IschariotViola
   %         }
   %       >>
-  %       \new ChoirStaff \with { \smallGroupDistance } <<
+  %       \new ChoirStaff <<
   %         \new Staff {
   %           \set Staff.instrumentName = "S"
   %           \new Voice = "Soprano" { \dynamicUp \IschariotSoprano }
@@ -1210,9 +1210,56 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.2" "Accompagnato" "Verſchonet des Gerechten Blut"
+  %   \addTocLabel "verschonet"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #30
+  %     system-system-spacing.minimum-distance = #30
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \VerschonetViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \VerschonetViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \VerschonetViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \VerschonetSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \VerschonetSopranoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \VerschonetFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \VerschonetBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 65 }
+  %   }
+  % }
   \bookpart {
-    \section "2.2" "Accompagnato" "Iſcharioth, der von der Jünger Schaar"
-    \addTocLabel "verschonet"
+    \section "2.3" "Aria" "Mein Heiland, bald wirſt du dein Blut vergießen"
+    \addTocLabel "baldwirst"
     \paper {
       system-system-spacing.basic-distance = #30
       system-system-spacing.minimum-distance = #30
@@ -1225,36 +1272,36 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \VerschonetViolinoI
+              \BaldWirstViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \VerschonetViolinoII
+              \BaldWirstViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \VerschonetViola
+            \BaldWirstViola
           }
         >>
-        \new ChoirStaff \with { \smallGroupDistance } <<
+        \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \VerschonetSoprano }
+            \new Voice = "Soprano" { \dynamicUp \BaldWirstSoprano }
           }
-          \new Lyrics \lyricsto Soprano \VerschonetSopranoLyrics
+          \new Lyrics \lyricsto Soprano \BaldWirstSopranoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \VerschonetFondamento
+            \BaldWirstFondamento
           }
         >>
-        \new FiguredBass { \VerschonetBassFigures }
+        \new FiguredBass { \BaldWirstBassFigures }
       >>
-      \layout { }
-      \midi { \tempo 4 = 65 }
+      \layout { \context { \Score \override SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) } }
+      \midi { \tempo 4 = 50 }
     }
   }
 }

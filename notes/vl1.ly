@@ -1166,3 +1166,65 @@ VerschonetViolinoI = {
     r4 gis a r\fermata \bar "|." %18 finis
   }
 }
+
+BaldWirstViolinoI = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 4/4 \tempoBaldWirst
+    \partial 8 \mvTr h'8\fE-\markup \remark "con sordino" \appoggiatura a gis16. fis32 e8 r h'16. gis32 cis8.( e16) dis8.( fis16)
+    \once \slurDashed e16.([\trill dis64 cis] h8) r32 h( cis dis e fis gis e) fis8. dis16 \appoggiatura cis8 h8. fis'16
+    gis32-! e( dis e) gis[-! e( dis cis)] h([ ais cis h)] ais( gis fis e) \appoggiatura e8 dis16. cis32 h8 r16 fis'( gis a?)
+    gis16.(\trill a32) h16.(\trill cis32) h16-! gis'( fis e) dis16.(\trill e32 fis8) r16 fis,( gis a)
+    gis e' r e r e r32 cis( dis e) h( h' a gis fis[ e dis cis)] h([ a gis fis)] e( cis' h a) \noBreak %5
+    gis([ e' dis cis] h a gis fis) \appoggiatura e8 dis4 e16. h32 h8\trill r4 \bar "S-S"
+    \grace s8 r h'\p h h cis cis dis dis \noBreak
+    e e e e r fis fis fis
+    e e e e dis dis dis dis
+    e e fis fis h, h h a %10
+    gis a h a gis gis fis fis
+    \slurDashed gis16.(\trill\pocoF a32) h16.(\trill cis32) \slurSolid h16( gis') e( cis) ais16.(\trill h32) cis16.(\trill dis32) cis16.( fis32) e16.( ais32)
+    h8 dis,\p cis ais' h( ais16.)\trill h32 cis8 fis,
+    fis eis eis eis fis e e e
+    dis cis cis cis r cis cis cis %15
+    fis fis fis fis e e e e
+    r16 dis dis8\trill r16 e e8\trill r16 fis fis8\trill gis32( h ais gis fis e dis cis)
+    h4 r8 cis\f \slurDashed dis16.(\trill e32) fis16.(\trill gis32) \slurSolid fis16 dis'( cis h)
+    ais16.(\trill h32 cis8) r16 cis,( dis e) dis h' r h r h r32 gis( fis e)
+    dis([ h' ais gis] fis e dis cis) \appoggiatura h8 ais4\trill h16. h,32 h8 r4 %20
+    r8 h'\p h h r16 a!( a a) r a( gis h)
+    h8 a a a a a a a
+    r16 fis( fis gis) a( a) a( a) gis32([ e fis gis)] a( h cis dis)] e([ fis gis dis)] e( h a h)
+    gis8 gis gis gis a a a a
+    h h h h cis cis fis, fis %25
+    gis gis a a gis gis gis gis
+    r32 gis( fis gis a[ gis fis e]) dis16-! fis( gis a) gis16.(\trill a32) h16.(\trill cis32) h16-! gis'( fis e)
+    dis16.(\trill e32 fis8) r16 h,( cis dis) e8 e r16 e( e e)
+    e8 dis16.(\trill e32) fis16 a,( a a) g8 g fis fis
+    g fis16.(\trill gis32) a16( a) a( a) gis e' e8\trill r16 e e8\trill %30
+    r e fis a, gis16 e'\pocoF r e r e r32 \once \slurDashed cis( dis e)
+    h-! h'( a gis fis[ e dis cis)] h([ a gis fis)] e-! cis'( h a) gis4\fermata r8 h\f
+    \appoggiatura a gis16.\trill fis32 e8 r h'16. gis32 cis8.( e16) dis8.( fis16)
+    e16.([\trill dis64 cis)] h8 r16 h( cis d) cis8. h'16 a16.(\trill gis32) fis16.(\trill e32)
+    dis16.(\trill e32 fis8) r16 fis,( gis a) gis e' r e r e r32 \once \slurDashed dis( e fis) %35
+    gis16 e r e r e r32 cis( dis e) h-! h'( a gis fis[ e dis cis)] h([ a gis fis)] e-! cis'( h a)
+    gis( e' dis cis h a gis fis) \appoggiatura e8 dis4\trill e16. h32 h8\trill\fermata \tempoBaldWirstB r e'\p
+    \appoggiatura d4 cis4. a8 h cis d4~
+    d8 cis16 d \appoggiatura fis e8 d16 cis cis8 h r a
+    fis'4. a,8 \appoggiatura a4 gis4. a8 %40
+    h e, h' d cis h r e
+    a, h16 cis d e fis gis a8 e cis a
+    fis'4 gis,8.(\trill fis32 gis) a4 r
+    r8 e' cis a h cis d4~
+    d8 cis16 d \appoggiatura fis e8 d16 cis cis8 h r e %45
+    \appoggiatura e dis!4. cis8 \appoggiatura cis4 his4. cis8
+    dis gis, dis' fis e dis r gis
+    gis-! fis16-! e-! fis8-! e16-! dis-! e8-! dis16-! cis-! a'8 gis16 fis
+    e8 cis' fis,\pocoF cis' e, cis' dis, cis'
+    cis,2\fermata r %50
+    r \tempoBaldWirstC r4 r8 h!\f
+    gis16.(\trill a32) h16.(\trill cis32) h16-! gis'( fis e) dis16.(\trill e32 fis8) r16 fis,( gis a)
+    gis16.(\trill a32) h16.(\trill cis32) h16-! gis'( fis e) dis16.(\trill e32 fis8) r16 fis,( gis a)
+    gis e' r e r e r32 cis( dis e) h-! h'( a gis) fis([ e dis cis)] h([ a gis fis)] e-! cis'( h a)
+    gis( e' dis cis h a gis fis) \appoggiatura e8 dis4\trill e16. h32 h8\trill r4 \bar "S-S" %55 finis
+  }
+}

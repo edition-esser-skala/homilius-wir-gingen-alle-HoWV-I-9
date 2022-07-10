@@ -44,6 +44,9 @@ tempoDesSollst = \tempoMarkup "[Choral]"
 % 2.1
 tempoWeilDer = \tempoMarkup "Trotzig"
 tempoVerschonet = \tempoMarkup "[Accompagnato]"
+tempoBaldWirst = \tempoMarkup "Sehnlich und langſam"
+  tempoBaldWirstB = \tempoMarkup "Lebhaft"
+  tempoBaldWirstC = \tempoMarkup "Wie anfangs"
 
 
 

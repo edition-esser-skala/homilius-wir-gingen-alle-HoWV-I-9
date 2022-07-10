@@ -2563,3 +2563,123 @@ VerschonetBassFigures = \figuremode {
   <\t \t>1
   r4 <_+> q2 %18 finis
 }
+
+BaldWirstFondamento = {
+  \relative c {
+    \clef bass
+    \key e \major \time 4/4 \tempoBaldWirst
+    \partial 8 r8 \mvTr e\fE-\soloE e e e e e e e
+    e e e e dis dis dis dis
+    cis cis cis cis h h h h
+    h h h h h h h h
+    e fis gis a gis4 r8 a \noBreak %5
+    h4 h, e r \bar "S-S"
+    \grace s8 e\p e e e e e e e \noBreak
+    e e e e dis dis dis dis
+    cis cis cis cis h h h h
+    cis cis dis dis e e dis dis %10
+    e fis gis a h4 h,
+    e8\pocoF e e e fis fis fis fis
+    fis fis\p fis fis fis fis fis fis
+    g g g g fis fis fis fis
+    fis fis fis fis e e e e %15
+    dis dis dis dis ais ais ais ais
+    h h cis cis dis dis e e
+    fis4 fis, h8\f h' h h,
+    fis' fis fis fis h, cis dis e
+    fis4 fis, h r %20
+    cis8\p cis cis cis cis cis cis cis
+    fis fis fis fis h, h h h
+    h h h h e e e e
+    d d d d cis cis cis cis
+    gis' gis gis gis a a a a %25
+    gis gis dis dis e e ais ais
+    h h, h h h h h h
+    h h h h c c c c
+    h h h h h h h h
+    h h h h e e fis fis %30
+    gis gis dis dis e fis\pocoF gis a
+    gis4 r8 a h4\fermata h,
+    e8\f e e e e e e e
+    e e e e a a a ais
+    h h, h h e fis gis a %35
+    e fis gis a gis4 r8 a
+    h4 h, e\fermata \tempoBaldWirstB r
+    r8 a16\p gis a8 cis, d e fis gis
+    a4 r8 a, e' e, e' cis
+    d d d cis h h h a %40
+    gis4 r8 e a e'16 fis e8 d
+    cis4 r8 h a4 r8 cis
+    d cis16 d e8 e, a h16 cis d e fis gis
+    a4 r8 cis, d e fis gis
+    a4 r8 a, e' e, e' gis %45
+    fis fis fis e dis! dis dis cis
+    his4 r8 gis cis gis'16 a gis8 fis
+    e cis' dis, his' cis4 r8 his,
+    cis4 a'\pocoF gis fis
+    gis2\fermata gis, %50
+    cis \tempoBaldWirstC r4 r8 dis\f
+    e e e e h' h, h h
+    h h h h h h h h
+    e fis gis a gis4 r8 a
+    h4 h, e, r \bar "S-S" %55 finis
+  }
+}
+
+BaldWirstBassFigures = \figuremode {
+  r8 r2 <6 4>4 <7 \t>
+  <8 3>2 <6>
+  <7>8 <6\\>2..
+  <6 4>2 <5 3>
+  r8 <7> <6>4 q4. <6 5>8 %5
+  <6 4>4 <\t \t>8 <7 3> r2
+  r <6 4>4 <7 \t>
+  <8 3>2 <6>
+  <7>8 <6\\>2..
+  <7>8 <6!> <6 5>2 <6>4 %10
+  r8 q q4 <6 4> <5 4>8 <\t 3>
+  r4. <6>8 <_+>4. <7 _+>8
+  <6 4>4 <7 _+> <6 4>8 <5 _+>4.
+  \bo <7 [5!]>8 \bc <6\\ [\t]>4. <[8] _+>8 <7! \t>4.
+  <6 4>8 <5 _+>4. <4+ 2>2 %15
+  <6> <6 5>
+  <9>8 <8> <7> <6\\> <6>4 <6 5>
+  <6 4> <[5] _+>2.
+  <_+>2 r8 <7> <6> q
+  <6 4>4 <\t \t>8 <7 _+> r2 %20
+  <7 _+>2 <6! 4>4. <7 _+>8
+  <9 4> <8 3>4. <7 4>8 <\t 3>4.
+  r8 <\t \t>16 <6 4> <7 4>8 <\t 3> r2
+  <4 2> <6>
+  q2. <4+ 2>4 %25
+  <6> <6 5>2 <7 5>4
+  <6 4>8 <5 3>4 <6 4>16 <7 5> <6 4>4. <7 5>16 <6 4>
+  <5 3>2 <7 5!>8 <6\\ \t>4.
+  <4>8 <3> <7>4 <6! 4> <5 3>
+  <6! 4>8 <5 3> <7>4 <_+> <7> %30
+  <6> <6 5>4. <6>8 q4
+  q4. <6 5>8 <6 4>4 <5 3>
+  r2 <6 4>4 <7 \t>
+  <8 3>2.. <6>8
+  r4. <7!>4 <7>8 <6>4 %35
+  r8 <7> <6>4 q4. <6 5>8
+  <6 4>4 <\t \t>8 <7 3> r2
+  \bo <[4!]>8 <\t> \bc <[3]> <6> q q <6!> <6 5!>
+  <4!> <3>4. <6 4>8 <5 3>4 <6>8
+  r4. <6>8 \bo <7 [_!]>4 \bc <6 [\t]> %40
+  <6>4. <7!>2 <4 2>8
+  <6>4. <6 _!>2 <6>8
+  r1
+  r4. <6>8 q q <6!> <6 5!>
+  <4!> <3>4. <6 4>8 <5 3>4 <6>8 %45
+  <7>4 <6\\>8 <6> <7>4 <6\\>
+  <6>4. <7 _+>4 <_+> <4+ 2>8
+  <6>4 <6\\>8 <6 5>2 <6 5>8
+  r4 <6> <6 4> <6 5>
+  <6 4>2 <7 _+> %50
+  r2.. <6!>8
+  r2 <7>
+  <6 4> <7 5>
+  r8 <7> <6> <5> <6>4. <6 5>8
+  <6 4>4 <\t \t>8 <7 3> r2 %55 finis
+}

@@ -1335,3 +1335,106 @@ VerschonetSopranoLyrics = \lyricmode {
   und ein un -- ſee -- lig Ur -- theil
   spre -- chen. %18 finis
 }
+
+BaldWirstSoprano = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 4/4 \autoBeamOff \tempoBaldWirst
+    \partial 8 r8 R1*5 %5
+    r2 r4 r8 \mvTr h'\pE^\soloE \bar "S-S" %6
+    \appoggiatura a8 gis16.([ fis32)] e8 r h'16. gis32 cis8. e16 dis8. fis16
+    e16.([ dis64 cis)] h8 r16 h e gis \appoggiatura gis8 fis8. dis16 \appoggiatura cis8 h8. fis'16
+    e32([ dis e fis] gis[ e dis cis]) \appoggiatura h8 ais8. e'16 \appoggiatura e dis16.([ cis32)] h8 r dis
+    \appoggiatura { dis16[ fis] } e8. cis16 \appoggiatura cis8 h8. a16 gis16.[( a32 h16.)] cis32 h8. a16 %10
+    gis8 a h16([ e)] cis([ a)] gis32([ fis gis a] h[ gis fis e]) fis4\trill
+    e r8 cis' \appoggiatura h16 ais16.([ gis32)] fis8 r e'16. cis32
+    dis8. fis16 fis16.([ e64 dis] cis16.) e32 dis8 cis r16 fis fis ais,
+    h8. d16 \appoggiatura d cis8. h16 ais32[( gis fis gis]) ais[ h cis dis] e[ dis e fis] gis([ e)] dis([ cis)]
+    dis8 cis r fis, cis' cis cis16.([ dis64 e] dis16.) cis32 %15
+    h16.[\trill ais32 h8]~ h16[ fis h dis] cis16.[\trill h32 cis8]~ cis16[ fis, cis' e]
+    dis8.[ h16] e[ cis ais h] fis'[ dis cis h] gis'8.[( fis32 e)]
+    dis32[ cis h8 cis16] cis4\trill h r
+    R1
+    r2 r4 r8 h %20
+    \appoggiatura { a!16[ cis] } h16.([ a32)] gis8 r d'16. h32 a8. fis'16 \appoggiatura fis8 gis8. h,16
+    h8 a r16 fis' fis e! \appoggiatura e8 dis!8. e16 fis8. a,16
+    a32[( gis a h] cis[ a gis fis]) \appoggiatura e8 dis8. a'16 gis16.([ fis32)] e8 r e
+    h' h h16.([ cis64 d] cis16.) h32 a16.[\trill gis32 a8]~ a16[ e a cis]
+    h16.[\trillE a32 h8]~ h16[ e, h' d] cis8[ a']~ a16.[ gis64 fis e16. dis32] %25
+    e8.[ fis32 gis] fis([ e dis cis] h[ a gis fis)] gis8 e'4 gis,8
+    \appoggiatura gis fis4 r16 fis gis a gis16.([\trill a32)] h16.([\trill cis32)] h16 gis' fis e
+    dis16.([\trill e32)] fis8 r h, h ais e'4~
+    e8 dis16.([ e32)] fis8. a,16 g8. h16 h16.([ a64 g] fis16.) a32
+    g8 fis r a gis8. h16 a8. cis16 %30
+    h([ dis e)] gis fis8. a,16 gis8 e' e e
+    e2.\fermata fis,4\trill
+    e r r2
+    R1*3 %36
+    r2 r4\fermata \tempoBaldWirstB r8 e'
+    \appoggiatura d4 cis4. a8 h cis d4~
+    d8 cis16([ d)] \appoggiatura fis e8 d16([ cis)] cis8 h r a
+    fis'4. a,8 \appoggiatura a4 gis4. a8 %40
+    h e, h' d cis h r e
+    a,([ h16 cis] d[ e fis gis] a8) e cis a
+    fis'4 \appoggiatura a,8 gis4\trill a r
+    r8 e' cis a h cis d4~
+    d8 cis16([ d)] \appoggiatura fis e8 d16([ cis)] cis8 h r e %45
+    \appoggiatura e8 dis!4. cis8 \appoggiatura cis4 his4. cis8
+    dis gis, dis' fis e dis r gis
+    gis[ fis16 e] fis8[ e16 dis] e8[ dis16 cis] a'8[ gis16 fis]
+    e8 dis cis2 cis4
+    cis2\fermata dis\trill %50
+    cis \tempoBaldWirstC r
+    R1*3
+    r2 r4 r8 h \bar "S-S" %55 finis
+  }
+}
+
+BaldWirstSopranoLyrics = \lyricmode {
+  Mein %6
+  Hei -- land, bald wirſt du dein Blut ver --
+  gie -- ßen, bald wird es, Gött -- lich -- er, wie
+  Strö -- _ me flie -- ßen für
+  mich und mei -- ne See -- lig -- keit, für %10
+  mich und mei -- ne See -- lig --
+  keit, mein Je -- ſu, bald wirſt
+  du dein Blut __ ver -- gie -- ßen, bald wird es,
+  Gött -- lich -- er, wie Strö -- _ _ _ me
+  flie -- ßen für mich und mei -- %15
+  ne See -- _
+  _ _ _ _
+  _ lig -- keit.
+
+  Mein %20
+  Hei -- land, bald wirſt du dein Blut ver --
+  gie -- ßen, bald wird es, Gött -- lich -- er, wie
+  Strö -- _ me flie -- ßen für
+  mich und mei -- ne See --
+  _ _ %25
+  _ _ _ _ lig --
+  keit, bald wird es, Gött -- lich -- er, wie Strö -- me
+  flie -- ßen, mein Hei -- land, bald __
+  wirſt du dein Blut, dein Blut __ ver --
+  gie -- ßen, für mich und mei -- ne %30
+  See -- lig -- keit, für mich und mei -- ne
+  See -- lig --
+  keit.
+
+  Wohl -- %37
+  an, ſo will ichs feſt __
+  im Glau -- ben faſ -- ſen, und
+  dich im To -- de %40
+  ſelbſt nie, nie ver -- laſ -- ſen, du
+  lebſt __ und bleibſt in
+  E -- wig -- keit,
+  wohl -- an, ſo will ichs feſt __
+  im Glau -- ben faſ -- ſen, und %45
+  dich im To -- de
+  ſelbſt nie, nie ver -- laſ -- ſen, du
+  lebſt __ _ _ _
+  _ und bleibſt in
+  E -- wig -- %50
+  keit.
+
+  Mein %55 finis
+}

@@ -1195,3 +1195,65 @@ VerschonetViola = {
     r4 e, e r\fermata \bar "|." %18 finis
   }
 }
+
+BaldWirstViola = {
+  \relative c' {
+    \clef alto
+    \key e \major \time 4/4 \tempoBaldWirst
+    \partial 8 r8 r16 h(\fE gis h) e( e) e( e) e( e) e( e) e( e) e( e)
+    e( e) e( e) e( h') gis( e) h( h) h( h) dis( fis) dis( h)
+    h8 ais e' e, fis16( h) h( h) h8 h
+    h16( h) h( h) h8 h h16( h) h( h) h8 h
+    h a h e e4 r8 cis \noBreak %5
+    h4~ h16 \once \slurDashed gis( a fis) gis4 r \bar "S-S"
+    \grace s8 r e'\p e e e e fis fis \noBreak
+    gis gis gis gis r fis fis fis
+    fis e e e fis fis fis fis
+    e e h h h h h h %10
+    h a gis cis h h h h
+    h\pocoF e, e' cis cis fis, fis' fis
+    fis fis\p fis fis fis fis16.\trill gis32 ais8 ais
+    h h, h h cis fis fis fis
+    fis fis fis fis r fis fis fis %15
+    fis fis fis fis fis fis fis fis
+    fis fis e e dis dis cis cis
+    dis4 r8 fis\f fis16( fis) fis( fis) fis8 fis
+    fis16( fis) fis( fis) fis8 fis fis e fis gis
+    fis4~ fis16 \once \slurDashed dis( e cis) dis4 r %20
+    r8 cis\p cis cis r16 cis( cis cis) r cis( cis cis)
+    cis8 cis cis cis h h h h
+    r16 h( h h) h( h) h( h) h8 h h h
+    h h h h cis cis cis cis
+    h h h h a a h h %25
+    h h h h h h cis cis
+    h h h h h16( h) h( h) h8 h
+    h h dis fis e e e e
+    fis fis dis h h h h h
+    h h h h h gis'! a a, %30
+    h h h h h a\pocoF h e
+    e4 r8 cis h4\fermata r8 dis\f
+    e16( h) gis( h) e( e) e( e) e( e) e( e) e( e) e( e)
+    e( e) e( e) e8 e e16( a) e( d) cis8 cis'
+    fis,16( h) dis,( fis) h,8 h h a h cis %35
+    h a h e e4 r8 cis
+    h4~ h16 gis( a fis) gis4\fermata \tempoBaldWirstB r
+    r8 e'\p e e d e fis gis
+    a4 r8 e e e, e e'
+    d d d e r h e e %40
+    e4 r8 e e e16 fis e8 gis
+    e4 r8 d cis4 r8 e
+    d4 h8.(\trill a32 h) a8 h16 cis d e fis gis
+    a4 r8 a, d e fis gis
+    a4 r8 e e e, e e' %45
+    fis fis fis cis dis! dis dis gis
+    gis4 r8 gis gis gis16 a gis8 fis
+    e gis gis gis gis4 r8 a
+    gis4 a\pocoF gis fis
+    gis2\fermata r %50
+    r \tempoBaldWirstC r4 r8 h,\f
+    h16( e) e( e) e( e) e( e) h( h) h( h) h8 h
+    h16( h) h( h) h8 h h16( h) h( h) h8 h
+    h a h e e4 r8 cis
+    h4~ h16 gis( a fis) gis4 r \bar "S-S" %55 finis
+  }
+}

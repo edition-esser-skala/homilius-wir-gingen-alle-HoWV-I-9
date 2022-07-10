@@ -1304,77 +1304,107 @@
   %     \midi { \tempo 4 = 50 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.4" "Choral" "Jeſu, der du wareſt tod"
+  %   \addTocLabel "jesuderdu"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \JesuDerDuOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \JesuDerDuOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \JesuDerDuViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \JesuDerDuViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \JesuDerDuViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \JesuDerDuSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \JesuDerDuSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \JesuDerDuAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \JesuDerDuAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \JesuDerDuTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \JesuDerDuTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \JesuDerDuBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \JesuDerDuBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \JesuDerDuFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \JesuDerDuBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 90 }
+  %   }
+  % }
   \bookpart {
-    \section "2.4" "Choral" "Jeſu, der du wareſt tod"
-    \addTocLabel "jesuderdu"
+    \section "2.5" "Recitativo" "Nun rette dich, mein Heiland, keine Welt"
+    \addTocLabel "nunrettet"
+    \paper {
+      system-system-spacing.basic-distance = #21
+      system-system-spacing.minimum-distance = #21
+      systems-per-page = #5
+    }
     \score {
       <<
-        \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "ob"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \JesuDerDuOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \JesuDerDuOboeII
-            }
-          >>
-        >>
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \JesuDerDuViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \JesuDerDuViolinoII
-            }
-          >>
-          \new Staff {
-            \set Staff.instrumentName = "vla"
-            \JesuDerDuViola
-          }
-        >>
-        \new ChoirStaff <<
-          \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \JesuDerDuSoprano }
-          }
-          \new Lyrics \lyricsto Soprano \JesuDerDuSopranoLyrics
-
+        \new ChoirStaff \with { \smallGroupDistance } <<
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \JesuDerDuAlto }
+            \new Voice = "Alto" { \dynamicUp \NunRettetAlto }
           }
-          \new Lyrics \lyricsto Alto \JesuDerDuAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \JesuDerDuTenore }
-          }
-          \new Lyrics \lyricsto Tenore \JesuDerDuTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \JesuDerDuBasso }
-          }
-          \new Lyrics \lyricsto Basso \JesuDerDuBassoLyrics
+          \new Lyrics \lyricsto Alto \NunRettetAltoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \JesuDerDuFondamento
+            \NunRettetFondamento
           }
         >>
-        \new FiguredBass { \JesuDerDuBassFigures }
+        \new FiguredBass { \NunRettetBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 65 }
     }
   }
 }

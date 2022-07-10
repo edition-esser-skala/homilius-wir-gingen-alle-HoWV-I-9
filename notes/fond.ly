@@ -2725,3 +2725,47 @@ JesuDerDuBassFigures = \figuremode {
   r4 <6>2. %15
   <4>4 <3>2. %16 finis
 }
+
+NunRettetFondamento = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoNunRettet
+    ais1~
+    ais2 h~
+    \once \tieDashed h1~
+    h2 his
+    h r4 cis %5
+    d8.[ d16 d8. d16] d4 r
+    R1
+    dis8.[ dis16 dis8. dis16] dis4 r
+    r2 d4 r
+    r e a,2~ %10
+    a1~
+    a2 d~
+    d1
+    c!2 h~
+    h e %15
+    a,1
+    r4 h e,2\fermata \bar "|." %17 finis
+  }
+}
+
+NunRettetBassFigures = \figuremode {
+  \bo <6+ [_+]>1
+  \bc <7! [\t]>2 <[5+]>
+  r1
+  <[6+] 4+ 2+>2 <7 5+ [_+]>
+  \bo <[6+] 4+ 3>2. \bc <[5+] _+>4 %5
+  r1
+  r
+  <6 [_+]>
+  r2 <6 [_+]>
+  r4 <_+> q2 %10
+  r1
+  r2 <_+>
+  r1
+  <6 4+ 3>2 <7 [5+] _+>
+  r1 %15
+  <5>4 <6\\>2.
+  r4 <[5+ _+]>2. %17 finis
+}

@@ -1239,3 +1239,47 @@ JesuDerDuAltoLyrics = \lyricmode {
   mehr ich nicht be -- %15
   geh -- re. %16 finis
 }
+
+NunRettetAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoNunRettet
+    r4 r8 cis' cis8. fis,16 fis8 r16 fis
+    g!8 g g fis d4 r8 fis
+    fis fis fis fis h4 r16 h h gis
+    eis8 eis fis gis a a r16 a gis fis
+    d'8 h gis a fis fis r4 %5
+    r2 r4 a8 a16 a
+    a8. d,16 d8 a' a h c! h
+    h4 r r8 fis fis fis
+    h8. h16 h8 h h cis d! cis
+    a a r4 r8 e e e %10
+    cis4 r8 a' a8. e16 e8 e
+    e g! h a \appoggiatura g fis4 r8 a
+    fis fis fis a d,4 r16 fis fis g
+    a8 a a gis a4 r16 fis fis fis
+    h8 h, dis fis g g r g %15
+    c a fis g a fis dis8. e16
+    h8 h r4 r2\fermata \bar "|." %17 finis
+  }
+}
+
+NunRettetAltoLyrics = \lyricmode {
+  Nun ret -- tet dich, mein
+  Hei -- land, kei -- ne Welt, das
+  Ur -- theil iſt ge -- fällt, ſie, ſie be --
+  ſchloſ -- ſen dein Ver -- der -- ben, du ſollſt den
+  Tod der Sün -- der ſter -- ben. %5
+  Kreu -- zi -- ge,
+  kreu -- zi -- ge ruft die ver -- damm -- te
+  Schaar. Sein Blut ſey
+  im -- mer -- dar auf uns und un -- ſern
+  Kin -- dern. Und wie ge -- %10
+  troſt, wie wil -- lig -- lich nimmſt
+  du dein Kreuz auf dich, mein
+  Hei -- land und mein Gott! ver -- ach -- teſt
+  Schan -- de, Schmach und Spott, und biſt be --
+  reit, den Kampf zu käm -- pfen, und %15
+  Sün -- de, Höl -- le, Sa -- tan, Tod zu
+  däm -- pfen. %17 finis
+}

@@ -50,6 +50,9 @@ tempoBaldWirst = \tempoMarkup "Sehnlich und langſam"
 tempoJesuDerDu = \tempoMarkup "[Choral]"
 tempoNunRettet = \tempoMarkup "[Recitativ]"
 
+%2.6
+tempoJetztGeht = \tempoMarkup "Mitleidig"
+
 
 
 \include "notes/fl1.ly"

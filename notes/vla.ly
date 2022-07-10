@@ -1280,3 +1280,160 @@ JesuDerDuViola = {
     e4. d8 cis2\fermata \bar "|." %16 finis
   }
 }
+
+JetztGehtViola = {
+  \relative c' {
+    \clef alto
+    \key a \minor \time 3/4 \tempoJetztGeht
+    c4\fE r8 e( d c)
+    d( e f) e( d e)
+    d4( c) a'
+    \appoggiatura h8 a4( gis8) e( gis h)
+    e,4 r8 cis'( d) e( %5
+    a,4) r8 fis( g) a(
+    d,4) r8 h'( c) d(
+    g,4) r8 b( a) gis(
+    a4) r8 a( b) a(
+    h4) r8 gis( a) gis( %10
+    a2) dis,4
+    e2.
+    e4 r8 e( f e)
+    e4 d e
+    e r8 e( f e) %15
+    e4 d e
+    d8 f e4 d
+    c r r8 e'
+    a,4 r r8 c
+    f,4. h8 e, a %20
+    d,4 e e, \noBreak
+    a2 r4 \bar "S-S"
+    a\p r8 c( h a) \noBreak
+    h( c d) e,( fis gis)
+    a( gis a) f'( e dis) %25
+    e e, e'( d) c( h)
+    a4 r8 a( b) cis(
+    d4) r r8 d
+    g4 r8 g,( as) h(
+    c) h( c) a( g fis) %30
+    g4 r r8 g
+    g4 r r8 a
+    a4 r r8 h
+    h e( d! c h c)
+    h2. %35
+    c^\critnote
+    h4 r r8 c
+    h4 r8 gis( a h)
+    e,4 r r8 b'(
+    a4) r8 fis( g a) %40
+    d,4 r r8 as'(
+    g4.) a8( g fis)
+    g4 g g
+    g r8 h(\pocoF c d)
+    g,4 f' e %45
+    d r8 h(\p c d)
+    g,4 f' e
+    f g g,
+    c r8 cis'(\f d) cis(
+    d4) r8 h( c) h( %50
+    c2) fis,4
+    g2.
+    g4. h8( a g)
+    g4 f g
+    g r8 h( a g) %55
+    g4 f g
+    c,8 a' g4 f
+    e r r8 g
+    c,4 r r8 e
+    a,4. d8 g, e' %60
+    a,4 g f
+    e8 f'(\p e) d( c) h(
+    a4) r8 c( h a)
+    h( c d) e,( fis gis)
+    a( gis a) f'!( e dis) %65
+    e e, e'( d) c( h)
+    a4 r8 a( b) cis(
+    d4) r r8 d
+    d4 r8 g,( as) h!(
+    c4) r8 b( a) gis( %70
+    a) g( f) e( f) cis'(
+    d2)( a4)
+    b c c,
+    f r r8 c'\f
+    b4. d8\p c4 %75
+    d r r8 d\f
+    c4. e8\p d4
+    e r r8 e\p
+    d4 r8 \slurDashed h(\p c!) a(
+    e'4) \slurSolid e e %80
+    f f f
+    fis a, c
+    h r r8 h
+    a c( d) h( c) h
+    h4 r r8 h %85
+    a c( d) h( c) h
+    h4 r r
+    e r8 e(\pocoF f e)
+    e4 d e
+    e r8 \once \slurDashed e(\p f e) %90
+    e4 d e
+    d8( f) e4 d
+    c d e
+    d d\pocoF d
+    d2. %95
+    e4-\parenthesize-!\p r r
+    R2.
+    r4 r8 cis'(\fE d) e(
+    d) g,( f) a( d) c(
+    h4) r8 h( c) d( %100
+    g,4) r8 b( a!) gis(
+    a4) r8 a( b) a(
+    h4) r8 gis( a) gis(
+    a2)( dis,4)
+    e2. %105
+    e4 r8 e( f e)
+    e4 d e
+    e r8 e( f e)
+    e4 d e
+    d8 f e4 d %110
+    c r r8 e'
+    a,4 r r8 c
+    f,4. h8 e, a
+    a, f' e4 d
+    c8\fermata a'[\p g! f e d] %115
+    c4 r8 e( d c)
+    g'( fis g) g, g4~
+    g g g
+    g r r8 a
+    g4 r8 c( d e) %120
+    f( g a) a, a4~
+    a8 d h g c fis,
+    g4 g'8( f!) e( d)
+    c4 c4. d8
+    g,4 r8 c( h c) %125
+    a4 g f
+    e8( g) c( b) a( g)
+    \once \slurDashed f( cis') d( cis) \slurDashed d( f,)
+    e( d') cis( h) cis( a)
+    d( gis,) \slurSolid a( b) a( g) %130
+    a4 r r8 a
+    g( cis) d( cis) d( f,)
+    \once \slurDashed e( d') cis( a) \once \slurDashed d( d,)
+    a'4 a a
+    a r r8 a\pocoF %135
+    a4 g a
+    a r r8 a\p
+    a4 g a
+    g r r
+    R2.*2 %141
+    r4 r r8 d'\f
+    d4 r r8 a'
+    a-! g( f e d c)
+    h e e2~ %145
+    e4 r8 e( f e)
+    e4 d e
+    e r8 e( f e)
+    e4 d e
+    a,8 f' e4 d %150
+    c2 r4 \bar "S-S" %151 finis
+  }
+}

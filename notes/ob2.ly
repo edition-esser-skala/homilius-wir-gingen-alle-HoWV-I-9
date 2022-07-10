@@ -716,3 +716,11 @@ JesuDerDuOboeII = {
     a gis e2\fermata \bar "|." %16 finis
   }
 }
+
+JetztGehtOboeII = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 3/4 \tempoJetztGeht
+    
+  }
+}

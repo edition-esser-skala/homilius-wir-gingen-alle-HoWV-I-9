@@ -1283,3 +1283,200 @@ NunRettetAltoLyrics = \lyricmode {
   Sün -- de, Höl -- le, Sa -- tan, Tod zu
   däm -- pfen. %17 finis
 }
+
+JetztGehtAlto = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 3/4 \autoBeamOff \tempoJetztGeht
+    R2.*22 \bar "S-S" %22
+    \mvTr e4\pE^\soloE a a
+    a( gis) h
+    h( a) c %25
+    \appoggiatura d8 c4 h r
+    c8.([ h16)] a4. g!8
+    fis4( d') c
+    h8.([ a16] g4) f!
+    \appoggiatura { e16[ g] } f4 e r %30
+    d e f
+    e( fis) g
+    fis( gis) a
+    \appoggiatura a gis2.
+    r8 h a([ gis)] fis([ e)] %35
+    c'([ h)] a([ g)] f([ e)]
+    dis4 h' a
+    g!8[ fis] e4. gis8
+    a[ b] a4. g8
+    f[ e] d4. fis8 %40
+    g[ a] g4. f8
+    e4 c' e,
+    \appoggiatura f8 e4 d r
+    r g g
+    g2.~ %45
+    g4 g g
+    g2 gis4
+    a8[ f] \appoggiatura e4 d2
+    c r4
+    R2.*13 %62
+    e4 a a
+    a( gis) h
+    h( a) c %65
+    \appoggiatura d8 c4 h r
+    c8.([ h16)] a4. g!8
+    fis4( d') c
+    h8.([ a16] g4) f
+    \appoggiatura { e16[ g] } f4 e r %70
+    f g a~
+    a b a
+    g \appoggiatura f e2
+    f r8 f
+    f4.( g8) fis4 %75
+    g2 g4
+    g4.( a8) gis4
+    a a a
+    a2 a4
+    h8.([ c16] d4) c %80
+    b2.
+    a
+    gis4 e' d
+    c h a
+    gis e' d %85
+    c h a
+    gis8.([ fis16)] e4 r
+    r e e
+    e2.~
+    e4 e e %90
+    e2~ e8[ e']
+    d[ h] \appoggiatura a4 gis2
+    a4 b a
+    \appoggiatura a gis2.~
+    gis %95
+    a4 e'8([ c)] h([ a)]
+    d([ h)] \appoggiatura a4 gis2
+    a r4
+    R2.*16 %114
+    R2.\fermata %115
+    g4 c c
+    c( h) c
+    cis( d) f,
+    f e r
+    g c b %120
+    \appoggiatura b a2 g4
+    \appoggiatura g f2 e4
+    \appoggiatura { d16[ f] } e4 d r
+    r8 e f([ g)] a([ h)]
+    c8.([ d16] e4) g, %125
+    a8([ f)] \appoggiatura e4 d2
+    c4 r8 g' c b
+    a4( b) a
+    gis( a) g
+    f e r %130
+    d d' c!
+    \appoggiatura c b2 a4
+    \appoggiatura a g2 f!4
+    \appoggiatura { e16[ g] } f4 e r
+    a a a %135
+    a2.
+    a4 a a
+    a2.
+    g4 d' d
+    \appoggiatura d cis2 d4 %140
+    b8([ g)] \appoggiatura f4 e2
+    d r4
+    R2.*9 \bar "S-S" %151 finis
+  }
+}
+
+JetztGehtAltoLyrics = \lyricmode {
+  Jetzt geht auf %23
+  un -- ge --
+  bahn -- ten %25
+  We -- gen
+  mein Hei -- land
+  ſei -- nem
+  Tod __ ent --
+  ge -- gen %30
+  und trägt ſelbſt
+  ſei -- nes __
+  Kreu -- zes
+  Stamm,
+  mein Hei -- land %35
+  geht ſei -- nem
+  Tod __ _ _
+  _ _ _
+  _ _ _
+  _ _ _ %40
+  _ _ _
+  _ _ ent --
+  ge -- gen
+  und trägt
+  ſelbſt __ %45
+  ſei -- nes
+  Kreu -- _
+  _ zes
+  Stamm.
+
+  Jetzt geht auf %63
+  un -- ge --
+  bahn -- ten %65
+  We -- gen
+  mein Hei -- land
+  ſei -- nem
+  Tod __ ent --
+  ge -- gen %70
+  und trägt ſelbſt __
+  ſei -- nes
+  Kreu -- zes
+  Stamm, auf
+  un -- ge -- %75
+  bahn -- ten
+  We -- gen
+  geht jetzt mein
+  Hei -- land
+  ſei -- nem %80
+  Tod __
+  _
+  _ _ _
+  _ _ _
+  _ _ _ %85
+  _ _ ent --
+  ge -- gen
+  und trägt
+  ſelbſt __
+  ſei -- nes %90
+  Kreu --
+  _ zes
+  Stamm, und trägt
+  ſelbſt, __
+  %95
+  ſelbſt ſei -- nes
+  Kreu -- zes
+  Stamm.
+
+  Dich will ich %116
+  zu __ den
+  na -- hen
+  Lei -- den
+  mit al -- len %120
+  Gläu -- bi --
+  gen be --
+  glei -- ten,
+  der Welt zum
+  Heil __ er -- %125
+  würg -- tes
+  Lamm, dich will ich
+  zu __ den
+  na -- hen
+  Lei -- den %130
+  mit al -- len
+  Gläu -- bi --
+  gen be --
+  glei -- ten,
+  der Welt zum %135
+  Heil
+  er -- würg -- tes
+  Lamm,
+  der Welt zum
+  Heil er -- %140
+  würg -- tes
+  Lamm. %142 finis
+}

@@ -1377,34 +1377,83 @@
   %     \midi { \tempo 4 = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.5" "Recitativo" "Nun rette dich, mein Heiland, keine Welt"
+  %   \addTocLabel "nunrettet"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #21
+  %     system-system-spacing.minimum-distance = #21
+  %     systems-per-page = #5
+  %   }
+  %   \score {
+  %     <<
+  %       \new ChoirStaff \with { \smallGroupDistance } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \NunRettetAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \NunRettetAltoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \NunRettetFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \NunRettetBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 65 }
+  %   }
+  % }
   \bookpart {
-    \section "2.5" "Recitativo" "Nun rette dich, mein Heiland, keine Welt"
-    \addTocLabel "nunrettet"
-    \paper {
-      system-system-spacing.basic-distance = #21
-      system-system-spacing.minimum-distance = #21
-      systems-per-page = #5
-    }
+    \section "2.6" "Aria" "Jetzt geht auf ungebahnten Wegen"
+    \addTocLabel "jetztgeht"
+    \paper { systems-per-page = #2 }
     \score {
       <<
-        \new ChoirStaff \with { \smallGroupDistance } <<
+        \new StaffGroup <<
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+            \JetztGehtOboeIeII
+          }
+        >>
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \JetztGehtViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \JetztGehtViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "vla"
+            \JetztGehtViola
+          }
+        >>
+        \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \NunRettetAlto }
+            \new Voice = "Alto" { \dynamicUp \JetztGehtAlto }
           }
-          \new Lyrics \lyricsto Alto \NunRettetAltoLyrics
+          \new Lyrics \lyricsto Alto \JetztGehtAltoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \NunRettetFondamento
+            \JetztGehtFondamento
           }
         >>
-        \new FiguredBass { \NunRettetBassFigures }
+        \new FiguredBass { \JetztGehtBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 65 }
+      \midi { \tempo 4 = 100 }
     }
   }
 }

@@ -1251,3 +1251,160 @@ JesuDerDuViolinoI = {
     h2 a\fermata \bar "|." %16 finis
   }
 }
+
+JetztGehtViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 3/4 \tempoJetztGeht
+    e4\fE a a
+    a( gis) h
+    h( a) c
+    \appoggiatura d8 c4( h) r
+    a a'4. g!8 %5
+    f8.( e16 d4) c
+    h8.( a'16 g4) f
+    \appoggiatura f8 e8. d16 c4 r
+    r8 e( f cis) d4~
+    d8 dis( e h) c4~ %10
+    c8 cis( d c h a)
+    \appoggiatura a4 gis2.
+    h'8. d,16 d2~
+    d8 c c( h) h( a)
+    h'8. d,16 d2~ %15
+    d8 c c( h) h( a)
+    f'( d) \appoggiatura c4 h2
+    a8 gis'( a) \once \slurDashed f( g4~)
+    g8 e( f) dis( e4~)
+    e8 cis( d) h( c) a %20
+    f' d \appoggiatura c4 h2\trill \noBreak
+    a4 e a, \bar "S-S"
+    e'\p a a
+    a( gis) h
+    h( a) c %25
+    \appoggiatura d8 c4 h r
+    c8. h16 a4. g!8
+    fis4( d') c
+    h8.( a16 g4) f!
+    \appoggiatura { e16 g } f4( e) r %30
+    d( e) f
+    e( fis) g
+    fis( gis) a
+    \appoggiatura a gis2.
+    r8 h( a gis fis e) %35
+    c'2.
+    fis,4( h) a
+    g!8 fis e4. gis8
+    a b a4. g8
+    f e d4. fis8 %40
+    g a g4. f8
+    e4 c' e,
+    \appoggiatura f8 e4 d r
+    d''8. f,16\pocoF f2~
+    f8 e e( d) d( c) %45
+    d'8. f,16\p f2~
+    f8 e e( d) d( c)
+    a'( f) \appoggiatura e4 d2
+    c8 g'([\f a) e]( f4~)
+    f8 fis( g) d( es4~) %50
+    es8 e( f) es( d c)
+    \appoggiatura c4 h2.
+    d'8. f,16 f2~
+    f8 e e( d) d( c)
+    d'8. f,16 f2~ %55
+    f8 e e( d) d( c)
+    a' f \appoggiatura e4 d2
+    c8 h( c) a( b4~)
+    b8 gis( a) fis( g4~)
+    g8 e( f) d( e) c' %60
+    a f \appoggiatura e4 d2
+    c4 r r
+    e\p a a
+    a( gis) h
+    h( a) c %65
+    \appoggiatura d8 c4 h r
+    c8.( h16) a4. g!8
+    fis4( d') c
+    h8.( a16 g4) f
+    \appoggiatura { e16 g } f4 e r %70
+    f g a~
+    a8 b b( a) a( g)
+    d' b \appoggiatura a4 g2
+    f8 e'(\f f) d( es4~)
+    es8 cis(\p d) b( c) a( %75
+    h) fis'(\f g) e( f4~)
+    f8 dis(\p e) c( d) h(
+    c) gis'(\f a) fis( g4~)
+    g8 e(\p f) dis( e) cis(
+    d4) d c %80
+    b8( c d) b( a gis)
+    a( h c) a( gis fis)
+    gis dis'( e) cis( d) h(
+    c) a( h) gis( a) fis(
+    gis) dis'( e) cis( d) h( %85
+    c) a( h) gis( a) fis(
+    gis) e( gis h e gis)
+    h8. d,16\pocoF d2~
+    d8 c c( h) h( a)
+    h'8. d,16\p d2~ %90
+    d8 c c( h) h( a)
+    f'( d) \appoggiatura c4 h2
+    a4 b a
+    gis f'\pocoF f
+    f2. %95
+    e4-!\p r r
+    R2.
+    r8 gis(\f a4.) g8(
+    f) e( d4.) fis8(
+    g) \once \slurDashed a( g4.) f8 %100
+    \appoggiatura f e8. d16 c4 r
+    r8 e( f) cis( d4~)
+    d8 dis( e) h( c4~)
+    c8 cis( d) c( h a)
+    \appoggiatura a4 gis2. %105
+    h'8. d,16 d2~
+    d8 c c( h) h( a)
+    h'8. d,16 d2~
+    d8 c c( h) h( a)
+    f'( d) \appoggiatura c4 h2 %110
+    a8 gis'( a) fis( g4~)
+    g8 e( f) dis( e4~)
+    e8 cis( d) h( c) a
+    f' d \appoggiatura c4 h2
+    a\fermata r4 %115
+    g\p c c
+    c( h) c
+    cis( d) f,
+    f e4. f8
+    g4 c b %120
+    \appoggiatura b a2 g4
+    \appoggiatura g f2 e4
+    \appoggiatura { d16 f } e4 d r
+    r8 e( f g a h)
+    c8.( d16 e4) g, %125
+    a8 f \appoggiatura e4 d2
+    c4 r8 g' c b
+    a4( b) a
+    gis( a) g
+    f e r %130
+    d( d') c!
+    \appoggiatura c b2 a4
+    \appoggiatura a g2 f!4
+    \appoggiatura { e16 g } f4 e r
+    e'8. g,16\pocoF g2~ %135
+    g8 f f( e) e( d)
+    e'8. g,16\p g2~
+    g8 f f( e) e( d)
+    g4 r r
+    R2.*2 %141
+    r8 cis'(\f d) h!( c) a(
+    b) gis( a) fis( g) e(
+    f) e( d c b a)
+    \appoggiatura a4 gis2. %145
+    h'8. d,16 d2~
+    d8 c c( h) h( a)
+    h'8. d,16 d2~
+    d8 c c( h) h( a)
+    f' d \appoggiatura c4 h2 %150
+    a4 e a, \bar "S-S" %151 finis
+  }
+}

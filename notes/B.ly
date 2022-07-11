@@ -1320,3 +1320,83 @@ NunWirdBassoLyrics = \lyricmode {
   Le -- ben für ſie, für %15
   al -- le hin -- zu -- ge -- ben. %16 finis
 }
+
+HierStehnBasso = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 4/4 \autoBeamOff \tempoHierStehn
+    R1*5 %5
+    r8 \mvTr c\fE^\tuttiE c4~ c8 c c c
+    c8. c16 h8. h16 c8 c r8. g'16
+    as4 r8. g16 f4 r8. g16
+    as4 as8 r h,4 c
+    g g8 g g4 g %10
+    g g g g
+    g g'8 g as4. as8
+    g4 r r8 es es4~
+    es8 es es es es8. es16 d8. d16
+    es8 es r8. des16 c4 r8. des16 %15
+    des8([ c)] r8. des16 des8 c c4~
+    c c d d8 d
+    d4 d d d
+    d d d8 c c c
+    b4 c d c %20
+    b c8 c d4 d8 d
+    es as! g as b4 b,
+    es r r2
+    R1*3 %26
+    r2 r8 es es es
+    es es d d es es es es
+    es4 d es8 es r es
+    as as as as g g16([ f)] g8 a %30
+    b b, r g' f4 fis
+    g g g g
+    g r8 g f!8. f16 f8 f
+    es es c c c c h h
+    c c r c d d d d %35
+    es es f fis g g, g'4
+    g g g g
+    g g g8 f es d
+    c4 f g g,
+    c c8\p c c4. c8 %40
+    c4 r r2
+    R1\fermata \bar "|." %42 finis
+  }
+}
+
+HierStehnBassoLyrics = \lyricmode {
+  Hier ſtehn, __ o Herr mein %6
+  Gott, die treu -- en Knech -- te, be --
+  täubt, be -- trübt, ver --
+  laſ -- ſen, Trau -- er --
+  näch -- te, die ha -- ben %10
+  ih -- ren Troſt ge --
+  raubt, ih -- ren Troſt ge --
+  raubt. Hier ſtehn, __
+  o Herr mein Gott, die treu -- en
+  Knech -- te, be -- täubt, be -- %15
+  trübt, ver -- laſ -- ſen, Trau --
+  er -- näch -- te, die
+  ha -- ben ih -- ren
+  Troſt ge -- raubt, die ha -- ben
+  ih -- ren Troſt ge -- %20
+  raubt, Trau -- er -- näch -- te, die
+  ha -- ben ih -- ren Troſt ge --
+  raubt.
+
+  Er -- qui -- cke %27
+  ſie mit dei -- ner Kraft, mit dei -- ner
+  Kraft und Gei -- ſte, der
+  ih -- nen Muth ver -- leih und Bey -- ſtand %30
+  lei -- ſte dem Glau -- ben,
+  der nun ſchwä -- cher
+  glaubt. Er -- qui -- cke ſie, er --
+  qui -- cke ſie mit dei -- ner Kraft und
+  Gei -- ſte, der ih -- nen Muth ver -- %35
+  leih und Bey -- ſtand lei -- ſte dem
+  Glau -- ben, der nun
+  ſchwä -- cher glaubt, dem Glau -- ben,
+  der nun ſchwä -- cher
+  glaubt, der nun ſchwä -- cher %40
+  glaubt. %41 finis
+}

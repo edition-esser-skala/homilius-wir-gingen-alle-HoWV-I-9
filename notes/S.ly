@@ -1522,3 +1522,83 @@ JesusSeinSopranoLyrics = \lyricmode {
   un -- ge -- zwun -- gen %15
   tra -- gen. %16 finis
 }
+
+HierStehnSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \autoBeamOff \tempoHierStehn
+    R1*5 %5
+    r8 \mvTr g'\fE^\tuttiE g4~ g8 es' c as
+    f8. d'16 d8. f,16 f8 es r8. e16
+    f4 r8. g16 g8([ as)] r8. g16
+    g8([ fis)] fis r f4 es
+    es d8 g f4 es %10
+    d g f es
+    d h'8 h c4. c8
+    h4 r r8 b b4~
+    b8 g' es c as8. f'16 f8. as,16
+    as8 g r8. b16 as4 r8. b16 %15
+    b8([ as)] r8. g16 g8 as c4~
+    c as g fis8 b
+    a4 g fis b
+    a g fis8 es' es es
+    d4 c b a %20
+    b as8 as as4 as8 b
+    g c b as g4 f
+    es r r2
+    R1*3 %26
+    r2 r8 b' es b
+    as as as as g b es b
+    as( f'4) as,8 as g r g'
+    g c, f f f b, es es %30
+    es d r es d4 c
+    h es d c
+    h r8 g' g8. h,16 h8 h
+    c c16([ d)] es8 g, f f d' f,
+    f es r c' c f, b! as %35
+    g es' d c h16([ a)] g8 r es'
+    d4 c h es
+    d c h8 as' g f
+    es4 des c h
+    c as8\p g f4. f8 %40
+    e4 r r2
+    R1\fermata \bar "|." %42 finis
+  }
+}
+
+HierStehnSopranoLyrics = \lyricmode {
+  Hier ſtehn, __ o Herr mein %6
+  Gott, die treu -- en Knech -- te, be --
+  täubt, be -- trübt, ver --
+  laſ -- ſen, Trau -- er --
+  näch -- te, die ha -- ben %10
+  ih -- ren Troſt ge --
+  raubt, ih -- ren Troſt ge --
+  raubt. Hier ſtehn, __
+  o Herr mein Gott, die treu -- en
+  Knech -- te, be -- täubt, be -- %15
+  trübt, ver -- laſ -- ſen, Trau --
+  er -- näch -- te, die
+  ha -- ben ih -- ren
+  Troſt ge -- raubt, die ha -- ben
+  ih -- ren Troſt ge -- %20
+  raubt, Trau -- er -- näch -- te, die
+  ha -- ben ih -- ren Troſt ge --
+  raubt.
+
+  Er -- qui -- cke %27
+  ſie mit dei -- ner Kraft, mit dei -- ner
+  Kraft und Gei -- ſte, der
+  ih -- nen Muth ver -- leih und Bey -- ſtand %30
+  lei -- ſte dem Glau -- ben,
+  der nun ſchwä -- cher
+  glaubt. Er -- qui -- cke ſie, er --
+  qui -- cke ſie mit dei -- ner Kraft und
+  Gei -- ſte, der ih -- nen Muth ver -- %35
+  leih und Bey -- ſtand lei -- ſte dem
+  Glau -- ben, der nun
+  ſchwä -- cher glaubt, dem Glau -- ben,
+  der nun ſchwä -- cher
+  glaubt, der nun ſchwä -- cher %40
+  glaubt. %41 finis
+}

@@ -817,3 +817,52 @@ JesusSeinOboeI = {
     h2 a\fermata \bar "|." %16 finis
   }
 }
+
+HierStehnOboeI = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \tempoHierStehn
+    r2 es'\fE
+    d c
+    h4 es( d c)
+    h r r r8. d16
+    es4 d( c h) %5
+    c r es2
+    d~ d8 c r8. c,16
+    c4 r r2
+    R1
+    r4 r8 es' d4( c) %10
+    h( es) d( c)
+    h h8 h c4. c8
+    h4 r r2
+    g'2 f~
+    f8 es r8. es,16 es4 r %15
+    R1
+    r2 r4 r8 b''
+    a4( g) fis( b)
+    a( g) fis2
+    g4-\parenthesize-! c,( b a) %20
+    g r r2
+    R1
+    r4 g' f2
+    es d4( g)
+    f( es) d r %25
+    r r8. f16 g4( f
+    es d) es8 b b b
+    as2 g8 b es b
+    as f'4 as,8 as g r g'
+    g4 f2 es4~ %30
+    es8 d r4 r2
+    R1
+    r8 g g g g2~
+    g8 c,16 d es8 g, f2~
+    f8 es c'2 b!8 as %35
+    g g'( f es) \once \slurDashed d4( g)
+    f( es) d( g)
+    f( es) d8-! as'( g f)
+    es4( f es d)
+    c r r2 %40
+    R1
+    R\fermata \bar "|." %42 finis
+  }
+}

@@ -1450,3 +1450,52 @@ JesusSeinViolinoII = {
     a gis e2\fermata \bar "|." %16 finis
   }
 }
+
+HierStehnViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \tempoHierStehn
+    c8\fE c c c c16 es( f es) r g( es c)
+    d( d) d( d) d( d) f( d) c( c) c( c) c( c) es( c)
+    h-! g( as! g) g( as g) es'-! d-! g,( as g) g( as g) c-!
+    h8. as'16 as4 r16 d,( f as h d f as)
+    g c, c8\trill r8 as16( f) r8 g16( es) r8 f16( d) %5
+    es8 c c c c16 es( f es) r g( es c)
+    d( d) d( d) d( d) f( d) d( g,) c( c) c( des c) e-!
+    f-! c( des c) c( des c) e-! e( f) f8~ f16 es( es d)
+    c( c) c( c) c( c) fis( c) r8 f16( d) c( c) c( c)
+    c( c) c( c) h( g) \once \slurDashed g'( g,) d'-! g,( as g) g( as g) c-! %10
+    h-! g( as g) g( as g) es'-! d-! g,( as g) g( as g) c-!
+    h8 g' g g g g fis fis
+    g8. g'16 g4 es,8 es es es
+    es16-! g( as g) r b( g es) f( f) f( f) f( f) as( f)
+    f( b,) es( es) es( f es) g-! as-! es( f es) es( f es) g-! %15
+    g( as) as( es) es( g) b( g) g( as) es( es) es( es) as( es)
+    c'( as) es( es) es( es) es( es) d( d) d( d) d( d) b'( d,)
+    a'-! d,( es d) d( es d) g-! fis-! d( es d) d( es d) b'-!
+    a-! d,( es d) d( es d) g-! fis8 a a a
+    b16-! g( a g) r8 c16( a) r8 g16( b,) r8 c16( a) %20
+    r b( d b) es( es) es( es) f-! b,( c b) b( c b) f'-!
+    es( g,) r as r es' r f r es( f es) r d( es d)
+    es( g) g( g) g( g) b( g) f( f) f( f) f( f) as( f)
+    es( es) es( es) es( es) g( es) d-! b( c b) b( c b) g'-!
+    f-! b,( c b) b( c b) es-! d8. f16 f4 %25
+    r16 b,( d f b d f d) es b b8\trill r16 as( c as)
+    r g( b g) r f( as f) g-! g-! g-! g-! g g b g
+    f f f f f f as f es g g g g g b g
+    f f f f f f as f f es es g g es g b
+    c4~ c16 es d c b4. c8 %30
+    c16( b) b( f') \slurDashed b( b,) es( es,) \slurSolid d( d) d( d) c( c) c( c)
+    h-! g( as g) g( as g) es'-! d-! g,( as g) g( as g) c-!
+    h g h d g g h d h g g g g g h g
+    c g g g g g c es, d d d d d d f d
+    d h c8 r es f4~ f16 b,! d f %35
+    b, es g es d f es c h-! g( as g) g( as g) es'-!
+    d-! g,( as g) g( as g) c-! h-! g( as g) g( as g) es'-!
+    d-! g,( as g) g( as g) c-! h8-\parenthesize-! h'( c h)
+    r16 c( es g,) r f( des' f,) r es( g es) r d( f d)
+    es4 r r2 %40
+    r16 c(\p des c) c( des c) as'-! g-! c,( des c) c( des c) f-!
+    e8 e f f \appoggiatura f4 e2\fermata \bar "|." %42 finis
+  }
+}

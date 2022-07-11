@@ -1460,3 +1460,52 @@ JesusSeinViola = {
     e4. d8 cis2\fermata \bar "|." %16 finis
   }
 }
+
+HierStehnViola = {
+  \relative c' {
+    \clef alto
+    \key c \minor \time 4/4 \tempoHierStehn
+    c8\fE c c c c4 c
+    as g g fis
+    g r8. g16 g4 r8. g16
+    g8. d'16 d4 r2
+    g4 as g g, %5
+    g8 c c c c4 c
+    as g g r8. b!16
+    as4 r8. b16 b8 c r8. h16
+    c( as) as( as) as( as) as( as) g4 g16( g) g( g)
+    g( g) g( g) g8 g g4 r8. g16 %10
+    g4 r8. g16 g4 r8. g16
+    g8 d' d d c c c c
+    d4 r es8 es es es
+    es4 es c b
+    b r8. b16 c4 r8. b16 %15
+    es4 r8. b16 es( b) c( c) c( c) es( c)
+    as( c) c( c) c( c) c( c) b( b) b( b) a8 g
+    fis4 r8. d'16 d4 r8. d16
+    d4 r8. d16 d8 es es es
+    d4 es d es %20
+    d c16( c) c( c) b4 r8. b16
+    b8 as! b c b4 as
+    g es' c b
+    b a b r8. b16
+    b4 r8. b16 b8. b16 b4 %25
+    r2 b4 c
+    b b' b,8 b b b
+    c c b b b b b b
+    c c b b b b b b
+    as as' as f b b, b f' %30
+    f4 r8 b, as f r c'
+    g4 r8. g16 g4 r8. g16
+    g8 d' d d d d d d
+    c c c c as as g g
+    g g r g d' d d b! %35
+    b b as fis g4 r8. g16
+    g4 r8. g16 g4 r8. g16
+    g4 r8. g16 g8 d'( es f)
+    g4 as g g,
+    g r r2 %40
+    r4 r8. c16\pE c4 r8. c16
+    c8 c h h c2\fermata \bar "|."
+  }
+}

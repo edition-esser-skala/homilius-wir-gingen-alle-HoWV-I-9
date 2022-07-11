@@ -739,3 +739,52 @@ JesusSeinOboeII = {
     a gis e2\fermata \bar "|." %16 finis
   }
 }
+
+HierStehnOboeII = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \tempoHierStehn
+    r2 g'4.(\fE as8)
+    f2 es
+    d4 g( f es)
+    d r r r8. f16
+    g4 f( es d) %5
+    es r g4. as8
+    f2~ f8 es r8. c16
+    c4 r r2
+    R1
+    r4 r8 g' f4( es) %10
+    d( g) f( es)
+    d g8 g g4( fis8) fis
+    g4 r r2
+    b!4.( c8) as2~
+    as8 g r8. es16 es4 r %15
+    R1
+    r2 r4 r8 d'
+    c4( b) a( d)
+    c( b) a2
+    b4-! a( g fis) %20
+    g r r2
+    R1
+    r4 b as2
+    g f4( b)
+    as( g) f r %25
+    r r8. as16 b4( as
+    g f) g8 g g g
+    f2 es8 g g g
+    f as4 f8 f es r b'
+    c2 b4. c8~ %30
+    c b r4 r2
+    R1
+    r8 h h h h2
+    c8 g4 es8 d2~
+    d8 c r es f2 %35
+    es8 \slurDashed es'( d c) h4( es) \slurSolid
+    d( c) h( es)
+    d( c) h c8 h
+    c4( des c h)
+    c r r2 %40
+    R1
+    R\fermata \bar "|." %42 finis
+  }
+}

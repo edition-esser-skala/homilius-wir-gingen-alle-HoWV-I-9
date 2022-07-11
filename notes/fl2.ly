@@ -319,3 +319,52 @@ VerlasstIhnFlautoII = {
     g4 r8 r4 g8\pE \bar "S-S" %97 finis
   }
 }
+
+HierStehnFlautoII = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \tempoHierStehn
+    r2 es'4.(\fE c8)
+    d2 c
+    h4 es( d c)
+    h~ h8. d16 d2
+    c4 d( c h) %5
+    c r es4. c8
+    d2~ d8 c r8. e16
+    f4 r8. e16 e8( f) r8. h,16
+    c8([ es)] es-\parenthesize-! r d4( c)
+    c( h8) es d4( c)
+    h( es) d( c)
+    h g'2 fis4
+    g r r2
+    g4.( es8) f2~
+    f8 es r8. g16 as4 r8. g16
+    g8 as r8. g16 g8 as as4~
+    as c, b( a8) b'
+    a4( g) fis( b)
+    a( g) fis8 fis fis fis
+    g4( a) g( fis)
+    g es8 c f4. g16( f)
+    es4. f8 es4( d)
+    es g f2
+    es \once \slurDashed d4( g)
+    f( es) d~ d8. f16
+    f2 g4( f)
+    es( d) es8 g4 g8
+    f2 es8 g16 f g8 g
+    f2~ f8 es g es
+    c4. b16 as b4. c8~
+    c b r es d4( c)
+    h( es) d( c)
+    h h2 d4
+    es16( d es f g8) es d2~
+    d8 c r es f2
+    es8 g( f es) d4( g)
+    f( es) d( g)
+    f( es) d8-! d( es f)
+    g4( f es d)
+    es r r2
+    r4 r8 c\pE b!4( as)
+    g( as) \appoggiatura as g2\fermata \bar "|."
+  }
+}

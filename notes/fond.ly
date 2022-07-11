@@ -3167,3 +3167,97 @@ NunWirdBassFigures = \figuremode {
   <[5-]>1
   q %17 finis
 }
+
+HierStehnFondamento = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 4/4 \tempoHierStehn
+    \mvTr c8\fE-\soloE c c c c4 c
+    c h c fis,
+    g1~
+    g8.[ f'!16 f8. f16] f4 r
+    es f g g, %5
+    c8 c-\tuttiE c c c4 c
+    c h c g'
+    as g f g
+    as as h, c
+    g1~ %10
+    g~
+    g8 g' g g as as as as
+    g4 r es8 es es es
+    es4 es es d
+    es des c des %15
+    des8 c des4 des8 c c c
+    c4 c d2~
+    d1~
+    d2~ d8 c c c
+    b4 c d c %20
+    b c8 c d2^\tenuto
+    es8 as! g as b4 b,
+    es es-\soloE es d
+    es a, b2~
+    b~ b8.[ as'!16 as8. as16] %25
+    as4 r g as
+    b b, es8 es-\tuttiE es es
+    es es d d es es es es
+    es es d d es es, es es'
+    as as, as as' g g16 f g8 a %30
+    b b, r g' f f, r fis
+    g1~
+    g8 g' g, g' f! f f f
+    es es c c c c h h
+    c c, r c' d d d d %35
+    es es f fis g g, g g
+    g1~
+    g2~ g8 f' es d
+    c4 f g g,
+    c c\p c c %40
+    c1~
+    c8 c c c c,2\fermata \bar "|." %42 finis
+  }
+}
+
+HierStehnBassFigures = \figuremode {
+  r2. <5>8 <6>
+  <4 2>4 <6 5>2 <7 5 [_!]>4
+  <_!> <8 6> <7 5> <6 4>
+  <5 _!>8. <4! _->16 r2.
+  <6>4 q <6 4> <7 _!> %5
+  r2. <5>8 <6>
+  <4 2>4 <6 5> <9 4>8 <8 3> <6! [_-]>4
+  <6> <6!> <7! 4>8 <8 3> <9 7 _!> <8 6 \t>
+  <7 5> <6\\ \t>4. <6 5!>2
+  <6 4>4 <5 _!>8 <8 6> <7 5>4 <6 4> %10
+  <[5] _!> <8 6> <7 5> <6 4>
+  <5 _!>2 <7>4 <6\\>
+  <_!>2 <[5-]>
+  r4 <5>8 <6> <4 2>4 <6 5>
+  <9 4>8 <8 3> <4 2>4 <6> <4 2> %15
+  <\t \t>8 <6> <4 2>4 <\t \t>8 <6>4.
+  r2 <6 4>4 <5! _+>8 <8 6>
+  <7 5!>4 <6 4> <5! _+> <8 6>
+  <7 5!> <6 4> <5! _+>8 <[6!] 4+ 3>4.
+  <6>4 <6!> <6 4> <[6!] 4+ 3> %20
+  <6> <6-> <6 5 [_!]>2
+  r4 <6>8 q <6 4>4 <7 3>
+  r2 <4 2>4 <6 5>
+  r <7 5> <3> <8 6>
+  <7 5> <6 4> <5 3>8. <4 2>16 r4 %25
+  r2 <6>4 q
+  <6 4> <7 3>2.
+  <4 2>4 <6 5>2.
+  <4 2>4 <6 5> <9 4>8 <8 3>4.
+  <7>4 <6> <7> <6>8 <6 5> %30
+  <9 4> <8 3>4 <6>8 q4. <7 5 [_!]>8
+  <_!>4 <8 6> <7 5> <6 4>
+  <[5] _!>2 <4! 2>
+  <6> <4 2>4 <6 5>
+  <9 4>8 <8 3>4. <7>4 <6->8 <5> %35
+  r4 <8 6>8 <7 5 [_!]> <_!>4 <8 6>
+  <7 5> <6 4> <5 _!> <8 6>
+  <7 5> <6 4> <[5] _!>8 <4! 3> <6> <6!>
+  r4 <6-> <6 4> <5 _!>
+  r <6 4>8 <7- _!> <6 4>4 <\t \t>8 <7! 6 4> %40
+  <[8] _!>4 <8 6> <7- 5> <6 4>
+  <5 _!> <7! 6 4> <\t \t \t> <8 _!> %42 finis
+}

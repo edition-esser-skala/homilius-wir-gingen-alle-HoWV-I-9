@@ -1522,3 +1522,83 @@ JesusSeinAltoLyrics = \lyricmode {
   un -- ge -- zwun -- gen %15
   tra -- gen. %16 finis
 }
+
+HierStehnAlto = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \autoBeamOff \tempoHierStehn
+    R1*5 %5
+    r8 \mvTr es\fE^\tuttiE es4~ es8 g g es
+    d8. f16 f8. d16 d8 c r8. c16
+    c4 r8. e16 e8([ f)] r8. d16
+    c8([ es)] es r d4 c
+    c h8 es d4 c %10
+    h es d c
+    h g'8 g g4( fis8) fis
+    g4 r r8 g g4~
+    g8 b b g f8. as16 as8. f16
+    f8 es r8. es16 es4 r8. es16 %15
+    es4 r8. es16 es8 es es4~
+    es es d d8 d
+    d4 d d d
+    d d d8 fis fis fis
+    g4 a g fis %20
+    g es8 es f4 f8 f
+    es es es f es4 d
+    es r r2
+    R1*3 %26
+    r2 r8 g g g
+    f f f f es g g g
+    f( as4) f8 f es r b'
+    c c c c b b16([ as)] b8 c %30
+    c b r b as4 a
+    g g g g
+    g r8 h h8. g16 g8 g
+    g g g es d d f d
+    d c r g' f f f f %35
+    es g as a g g r g
+    g4 g g g
+    g g g8 h c h
+    c4 as g g
+    g f8\p e f( c4) h8 %40
+    c4 r r2
+    R1\fermata \bar "|." %42 finis
+  }
+}
+
+HierStehnAltoLyrics = \lyricmode {
+  Hier ſtehn, __ o Herr mein %6
+  Gott, die treu -- en Knech -- te, be --
+  täubt, be -- trübt, ver --
+  laſ -- ſen, Trau -- er --
+  näch -- te, die ha -- ben %10
+  ih -- ren Troſt ge --
+  raubt, ih -- ren Troſt ge --
+  raubt. Hier ſtehn, __
+  o Herr mein Gott, die treu -- en
+  Knech -- te, be -- täubt, be -- %15
+  trübt, ver -- laſ -- ſen, Trau --
+  er -- näch -- te, die
+  ha -- ben ih -- ren
+  Troſt ge -- raubt, die ha -- ben
+  ih -- ren Troſt ge -- %20
+  raubt, Trau -- er -- näch -- te, die
+  ha -- ben ih -- ren Troſt ge --
+  raubt.
+
+  Er -- qui -- cke %27
+  ſie mit dei -- ner Kraft, mit dei -- ner
+  Kraft und Gei -- ſte, der
+  ih -- nen Muth ver -- leih und Bey -- ſtand %30
+  lei -- ſte dem Glau -- ben,
+  der nun ſchwä -- cher
+  glaubt. Er -- qui -- cke ſie, er --
+  qui -- cke ſie mit dei -- ner Kraft und
+  Gei -- ſte, der ih -- nen Muth ver -- %35
+  leih und Bey -- ſtand lei -- ſte dem
+  Glau -- ben, der nun
+  ſchwä -- cher glaubt, dem Glau -- ben,
+  der nun ſchwä -- cher
+  glaubt, der nun ſchwä -- cher %40
+  glaubt. %41 finis
+}

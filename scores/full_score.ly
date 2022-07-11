@@ -1529,34 +1529,118 @@
   %     \midi { \tempo 4 = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.8" "Recitativo" "Nun wird, Jeruſalem, aus deinen Mauern"
+  %   \addTocLabel "nunwird"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #21
+  %     system-system-spacing.minimum-distance = #21
+  %     systems-per-page = #5
+  %   }
+  %   \score {
+  %     <<
+  %       \new ChoirStaff \with { \smallGroupDistance } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \NunWirdBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \NunWirdBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \NunWirdFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \NunWirdBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 65 }
+  %   }
+  % }
   \bookpart {
-    \section "2.8" "Recitativo" "Nun wird, Jeruſalem, aus deinen Mauern"
-    \addTocLabel "nunwird"
-    \paper {
-      system-system-spacing.basic-distance = #21
-      system-system-spacing.minimum-distance = #21
-      systems-per-page = #5
-    }
+    \section "2.9" "Coro" "Hier ſtehn, o Herr mein Gott, die treuen Knechte"
+    \addTocLabel "hierstehn"
     \score {
       <<
-        \new ChoirStaff \with { \smallGroupDistance } <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "fl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \HierStehnFlautoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \HierStehnFlautoII
+            }
+          >>
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "ob"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \HierStehnOboeI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \HierStehnOboeII
+            }
+          >>
+        >>
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \HierStehnViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \HierStehnViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "vla"
+            \HierStehnViola
+          }
+        >>
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \HierStehnSoprano }
+          }
+          \new Lyrics \lyricsto Soprano \HierStehnSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \HierStehnAlto }
+          }
+          \new Lyrics \lyricsto Alto \HierStehnAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \HierStehnTenore }
+          }
+          \new Lyrics \lyricsto Tenore \HierStehnTenoreLyrics
+
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \NunWirdBasso }
+            \new Voice = "Basso" { \dynamicUp \HierStehnBasso }
           }
-          \new Lyrics \lyricsto Basso \NunWirdBassoLyrics
+          \new Lyrics \lyricsto Basso \HierStehnBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \NunWirdFondamento
+            \HierStehnFondamento
           }
         >>
-        \new FiguredBass { \NunWirdBassFigures }
+        \new FiguredBass { \HierStehnBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 65 }
+      \midi { \tempo 4 = 50 }
     }
   }
 }

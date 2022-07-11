@@ -1431,3 +1431,52 @@ JesusSeinViolinoI = {
     h2 a\fermata \bar "|." %16 finis
   }
 }
+
+HierStehnViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \tempoHierStehn
+    c8\fE c c c c16 g'( as g) r es'( c as)
+    f( f) f( f) f( f) d'( f,) es( es) es( es) es( es) c'( es,)
+    d-! g,( as! g) g( as g) g'-! f-! g,( as g) g( as g) es'-!
+    d8. h'16 h4 r16 d,( f as h d f as)
+    g c, c8\trill r f16( d) r8 es16( c) r8 d16( h) %5
+    c8 c, c c c16 g'( as g) r es'( c as)
+    f( f) f( f) f( f) d'( f,) f( g,) es'( c) c( des c) e-!
+    f-! c( des c) c( des c) g'-! g( as) as8~ as16 g( g g)
+    g( fis) fis( fis) fis( fis) es'( fis,) r8 d'16( f,) es( es) es( es)
+    es( es) es( es) d( g,) g'( g,) f'-! g,( as g) g( as g) es'-! %10
+    d-! g,( as g) g( as g) g'-! f-! g,( as g) g( as g) es'-!
+    d8 h' h h c c c c
+    h8. g'16 g4 es,8 es es es
+    es16-! b'( c b) r g'( es c) as( as) as( as) as( as) f'( as,)
+    as( b,) g'( es) es( f es) g-! as-! es( f es) es( f es) g-! %15
+    g( as) as( es) es( g) b( g) g( as) as( as) as( as) c( as)
+    es'( c) as( as) as( as) c( as) g( g) g( g) fis( d) d'( d,)
+    c'-! d,( es d) d( es d) b'-! a-! d,( es d) d( es d) d'-!
+    c-! d,( es d) d( es d) b'-! a8 fis' fis fis
+    g16-! g,( a g) r8 es'16( c) r8 b16( g) r8 a16( fis) %20
+    r g( b g) as( as) as( as) as-! b,( c b) b( c b) as'-!
+    g( es) r c' r b r as r g( as g) r f( g f)
+    es( b') b( b) b( b) g'( b,) as( as) as( as) as( as) f'( as,)
+    g( g) g( g) g( g) es'( g,) f-! b,( c b) b( c b) b'-!
+    as-\parenthesize-! b, ( c b) b( c b) g'-! f8. d'16 d4 %25
+    r16 b,( d f b d f d) es b b8\trill r16 f'( as f)
+    r es( g es) r d( f d) es-! b-! b-! b-! b-! b-! g'-! b,-!
+    as-! as-! as-! as-! as-! as-! f'-! as,-! g-! b-! b-! b-! b-! b-! g'-! b,-!
+    as-! as-! as-! as-! as as f' as, as g g b es b es g
+    g es d c f f f f f d c b es es es es %30
+    es( d) d( f) b( b,) es( es,) f( f) f( f) es( es) es( es)
+    d-! g,( as g) g( as g) g'-! f-! g,( as g) g( as g) es'-!
+    d g, h d g g h d g h, h h h h d h
+    c g g g g g es' g, f f f f f f d' f,
+    f d es g c c c c c as g f b! d f as, %35
+    g g es' g, f d' c es, d-! g,( as g) g( as g) g'-!
+    f-! g,( as g) g( as g) es'-! d-! g,( as g) g( as g) g'-!
+    f-! g,( as g) g( as g) es'-! d8-! as''( g f)
+    r16 es( g es) r des( f des) r c( es c) r h( d) h
+    c4 r r2 %40
+    r16 c,(\p des c) c( des c) c'-! b!-! c,( des c) c( des c) as'-!
+    g8 g as as \appoggiatura as4 g2\fermata \bar "|." %42 finis
+  }
+}

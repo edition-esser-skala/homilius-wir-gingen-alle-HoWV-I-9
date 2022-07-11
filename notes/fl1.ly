@@ -319,3 +319,52 @@ VerlasstIhnFlautoI = {
     g4 r8 r4 g8\pE \bar "S-S" %97 finis
   }
 }
+
+HierStehnFlautoI = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \tempoHierStehn
+    r2 g''4.(\fE as8)
+    f2 es
+    d4 g( f es)
+    d~ d8. h'16 h2
+    c4 f,( es d) %5
+    c r g'4. as8
+    f2~ f8 es r8. e16
+    f4 r8. g16 g8( as) r8. g16
+    g8([ fis)] fis-! r f4( es)
+    es( d8) g f4( es) %10
+    d( g) f( es)
+    d g2 fis4
+    g r r2
+    b!4.( c8) as2~
+    as8 g r8. g16 as4 r8. g16 %15
+    g8 as r8. g16 g8 as c4~
+    c as g( fis8) d'
+    c4( b) a( d)
+    c( b) a8 es' es es
+    d4( c) b( a) %20
+    g as8 as as4. b16( as)
+    g8 c( b as) g4( f)
+    es b' as2
+    g f4( b)
+    as( g) f~ f8. d'16 %25
+    d2 es4( as,)
+    g( f) es8 b' es b
+    as2 g8 b es b
+    as2~ as8 g es' g,
+    g4 f2 es4~ %30
+    es8 d r es \once \slurDashed f4( es)
+    d( g) f( es)
+    d g2 h4
+    c16( h c d es8) g, f2~
+    f8 es c'2 b!8 as %35
+    g es'( d c) h4( es)
+    d( c) h( es)
+    d( c) h8-! h( c d)
+    es4( des c h)
+    c r r2 %40
+    r4 r8 as\pE g4( f)
+    e( f) \appoggiatura f e2\fermata \bar "|." %42 finis
+  }
+}

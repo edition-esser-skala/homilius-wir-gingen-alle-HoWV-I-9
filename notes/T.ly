@@ -1359,3 +1359,39 @@ HierStehnTenoreLyrics = \lyricmode {
   glaubt, der nun ſchwä -- cher %40
   glaubt. %41 finis
 }
+
+OGrosseLiebTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \minor \time 4/4 \autoBeamOff \tempoOGrosseLieb
+    r4 \mvTr es\fE^\tuttiE es f
+    d h g h
+    c c h( c)
+    h2\fermata r4 h
+    c d es c %5
+    d es f es
+    es( d) b2\fermata
+    r4 b b g
+    b b b g
+    as des c2 %10
+    c\fermata r4 c
+    d! c c( h8[ f')]
+    es1\fermata \bar "|." %13 finis
+  }
+}
+
+OGrosseLiebTenoreLyrics = \lyricmode {
+  O groſ -- ſe
+  Lieb, o Lieb ohn
+  al -- le Maſ --
+  ſen, die
+  dich ge -- bracht auf %5
+  die -- ſe Mar -- ter --
+  ſtraſ -- ſen!
+  Ich leb -- te
+  mit der Welt in
+  Luſt und Freu -- %10
+  den, und
+  du mußt lei --
+  den. %13 finis
+}

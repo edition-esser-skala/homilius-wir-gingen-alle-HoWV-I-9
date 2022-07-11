@@ -788,3 +788,23 @@ HierStehnOboeII = {
     R\fermata \bar "|." %42 finis
   }
 }
+
+OGrosseLiebOboeII = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \tempoOGrosseLieb
+    r4 g'\fE as as
+    g g g f
+    g as8 g g2
+    g\fermata r4 g
+    g b! b c8 b %5
+    as4 b b b
+    b2 g\fermata
+    r4 g f g
+    f es es es
+    es g g f %10
+    e2\fermata r4 g
+    g g g2
+    g1\fermata \bar "|." %13 finis
+  }
+}

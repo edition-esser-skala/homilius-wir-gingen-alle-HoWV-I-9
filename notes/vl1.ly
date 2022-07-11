@@ -1480,3 +1480,23 @@ HierStehnViolinoI = {
     g8 g as as \appoggiatura as4 g2\fermata \bar "|." %42 finis
   }
 }
+
+OGrosseLiebViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \tempoOGrosseLieb
+    r4 c'\fE c d
+    h g c d
+    es c f es
+    d2\fermata r4 d
+    es f g es %5
+    f g as g
+    f2 es\fermata
+    r4 es d c
+    b g b b
+    c b as2 %10
+    g\fermata r4 g'
+    f es d2
+    c1\fermata \bar "|." %13 finis
+  }
+}

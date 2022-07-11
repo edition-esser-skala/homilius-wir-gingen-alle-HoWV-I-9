@@ -1400,3 +1400,39 @@ HierStehnBassoLyrics = \lyricmode {
   glaubt, der nun ſchwä -- cher %40
   glaubt. %41 finis
 }
+
+OGrosseLiebBasso = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 4/4 \autoBeamOff \tempoOGrosseLieb
+    r4 \mvTr c'\fE^\tuttiE as f
+    g g8([ f]) es4 d
+    c f8[( es)] d4( c)
+    g'2\fermata r4 g
+    c b!8([ as]) g4 as8[( g)] %5
+    f4 es d es
+    b'2 es,\fermata
+    r4 g b es,
+    d es g es
+    as e? f2 %10
+    c\fermata r4 es!
+    h c g'( g,)
+    c1\fermata \bar "|." %13 finis
+  }
+}
+
+OGrosseLiebBassoLyrics = \lyricmode {
+  O groſ -- ſe
+  Lieb, o __ Lieb ohn
+  al -- le Maſ --
+  ſen, die
+  dich ge -- bracht auf %5
+  die -- ſe Mar -- ter --
+  ſtraſ -- ſen!
+  Ich leb -- te
+  mit der Welt in
+  Luſt und Freu -- %10
+  den, und
+  du mußt lei --
+  den. %13 finis
+}

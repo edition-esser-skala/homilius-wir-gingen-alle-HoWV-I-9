@@ -55,6 +55,7 @@ tempoJetztGeht = \tempoMarkup "Mitleidig"
 tempoJesusSein = \tempoMarkup "[Choral]"
 tempoNunWird = \tempoMarkup "[Recitativ]"
 tempoHierStehn = \tempoMarkup "Traurig"
+tempoOGrosseLieb = \tempoMarkup "[Choral]"
 
 
 \include "notes/fl1.ly"

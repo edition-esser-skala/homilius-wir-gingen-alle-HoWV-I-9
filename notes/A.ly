@@ -1602,3 +1602,39 @@ HierStehnAltoLyrics = \lyricmode {
   glaubt, der nun ſchwä -- cher %40
   glaubt. %41 finis
 }
+
+OGrosseLiebAlto = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \autoBeamOff \tempoOGrosseLieb
+    r4 \mvTr g'\fE^\tuttiE as as
+    g g g f
+    g as8([ g)] g2
+    g\fermata r4 g
+    g b! b c8([ b)] %5
+    as4 b b b
+    b2 g\fermata
+    r4 g f g
+    f es es es
+    es g g( f) %10
+    e2\fermata r4 g
+    g g g2
+    g1\fermata \bar "|." %13 finis
+  }
+}
+
+OGrosseLiebAltoLyrics = \lyricmode {
+  O groſ -- ſe
+  Lieb, o Lieb ohn
+  al -- le Maſ --
+  ſen, die
+  dich ge -- bracht auf %5
+  die -- ſe Mar -- ter --
+  ſtraſ -- ſen!
+  Ich leb -- te
+  mit der Welt in
+  Luſt und Freu -- %10
+  den, und
+  du mußt lei --
+  den. %13 finis
+}

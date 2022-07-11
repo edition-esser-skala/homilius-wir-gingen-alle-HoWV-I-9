@@ -3261,3 +3261,39 @@ HierStehnBassFigures = \figuremode {
   <[8] _!>4 <8 6> <7- 5> <6 4>
   <5 _!> <7! 6 4> <\t \t \t> <8 _!> %42 finis
 }
+
+OGrosseLiebFondamento = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 4/4 \tempoOGrosseLieb
+    r4 \mvTr c'\fE-\tuttiE as f
+    g g8 f es4 d
+    c f8 es d4 c
+    g'2\fermata r4 g
+    c b!8 as g4 as8 g %5
+    f4 es d es
+    b'2 es,\fermata
+    r4 g b es,
+    d es g es
+    as e? f2 %10
+    c\fermata r4 es!
+    h c g' g,
+    c1\fermata \bar "|." %13 finis
+  }
+}
+
+OGrosseLiebBassFigures = \figuremode {
+  r2. <6>4
+  <_!>4. <\t>8 <6>4 <6!>
+  r4. <\t>8 <6!>2
+  <_!>2. q4
+  r4. <\t>8 <6>4. <\t>8 %5
+  <6>2 <6 5>
+  <4>4 <3>2.
+  r4 <6>2 q4
+  q2 q
+  r4 <7-> <9> <8> %10
+  <_!>2. <6>4
+  <6 5>2 <4>4 <_!>
+  r1  %13 finis
+}

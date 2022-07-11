@@ -1602,3 +1602,39 @@ HierStehnSopranoLyrics = \lyricmode {
   glaubt, der nun ſchwä -- cher %40
   glaubt. %41 finis
 }
+
+OGrosseLiebSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \autoBeamOff \tempoOGrosseLieb
+    r4 \mvTr c'\fE^\tuttiE c d
+    h g c d
+    es c f( es)
+    d2\fermata r4 d
+    es f g es %5
+    f g as g
+    f2 es\fermata
+    r4 es d c
+    b g b b
+    c b as2 %10
+    g\fermata r4 g'
+    f es d2
+    c1\fermata \bar "|." %13 finis
+  }
+}
+
+OGrosseLiebSopranoLyrics = \lyricmode {
+  O groſ -- ſe
+  Lieb, o Lieb ohn
+  al -- le Maſ --
+  ſen, die
+  dich ge -- bracht auf %5
+  die -- ſe Mar -- ter --
+  ſtraſ -- ſen!
+  Ich leb -- te
+  mit der Welt in
+  Luſt und Freu -- %10
+  den, und
+  du mußt lei --
+  den. %13 finis
+}

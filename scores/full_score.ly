@@ -1559,32 +1559,105 @@
   %     \midi { \tempo 4 = 65 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.9" "Coro" "Hier ſtehn, o Herr mein Gott, die treuen Knechte"
+  %   \addTocLabel "hierstehn"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "fl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \HierStehnFlautoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \HierStehnFlautoII
+  %           }
+  %         >>
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \HierStehnOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \HierStehnOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \HierStehnViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \HierStehnViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \HierStehnViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \HierStehnSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \HierStehnSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \HierStehnAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \HierStehnAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \HierStehnTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \HierStehnTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \HierStehnBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \HierStehnBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \HierStehnFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \HierStehnBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 50 }
+  %   }
+  % }
   \bookpart {
-    \section "2.9" "Coro" "Hier ſtehn, o Herr mein Gott, die treuen Knechte"
-    \addTocLabel "hierstehn"
+    \section "2.10" "Choral" "O groſſe Lieb, o Lieb ohn alle Maſſen"
+    \addTocLabel "ogrosselieb"
     \score {
       <<
         \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "fl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \HierStehnFlautoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \HierStehnFlautoII
-            }
-          >>
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "ob"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \HierStehnOboeI
+              \OGrosseLiebOboeI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \HierStehnOboeII
+              \OGrosseLiebOboeII
             }
           >>
         >>
@@ -1593,54 +1666,54 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \HierStehnViolinoI
+              \OGrosseLiebViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \HierStehnViolinoII
+              \OGrosseLiebViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \HierStehnViola
+            \OGrosseLiebViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \HierStehnSoprano }
+            \new Voice = "Soprano" { \dynamicUp \OGrosseLiebSoprano }
           }
-          \new Lyrics \lyricsto Soprano \HierStehnSopranoLyrics
+          \new Lyrics \lyricsto Soprano \OGrosseLiebSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \HierStehnAlto }
+            \new Voice = "Alto" { \dynamicUp \OGrosseLiebAlto }
           }
-          \new Lyrics \lyricsto Alto \HierStehnAltoLyrics
+          \new Lyrics \lyricsto Alto \OGrosseLiebAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \HierStehnTenore }
+            \new Voice = "Tenore" { \dynamicUp \OGrosseLiebTenore }
           }
-          \new Lyrics \lyricsto Tenore \HierStehnTenoreLyrics
+          \new Lyrics \lyricsto Tenore \OGrosseLiebTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \HierStehnBasso }
+            \new Voice = "Basso" { \dynamicUp \OGrosseLiebBasso }
           }
-          \new Lyrics \lyricsto Basso \HierStehnBassoLyrics
+          \new Lyrics \lyricsto Basso \OGrosseLiebBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \HierStehnFondamento
+            \OGrosseLiebFondamento
           }
         >>
-        \new FiguredBass { \HierStehnBassFigures }
+        \new FiguredBass { \OGrosseLiebBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 50 }
+      \midi { \tempo 4 = 90 }
     }
   }
 }

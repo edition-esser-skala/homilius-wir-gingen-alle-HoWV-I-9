@@ -2,13 +2,12 @@
 
 #(define option-movement-title-format "genre-number-title")
 #(define option-init-toc #t)
-#(define option-print-all-bar-numbers #t)
+#(define option-print-all-bar-numbers #f)
 \include "ees.ly"
 
 
 twoStanzaDistance = \setGroupDistance #15 #20
 twoStanzaDistanceCoro = \setGroupDistance #13 #13
-obf = \once \bassFigureExtendersOn
 
 
 % 1.1
@@ -36,7 +35,7 @@ tempoDieIhrDen = \tempoMarkup "Ernſthaft"
 
 % 1.16
 tempoIschariot = \tempoMarkup "[Recitativ]"
-  tempoIschariotB = \tempoMarkup "Raſend"
+  tempoIschariotB = \tempoMarkup "[Accompagnato] · Raſend"
   tempoIschariotC = \tempoMarkup "Noch raſender"
 tempoVerlasstIhn = \tempoMarkup "Sehnlich und angenehm"
 tempoDesSollst = \tempoMarkup "[Choral]"

@@ -1687,7 +1687,7 @@ SieMoegenBassFigures = \figuremode {
   <6 5>4. <6>8 <6 5>4. <\t \t>8 %30
   r2 <7>4. <\t>8
   <6>4. <6 5->8 r4 r16 <\t>8 <6 5>16
-  <4>8 <_!> <7 _!>8. \obf q16 r4 r16 <\t>8.
+  <4>8 <_!> <7 _!>8. \once \bassFigureExtendersOn q16 r4 r16 <\t>8.
   <6 4>8 <5 _!>4 <6 [_!]>4. <7 5>4
   r8 <6> <6 4> <5 _!> r2 %35
   <6>2. <8 6>8 <7 5>
@@ -1713,9 +1713,9 @@ SieMoegenBassFigures = \figuremode {
   <8 3>4. <4 2>8 <6>4. <6 4>8
   <\t \t> <7 5->2. <6 4>8
   <\t \t> <7- 5>2. <6!>8
-  r4 <_!>8. \obf q16 r4 <6 4>8 <\tllur \tllur>16 <6 5->
+  r4 <_!>8. \once \bassFigureExtendersOn q16 r4 <6 4>8 <\tllur \tllur>16 <6 5->
   r2.. <_!>8 %60
-  r4 <_!>8. \obf q16 r4 <8 6>8 <\tllur \tllur>16 <6 5->
+  r4 <_!>8. \once \bassFigureExtendersOn q16 r4 <8 6>8 <\tllur \tllur>16 <6 5->
   r2 \bo <[5]>8 \bc <[6]>4 <6 5>8
   <6 4> <5 3>4. <6>4 <6 4>8 <5 3>
   r1
@@ -1740,7 +1740,7 @@ SieMoegenBassFigures = \figuremode {
   <7>8 <6>4. q <6 5>8
   <4> <3>4 <6>4. <7 5>4
   r8 <[6]> <6 4> <5 3> r2 %85
-  r4. <6>8 <6 5>4 <7 _!>8. \obf q16
+  r4. <6>8 <6 5>4 <7 _!>8. \once \bassFigureExtendersOn q16
   r4 r16 <\t>8. <6 5>4 r16 <\t \t>8.
   <6 4>8 <5 _!> <7 _!>4 r4. <6 [4 3]>8
   <7 _+>4 r16 <\t \t>8. r4 r16 q8.

@@ -3123,3 +3123,47 @@ JesusSeinBassFigures = \figuremode {
   r4 <6>2. %15
   <4>4 <3>2. %16 finis
 }
+
+NunWirdFondamento = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoNunWird
+    fis1~
+    fis
+    \once \tieDashed a,~
+    a
+    r4 h his2~ %5
+    his cis~
+    cis dis
+    d1
+    dis2 e~
+    e1 %10
+    f2 b,~
+    b r4 c
+    f,2 des'
+    g, as
+    as g %15
+    as r4 b
+    es,1\fermata \bar "||" %17 finis
+  }
+}
+
+NunWirdBassFigures = \figuremode {
+  <[5+]>2 <7+ 4 2+>
+  r1
+  <6+ _+>1
+  <[6+] 4+ 2>
+  r4 <[5+] _+> <6 [_+]>2 %5
+  r <6>
+  r <6 5 [_+]>
+  <4+ 2>1
+  <7! 5 [_+]>2 <6 5->
+  r1 %10
+  <_->2 <6- _->
+  <[6!] 4! _->1
+  <_->2 <6->
+  <6! [_-]>2 <6>
+  <4! 2-> <6- _-> %15
+  <[5-]>1
+  q %17 finis
+}

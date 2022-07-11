@@ -1456,77 +1456,107 @@
   %     \midi { \tempo 4 = 100 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.7" "Choral" "Jeſus ſein Kreuz ſelber trägt"
+  %   \addTocLabel "jesussein"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \JesusSeinOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \JesusSeinOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \JesusSeinViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \JesusSeinViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \JesusSeinViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \JesusSeinSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \JesusSeinSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \JesusSeinAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \JesusSeinAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \JesusSeinTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \JesusSeinTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \JesusSeinBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \JesusSeinBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \JesusSeinFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \JesusSeinBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 90 }
+  %   }
+  % }
   \bookpart {
-    \section "2.7" "Choral" "Jeſus ſein Kreuz ſelber trägt"
-    \addTocLabel "jesussein"
+    \section "2.8" "Recitativo" "Nun wird, Jeruſalem, aus deinen Mauern"
+    \addTocLabel "nunwird"
+    \paper {
+      system-system-spacing.basic-distance = #21
+      system-system-spacing.minimum-distance = #21
+      systems-per-page = #5
+    }
     \score {
       <<
-        \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "ob"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \JesusSeinOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \JesusSeinOboeII
-            }
-          >>
-        >>
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \JesusSeinViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \JesusSeinViolinoII
-            }
-          >>
-          \new Staff {
-            \set Staff.instrumentName = "vla"
-            \JesusSeinViola
-          }
-        >>
-        \new ChoirStaff <<
-          \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \JesusSeinSoprano }
-          }
-          \new Lyrics \lyricsto Soprano \JesusSeinSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \JesusSeinAlto }
-          }
-          \new Lyrics \lyricsto Alto \JesusSeinAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \JesusSeinTenore }
-          }
-          \new Lyrics \lyricsto Tenore \JesusSeinTenoreLyrics
-
+        \new ChoirStaff \with { \smallGroupDistance } <<
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \JesusSeinBasso }
+            \new Voice = "Basso" { \dynamicUp \NunWirdBasso }
           }
-          \new Lyrics \lyricsto Basso \JesusSeinBassoLyrics
+          \new Lyrics \lyricsto Basso \NunWirdBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \JesusSeinFondamento
+            \NunWirdFondamento
           }
         >>
-        \new FiguredBass { \JesusSeinBassFigures }
+        \new FiguredBass { \NunWirdBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 65 }
     }
   }
 }

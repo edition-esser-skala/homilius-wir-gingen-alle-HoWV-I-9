@@ -1277,3 +1277,46 @@ JesusSeinBassoLyrics = \lyricmode {
   un -- ge -- zwun -- gen %15
   tra -- gen. %16 finis
 }
+
+NunWirdBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoNunWird
+    r8 cis' a fis gis8. gis16 gis fis gis a
+    h8 h r h d h gis8. a16
+    fis4 r16 fis a gis fis8 fis fis e!
+    dis4 r8 dis dis dis dis e
+    h h r4 r r8 gis' %5
+    gis gis gis gis a4 r8 e
+    a8. cis16 a8 gis fis fis gis a
+    gis gis r h d! h gis h
+    c!4 r8 c, b' b b g
+    e4 r8 c b' b des c %10
+    as as r f ges4 f
+    e!4. f8 c4 r
+    r8 c' as f b b b g
+    e! e r16 e e e f8 g as f
+    d! d r f b4 r8 es, %15
+    c' c, d8. es16 b8 b r4
+    R1\fermata \bar "|." %17 finis
+  }
+}
+
+NunWirdBassoLyrics = \lyricmode {
+  Nun wird, Je -- ru -- ſa -- lem, aus dei -- nen
+  Mau -- ern Meſ -- ſi -- as aus -- ge --
+  führt, der Jün -- ger Her -- zen ſind ge --
+  rührt, und ih -- re Bli -- cke
+  trau -- ern. Sie %5
+  wei -- nen um den Herrn, der
+  ſich ſo gern des Dürf -- ti -- gen er --
+  barm -- te. Dein war -- tet nun der
+  Tod, der ſchänd -- lich -- ſte, o
+  Gott! der Ue -- bel -- thä -- ter %10
+  Stra -- fe, das Mar -- ter
+  vol -- le Kreuz.
+  Nun ſtirbt der Hir -- te für die
+  Schaa -- fe; Er iſt be -- reit, ſein gött -- lich
+  Le -- ben für ſie, für %15
+  al -- le hin -- zu -- ge -- ben. %16 finis
+}

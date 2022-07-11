@@ -1544,3 +1544,175 @@ HierHaengtViolinoII = {
     R1\fermata \bar "|." %26 finis
   }
 }
+
+SchliesstDieViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key e \minor \time 2/4 \tempoSchliesstDie
+    \partial 8 e'8\fE h4. c16( h)
+    h4. a8
+    g fis4 g16 a
+    \once \slurDashed g( fis e8) r g'
+    h,( a) r e' %5
+    g,( fis) r g
+    a h4 c8
+    h16( a g8) r h'
+    d,( cis) r a'
+    c,( h) r g'~ %10
+    g fis4 e8
+    dis16( cis) h8 r a
+    g( fis) r g
+    fis( e) r g
+    e16( g fis4) e8 %15
+    dis h r h''16( g)
+    fis8 g16( e) dis8 e16( c)
+    h8 a4( g16 fis)
+    g8( e) fis( dis)
+    e( e'4) a,8 %20
+    g( fis) e( dis)
+    e( e'4) a,8
+    g( fis) e( dis) \noBreak
+    e4( h8) r \bar "S-S"
+    r h'(\p a g) \noBreak %25
+    r fis( e dis)
+    e4 dis
+    e r
+    r8 h'( a g)
+    r fis( e dis) %30
+    e4 dis
+    e r8 e'
+    d!( cis) r d
+    c h4( c16 d)
+    c8( h) a( g) %35
+    fis4 r
+    r8 a( g fis)
+    g4 e
+    a,8 c'( h a)
+    g4 r8 h %40
+    a( fis) r c'
+    h( g) r a
+    g4 e
+    a, r
+    r8 h( c a) %45
+    g4 r8 c'
+    h( a) g( fis)
+    g g, r g''
+    fis( e) d( c)
+    h( a g) c-! %50
+    h( a) g( fis)
+    g4 r8 g'\f
+    d4. e16( d)
+    d4. c8
+    h a4 h16( c) %55
+    \once \slurDashed h( a g8) r d'
+    f,( e) r c'
+    \once \slurDashed e,( d) r h''~
+    h a4 g8
+    fis16( e d8) r \once \slurDashed d'16( h) %60
+    a8 h16( g) fis8 g16( e)
+    d8 c4 \once \slurDashed h16( a)
+    h8( g) a( fis)
+    g g'4 c,8
+    h( a) g( fis) %65
+    g g'4 c,8
+    h( a) g( fis)
+    g4( d8) r
+    r d'(\p c h)
+    r a( g fis) %70
+    g4 fis
+    g r
+    r8 h( a g)
+    r fis( e dis)
+    e4 dis %75
+    e r8 c'
+    h( ais) r h
+    a( gis4) a8
+    d,( c4) h8
+    a4 r %80
+    r8 a'( g fis)
+    g4. h8
+    h( a4) c8
+    fis,4 r8 a
+    g( fis) r g %85
+    fis( e) r g
+    e16( g fis4) e8
+    e dis r4
+    r8 a'( h g)
+    r fis( dis fis) %90
+    h,( g) a( h)
+    \once \slurDashed a( g) r h'
+    h( ais) r h
+    e,( dis) r h'
+    h( ais) r h %95
+    e,( dis) r4
+    r8 a'( h g)
+    r \once \slurDashed fis( dis fis)
+    h,( g) a( h)
+    r e4 a8 %100
+    g( fis) e( dis)
+    e( e'4) a,8
+    g( fis) e( dis)
+    e4 r8 h''\f
+    d,!( cis) r a' %105
+    c,( h) r g'~
+    g fis4 e8
+    \once \slurDashed dis16( cis h8) r \once \slurDashed h'16( g)
+    fis8 g16( e) dis8 e16( c)
+    h8 a4( g16 fis) %110
+    g8( e) fis( dis)
+    e( e'4) a,8
+    g( fis) e( dis)
+    e( e'4) a,8
+    g( fis) e( dis) %115
+    e4( h8)\fermata r
+    r h'(\p a g)
+    r a( g fis)
+    e4 cis
+    r8 d16( e) fis( d) g8 %120
+    g4( fis)
+    g8-! e( fis g)
+    a4 fis
+    g r
+    r8 d'( c h) %125
+    c4 g~
+    g f
+    e r
+    r8 h'( a gis)
+    a4 a~ %130
+    a gis
+    a r8 e'
+    e( dis) r a
+    \once \slurDashed a( gis) r h
+    \appoggiatura c16 h8 a16 gis c8 a %135
+    a\trill gis r a16( a,)
+    \appoggiatura { a16 c } b4. cis8
+    d4. e8
+    f4. e8
+    e4( dis8) dis'-!\f %140
+    e4-! r
+    r r8 a\f
+    c,( h) r a'
+    d,( cis) r a'\pocoP
+    e( d) r a' %145
+    f( e) r e\f
+    d f16( d) h8 d16( h)
+    a4 r\fermata
+    r4 r8 a'\f
+    g!( fis) r a %150
+    c,( h) r g'~
+    g fis4 e8
+    dis16( cis h8) r a
+    g( fis) r g
+    fis( e) r g %155
+    \once \slurDashed e16( g fis4) e8
+    dis h r \once \slurDashed h''16( g)
+    fis8 g16( e) dis8 e16( c)
+    h8 a4( g16 fis)
+    g8( e) fis( dis) %160
+    e( e'4) a,8
+    g( fis) e( dis)
+    e( e'4) a,8
+    g( fis) e( dis)
+    e4( h8) r \bar "S-S" %165 finis
+  }
+}

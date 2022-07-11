@@ -59,6 +59,7 @@ tempoOGrosseLieb = \tempoMarkup "[Choral]"
 
 %2.11
 tempoHierHaengt = \tempoMarkup "[Accompagnato]"
+tempoSchliesstDie = \tempoMarkup "Klagend"
 
 
 \include "notes/fl1.ly"

@@ -368,3 +368,85 @@ HierStehnFlautoI = {
     e( f) \appoggiatura f e2\fermata \bar "|." %42 finis
   }
 }
+
+SchliesstDieFlautoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key e \minor \time 2/4 \tempoSchliesstDie
+    \partial 8 e'8\fE h4. c16( h)
+    h4. a8
+    g fis4 g16 a
+    \once \slurDashed g( fis e8) r g'
+    h,( a) r e' %5
+    g,( fis) r g
+    a h4 c8
+    h16( a g8) r h'
+    d,( cis) r a'
+    c,( h) r g'~ %10
+    g fis4 e8
+    dis16( cis) h8 r c'
+    h( a) r h
+    a( g) r e'
+    g,16( h) a4 g8 %15
+    fis h, r h'16( g)
+    fis8 g16( e) dis8 e16( c)
+    h8 a4( g16 fis)
+    g8( e) fis( dis)
+    e( e'4) c8 %20
+    h( a) g( fis)
+    e( e'4) c8
+    h( a) g( fis) \noBreak
+    e4 r \bar "S-S"
+    R2*27 %51
+    r4 r8 g'\f
+    d4. e16( d)
+    d4. c8
+    h a4 h16( c) %55
+    \once \slurDashed h( a g8) r d''
+    f,( e) r c'
+    \once \slurDashed e,( d) r h'~
+    h a4 g8
+    fis16( e d8) r \once \slurDashed d'16( h) %60
+    a8 h16( g) fis8 g16( e)
+    d8 c4 \once \slurDashed h16( a)
+    h8( g) a( fis)
+    g g'4 e8
+    d( c) h( a) %65
+    g g'4 e8
+    d( c) h( a)
+    g4( d8) r
+    R2*35 %103
+    r4 r8 h''\f
+    d,!( cis) r a' %105
+    c,( h) r g'~
+    g fis4 e8
+    \once \slurDashed dis16( cis h8) r \once \slurDashed h'16( g)
+    fis8 g16( e) dis8 e16( c)
+    h8 a4( g16 fis) %110
+    g8( e) fis( dis)
+    e( e'4) c8
+    h( a) g( fis)
+    e( e'4) c8
+    h( a) g( fis) %115
+    e4 r\fermata
+    R2*31 %147
+    R2\fermata
+    r4 r8 a'\f
+    g!( fis) r a %150
+    c,( h) r g'~
+    g fis4 e8
+    dis16( cis h8) r c'
+    h( a) r h
+    a( g) r e' %155
+    g,16( h a4) g8
+    fis h, r \once \slurDashed h'16( g)
+    fis8 g16( e) dis8 e16( c)
+    h8 a4( g16 fis)
+    g8( e) fis( dis) %160
+    e( e'4) c8
+    h( a) g( fis)
+    e( e'4) c8
+    h( a) g( fis)
+    e4 r \bar "S-S" %165 finis
+  }
+}

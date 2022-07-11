@@ -1457,3 +1457,221 @@ HierHaengtTenoreLyrics = \lyricmode {
   ſie -- gelt man den vor -- ge -- leg -- ten %25
   Stein! %26 finis
 }
+
+SchliesstDieTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key e \minor \time 2/4 \autoBeamOff \tempoSchliesstDie
+    \partial 8 r8 R2*23 \noBreak %23
+    r4 r8 \mvTr e\pE^\soloE \bar "S-S"
+    h4. c16([ h)] \noBreak %25
+    h4. a8
+    g( fis4) g16([ a)]
+    g([ fis)] e8 r e'16([ h)]
+    h4. c16([ h)]
+    h4. a8 %30
+    g( fis4) g16([ a)]
+    g([ fis)] e8 r e'
+    d!([ cis)] r d
+    c( h4) c16([ d)]
+    c8([ h)] a([ g)] %35
+    fis4 r8 d'
+    a4. h16([ c)]
+    h8( a4) g8
+    fis([ e' d)] c
+    h16([ a)] g8 r g' %40
+    fis([ d)] r e
+    d([ h)] r c
+    h( a4) g8
+    fis16([ e)] d8 r c'
+    h([ g)] a([ fis)] %45
+    g d r e'
+    d c h a
+    g4 r8 g'
+    fis([ e)] d([ c)]
+    h([ a)] g e' %50
+    d c h a
+    g4 r
+    R2*15 %67
+    r4 r8 g'
+    d4. e16([ d)]
+    d4. c8 %70
+    h( a4) h16([ c)]
+    h([ a)] g8 r e'16([ h)]
+    h4. c16([ h)]
+    h4. a8
+    g( fis4) g16([ a)] %75
+    g([ fis)] e8 r c'
+    h([ ais)] r h
+    a( gis4) a8
+    f'( e4) d8
+    c4 r8 e %80
+    a,4. h16([ c)]
+    h4. g'8
+    g( fis4) e8
+    dis16([ cis)] h8 r c
+    h([ a)] r h %85
+    a([ g)] r e'
+    g,16([ h] a4) g8
+    g fis r e'
+    dis4. e16([ c)]
+    h4. c16([ a)] %90
+    g8([ e fis)] dis
+    e4 r8 h'
+    h([ ais)] r h
+    e,([ dis)] r h'
+    h([ ais)] r h %95
+    g fis r e'
+    dis4. e16([ c)]
+    h4. c16([ a)]
+    g8([ e fis)] dis
+    e4 r8 c'( %100
+    h4) r8 a
+    g4 r8 a
+    g fis e dis
+    e4 r
+    R2*11 %115
+    r4 r8\fermata e'
+    h4. cis8
+    d4. a8
+    a( e'4) g,8
+    g fis r g %120
+    a( h4) c8
+    h([ e d)] cis
+    d( a4) h16([ c)]
+    h([ a)] g8 r g'
+    d4. e16([ f)] %125
+    e8 d c h
+    a h16([ c)] d8 h
+    \appoggiatura a gis4 r8 e'
+    h4. c16([ d)]
+    c8([ d e)] a, %130
+    h( c4) d8
+    c16([ h)] a8 r e'
+    e([ dis)] r a
+    a gis r d'
+    \appoggiatura e16 d8 c16([ h)] e8 c %135
+    c\trill h r a
+    \appoggiatura { a16[ c] } b4. cis8
+    d4. e8
+    f4. e8
+    \appoggiatura e4 dis2 %140
+    r8 d c h
+    e4 a,
+    R2
+    r4 a
+    a2~ %145
+    a~
+    a~
+    a8. h16 h8.\fermata a16
+    a4 r
+    R2*15 %164
+    r4 r8 e' \bar "S-S" %165 finis
+  }
+}
+
+SchliesstDieTenoreLyrics = \lyricmode {
+  Mein %24
+  Hei -- land %25
+  ſchließt die
+  Au -- gen --
+  li -- der, ſein
+  Haupt ſinkt
+  ſchwach vor %30
+  ſich her --
+  nie -- der, neigt
+  ſich zur
+  Er -- de
+  ſchwach he -- %35
+  rab, mein
+  Hei -- land
+  ſchließt die
+  Au -- gen --
+  li -- der, ſein %40
+  Haupt ſinkt
+  ſchwach vor
+  ſich her --
+  nie -- der, neigt
+  ſich zur %45
+  Er -- de, zur
+  Er -- de ſchwach he --
+  rab, neigt
+  ſich zur
+  Er -- de, zur %50
+  Er -- de ſchwach he --
+  rab.
+
+  Mein %68
+  Hei -- land
+  ſchließt die %70
+  Au -- gen --
+  li -- der, ſein
+  Haupt ſinkt
+  ſchwach vor
+  ſich her -- %75
+  nie -- der, neigt
+  ſich zur
+  Er -- de
+  ſchwach he --
+  rab, mein %80
+  Hei -- land
+  ſchließt die
+  Au -- gen --
+  li -- der, ſein
+  Haupt ſinkt %85
+  ſchwach vor
+  ſich her --
+  nie -- der, neigt
+  ſich zur
+  Er -- de %90
+  ſchwach he --
+  rab, ſein
+  Haupt ſinkt
+  ſchwach vor
+  ſich her -- %95
+  nie -- der, neigt
+  ſich zur
+  Er -- de
+  ſchwach he --
+  rab, ſchwach __ %100
+  he --
+  rab, zur
+  Er -- de ſchwach he --
+  rab.
+
+  Nun %116
+  will ich
+  mich im
+  Gu -- ten
+  ü -- ben, das %120
+  Kreuz des
+  Hei -- lands
+  e -- wig
+  lie -- ben, das
+  Kreuz des %125
+  Hei -- lands, der ſein
+  Le -- ben für mich
+  gab, nun
+  will ich
+  mich im %130
+  Gu -- ten
+  ü -- ben, das
+  Kreuz des
+  Hei -- lands, des
+  Hei -- lands e -- wig %135
+  lie -- ben, der
+  hier ſein
+  Le -- ben
+  für mich
+  gab, %140
+  der hier ſein
+  Le -- ben,
+
+  ſein
+  Le -- %145
+
+  ben für mich %148
+  gab.
+
+  Mein %165 finis
+}

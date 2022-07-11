@@ -1716,51 +1716,115 @@
   %     \midi { \tempo 4 = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.11" "Accompagnato" "Hier hängt das Lamm"
+  %   \addTocLabel "hierhaengt"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #30
+  %     system-system-spacing.minimum-distance = #30
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \HierHaengtViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \HierHaengtViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \HierHaengtViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \HierHaengtTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \HierHaengtTenoreLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \HierHaengtFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \HierHaengtBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 65 }
+  %   }
+  % }
   \bookpart {
-    \section "2.11" "Accompagnato" "Hier hängt das Lamm"
-    \addTocLabel "hierhaengt"
+    \section "2.12" "Aria" "Mein Heiland ſchließt die Augenlider"
+    \addTocLabel "schliesstdie"
     \paper {
-      system-system-spacing.basic-distance = #30
-      system-system-spacing.minimum-distance = #30
+      top-system-spacing.basic-distance = #12
+      top-system-spacing.minimum-distance = #12
+      top-markup-spacing.basic-distance = #0
+      top-markup-spacing.minimum-distance = #0
+      markup-system-spacing.basic-distance = #12
+      markup-system-spacing.minimum-distance = #12
       systems-per-page = #2
     }
     \score {
       <<
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "vl"
+            \set GrandStaff.instrumentName = "fl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \HierHaengtViolinoI
+              \SchliesstDieFlautoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \HierHaengtViolinoII
+              \SchliesstDieFlautoII
+            }
+          >>
+        >>
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \SchliesstDieViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \SchliesstDieViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \HierHaengtViola
+            \SchliesstDieViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \HierHaengtTenore }
+            \new Voice = "Tenore" { \dynamicUp \SchliesstDieTenore }
           }
-          \new Lyrics \lyricsto Tenore \HierHaengtTenoreLyrics
+          \new Lyrics \lyricsto Tenore \SchliesstDieTenoreLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \HierHaengtFondamento
+            \SchliesstDieFondamento
           }
         >>
-        \new FiguredBass { \HierHaengtBassFigures }
+        \new FiguredBass { \SchliesstDieBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 65 }
+      \midi { \tempo 4 = 80 }
     }
   }
 }

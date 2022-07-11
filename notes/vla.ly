@@ -1554,3 +1554,175 @@ HierHaengtViola = {
     R1\fermata \bar "|." %26 finis
   }
 }
+
+SchliesstDieViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key e \minor \time 2/4 \tempoSchliesstDie
+    \partial 8 r8 r h'(\fE a g)
+    r fis( e dis)
+    e4 dis
+    e e,
+    r e' %5
+    r8 a, a' d,
+    e4 fis
+    g r
+    r8 a( g fis)
+    r g( fis e) %10
+    c'4 c,
+    h8 h' h,4
+    r h
+    r h
+    h h %15
+    h h
+    R2
+    r4 fis'
+    h, c
+    h c %20
+    r h
+    c c
+    r \once \slurDashed h8( a) \noBreak
+    g4 r \bar "S-S"
+    r8 g'(\p fis e) \noBreak %25
+    r dis( cis h)
+    h4 h
+    h g
+    r8 g'( fis e)
+    r dis( cis h) %30
+    h4 h
+    h h'
+    r8 a( g fis)
+    r g g,4
+    r e' %35
+    r8 d d,4
+    r8 d'( cis d)
+    d4 c
+    r d
+    d g, %40
+    r d'
+    r d
+    d e
+    d g,
+    d' r8 d %45
+    d4 c
+    r d
+    h e
+    r8 h( a g)
+    fis( e) d( c) %50
+    d4 d'
+    r8 g g,4
+    r8 d''(\f c h)
+    r a( g fis)
+    g4 fis %55
+    g h,
+    r8 c( h a)
+    r h( a g)
+    e'4 e
+    d d, %60
+    R2
+    r4 a''
+    d, es
+    d e
+    r d %65
+    h e
+    r \once \slurDashed d8( c)
+    h4 r
+    r8 h'(\p a g)
+    r fis( e d) %70
+    d4 d
+    d g,
+    r8 \once \slurDashed g'( fis e)
+    r \once \slurDashed dis( cis h)
+    h4 h %75
+    h g'
+    r8 fis( e dis)
+    r e( d c!)
+    d4 e
+    r8 a a,4 %80
+    r8 d( cis d)
+    r g g,4
+    c c
+    h h
+    r h %85
+    r h
+    h h
+    h h
+    r h
+    r h %90
+    e dis
+    e8 e, h'4
+    r e,
+    r fis
+    r e %95
+    r8 h'4 h8
+    r4 h
+    r h
+    e h
+    e, c' %100
+    r h8( a)
+    g4 c
+    r h8( a)
+    g h\f e4
+    r8 a( g! fis) %105
+    r g( fis e)
+    c'4 c,
+    h h'
+    R2
+    r4 fis %110
+    h, c
+    h c
+    r h
+    c c
+    r \once \slurDashed h8( a) %115
+    g4 r\fermata
+    r8 g'(\p fis e)
+    r fis( e d)
+    cis4 a
+    r8 a a g %120
+    e'4 d
+    r8 h( a g)
+    d'4 d
+    d g,
+    r8 h( a g) %125
+    c4 e8( d)
+    c( a) h( d)
+    c( h) e,4
+    r8 e'( dis e)
+    e4 e %130
+    f e
+    r8 c e c
+    r4 a
+    r h
+    e e %135
+    r8 e,( f? e)
+    r f? g4
+    r8 a a4
+    r8 a gis4
+    r8 a a \parOn a-\parenthesize-!\f %140
+    \parOff h4-\parenthesize-! r
+    R2
+    r8 d\f d,4
+    r8 e' e,4
+    r8 f'\pocoP f,4 %145
+    r8 cis'( h a)
+    d4\f f
+    e r\fermata
+    R2
+    r4 d\f %150
+    r8 g( fis e)
+    c'4 c,
+    h h
+    r h
+    r h %155
+    h h
+    h h
+    R2
+    r4 fis'
+    h, c %160
+    h c
+    r h
+    c c
+    r h8( a)
+    g4 r \bar "S-S" %165 finis
+  }
+}

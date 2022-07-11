@@ -1,7 +1,7 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "bc")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -15,9 +15,10 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Basso"
+          \set Staff.instrumentName = \markup \center-column { "Basso" "continuo" }
           \NunIhrFondamento
         }
+        \new FiguredBass { \NunIhrBassFigures }
       >>
     }
   }
@@ -27,6 +28,7 @@
     \score {
       <<
         \new Staff { \WirGingenFondamento }
+        \new FiguredBass { \WirGingenBassFigures }
       >>
     }
   }
@@ -44,6 +46,7 @@
           \new Lyrics \lyricsto Soprano \BewahreDochSopranoLyrics
         >>
         \new Staff { \BewahreDochFondamento }
+        \new FiguredBass { \BewahreDochBassFigures }
       >>
     }
   }
@@ -53,6 +56,7 @@
     \score {
       <<
         \new Staff { \EntzieheDichFondamento }
+        \new FiguredBass { \EntzieheDichBassFigures }
       >>
     }
   }
@@ -63,6 +67,7 @@
     \score {
       <<
         \new Staff { \MeinHeilandFondamento }
+        \new FiguredBass { \MeinHeilandBassFigures }
       >>
     }
   }
@@ -80,6 +85,7 @@
           \new Lyrics \lyricsto Basso \DieFeindeBassoLyrics
         >>
         \new Staff { \DieFeindeFondamento }
+        \new FiguredBass { \DieFeindeBassFigures }
       >>
     }
   }
@@ -89,6 +95,7 @@
     \score {
       <<
         \new Staff { \VerachteteFondamento }
+        \new FiguredBass { \VerachteteBassFigures }
       >>
     }
   }
@@ -98,6 +105,7 @@
     \score {
       <<
         \new Staff { \DieKoenigeFondamento }
+        \new FiguredBass { \DieKoenigeBassFigures }
       >>
     }
   }
@@ -115,6 +123,7 @@
          \new Lyrics \lyricsto Alto \SieBeschliessenAltoLyrics
        >>
        \new Staff { \SieBeschliessenFondamento }
+       \new FiguredBass { \SieBeschliessenBassFigures }
       >>
     }
   }
@@ -124,6 +133,7 @@
     \score {
       <<
         \new Staff { \JesuDeineFondamento }
+        \new FiguredBass { \JesuDeineBassFigures }
       >>
     }
   }
@@ -134,6 +144,7 @@
     \score {
       <<
         \new Staff { \LassMichFondamento }
+        \new FiguredBass { \LassMichBassFigures }
       >>
     }
   }
@@ -151,6 +162,7 @@
           \new Lyrics \lyricsto Tenore \WasHatMessiasTenoreLyrics
         >>
         \new Staff { \WasHatMessiasFondamento }
+        \new FiguredBass { \WasHatMessiasBassFigures }
       >>
     }
   }
@@ -160,6 +172,7 @@
     \score {
       <<
         \new Staff { \SieMoegenFondamento }
+        \new FiguredBass { \SieMoegenBassFigures }
       >>
     }
   }
@@ -170,6 +183,7 @@
     \score {
       <<
         \new Staff { \ErIstDerFondamento }
+        \new FiguredBass { \ErIstDerBassFigures }
       >>
     }
   }
@@ -179,6 +193,7 @@
     \score {
       <<
         \new Staff { \DieIhrDenFondamento }
+        \new FiguredBass { \DieIhrDenBassFigures }
       >>
     }
   }
@@ -196,6 +211,7 @@
           \new Lyrics \lyricsto Soprano \IschariotSopranoLyrics
         >>
         \new Staff { \IschariotFondamento }
+        \new FiguredBass { \IschariotBassFigures }
       >>
     }
   }
@@ -205,6 +221,7 @@
     \score {
       <<
         \new Staff { \VerlasstIhnFondamento }
+        \new FiguredBass { \VerlasstIhnBassFigures }
       >>
     }
   }
@@ -215,6 +232,7 @@
     \score {
       <<
         \new Staff { \DesSollstFondamento }
+        \new FiguredBass { \DesSollstBassFigures }
       >>
     }
   }
@@ -225,6 +243,7 @@
     \score {
       <<
         \new Staff { \WeilDerFondamento }
+        \new FiguredBass { \WeilDerBassFigures }
       >>
     }
   }
@@ -242,6 +261,7 @@
           \new Lyrics \lyricsto Soprano \VerschonetSopranoLyrics
         >>
         \new Staff { \VerschonetFondamento }
+        \new FiguredBass { \VerschonetBassFigures }
       >>
     }
   }
@@ -251,6 +271,7 @@
     \score {
       <<
         \new Staff { \BaldWirstFondamento }
+        \new FiguredBass { \BaldWirstBassFigures }
       >>
     }
   }
@@ -261,6 +282,7 @@
     \score {
       <<
         \new Staff { \JesuDerDuFondamento }
+        \new FiguredBass { \JesuDerDuBassFigures }
       >>
     }
   }
@@ -278,6 +300,7 @@
           \new Lyrics \lyricsto Alto \NunRettetAltoLyrics
         >>
         \new Staff { \NunRettetFondamento }
+        \new FiguredBass { \NunRettetBassFigures }
       >>
     }
   }
@@ -287,6 +310,7 @@
     \score {
       <<
         \new Staff { \JetztGehtFondamento }
+        \new FiguredBass { \JetztGehtBassFigures }
       >>
     }
   }
@@ -297,6 +321,7 @@
     \score {
       <<
         \new Staff { \JesusSeinFondamento }
+        \new FiguredBass { \JesusSeinBassFigures }
       >>
     }
   }
@@ -314,6 +339,7 @@
           \new Lyrics \lyricsto Basso \NunWirdBassoLyrics
         >>
         \new Staff { \NunWirdFondamento }
+        \new FiguredBass { \NunWirdBassFigures }
       >>
     }
   }
@@ -323,6 +349,7 @@
     \score {
       <<
         \new Staff { \HierStehnFondamento }
+        \new FiguredBass { \HierStehnBassFigures }
       >>
     }
   }
@@ -333,6 +360,7 @@
     \score {
       <<
         \new Staff { \OGrosseLiebFondamento }
+        \new FiguredBass { \OGrosseLiebBassFigures }
       >>
     }
   }
@@ -350,6 +378,7 @@
           \new Lyrics \lyricsto Tenore \HierHaengtTenoreLyrics
         >>
         \new Staff { \HierHaengtFondamento }
+        \new FiguredBass { \HierHaengtBassFigures }
       >>
     }
   }
@@ -359,6 +388,7 @@
     \score {
       <<
         \new Staff { \SchliesstDieFondamento }
+        \new FiguredBass { \SchliesstDieBassFigures }
       >>
     }
   }
@@ -369,6 +399,7 @@
     \score {
       <<
         \new Staff { \NunIchFondamento }
+        \new FiguredBass { \NunIchBassFigures }
       >>
     }
   }

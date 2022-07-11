@@ -5,7 +5,7 @@ NunIhrBasso = {
     \clef bass
     \key a \major \time 10/2 \tempoNunIhr
       \set Staff.timeSignatureFraction = 4/4
-    \mvTr a'2\fE^\tuttiE gis a e fis cis d1 a\fermata
+    \mvDll a'2\fE^\tuttiE gis a e fis cis d1 a\fermata
     \time 10/2 fis'2 e a gis a e a,1\fermata \bar ":|."
     \time 8/2 a'2 d, cis d a' e a,1\fermata
     a'2 cis d cis gis a e1\fermata
@@ -255,7 +255,7 @@ MeinHeilandBasso = {
   \relative c {
     \clef bass
     \key e \major \time 4/4 \autoBeamOff \tempoMeinHeiland
-    r2 \mvTr e\fE-\tuttiE
+    r2 \mvDll e\fE^\tuttiE
     a gis
     dis e
     h1
@@ -699,7 +699,7 @@ LassMichBasso = {
   \relative c {
     \clef bass
     \key a \major \time 4/4 \autoBeamOff \tempoLassMich
-    r2 \mvTr a\fE^\tuttiE
+    r2 \mvDll a\fE^\tuttiE
     fis' d
     cis dis
     e( h)
@@ -777,7 +777,7 @@ ErIstDerBasso = {
   \relative c {
     \clef bass
     \key es \minor \time 4/4 \autoBeamOff \tempoErIstDer
-    r2 \mvTr es\fE^\tuttiE
+    r2 \mvDll es\fE^\tuttiE
     b es
     es d
     es b
@@ -1441,7 +1441,7 @@ NunIchBasso = {
   \relative c {
     \clef bass
     \key a \minor \time 4/4 \autoBeamOff \tempoNunIch
-    \mvTr a2\fE^\tuttiE c
+    \mvDll a2\fE^\tuttiE c
     e a
     gis a
     e1

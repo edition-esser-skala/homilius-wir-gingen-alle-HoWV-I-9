@@ -1,7 +1,7 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "vl 1")
+#(define option-instrument-name "ob 2")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -15,8 +15,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Violino I"
-          \NunIhrViolinoI
+          \set Staff.instrumentName = "Oboe II"
+          \NunIhrOboeII
         }
       >>
     }
@@ -26,7 +26,7 @@
     \addTocLabel "wirgingen"
     \score {
       <<
-        \new Staff { \WirGingenViolinoI }
+        \new Staff { \WirGingenOboeII }
       >>
     }
   }
@@ -35,7 +35,7 @@
     \addTocLabel "entziehedich"
     \score {
       <<
-        \new Staff { \EntzieheDichViolinoI }
+        \new Staff { \EntzieheDichOboeII }
       >>
     }
   }
@@ -45,7 +45,7 @@
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \MeinHeilandViolinoI }
+        \new Staff { \MeinHeilandOboeII }
       >>
     }
   }
@@ -54,7 +54,7 @@
     \addTocLabel "verachtete"
     \score {
       <<
-        \new Staff { \VerachteteViolinoI }
+        \new Staff { \VerachteteOboeII }
       >>
     }
   }
@@ -63,16 +63,7 @@
     \addTocLabel "diekoenige"
     \score {
       <<
-        \new Staff { \DieKoenigeViolinoI }
-      >>
-    }
-  }
-  \bookpart {
-    \section "1.10" "Aria" "Jeſu, deine heilgen Lehren"
-    \addTocLabel "jesudeine"
-    \score {
-      <<
-        \new Staff { \JesuDeineViolinoI }
+        \new Staff { \DieKoenigeOboeII }
       >>
     }
   }
@@ -82,7 +73,7 @@
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \LassMichViolinoI }
+        \new Staff { \LassMichOboeII }
       >>
     }
   }
@@ -91,7 +82,7 @@
     \addTocLabel "siemoegen"
     \score {
       <<
-        \new Staff { \SieMoegenViolinoI }
+        \new Staff { \SieMoegenOboeII }
       >>
     }
   }
@@ -101,7 +92,7 @@
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \ErIstDerViolinoI }
+        \new Staff { \ErIstDerOboeII }
       >>
     }
   }
@@ -110,34 +101,7 @@
     \addTocLabel "dieihrden"
     \score {
       <<
-        \new Staff { \DieIhrDenViolinoI }
-      >>
-    }
-  }
-  \bookpart {
-    \section "1.16" "Accompagnato" "Iſcharioth, der von der Jünger Schaar"
-    \addTocLabel "ischarioth"
-    \paper { systems-per-page = #4 }
-    \score {
-      <<
-        \new ChoirStaff <<
-          \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \IschariotSoprano }
-          }
-          \new Lyrics \lyricsto Soprano \IschariotSopranoLyrics
-        >>
-        \new Staff { \IschariotViolinoI }
-      >>
-    }
-  }
-  \bookpart {
-    \section "1.17" "Aria" "Verlaßt Ihn nicht, ihr vielgeliebten Freunde"
-    \addTocLabel "verlasstihn"
-    \paper { page-count = #3 }
-    \score {
-      <<
-        \new Staff { \VerlasstIhnViolinoI }
+        \new Staff { \DieIhrDenOboeII }
       >>
     }
   }
@@ -147,7 +111,7 @@
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \DesSollstViolinoI }
+        \new Staff { \DesSollstOboeII }
       >>
     }
   }
@@ -157,33 +121,7 @@
     \paper { page-count = #2 }
     \score {
       <<
-        \new Staff { \WeilDerViolinoI }
-      >>
-    }
-  }
-  \bookpart {
-    \section "2.2" "Accompagnato" "Verſchonet des Gerechten Blut"
-    \addTocLabel "verschonet"
-    \paper { systems-per-page = #5 page-count = #1 }
-    \score {
-      <<
-        \new ChoirStaff <<
-          \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \VerschonetSoprano }
-          }
-          \new Lyrics \lyricsto Soprano \VerschonetSopranoLyrics
-        >>
-        \new Staff { \VerschonetViolinoI }
-      >>
-    }
-  }
-  \bookpart {
-    \section "2.3" "Aria" "Mein Heiland, bald wirſt du dein Blut vergießen"
-    \addTocLabel "baldwirst"
-    \score {
-      <<
-        \new Staff { \BaldWirstViolinoI }
+        \new Staff { \WeilDerOboeII }
       >>
     }
   }
@@ -193,7 +131,7 @@
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \JesuDerDuViolinoI }
+        \new Staff { \JesuDerDuOboeII }
       >>
     }
   }
@@ -202,7 +140,7 @@
     \addTocLabel "jetztgeht"
     \score {
       <<
-        \new Staff { \JetztGehtViolinoI }
+        \new Staff { \JetztGehtOboeIeII }
       >>
     }
   }
@@ -212,7 +150,7 @@
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \JesusSeinViolinoI }
+        \new Staff { \JesusSeinOboeII }
       >>
     }
   }
@@ -221,7 +159,7 @@
     \addTocLabel "hierstehn"
     \score {
       <<
-        \new Staff { \HierStehnViolinoI }
+        \new Staff { \HierStehnOboeII }
       >>
     }
   }
@@ -231,33 +169,7 @@
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \OGrosseLiebViolinoI }
-      >>
-    }
-  }
-  \bookpart {
-    \section "2.11" "Accompagnato" "Hier hängt das Lamm"
-    \addTocLabel "hierhaengt"
-    \paper { systems-per-page = #4 }
-    \score {
-      <<
-        \new ChoirStaff <<
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \HierHaengtTenore }
-          }
-          \new Lyrics \lyricsto Tenore \HierHaengtTenoreLyrics
-        >>
-        \new Staff { \HierHaengtViolinoI }
-      >>
-    }
-  }
-  \bookpart {
-    \section "2.12" "Aria" "Mein Heiland ſchließt die Augenlider"
-    \addTocLabel "schliesstdie"
-    \score {
-      <<
-        \new Staff { \SchliesstDieViolinoI }
+        \new Staff { \OGrosseLiebOboeII }
       >>
     }
   }
@@ -267,7 +179,7 @@
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \NunIchViolinoI }
+        \new Staff { \NunIchOboeII }
       >>
     }
   }

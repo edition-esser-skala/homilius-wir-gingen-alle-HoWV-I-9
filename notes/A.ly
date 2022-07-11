@@ -5,7 +5,7 @@ NunIhrAlto = {
     \clef treble
     \key a \major \time 10/2 \autoBeamOff \tempoNunIhr
       \set Staff.timeSignatureFraction = 4/4
-    \mvTr e2\fE^\tuttiE e e e cis e d1 cis\fermata
+    \mvDll e2\fE^\tuttiE e e e cis e d1 cis\fermata
     \time 10/2 cis2 e e e e e e1\fermata \bar ":|."
     \time 8/2 e2 fis g fis e e e1\fermata
     a2 a a a h a gis1\fermata
@@ -257,7 +257,7 @@ MeinHeilandAlto = {
   \relative c' {
     \clef treble
     \key e \major \time 4/4 \autoBeamOff \tempoMeinHeiland
-    r2 \mvTr e\fE^\tuttiE
+    r2 \mvDll e\fE^\tuttiE
     e e
     fis e
     e( dis)
@@ -486,7 +486,7 @@ SieBeschliessenAlto = {
 }
 
 SieBeschliessenAltoLyrics = \lyricmode {
-  Sie[h], ſie be -- ſchlie -- ßen ei -- nen
+  Sieh, ſie be -- ſchlie -- ßen ei -- nen
   Rath, ſie ſu -- chen dich mit
   freund -- li -- chem Ver -- ſtel -- len, mein
   Theu -- re -- ſter, zu fäl -- len.
@@ -702,7 +702,7 @@ LassMichAlto = {
   \relative c' {
     \clef treble
     \key a \major \time 4/4 \autoBeamOff \tempoLassMich
-    r2 \mvTr e\fE^\tuttiE
+    r2 \mvDll e\fE^\tuttiE
     fis fis
     e fis
     e( dis)
@@ -780,7 +780,7 @@ ErIstDerAlto = {
   \relative c' {
     \clef treble
     \key es \minor \time 4/4 \autoBeamOff \tempoErIstDer
-    r2 \mvTr ges'\fE^\tuttiE
+    r2 \mvDll ges'\fE^\tuttiE
     f ges
     f f
     es d
@@ -1643,7 +1643,7 @@ NunIchAlto = {
   \relative c' {
     \clef treble
     \key a \minor \time 4/4 \autoBeamOff \tempoNunIch
-    \mvTr a'2\fE^\tuttiE a
+    \mvDll a'2\fE^\tuttiE a
     gis a
     h a
     a( gis)

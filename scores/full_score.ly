@@ -444,7 +444,7 @@
     }
   }
   \bookpart {
-    \section "1.8" "Coro" "Doe Könige im Lande lehnen ſich auf"
+    \section "1.8" "Coro" "Die Könige im Lande lehnen ſich auf"
     \addTocLabel "diekoenige"
     \score {
       <<
@@ -535,7 +535,7 @@
       <<
        \new ChoirStaff <<
          \new Staff {
-           \set Staff.instrumentName = "B"
+           \set Staff.instrumentName = "A"
            \new Voice = "Alto" { \dynamicUp \SieBeschliessenAlto }
          }
          \new Lyrics \lyricsto Alto \SieBeschliessenAltoLyrics
@@ -1387,7 +1387,7 @@
     }
     \score {
       <<
-        \new ChoirStaff \with { \smallGroupDistance } <<
+        \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "A"
             \new Voice = "Alto" { \dynamicUp \NunRettetAlto }

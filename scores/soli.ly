@@ -87,6 +87,50 @@
     }
   }
   \bookpart {
+    \section "1.3" "Recitativo" "Bewahre doch, Judäa, dieſes Wort"
+    \addTocLabel "bewahredoch"
+    \paper {
+      system-system-spacing.basic-distance = #20
+      system-system-spacing.minimum-distance = #20
+      systems-per-page = #6
+    }
+    \score {
+      <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \BewahreDochSoprano }
+          }
+          \new Lyrics \lyricsto Soprano \BewahreDochSopranoLyrics
+        >>
+        \new Staff { \BewahreDochFondamento }
+        \new FiguredBass { \BewahreDochBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "1.4" "Aria" "Entziehe dich den eitlen Freuden"
+    \addTocLabel "entziehedich"
+    \paper {
+      system-system-spacing.basic-distance = #20
+      system-system-spacing.minimum-distance = #20
+      systems-per-page = #6
+    }
+    \score {
+      <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \EntzieheDichSoprano }
+          }
+          \new Lyrics \lyricsto Soprano \EntzieheDichSopranoLyrics
+        >>
+        \new Staff { \EntzieheDichFondamento }
+        \new FiguredBass { \EntzieheDichBassFigures }
+      >>
+    }
+  }
+  \bookpart {
     \section "1.5" "Choral" "Mein Heiland iſt gegangen"
     \addTocLabel "meinheiland"
     \paper {
@@ -130,6 +174,50 @@
     }
   }
   \bookpart {
+    \section "1.6" "Recitativo" "Die Feinde rüſten ſich"
+    \addTocLabel "diefeinde"
+    \paper {
+      system-system-spacing.basic-distance = #20
+      system-system-spacing.minimum-distance = #20
+      systems-per-page = #4
+    }
+    \score {
+      <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \DieFeindeBasso }
+          }
+          \new Lyrics \lyricsto Basso \DieFeindeBassoLyrics
+        >>
+        \new Staff { \DieFeindeFondamento }
+        \new FiguredBass { \DieFeindeBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "1.7" "Aria" "Verachtete, verdammte Sünder"
+    \addTocLabel "verachtete"
+    \paper {
+      system-system-spacing.basic-distance = #20
+      system-system-spacing.minimum-distance = #20
+      systems-per-page = #6
+    }
+    \score {
+      <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \VerachteteBasso }
+          }
+          \new Lyrics \lyricsto Basso \VerachteteBassoLyrics
+        >>
+        \new Staff { \VerachteteFondamento }
+        \new FiguredBass { \VerachteteBassFigures }
+      >>
+    }
+  }
+  \bookpart {
     \section "1.8" "Coro" "Die Könige im Lande lehnen ſich auf"
     \addTocLabel "diekoenige"
     \score {
@@ -161,6 +249,50 @@
         >>
         \new Staff { \DieKoenigeFondamento }
         \new FiguredBass { \DieKoenigeBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "1.9" "Recitativo" "Sieh, ſie beſchließen einen Rath"
+    \addTocLabel "siebeschliessen"
+    \paper {
+      system-system-spacing.basic-distance = #20
+      system-system-spacing.minimum-distance = #20
+      systems-per-page = #4
+    }
+    \score {
+      <<
+       \new ChoirStaff <<
+         \new Staff {
+           \set Staff.instrumentName = "A"
+           \new Voice = "Alto" { \dynamicUp \SieBeschliessenAlto }
+         }
+         \new Lyrics \lyricsto Alto \SieBeschliessenAltoLyrics
+       >>
+       \new Staff { \SieBeschliessenFondamento }
+       \new FiguredBass { \SieBeschliessenBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "1.10" "Aria" "Jeſu, deine heilgen Lehren"
+    \addTocLabel "jesudeine"
+    \paper {
+      system-system-spacing.basic-distance = #20
+      system-system-spacing.minimum-distance = #20
+      systems-per-page = #6
+    }
+    \score {
+      <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \JesuDeineAlto }
+          }
+          \new Lyrics \lyricsto Alto \JesuDeineAltoLyrics
+        >>
+        \new Staff { \JesuDeineFondamento }
+        \new FiguredBass { \JesuDeineBassFigures }
       >>
     }
   }
@@ -204,6 +336,50 @@
         >>
         \new Staff { \LassMichFondamento }
         \new FiguredBass { \LassMichBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "1.12" "Recitativo" "Was hat Meſſias denn gethan?"
+    \addTocLabel "washatmessias"
+    \paper {
+      system-system-spacing.basic-distance = #20
+      system-system-spacing.minimum-distance = #20
+      systems-per-page = #6
+    }
+    \score {
+      <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "T"
+              \new Voice = "Tenore" { \dynamicUp \WasHatMessiasTenore }
+            }
+          \new Lyrics \lyricsto Tenore \WasHatMessiasTenoreLyrics
+        >>
+        \new Staff { \WasHatMessiasFondamento }
+        \new FiguredBass { \WasHatMessiasBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "1.13" "Aria" "Sie mögen dich, mein Heiland, immer haſſen"
+    \addTocLabel "siemoegen"
+    \paper {
+      system-system-spacing.basic-distance = #20
+      system-system-spacing.minimum-distance = #20
+      systems-per-page = #6
+    }
+    \score {
+      <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \SieMoegenTenore }
+          }
+          \new Lyrics \lyricsto Tenore \SieMoegenTenoreLyrics
+        >>
+        \new Staff { \SieMoegenFondamento }
+        \new FiguredBass { \SieMoegenBassFigures }
       >>
     }
   }
@@ -286,6 +462,50 @@
     }
   }
   \bookpart {
+    \section "1.16" "Accompagnato" "Iſcharioth, der von der Jünger Schaar"
+    \addTocLabel "ischarioth"
+    \paper {
+      system-system-spacing.basic-distance = #20
+      system-system-spacing.minimum-distance = #20
+      systems-per-page = #4
+    }
+    \score {
+      <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \IschariotSoprano }
+          }
+          \new Lyrics \lyricsto Soprano \IschariotSopranoLyrics
+        >>
+        \new Staff { \IschariotFondamento }
+        \new FiguredBass { \IschariotBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "1.17" "Aria" "Verlaßt Ihn nicht, ihr vielgeliebten Freunde"
+    \addTocLabel "verlasstihn"
+    \paper {
+      system-system-spacing.basic-distance = #20
+      system-system-spacing.minimum-distance = #20
+      systems-per-page = #6
+    }
+    \score {
+      <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \VerlasstIhnSoprano }
+          }
+          \new Lyrics \lyricsto Soprano \VerlasstIhnSopranoLyrics
+        >>
+        \new Staff { \VerlasstIhnFondamento }
+        \new FiguredBass { \VerlasstIhnBassFigures }
+      >>
+    }
+  }
+  \bookpart {
     \section "1.18" "Choral" "Des ſollſt du herzlich tröſten dich"
     \addTocLabel "dessollst"
     \score {
@@ -356,6 +576,50 @@
     }
   }
   \bookpart {
+    \section "2.2" "Accompagnato" "Verſchonet des Gerechten Blut"
+    \addTocLabel "verschonet"
+    \paper {
+      system-system-spacing.basic-distance = #20
+      system-system-spacing.minimum-distance = #20
+      systems-per-page = #6
+    }
+    \score {
+      <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \VerschonetSoprano }
+          }
+          \new Lyrics \lyricsto Soprano \VerschonetSopranoLyrics
+        >>
+        \new Staff { \VerschonetFondamento }
+        \new FiguredBass { \VerschonetBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "2.3" "Aria" "Mein Heiland, bald wirſt du dein Blut vergießen"
+    \addTocLabel "baldwirst"
+    \paper {
+      system-system-spacing.basic-distance = #20
+      system-system-spacing.minimum-distance = #20
+      systems-per-page = #6
+    }
+    \score {
+      <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \BaldWirstSoprano }
+          }
+          \new Lyrics \lyricsto Soprano \BaldWirstSopranoLyrics
+        >>
+        \new Staff { \BaldWirstFondamento }
+        \new FiguredBass { \BaldWirstBassFigures }
+      >>
+    }
+  }
+  \bookpart {
     \section "2.4" "Choral" "Jeſu, der du wareſt tod"
     \addTocLabel "jesuderdu"
     \score {
@@ -391,6 +655,50 @@
     }
   }
   \bookpart {
+    \section "2.5" "Recitativo" "Nun rette dich, mein Heiland, keine Welt"
+    \addTocLabel "nunrettet"
+    \paper {
+      system-system-spacing.basic-distance = #20
+      system-system-spacing.minimum-distance = #20
+      systems-per-page = #6
+    }
+    \score {
+      <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \NunRettetAlto }
+          }
+          \new Lyrics \lyricsto Alto \NunRettetAltoLyrics
+        >>
+        \new Staff { \NunRettetFondamento }
+        \new FiguredBass { \NunRettetBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "2.6" "Aria" "Jetzt geht auf ungebahnten Wegen"
+    \addTocLabel "jetztgeht"
+    \paper {
+      system-system-spacing.basic-distance = #20
+      system-system-spacing.minimum-distance = #20
+      systems-per-page = #6
+    }
+    \score {
+      <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \JetztGehtAlto }
+          }
+          \new Lyrics \lyricsto Alto \JetztGehtAltoLyrics
+        >>
+        \new Staff { \JetztGehtFondamento }
+        \new FiguredBass { \JetztGehtBassFigures }
+      >>
+    }
+  }
+  \bookpart {
     \section "2.7" "Choral" "Jeſus ſein Kreuz ſelber trägt"
     \addTocLabel "jesussein"
     \score {
@@ -422,6 +730,28 @@
         >>
         \new Staff { \JesusSeinFondamento }
         \new FiguredBass { \JesusSeinBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "2.8" "Recitativo" "Nun wird, Jeruſalem, aus deinen Mauern"
+    \addTocLabel "nunwird"
+    \paper {
+      system-system-spacing.basic-distance = #20
+      system-system-spacing.minimum-distance = #20
+      systems-per-page = #5
+    }
+    \score {
+      <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \NunWirdBasso }
+          }
+          \new Lyrics \lyricsto Basso \NunWirdBassoLyrics
+        >>
+        \new Staff { \NunWirdFondamento }
+        \new FiguredBass { \NunWirdBassFigures }
       >>
     }
   }
@@ -492,6 +822,50 @@
         >>
         \new Staff { \OGrosseLiebFondamento }
         \new FiguredBass { \OGrosseLiebBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "2.11" "Accompagnato" "Hier hängt das Lamm"
+    \addTocLabel "hierhaengt"
+    \paper {
+      system-system-spacing.basic-distance = #20
+      system-system-spacing.minimum-distance = #20
+      systems-per-page = #6
+    }
+    \score {
+      <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \HierHaengtTenore }
+          }
+          \new Lyrics \lyricsto Tenore \HierHaengtTenoreLyrics
+        >>
+        \new Staff { \HierHaengtFondamento }
+        \new FiguredBass { \HierHaengtBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "2.12" "Aria" "Mein Heiland ſchließt die Augenlider"
+    \addTocLabel "schliesstdie"
+    \paper {
+      system-system-spacing.basic-distance = #20
+      system-system-spacing.minimum-distance = #20
+      systems-per-page = #6
+    }
+    \score {
+      <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \SchliesstDieTenore }
+          }
+          \new Lyrics \lyricsto Tenore \SchliesstDieTenoreLyrics
+        >>
+        \new Staff { \SchliesstDieFondamento }
+        \new FiguredBass { \SchliesstDieBassFigures }
       >>
     }
   }

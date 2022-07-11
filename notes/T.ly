@@ -5,7 +5,7 @@ NunIhrTenore = {
     \clef "treble_8"
     \key a \major \time 10/2 \autoBeamOff \tempoNunIhr
       \set Staff.timeSignatureFraction = 4/4
-    \mvTr cis2\fE^\tuttiE h a gis a cis a1 a\fermata
+    \mvDll cis2\fE^\tuttiE h a gis a cis a1 a\fermata
     \time 10/2 a2 gis a h a gis4( d') cis1\fermata \bar ":|."
     \time 8/2 a2 a a a a gis! a1\fermata
     cis2 e d e e e e1\fermata
@@ -270,7 +270,7 @@ MeinHeilandTenore = {
   \relative c' {
     \clef "treble_8"
     \key e \major \time 4/4 \autoBeamOff \tempoMeinHeiland
-    r2 \mvTr h\fE^\tuttiE
+    r2 \mvDll h\fE^\tuttiE
     a h
     h h
     h1
@@ -486,7 +486,7 @@ LassMichTenore = {
   \relative c' {
     \clef "treble_8"
     \key a \major \time 4/4 \autoBeamOff \tempoLassMich
-    r2 \mvTr cis\fE^\tuttiE
+    r2 \mvDll cis\fE^\tuttiE
     cis d
     e h
     h2.( a4)
@@ -766,7 +766,7 @@ ErIstDerTenore = {
   \relative c' {
     \clef "treble_8"
     \key es \minor \time 4/4 \autoBeamOff \tempoErIstDer
-    r2 \mvTr es\fE^\tuttiE
+    r2 \mvDll es\fE^\tuttiE
     d es
     ces b
     b2. as4
@@ -1680,7 +1680,7 @@ NunIchTenore = {
   \relative c' {
     \clef "treble_8"
     \key a \minor \time 4/4 \autoBeamOff \tempoNunIch
-    \mvTr c2\fE^\tuttiE e
+    \mvDll c2\fE^\tuttiE e
     e e
     e e
     e2.( d4)

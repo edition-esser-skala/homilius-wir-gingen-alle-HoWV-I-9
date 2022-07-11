@@ -1,7 +1,7 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "vl 1")
+#(define option-instrument-name "vla")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -15,8 +15,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Violino I"
-          \NunIhrViolinoI
+          \set Staff.instrumentName = "Viola"
+          \NunIhrViola
         }
       >>
     }
@@ -26,7 +26,7 @@
     \addTocLabel "wirgingen"
     \score {
       <<
-        \new Staff { \WirGingenViolinoI }
+        \new Staff { \WirGingenViola }
       >>
     }
   }
@@ -35,7 +35,7 @@
     \addTocLabel "entziehedich"
     \score {
       <<
-        \new Staff { \EntzieheDichViolinoI }
+        \new Staff { \EntzieheDichViola }
       >>
     }
   }
@@ -45,7 +45,7 @@
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \MeinHeilandViolinoI }
+        \new Staff { \MeinHeilandViola }
       >>
     }
   }
@@ -54,7 +54,7 @@
     \addTocLabel "verachtete"
     \score {
       <<
-        \new Staff { \VerachteteViolinoI }
+        \new Staff { \VerachteteViola }
       >>
     }
   }
@@ -63,7 +63,7 @@
     \addTocLabel "diekoenige"
     \score {
       <<
-        \new Staff { \DieKoenigeViolinoI }
+        \new Staff { \DieKoenigeViola }
       >>
     }
   }
@@ -72,7 +72,7 @@
     \addTocLabel "jesudeine"
     \score {
       <<
-        \new Staff { \JesuDeineViolinoI }
+        \new Staff { \JesuDeineViola }
       >>
     }
   }
@@ -82,7 +82,7 @@
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \LassMichViolinoI }
+        \new Staff { \LassMichViola }
       >>
     }
   }
@@ -91,7 +91,7 @@
     \addTocLabel "siemoegen"
     \score {
       <<
-        \new Staff { \SieMoegenViolinoI }
+        \new Staff { \SieMoegenViola }
       >>
     }
   }
@@ -101,7 +101,7 @@
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \ErIstDerViolinoI }
+        \new Staff { \ErIstDerViola }
       >>
     }
   }
@@ -110,7 +110,7 @@
     \addTocLabel "dieihrden"
     \score {
       <<
-        \new Staff { \DieIhrDenViolinoI }
+        \new Staff { \DieIhrDenViola }
       >>
     }
   }
@@ -127,17 +127,16 @@
           }
           \new Lyrics \lyricsto Soprano \IschariotSopranoLyrics
         >>
-        \new Staff { \IschariotViolinoI }
+        \new Staff { \IschariotViola }
       >>
     }
   }
   \bookpart {
     \section "1.17" "Aria" "Verlaßt Ihn nicht, ihr vielgeliebten Freunde"
     \addTocLabel "verlasstihn"
-    \paper { page-count = #3 }
     \score {
       <<
-        \new Staff { \VerlasstIhnViolinoI }
+        \new Staff { \VerlasstIhnViola }
       >>
     }
   }
@@ -147,17 +146,16 @@
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \DesSollstViolinoI }
+        \new Staff { \DesSollstViola }
       >>
     }
   }
   \bookpart {
     \section "2.1" "Coro" "Weil der Gottloſe Uebermuth treibet"
     \addTocLabel "weilder"
-    \paper { page-count = #2 }
     \score {
       <<
-        \new Staff { \WeilDerViolinoI }
+        \new Staff { \WeilDerViola }
       >>
     }
   }
@@ -174,7 +172,7 @@
           }
           \new Lyrics \lyricsto Soprano \VerschonetSopranoLyrics
         >>
-        \new Staff { \VerschonetViolinoI }
+        \new Staff { \VerschonetViola }
       >>
     }
   }
@@ -183,7 +181,7 @@
     \addTocLabel "baldwirst"
     \score {
       <<
-        \new Staff { \BaldWirstViolinoI }
+        \new Staff { \BaldWirstViola }
       >>
     }
   }
@@ -193,7 +191,7 @@
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \JesuDerDuViolinoI }
+        \new Staff { \JesuDerDuViola }
       >>
     }
   }
@@ -202,7 +200,7 @@
     \addTocLabel "jetztgeht"
     \score {
       <<
-        \new Staff { \JetztGehtViolinoI }
+        \new Staff { \JetztGehtViola }
       >>
     }
   }
@@ -212,16 +210,17 @@
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \JesusSeinViolinoI }
+        \new Staff { \JesusSeinViola }
       >>
     }
   }
   \bookpart {
     \section "2.9" "Coro" "Hier ſtehn, o Herr mein Gott, die treuen Knechte"
     \addTocLabel "hierstehn"
+    \paper { page-count = #1 }
     \score {
       <<
-        \new Staff { \HierStehnViolinoI }
+        \new Staff { \HierStehnViola }
       >>
     }
   }
@@ -231,7 +230,7 @@
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \OGrosseLiebViolinoI }
+        \new Staff { \OGrosseLiebViola }
       >>
     }
   }
@@ -248,7 +247,7 @@
           }
           \new Lyrics \lyricsto Tenore \HierHaengtTenoreLyrics
         >>
-        \new Staff { \HierHaengtViolinoI }
+        \new Staff { \HierHaengtViola }
       >>
     }
   }
@@ -257,7 +256,7 @@
     \addTocLabel "schliesstdie"
     \score {
       <<
-        \new Staff { \SchliesstDieViolinoI }
+        \new Staff { \SchliesstDieViola }
       >>
     }
   }
@@ -267,7 +266,7 @@
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \NunIchViolinoI }
+        \new Staff { \NunIchViola }
       >>
     }
   }

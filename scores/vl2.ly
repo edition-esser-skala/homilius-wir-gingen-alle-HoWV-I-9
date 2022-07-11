@@ -1,7 +1,7 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "vl 1")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -15,8 +15,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Violino I"
-          \NunIhrViolinoI
+          \set Staff.instrumentName = "Violino II"
+          \NunIhrViolinoII
         }
       >>
     }
@@ -26,7 +26,7 @@
     \addTocLabel "wirgingen"
     \score {
       <<
-        \new Staff { \WirGingenViolinoI }
+        \new Staff { \WirGingenViolinoII }
       >>
     }
   }
@@ -35,7 +35,7 @@
     \addTocLabel "entziehedich"
     \score {
       <<
-        \new Staff { \EntzieheDichViolinoI }
+        \new Staff { \EntzieheDichViolinoII }
       >>
     }
   }
@@ -45,7 +45,7 @@
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \MeinHeilandViolinoI }
+        \new Staff { \MeinHeilandViolinoII }
       >>
     }
   }
@@ -54,7 +54,7 @@
     \addTocLabel "verachtete"
     \score {
       <<
-        \new Staff { \VerachteteViolinoI }
+        \new Staff { \VerachteteViolinoII }
       >>
     }
   }
@@ -63,7 +63,7 @@
     \addTocLabel "diekoenige"
     \score {
       <<
-        \new Staff { \DieKoenigeViolinoI }
+        \new Staff { \DieKoenigeViolinoII }
       >>
     }
   }
@@ -72,7 +72,7 @@
     \addTocLabel "jesudeine"
     \score {
       <<
-        \new Staff { \JesuDeineViolinoI }
+        \new Staff { \JesuDeineViolinoII }
       >>
     }
   }
@@ -82,7 +82,7 @@
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \LassMichViolinoI }
+        \new Staff { \LassMichViolinoII }
       >>
     }
   }
@@ -91,7 +91,7 @@
     \addTocLabel "siemoegen"
     \score {
       <<
-        \new Staff { \SieMoegenViolinoI }
+        \new Staff { \SieMoegenViolinoII }
       >>
     }
   }
@@ -101,7 +101,7 @@
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \ErIstDerViolinoI }
+        \new Staff { \ErIstDerViolinoII }
       >>
     }
   }
@@ -110,7 +110,7 @@
     \addTocLabel "dieihrden"
     \score {
       <<
-        \new Staff { \DieIhrDenViolinoI }
+        \new Staff { \DieIhrDenViolinoII }
       >>
     }
   }
@@ -127,7 +127,7 @@
           }
           \new Lyrics \lyricsto Soprano \IschariotSopranoLyrics
         >>
-        \new Staff { \IschariotViolinoI }
+        \new Staff { \IschariotViolinoII }
       >>
     }
   }
@@ -137,7 +137,7 @@
     \paper { page-count = #3 }
     \score {
       <<
-        \new Staff { \VerlasstIhnViolinoI }
+        \new Staff { \VerlasstIhnViolinoII }
       >>
     }
   }
@@ -147,7 +147,7 @@
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \DesSollstViolinoI }
+        \new Staff { \DesSollstViolinoII }
       >>
     }
   }
@@ -157,7 +157,7 @@
     \paper { page-count = #2 }
     \score {
       <<
-        \new Staff { \WeilDerViolinoI }
+        \new Staff { \WeilDerViolinoII }
       >>
     }
   }
@@ -174,7 +174,7 @@
           }
           \new Lyrics \lyricsto Soprano \VerschonetSopranoLyrics
         >>
-        \new Staff { \VerschonetViolinoI }
+        \new Staff { \VerschonetViolinoII }
       >>
     }
   }
@@ -183,7 +183,7 @@
     \addTocLabel "baldwirst"
     \score {
       <<
-        \new Staff { \BaldWirstViolinoI }
+        \new Staff { \BaldWirstViolinoII }
       >>
     }
   }
@@ -193,7 +193,7 @@
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \JesuDerDuViolinoI }
+        \new Staff { \JesuDerDuViolinoII }
       >>
     }
   }
@@ -202,7 +202,7 @@
     \addTocLabel "jetztgeht"
     \score {
       <<
-        \new Staff { \JetztGehtViolinoI }
+        \new Staff { \JetztGehtViolinoII }
       >>
     }
   }
@@ -212,7 +212,7 @@
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \JesusSeinViolinoI }
+        \new Staff { \JesusSeinViolinoII }
       >>
     }
   }
@@ -221,7 +221,7 @@
     \addTocLabel "hierstehn"
     \score {
       <<
-        \new Staff { \HierStehnViolinoI }
+        \new Staff { \HierStehnViolinoII }
       >>
     }
   }
@@ -231,7 +231,7 @@
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \OGrosseLiebViolinoI }
+        \new Staff { \OGrosseLiebViolinoII }
       >>
     }
   }
@@ -248,7 +248,7 @@
           }
           \new Lyrics \lyricsto Tenore \HierHaengtTenoreLyrics
         >>
-        \new Staff { \HierHaengtViolinoI }
+        \new Staff { \HierHaengtViolinoII }
       >>
     }
   }
@@ -257,7 +257,7 @@
     \addTocLabel "schliesstdie"
     \score {
       <<
-        \new Staff { \SchliesstDieViolinoI }
+        \new Staff { \SchliesstDieViolinoII }
       >>
     }
   }
@@ -267,7 +267,7 @@
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \NunIchViolinoI }
+        \new Staff { \NunIchViolinoII }
       >>
     }
   }

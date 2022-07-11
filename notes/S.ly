@@ -5,7 +5,7 @@ NunIhrSoprano = {
     \clef treble
     \key a \major \time 10/2 \autoBeamOff \tempoNunIhr
       \set Staff.timeSignatureFraction = 4/4
-    \mvTr a'2\fE^\tuttiE h cis h a gis fis1 e\fermata
+    \mvDll a'2\fE^\tuttiE h cis h a gis fis1 e\fermata
     \time 10/2 a2 h cis d cis h a1\fermata \bar ":|."
     \time 8/2 cis2 d e d cis h cis1\fermata
     e2 e fis e d cis h1\fermata
@@ -407,7 +407,7 @@ MeinHeilandSoprano = {
   \relative c' {
     \clef treble
     \key e \major \time 4/4 \autoBeamOff \tempoMeinHeiland
-    r2 \mvTr gis'\fE^\tuttiE
+    r2 \mvDll gis'\fE^\tuttiE
     cis h
     a gis
     fis1
@@ -621,7 +621,7 @@ LassMichSoprano = {
   \relative c' {
     \clef treble
     \key a \major \time 4/4 \autoBeamOff \tempoLassMich
-    r2 \mvTr a'\fE^\tuttiE
+    r2 \mvDll a'\fE^\tuttiE
     a a
     a h
     gis( fis)
@@ -699,7 +699,7 @@ ErIstDerSoprano = {
   \relative c' {
     \clef treble
     \key es \minor \time 4/4 \autoBeamOff \tempoErIstDer
-    r2 \mvTr b'\fE^\tuttiE
+    r2 \mvDll b'\fE^\tuttiE
     b b
     as b
     ges f
@@ -1643,7 +1643,7 @@ NunIchSoprano = {
   \relative c' {
     \clef treble
     \key a \minor \time 4/4 \autoBeamOff \tempoNunIch
-    \mvTr e'2\fE^\tuttiE e
+    \mvDll e'2\fE^\tuttiE e
     h c
     d c
     h1

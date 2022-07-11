@@ -57,6 +57,9 @@ tempoNunWird = \tempoMarkup "[Recitativ]"
 tempoHierStehn = \tempoMarkup "Traurig"
 tempoOGrosseLieb = \tempoMarkup "[Choral]"
 
+%2.11
+tempoHierHaengt = \tempoMarkup "[Accompagnato]"
+
 
 \include "notes/fl1.ly"
 \include "notes/fl2.ly"

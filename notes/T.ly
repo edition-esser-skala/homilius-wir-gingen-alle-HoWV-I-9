@@ -1395,3 +1395,65 @@ OGrosseLiebTenoreLyrics = \lyricmode {
   du mußt lei --
   den. %13 finis
 }
+
+HierHaengtTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoHierHaengt
+    r8 f f d b4 r8 f
+    as as as b g g r es
+    b'4 b b8 c des c
+    as as r4 r r8 c
+    c g g as b4 r8 g %5
+    e! e r g g b des c
+    as r16 as g8 f h h h c
+    g g r4 r2
+    r r8 es' c a!
+    fis fis fis g g4 r %10
+    r r8 b des4 r8 b
+    g g c8. a!16 f4 r8 f
+    c' c d es d4 r
+    r es b g
+    es r r2 %15
+    r4 r8 b' b b des c
+    b b c g as as r f
+    a4 a a8 b c a
+    b b b a gis gis gis a
+    a4 r16 a a g f8 f g a %20
+    b b r16 b b g cis8 cis cis d
+    a4 r r8 e' e e
+    e h! d c! a4 r16 c c e
+    cis8 cis cis d d4 r8 a
+    h h c d e c a h %25
+    g4 r r2\fermata \bar "|." %26 finis
+  }
+}
+
+HierHaengtTenoreLyrics = \lyricmode {
+  Hier hängt das Lamm, ge --
+  kreu -- zigt von Ver -- rä -- thern, ge --
+  kreu -- zigt zwi -- ſchen Ue -- bel --
+  thä -- tern. Bald
+  wird er ſei -- nen Geiſt, ſein %5
+  Le -- ben an dem ver -- fluch -- ten
+  Stamm der Hand des Va -- ters ü -- ber --
+  ge -- ben.
+  Sein Haupt ſinkt
+  in des To -- des Nacht. %10
+  Er ſtirbt, Er
+  ſtirbt, der lieb -- ſte Sohn, und
+  ſter -- bend ruft er noch:
+  Es iſt voll --
+  bracht! %15
+  Um ſein Be -- gräb -- niß
+  ſorgt die frömm -- ſte See -- le, ein
+  Jo -- ſeph, ein ge -- rech -- ter
+  Mann, hält um den Leich -- nam Je -- ſu
+  an, ſalbt ihn mit Bal -- ſam und mit %20
+  Oe -- le, und legt ihn in ſein eig -- nes
+  Grab. Dieß wird mit
+  Hü -- tern ſtark ver -- wahrt, und noch viel
+  ſi -- che -- rer zu ſeyn, ver --
+  ſie -- gelt man den vor -- ge -- leg -- ten %25
+  Stein! %26 finis
+}

@@ -1500,3 +1500,28 @@ OGrosseLiebViolinoI = {
     c1\fermata \bar "|." %13 finis
   }
 }
+
+HierHaengtViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoHierHaengt
+    b'1~
+    b~
+    b
+    r4 des c2~
+    c1 %5
+    b
+    as2 g
+    r4 r16 f( es d) r g( f es) r f( es d)
+    es8 es' c a \appoggiatura g fis2~
+    fis r8 d' b g %10
+    \appoggiatura f e!1~
+    e2 es~
+    es d8 f( d a)
+    b4 r r2
+    r4 es'-\markup \remark "ſtark, hernach jede Note ſchwächer" b g %15
+    es r r2
+    R1*9 %25
+    R1\fermata \bar "|." %26 finis
+  }
+}

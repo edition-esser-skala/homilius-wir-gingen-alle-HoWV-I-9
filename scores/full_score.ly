@@ -1643,77 +1643,124 @@
   %     \midi { \tempo 4 = 50 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.10" "Choral" "O groſſe Lieb, o Lieb ohn alle Maſſen"
+  %   \addTocLabel "ogrosselieb"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \OGrosseLiebOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \OGrosseLiebOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \OGrosseLiebViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \OGrosseLiebViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \OGrosseLiebViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \OGrosseLiebSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \OGrosseLiebSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \OGrosseLiebAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \OGrosseLiebAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \OGrosseLiebTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \OGrosseLiebTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \OGrosseLiebBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \OGrosseLiebBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \OGrosseLiebFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \OGrosseLiebBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 90 }
+  %   }
+  % }
   \bookpart {
-    \section "2.10" "Choral" "O groſſe Lieb, o Lieb ohn alle Maſſen"
-    \addTocLabel "ogrosselieb"
+    \section "2.11" "Accompagnato" "Hier hängt das Lamm"
+    \addTocLabel "hierhaengt"
+    \paper {
+      system-system-spacing.basic-distance = #30
+      system-system-spacing.minimum-distance = #30
+      systems-per-page = #2
+    }
     \score {
       <<
-        \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "ob"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \OGrosseLiebOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \OGrosseLiebOboeII
-            }
-          >>
-        >>
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \OGrosseLiebViolinoI
+              \HierHaengtViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \OGrosseLiebViolinoII
+              \HierHaengtViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \OGrosseLiebViola
+            \HierHaengtViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \OGrosseLiebSoprano }
-          }
-          \new Lyrics \lyricsto Soprano \OGrosseLiebSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \OGrosseLiebAlto }
-          }
-          \new Lyrics \lyricsto Alto \OGrosseLiebAltoLyrics
-
-          \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \OGrosseLiebTenore }
+            \new Voice = "Tenore" { \dynamicUp \HierHaengtTenore }
           }
-          \new Lyrics \lyricsto Tenore \OGrosseLiebTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \OGrosseLiebBasso }
-          }
-          \new Lyrics \lyricsto Basso \OGrosseLiebBassoLyrics
+          \new Lyrics \lyricsto Tenore \HierHaengtTenoreLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \OGrosseLiebFondamento
+            \HierHaengtFondamento
           }
         >>
-        \new FiguredBass { \OGrosseLiebBassFigures }
+        \new FiguredBass { \HierHaengtBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 65 }
     }
   }
 }

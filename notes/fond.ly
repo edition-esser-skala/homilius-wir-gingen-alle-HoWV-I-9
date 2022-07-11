@@ -3297,3 +3297,65 @@ OGrosseLiebBassFigures = \figuremode {
   <6 5>2 <4>4 <_!>
   r1  %13 finis
 }
+
+HierHaengtFondamento = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoHierHaengt
+    d1~
+    d2 es
+    des1
+    r4 es e2~
+    e1 %5
+    c
+    f
+    r4 g g g
+    c,1~
+    c2 \once \tieDashed b~ %10
+    b1~
+    b2 a!~
+    a b4 r
+    R1
+    r4 es'-!-\markup \remark "ſtark, hernach jede Note ſchwächer" b-! g-! %15
+    es-! r r2
+    e2 f
+    es1
+    d
+    cis2 d %20
+    g1
+    r4 a gis2~
+    gis a~
+    a fis
+    g c,! %25
+    r4 d g,2\fermata \bar "|." %26 finis
+  }
+}
+
+HierHaengtBassFigures = \figuremode {
+  <6->1
+  <6- 5->2 \bo <[5-]>
+  \bc <[6-] 4 2->1
+  r4 <7- [5-]> <6>2
+  r1 %5
+  <7- _!>
+  <_->2 <4! 2>
+  r4 <7 5> <8 6-> <7 5>
+  <_->2 <4+ _->
+  r <6> %10
+  <4! _->1
+  <[\t 2]>2 <6 5->
+  r1
+  r
+  r %15
+  r
+  <6 5->2 <_->
+  <4! 2>1
+  <6->2 <[6!]4+ 2>
+  <6>1 %20
+  <_->2 <4+ 2>
+  r4 <_+> <6 [_!]>2
+  <[_!]>1
+  <_+>2 <6>
+  r1 %25
+  r4 <_+>2. %26 finis
+}

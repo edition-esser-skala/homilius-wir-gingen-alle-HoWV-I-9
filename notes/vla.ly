@@ -1529,3 +1529,28 @@ OGrosseLiebViola = {
     es1\fermata \bar "|." %13 finis
   }
 }
+
+HierHaengtViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoHierHaengt
+    b1~
+    b2 es~
+    es1
+    r4 b c2~
+    c1 %5
+    e!
+    c2 h!
+    r4 g g g
+    g r es'2~
+    es r %10
+    des1
+    g,2 f~
+    f~ f8 r r4
+    R1
+    r4 es''-\markup \remark "ſtark, hernach jede Note ſchwächer" b g %15
+    es r r2
+    R1*9 %25
+    R1\fermata \bar "|." %26 finis
+  }
+}

@@ -808,3 +808,37 @@ OGrosseLiebOboeII = {
     g1\fermata \bar "|." %13 finis
   }
 }
+
+NunIchOboeII = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoNunIch
+    a'2\fE a
+    gis a
+    h a
+    a gis
+    e1\fermata %5
+    e2 dis
+    e e
+    e fis \noBreak
+    gis1\fermata \bar ":|."
+    gis2 a \noBreak %10
+    a g
+    g g
+    g fis
+    d1\fermata
+    g2 f %15
+    g f
+    f4 g g2
+    a g
+    g1\fermata
+    g2 g %20
+    a g
+    g f
+    g1\fermata
+    g2 g
+    g e %25
+    f e
+    e\breve*1/2\fermata \bar "|." %27 finis
+  }
+}

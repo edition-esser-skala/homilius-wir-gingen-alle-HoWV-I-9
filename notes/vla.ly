@@ -1726,3 +1726,37 @@ SchliesstDieViola = {
     g4 r \bar "S-S" %165 finis
   }
 }
+
+NunIchViola = {
+  \relative c' {
+    \clef alto
+    \key a \minor \time 4/4 \tempoNunIch
+    c2\fE e
+    e e
+    e e
+    e2. d4
+    c1\fermata %5
+    a2 a
+    h c
+    h c \noBreak
+    h1\fermata \bar ":|."
+    e2 e \noBreak %10
+    d d
+    e d
+    d2. c4
+    h1\fermata
+    e2 h %15
+    c a
+    h c
+    c h
+    e1\fermata
+    d2 e %20
+    d d
+    e h
+    c1\fermata
+    c2 c
+    h a %25
+    a gis4 d'
+    c\breve*1/2\fermata \bar "|." %27 finis
+  }
+}

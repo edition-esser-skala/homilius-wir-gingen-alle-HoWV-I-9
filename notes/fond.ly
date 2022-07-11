@@ -3699,3 +3699,67 @@ SchliesstDieBassFigures = \figuremode {
   r4 <6 4>8 <7 _+>
   r2 %165 finis
 }
+
+NunIchFondamento = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 4/4 \tempoNunIch
+    \mvTr a2\fE-\tuttiE c
+    e a
+    gis a
+    e1
+    a,\fermata %5
+    a'2 fis
+    gis a
+    e a, \noBreak
+    e'1\fermata \bar ":|."
+    e2 a \noBreak %10
+    fis g!
+    c, g'
+    d1
+    g,\fermata
+    e'2 d %15
+    c f
+    d e
+    f g
+    c,1\fermata
+    g'2 e %20
+    fis g
+    e d
+    c1\fermata
+    e2 c
+    g' a %25
+    d, e
+    a,\breve*1/2\fermata \bar "|." %27 finis
+  }
+}
+
+NunIchBassFigures = \figuremode {
+  r2 <6>
+  <_+>1
+  <6 5>
+  <4>2 <_+>
+  r1 %5
+  r2 <6\\ 5>
+  <6>1
+  <_+>2 <6\\>
+  <_+>1
+  q %10
+  <6>
+  r
+  <4>2 <_+>
+  r1
+  <6>2 q %15
+  r1
+  r2 <6>
+  <6 5>1
+  r
+  r2 <6> %20
+  <6>1
+  <6>2 q
+  r1
+  <6>
+  r %25
+  <6 5>2 <7 _+>
+  r1 %27 finis
+}

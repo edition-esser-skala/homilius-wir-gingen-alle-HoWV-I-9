@@ -1638,3 +1638,79 @@ OGrosseLiebAltoLyrics = \lyricmode {
   du mußt lei --
   den. %13 finis
 }
+
+NunIchAlto = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \autoBeamOff \tempoNunIch
+    \mvTr a'2\fE^\tuttiE a
+    gis a
+    h a
+    a( gis)
+    e1\fermata %5
+    e2 dis
+    e e
+    e fis \noBreak
+    gis1\fermata \bar ":|."
+    gis2 a \noBreak %10
+    a g
+    g g
+    g( fis)
+    d1\fermata
+    g2 f %15
+    g f
+    f4( g) g2
+    a( g)
+    g1\fermata
+    g2 g %20
+    a g
+    g f
+    g1\fermata
+    g2 g
+    g e %25
+    f e
+    e\breve*1/2\fermata \bar "|." %27 finis
+  }
+}
+
+NunIchAltoLyricsA = \lyricmode {
+  Nun ich
+  dan -- ke
+  dir von
+  Her --
+  zen, %5
+  Je -- ſu,
+  für ge --
+  ſamm -- te
+  Noth,
+  Für dein %10
+  Zit -- tern,
+  für dein
+  Za --
+  gen,
+  für dein %15
+  tau -- ſend --
+  fa -- ches
+  Pla --
+  gen,
+  für dein %20
+  Angſt und
+  tie -- fe
+  Pein
+  will ich
+  e -- wig %25
+  dank -- bar
+  ſeyn! %27 finis
+}
+
+NunIchAltoLyricsB = \lyricmode {
+  für die
+  Wun -- den,
+  für die
+  Schmer --
+  zen, %5
+  für den
+  her -- ben,
+  bit -- tern
+  Tod. %9 finis
+}

@@ -1436,3 +1436,79 @@ OGrosseLiebBassoLyrics = \lyricmode {
   du mußt lei --
   den. %13 finis
 }
+
+NunIchBasso = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 4/4 \autoBeamOff \tempoNunIch
+    \mvTr a2\fE^\tuttiE c
+    e a
+    gis a
+    e1
+    a,\fermata %5
+    a'2 fis
+    gis a
+    e a, \noBreak
+    e'1\fermata \bar ":|."
+    e2 a \noBreak %10
+    fis g!
+    c, g'
+    d1
+    g,\fermata
+    e'2 d %15
+    c f
+    d e
+    f( g)
+    c,1\fermata
+    g'2 e %20
+    fis g
+    e d
+    c1\fermata
+    e2 c
+    g' a %25
+    d, e
+    a,\breve*1/2\fermata \bar "|." %27 finis
+  }
+}
+
+NunIchBassoLyricsA = \lyricmode {
+  Nun ich
+  dan -- ke
+  dir von
+  Her --
+  zen, %5
+  Je -- ſu,
+  für ge --
+  ſamm -- te
+  Noth,
+  Für dein %10
+  Zit -- tern,
+  für dein
+  Za --
+  gen,
+  für dein %15
+  tau -- ſend --
+  fa -- ches
+  Pla --
+  gen,
+  für dein %20
+  Angſt und
+  tie -- fe
+  Pein
+  will ich
+  e -- wig %25
+  dank -- bar
+  ſeyn! %27 finis
+}
+
+NunIchBassoLyricsB = \lyricmode {
+  für die
+  Wun -- den,
+  für die
+  Schmer --
+  zen, %5
+  für den
+  her -- ben,
+  bit -- tern
+  Tod. %9 finis
+}

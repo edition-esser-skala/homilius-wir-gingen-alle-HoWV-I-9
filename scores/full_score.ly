@@ -1763,30 +1763,85 @@
   %     \midi { \tempo 4 = 65 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.12" "Aria" "Mein Heiland ſchließt die Augenlider"
+  %   \addTocLabel "schliesstdie"
+  %   \paper {
+  %     top-system-spacing.basic-distance = #12
+  %     top-system-spacing.minimum-distance = #12
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #12
+  %     markup-system-spacing.minimum-distance = #12
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "fl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \SchliesstDieFlautoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \SchliesstDieFlautoII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \SchliesstDieViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \SchliesstDieViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \SchliesstDieViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \SchliesstDieTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \SchliesstDieTenoreLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \SchliesstDieFondamento
+  %         }
+  %       >>
+  %       \new FiguredBass { \SchliesstDieBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 80 }
+  %   }
+  % }
   \bookpart {
-    \section "2.12" "Aria" "Mein Heiland ſchließt die Augenlider"
-    \addTocLabel "schliesstdie"
-    \paper {
-      top-system-spacing.basic-distance = #12
-      top-system-spacing.minimum-distance = #12
-      top-markup-spacing.basic-distance = #0
-      top-markup-spacing.minimum-distance = #0
-      markup-system-spacing.basic-distance = #12
-      markup-system-spacing.minimum-distance = #12
-      systems-per-page = #2
-    }
+    \section "2.13" "Schlußchoral" "Nun ich danke dir von Herzen"
+    \addTocLabel "nunich"
     \score {
       <<
         \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "fl"
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "ob"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \SchliesstDieFlautoI
+              \NunIchOboeI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \SchliesstDieFlautoII
+              \NunIchOboeII
             }
           >>
         >>
@@ -1795,36 +1850,58 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \SchliesstDieViolinoI
+              \NunIchViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \SchliesstDieViolinoII
+              \NunIchViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \SchliesstDieViola
+            \NunIchViola
           }
         >>
-        \new ChoirStaff <<
+        \new ChoirStaff \with { \twoStanzaDistance } <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \NunIchSoprano }
+          }
+          \new Lyrics \lyricsto Soprano \NunIchSopranoLyricsA
+          \new Lyrics \lyricsto Soprano \NunIchSopranoLyricsB
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \NunIchAlto }
+          }
+          \new Lyrics \lyricsto Alto \NunIchAltoLyricsA
+          \new Lyrics \lyricsto Alto \NunIchAltoLyricsB
+
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \SchliesstDieTenore }
+            \new Voice = "Tenore" { \dynamicUp \NunIchTenore }
           }
-          \new Lyrics \lyricsto Tenore \SchliesstDieTenoreLyrics
+          \new Lyrics \lyricsto Tenore \NunIchTenoreLyricsA
+          \new Lyrics \lyricsto Tenore \NunIchTenoreLyricsB
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \NunIchBasso }
+          }
+          \new Lyrics \lyricsto Basso \NunIchBassoLyricsA
+          \new Lyrics \lyricsto Basso \NunIchBassoLyricsB
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \SchliesstDieFondamento
+            \NunIchFondamento
           }
         >>
-        \new FiguredBass { \SchliesstDieBassFigures }
+        \new FiguredBass { \NunIchBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 80 }
+      \midi { \tempo 2 = 90 }
     }
   }
 }

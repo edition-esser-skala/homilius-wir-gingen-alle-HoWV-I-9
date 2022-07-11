@@ -1638,3 +1638,79 @@ OGrosseLiebSopranoLyrics = \lyricmode {
   du mußt lei --
   den. %13 finis
 }
+
+NunIchSoprano = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \autoBeamOff \tempoNunIch
+    \mvTr e'2\fE^\tuttiE e
+    h c
+    d c
+    h1
+    a\fermata %5
+    c2 c
+    h a
+    gis a \noBreak
+    h1\fermata \bar ":|."
+    h2 c \noBreak %10
+    d h
+    c h
+    a1
+    g\fermata
+    c2 d %15
+    e c
+    f e
+    d1
+    c\fermata
+    h2 c %20
+    d h
+    c d
+    e1\fermata
+    e2 e
+    d c %25
+    h h
+    a\breve*1/2\fermata \bar "|." %27 finis
+  }
+}
+
+NunIchSopranoLyricsA = \lyricmode {
+  Nun ich
+  dan -- ke
+  dir von
+  Her --
+  zen, %5
+  Je -- ſu,
+  für ge --
+  ſamm -- te
+  Noth,
+  Für dein %10
+  Zit -- tern,
+  für dein
+  Za --
+  gen,
+  für dein %15
+  tau -- ſend --
+  fa -- ches
+  Pla --
+  gen,
+  für dein %20
+  Angſt und
+  tie -- fe
+  Pein
+  will ich
+  e -- wig %25
+  dank -- bar
+  ſeyn! %27 finis
+}
+
+NunIchSopranoLyricsB = \lyricmode {
+  für die
+  Wun -- den,
+  für die
+  Schmer --
+  zen, %5
+  für den
+  her -- ben,
+  bit -- tern
+  Tod. %9 finis
+}

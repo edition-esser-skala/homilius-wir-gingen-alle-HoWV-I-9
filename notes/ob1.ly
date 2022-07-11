@@ -886,3 +886,37 @@ OGrosseLiebOboeI = {
     c1\fermata \bar "|." %13 finis^
   }
 }
+
+NunIchOboeI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoNunIch
+    e'2\fE e
+    h c
+    d c
+    h1
+    a\fermata %5
+    c2 c
+    h a
+    gis a \noBreak
+    h1\fermata \bar ":|."
+    h2 c \noBreak %10
+    d h
+    c h
+    a1
+    g\fermata
+    c2 d %15
+    e c
+    f e
+    d1
+    c\fermata
+    h2 c %20
+    d h
+    c d
+    e1\fermata
+    e2 e
+    d c %25
+    h h
+    a\breve*1/2\fermata \bar "|." %27 finis
+  }
+}
